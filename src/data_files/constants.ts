@@ -34,7 +34,7 @@ export const OG = {
   type: "website",
   url: SITE.url,
   title: `${SITE.title}: Dental Growth for Clinics`,
-  description: "Stop losing patients to competitors. PatientFlow helps dentists get found on Google, fix critical errors, and fill their schedule in 14 days. 92% success rate — or pay $0.`,
+  description: "Stop losing patients to competitors. PatientFlow helps dentists get found on Google, fix critical errors, and fill their schedule in 14 days. 92% success rate — or pay $0.",
   image: ogImageSrc,
 };
 
