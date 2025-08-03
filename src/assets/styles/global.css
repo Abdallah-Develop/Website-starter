@@ -3,6 +3,10 @@
 @plugin '@tailwindcss/forms';
 
 @custom-variant dark (&:is(.dark *));
+:root {
+    --color-primary: #059669;
+    --color-primary-light: #10B981;
+}
 
 @theme {
   /* https://tailwindcss.com/docs/colors#customizing-your-colors */
