@@ -3,10 +3,6 @@
 @plugin '@tailwindcss/forms';
 
 @custom-variant dark (&:is(.dark *));
-:root {
-    --color-primary: #059669;
-    --color-primary-light: #10B981;
-}
 
 @theme {
   /* https://tailwindcss.com/docs/colors#customizing-your-colors */
@@ -15,7 +11,10 @@
   --color-current: currentColor;
   --color-black: #000;
   --color-white: #fff;
-
+    
+  --color-primary: #10B981;
+  --color-primary-dark: #059669;
+    
   --color-gray-50: oklch(0.985 0.002 247.839);
   --color-gray-100: oklch(0.967 0.003 264.542);
   --color-gray-200: oklch(0.928 0.006 264.531);
