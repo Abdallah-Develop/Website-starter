@@ -1,15 +1,17 @@
-// Import relevant dependencies
+---
+//Import relevant dependencies
 import ThemeIcon from "@components/ThemeIcon.astro";
 import NavLink from "@components/ui/links/NavLink.astro";
-import PrimaryCTA from "@components/ui/buttons/PrimaryCTA.astro";
+import Authentication from "../misc/Authentication.astro";
+import enStrings from "@utils/navigation.ts";
+import frStrings from "@utils/fr/navigation.ts";
 import BrandLogo from "@components/BrandLogo.astro";
 import LanguagePicker from "@components/ui/LanguagePicker.astro";
 
-// Localization
-import enStrings from "@utils/navigation.ts";
-import frStrings from "@utils/fr/navigation.ts";
+// Select the correct translation based on the page's lang prop:
 const strings = Astro.currentLocale === "fr" ? frStrings : enStrings;
 const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
+---
 
 <header class="sticky inset-x-0 top-4 z-50 flex w-full flex-wrap text-sm md:flex-nowrap md:justify-between md:items-center lg:px-6 xl:mx-auto">
   <!-- Navigation container -->
