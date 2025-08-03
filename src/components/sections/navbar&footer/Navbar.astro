@@ -10,9 +10,7 @@ import enStrings from "@utils/navigation.ts";
 import frStrings from "@utils/fr/navigation.ts";
 const strings = Astro.currentLocale === "fr" ? frStrings : enStrings;
 const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
----
 
-<!-- Main header component -->
 <header class="sticky inset-x-0 top-4 z-50 flex w-full flex-wrap text-sm md:flex-nowrap md:justify-between md:items-center lg:px-6 xl:mx-auto">
   <!-- Navigation container -->
   <nav class="w-full md:flex md:items-center" aria-label="Global">
@@ -88,7 +86,7 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
   </nav>
 </header>
 
-  <!-- Theme Appearance script to manage light/dark modes (light default) -->
+<!-- Theme Appearance script to manage light/dark modes (light default) -->
 <script is:inline>
   const HSThemeAppearance = {
     init() {
