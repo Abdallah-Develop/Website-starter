@@ -90,17 +90,18 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
         {strings.navBarLinks.map(link => (
           <NavLink url={link.url} name={link.name} />
         ))}
+     </div>
+    </div>
 
-       <div>
+      <div>
       <!-- <Authentication /> -->
         <PrimaryCTA title="Start Audit"/>
-        <LanguagePicker />
         <!-- ThemeIcon component specifically for larger screens -->
         <span class="hidden md:inline-block">
           <ThemeIcon />
         </span>
+        <LanguagePicker />
       </div>
-     </div>
     </div>
   </nav>
 </header>
