@@ -72,6 +72,7 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
           </svg>
         </button>
       </div>
+
       <!-- ThemeIcon component specifically for smaller screens -->
       <span class="inline-block md:hidden">
         <ThemeIcon />
@@ -90,21 +91,96 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
         {strings.navBarLinks.map(link => (
           <NavLink url={link.url} name={link.name} />
         ))}
-     </div>
+// Import relevant dependencies
+import ThemeIcon from "@components/ThemeIcon.astro";
+import NavLink from "@components/ui/links/NavLink.astro";
+import PrimaryCTA from "@components/ui/buttons/PrimaryCTA.astro";
+import BrandLogo from "@components/BrandLogo.astro";
+import LanguagePicker from "@components/ui/LanguagePicker.astro";
+
+// Localization
+import enStrings from "@utils/navigation.ts";
+import frStrings from "@utils/fr/navigation.ts";
+const strings = Astro.currentLocale === "fr" ? frStrings : enStrings;
+const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
+---
+
+<!-- Main header component -->
+<header class="sticky inset-x-0 top-4 z-50 flex w-full flex-wrap text-sm md:flex-nowrap md:justify-between md:items-center lg:px-6 xl:mx-auto">
+  <!-- Navigation container -->
+  <nav class="w-full md:flex md:items-center" aria-label="Global">
+    <div class="flex w-full items-center justify-between md:justify-start">
+      <!-- Logo (Left) -->
+      <a
+        class="flex-none rounded-lg text-xl font-bold outline-hidden ring-zinc-500 focus-visible:ring-3 dark:ring-zinc-200"
+        href={homeUrl}
+        aria-label="Brand"
+      >
+        <BrandLogo class="h-auto w-24" />
+      </a>
+
+      <!-- Mobile Menu Toggle -->
+      <div class="md:hidden flex items-center space-x-2">
+        <span class="inline-block">
+          <ThemeIcon />
+        </span>
+        <button
+          type="button"
+          class="hs-collapse-toggle flex h-8 w-8 items-center justify-center rounded-full text-sm font-bold text-neutral-600 transition hover:bg-neutral-200 dark:text-neutral-400 dark:hover:bg-neutral-700"
+          data-hs-collapse="#navbar-collapse"
+          aria-controls="navbar-collapse"
+          aria-label="Toggle navigation"
+        >
+          <svg class="h-[1.25rem] w-[1.25rem] hs-collapse-open:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <line x1="3" x2="21" y1="6" y2="6" />
+            <line x1="3" x2="21" y1="12" y2="12" />
+            <line x1="3" x2="21" y1="18" y2="18" />
+          </svg>
+          <svg class="hidden hs-collapse-open:block h-[1.25rem] w-[1.25rem]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
+          </svg>
+        </button>
+      </div>
     </div>
 
-      <div>
-      <!-- <Authentication /> -->
-        <PrimaryCTA title="Start Audit"/>
-        <!-- ThemeIcon component specifically for larger screens -->
+    <!-- Centered Navigation Links + Right-aligned Actions -->
+    <div class="flex w-full flex-col md:flex-row md:items-center md:justify-between mt-4 md:mt-0">
+      <!-- Center: Nav Links -->
+      <div class="flex justify-center md:justify-center mb-4 md:mb-0 md:order-1">
+        {strings.navBarLinks.map(link => (
+          <NavLink url={link.url} name={link.name} />
+        ))}
+      </div>
+
+      <!-- Right: CTA, Theme, Lang (on desktop) -->
+      <div class="flex items-center justify-center space-x-3 md:justify-end md:order-2">
+        <PrimaryCTA title="Start Audit" />
         <span class="hidden md:inline-block">
           <ThemeIcon />
         </span>
         <LanguagePicker />
       </div>
     </div>
+
+    <!-- Mobile Menu -->
+    <div
+      id="navbar-collapse"
+      class="hs-collapse hidden w-full md:hidden mt-4"
+    >
+      <div class="flex flex-col gap-y-4">
+        {strings.navBarLinks.map(link => (
+          <NavLink url={link.url} name={link.name} />
+        ))}
+        <div class="flex md:hidden space-x-3 pt-2 border-t border-gray-200 dark:border-gray-700 mt-2">
+          <PrimaryCTA title="Start Audit" />
+          <ThemeIcon />
+        </div>
+      </div>
+    </div>
   </nav>
 </header>
+
   <!-- Theme Appearance script to manage light/dark modes (light default) -->
 <script is:inline>
   const HSThemeAppearance = {
