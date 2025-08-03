@@ -100,14 +100,24 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
     </div>
   </nav>
 </header>
-<!-- Theme Appearance script to manage light/dark modes -->
+  <!-- Theme Appearance script to manage light/dark modes (light default) -->
 <script is:inline>
   const HSThemeAppearance = {
     init() {
-      const defaultTheme = "default";
+      const defaultTheme = "default"; // ← This ensures "default" (light) is the fallback
       let theme = localStorage.getItem("hs_theme") || defaultTheme;
 
-      if (document.querySelector("html").classList.contains("dark")) return;
+      // Remove any forced dark class on html
+      if (document.querySelector("html").classList.contains("dark")) {
+        document.querySelector("html").classList.remove("dark");
+      }
+
+      // Force default (light) if no preference is set
+      if (!localStorage.getItem("hs_theme")) {
+        theme = "default";
+        localStorage.setItem("hs_theme", "default");
+      }
+
       this.setAppearance(theme);
     },
     _resetStylesOnLoad() {
@@ -130,13 +140,18 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
           : "default";
       }
 
-      document.querySelector("html").classList.remove("dark");
-      document.querySelector("html").classList.remove("default");
-      document.querySelector("html").classList.remove("auto");
+      // Always remove all theme classes first
+      document.querySelector("html").classList.remove("dark", "default", "auto");
 
-      document
-        .querySelector("html")
-        .classList.add(this.getOriginalAppearance());
+      // Add current theme class
+      document.querySelector("html").classList.add(theme);
+
+      // Also add 'light' class if theme is 'default' for styling
+      if (theme === "default" || theme === "auto") {
+        document.querySelector("html").classList.remove("dark");
+      } else {
+        document.querySelector("html").classList.add("dark");
+      }
 
       setTimeout(() => {
         $resetStylesEl.remove();
@@ -158,12 +173,13 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
       return theme;
     },
     getOriginalAppearance() {
-      const defaultTheme = "default";
+      const defaultTheme = "default"; // ← Ensures "default" is fallback
       return localStorage.getItem("hs_theme") || defaultTheme;
     },
   };
   HSThemeAppearance.init();
 
+  // Watch for OS-level theme changes
   window
     .matchMedia("(prefers-color-scheme: dark)")
     .addEventListener("change", () => {
@@ -172,21 +188,21 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
       }
     });
 
+  // Initialize theme toggles
   window.addEventListener("load", () => {
     const $clickableThemes = document.querySelectorAll(
-      "[data-hs-theme-click-value]",
+      "[data-hs-theme-click-value]"
     );
     const $switchableThemes = document.querySelectorAll(
-      "[data-hs-theme-switch]",
+      "[data-hs-theme-switch]"
     );
 
     $clickableThemes.forEach(($item) => {
       $item.addEventListener("click", () =>
         HSThemeAppearance.setAppearance(
           $item.getAttribute("data-hs-theme-click-value"),
-          true,
-          $item,
-        ),
+          true
+        )
       );
     });
 
@@ -195,6 +211,7 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
         HSThemeAppearance.setAppearance(e.target.checked ? "dark" : "default");
       });
 
+      // Set switch to OFF (light mode) if no preference
       $item.checked = HSThemeAppearance.getAppearance() === "dark";
     });
 
