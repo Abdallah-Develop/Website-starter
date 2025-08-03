@@ -90,7 +90,6 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
         {strings.navBarLinks.map(link => (
           <NavLink url={link.url} name={link.name} />
         ))}
-     </div>
 
        <div>
       <!-- <Authentication /> -->
@@ -101,6 +100,7 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
           <ThemeIcon />
         </span>
       </div>
+     </div>
     </div>
   </nav>
 </header>
