@@ -1,213 +1,267 @@
 ---
 // Import relevant dependencies
-import ThemeIcon from "@components/ThemeIcon.astro";
-import NavLink from "@components/ui/links/NavLink.astro";
-import PrimaryCTA from "@components/ui/buttons/PrimaryCTA.astro";
-import BrandLogo from "@components/BrandLogo.astro";
-import LanguagePicker from "@components/ui/LanguagePicker.astro";
+import ThemeIcon from "@components/ThemeIcon.astro"
+import NavLink from "@components/ui/links/NavLink.astro"
+import PrimaryCTA from "@components/ui/buttons/PrimaryCTA.astro"
+import BrandLogo from "@components/BrandLogo.astro"
+import LanguagePicker from "@components/ui/LanguagePicker.astro"
 
 // Localization
-import enStrings from "@utils/navigation.ts";
-import frStrings from "@utils/fr/navigation.ts";
-const strings = Astro.currentLocale === "fr" ? frStrings : enStrings;
-const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
+import enStrings from "@utils/navigation.ts"
+import frStrings from "@utils/fr/navigation.ts"
+const strings = Astro.currentLocale === "fr" ? frStrings : enStrings
+const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/"
 ---
 
 <!-- Main header component -->
-<header class="sticky inset-x-0 top-4 z-50 flex w-full flex-wrap text-sm md:flex-nowrap md:justify-between md:items-center lg:px-6 xl:mx-auto">
+<header
+  class="sticky inset-x-0 top-4 z-50 flex w-full flex-wrap text-sm md:flex-nowrap md:justify-start"
+>
   <!-- Navigation container -->
-  <nav class="w-full md:flex md:items-center" aria-label="Global">
-    <div class="flex w-full items-center justify-between md:justify-start">
-      <!-- Logo (Left) -->
+  <nav
+    class="relative mx-2 w-full rounded-[36px] border border-yellow-100/40 bg-yellow-50/60 px-4 py-3 backdrop-blur-md dark:border-neutral-700/40 dark:bg-neutral-800/80 dark:backdrop-blur-md md:flex md:items-center md:justify-between md:px-6 md:py-0 lg:px-8 xl:mx-auto"
+    aria-label="Global"
+  >
+    <div class="flex items-center justify-between">
+      <!-- Brand logo -->
       <a
-        class="flex-none rounded-lg text-xl font-bold outline-hidden ring-zinc-500 focus-visible:ring-3 dark:ring-zinc-200"
+        class="flex-none rounded-lg text-xl font-bold outline-hidden ring-zinc-500 focus-visible:ring-3 dark:ring-zinc-200 dark:focus:outline-hidden"
         href={homeUrl}
         aria-label="Brand"
       >
         <BrandLogo class="h-auto w-24" />
       </a>
-
-      <!-- Mobile Menu Toggle -->
-      <div class="md:hidden flex items-center space-x-2">
-        <span class="inline-block">
-          <ThemeIcon />
-        </span>
+      <!-- Collapse toggle for smaller screens -->
+      <div class="ml-auto mr-5 md:hidden">
         <button
           type="button"
-          class="hs-collapse-toggle flex h-8 w-8 items-center justify-center rounded-full text-sm font-bold text-neutral-600 transition hover:bg-neutral-200 dark:text-neutral-400 dark:hover:bg-neutral-700"
-          data-hs-collapse="#navbar-collapse"
-          aria-controls="navbar-collapse"
+          class="hs-collapse-toggle flex h-8 w-8 items-center justify-center rounded-full text-sm font-bold text-neutral-600 transition duration-300 hover:bg-neutral-200 disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:outline-hidden"
+          data-hs-collapse="#navbar-collapse-with-animation"
+          aria-controls="navbar-collapse-with-animation"
           aria-label="Toggle navigation"
         >
-          <svg class="h-[1.25rem] w-[1.25rem] hs-collapse-open:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <line x1="3" x2="21" y1="6" y2="6" />
-            <line x1="3" x2="21" y1="12" y2="12" />
-            <line x1="3" x2="21" y1="18" y2="18" />
+          <svg
+            class="h-[1.25rem] w-[1.25rem] shrink-0 hs-collapse-open:hidden"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="3" x2="21" y1="6" y2="6"></line>
+            <line x1="3" x2="21" y1="12" y2="12"></line>
+            <line x1="3" x2="21" y1="18" y2="18"></line>
           </svg>
-          <svg class="hidden hs-collapse-open:block h-[1.25rem] w-[1.25rem]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path d="M18 6 6 18" />
-            <path d="m6 6 12 12" />
+          <svg
+            class="hidden h-[1.25rem] w-[1.25rem] shrink-0 hs-collapse-open:block"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
           </svg>
         </button>
       </div>
+      <!-- ThemeIcon component specifically for smaller screens -->
+      <span class="inline-block md:hidden">
+        <ThemeIcon />
+      </span>
     </div>
-
-    <!-- Centered Navigation Links + Right-aligned Actions -->
-    <div class="flex w-full flex-col md:flex-row md:items-center md:justify-between mt-4 md:mt-0">
-      <!-- Center: Nav Links -->
-      <div class="flex justify-center md:justify-center mb-4 md:mb-0 md:order-1">
+    <!-- Contains navigation links -->
+    <div
+      id="navbar-collapse-with-animation"
+      class="hs-collapse hidden grow basis-full overflow-hidden transition-all duration-300 md:block"
+    >
+      <!-- Navigation links container -->
+      <div
+        class="mt-5 flex flex-col gap-x-0 gap-y-4 md:mt-0 md:flex-row md:items-center md:justify-end md:gap-x-4 lg:gap-x-7 md:gap-y-0 md:ps-7"
+      >
+        <!-- Navigation links and Authentication component -->
         {strings.navBarLinks.map(link => (
           <NavLink url={link.url} name={link.name} />
         ))}
-      </div>
-
-      <!-- Right: CTA, Theme, Lang (on desktop) -->
-      <div class="flex items-center justify-center space-x-3 md:justify-end md:order-2">
-        <PrimaryCTA title="Start Audit" />
+        <LanguagePicker />
+        <!-- ThemeIcon component specifically for larger screens -->
         <span class="hidden md:inline-block">
           <ThemeIcon />
         </span>
-        <LanguagePicker />
-      </div>
-    </div>
-
-    <!-- Mobile Menu -->
-    <div
-      id="navbar-collapse"
-      class="hs-collapse hidden w-full md:hidden mt-4"
-    >
-      <div class="flex flex-col gap-y-4">
-        {strings.navBarLinks.map(link => (
-          <NavLink url={link.url} name={link.name} />
-        ))}
-        <div class="flex md:hidden space-x-3 pt-2 border-t border-gray-200 dark:border-gray-700 mt-2">
-          <PrimaryCTA title="Start Audit" />
-          <ThemeIcon />
-        </div>
       </div>
     </div>
   </nav>
 </header>
 
+<!-- Centered Navigation Links + Right-aligned Actions -->
+<div
+  class="mt-4 flex w-full flex-col md:mt-0 md:flex-row md:items-center md:justify-between"
+>
+  <!-- Center: Nav Links -->
+  <div class="mb-4 flex justify-center md:order-1 md:mb-0 md:justify-center">
+    {
+      strings.navBarLinks.map(link => (
+        <NavLink url={link.url} name={link.name} />
+      ))
+    }
+  </div>
+
+  <!-- Right: CTA, Theme, Lang (on desktop) -->
+  <div
+    class="flex items-center justify-center space-x-3 md:order-2 md:justify-end"
+  >
+    <PrimaryCTA title="Start Audit" />
+    <div class="flex">
+      <span class="hidden md:inline-block">
+        <ThemeIcon />
+      </span>
+    </div>
+    <LanguagePicker />
+  </div>
+</div>
+
+<!-- Mobile Menu -->
+<div id="navbar-collapse" class="hs-collapse mt-4 hidden w-full md:hidden">
+  <div class="flex flex-col gap-y-4">
+    {
+      strings.navBarLinks.map(link => (
+        <NavLink url={link.url} name={link.name} />
+      ))
+    }
+    <div
+      class="mt-2 flex space-x-3 border-t border-gray-200 pt-2 md:hidden dark:border-gray-700"
+    >
+      <PrimaryCTA title="Start Audit" />
+      <ThemeIcon />
+    </div>
+  </div>
+</div>
+
 <!-- Theme Appearance script to manage light/dark modes (light default) -->
 <script is:inline>
   const HSThemeAppearance = {
     init() {
-      const defaultTheme = "default"; // ← This ensures "default" (light) is the fallback
-      let theme = localStorage.getItem("hs_theme") || defaultTheme;
+      const defaultTheme = "default" // ← This ensures "default" (light) is the fallback
+      let theme = localStorage.getItem("hs_theme") || defaultTheme
 
       // Remove any forced dark class on html
       if (document.querySelector("html").classList.contains("dark")) {
-        document.querySelector("html").classList.remove("dark");
+        document.querySelector("html").classList.remove("dark")
       }
 
       // Force default (light) if no preference is set
       if (!localStorage.getItem("hs_theme")) {
-        theme = "default";
-        localStorage.setItem("hs_theme", "default");
+        theme = "default"
+        localStorage.setItem("hs_theme", "default")
       }
 
-      this.setAppearance(theme);
+      this.setAppearance(theme)
     },
     _resetStylesOnLoad() {
-      const $resetStyles = document.createElement("style");
-      $resetStyles.innerText = `*{transition: unset !important;}`;
-      $resetStyles.setAttribute("data-hs-appearance-onload-styles", "");
-      document.head.appendChild($resetStyles);
-      return $resetStyles;
+      const $resetStyles = document.createElement("style")
+      $resetStyles.innerText = `*{transition: unset !important;}`
+      $resetStyles.setAttribute("data-hs-appearance-onload-styles", "")
+      document.head.appendChild($resetStyles)
+      return $resetStyles
     },
     setAppearance(theme, saveInStore = true, dispatchEvent = true) {
-      const $resetStylesEl = this._resetStylesOnLoad();
+      const $resetStylesEl = this._resetStylesOnLoad()
 
       if (saveInStore) {
-        localStorage.setItem("hs_theme", theme);
+        localStorage.setItem("hs_theme", theme)
       }
 
       if (theme === "auto") {
         theme = window.matchMedia("(prefers-color-scheme: dark)").matches
           ? "dark"
-          : "default";
+          : "default"
       }
 
       // Always remove all theme classes first
-      document.querySelector("html").classList.remove("dark", "default", "auto");
+      document.querySelector("html").classList.remove("dark", "default", "auto")
 
       // Add current theme class
-      document.querySelector("html").classList.add(theme);
+      document.querySelector("html").classList.add(theme)
 
       // Also add 'light' class if theme is 'default' for styling
       if (theme === "default" || theme === "auto") {
-        document.querySelector("html").classList.remove("dark");
+        document.querySelector("html").classList.remove("dark")
       } else {
-        document.querySelector("html").classList.add("dark");
+        document.querySelector("html").classList.add("dark")
       }
 
       setTimeout(() => {
-        $resetStylesEl.remove();
-      });
+        $resetStylesEl.remove()
+      })
 
       if (dispatchEvent) {
         window.dispatchEvent(
-          new CustomEvent("on-hs-appearance-change", { detail: theme }),
-        );
+          new CustomEvent("on-hs-appearance-change", { detail: theme })
+        )
       }
     },
     getAppearance() {
-      let theme = this.getOriginalAppearance();
+      let theme = this.getOriginalAppearance()
       if (theme === "auto") {
         theme = window.matchMedia("(prefers-color-scheme: dark)").matches
           ? "dark"
-          : "default";
+          : "default"
       }
-      return theme;
+      return theme
     },
     getOriginalAppearance() {
-      const defaultTheme = "default"; // ← Ensures "default" is fallback
-      return localStorage.getItem("hs_theme") || defaultTheme;
+      const defaultTheme = "default" // ← Ensures "default" is fallback
+      return localStorage.getItem("hs_theme") || defaultTheme
     },
-  };
-  HSThemeAppearance.init();
+  }
+  HSThemeAppearance.init()
 
   // Watch for OS-level theme changes
   window
     .matchMedia("(prefers-color-scheme: dark)")
     .addEventListener("change", () => {
       if (HSThemeAppearance.getOriginalAppearance() === "auto") {
-        HSThemeAppearance.setAppearance("auto", false);
+        HSThemeAppearance.setAppearance("auto", false)
       }
-    });
+    })
 
   // Initialize theme toggles
   window.addEventListener("load", () => {
     const $clickableThemes = document.querySelectorAll(
       "[data-hs-theme-click-value]"
-    );
+    )
     const $switchableThemes = document.querySelectorAll(
       "[data-hs-theme-switch]"
-    );
+    )
 
-    $clickableThemes.forEach(($item) => {
+    $clickableThemes.forEach($item => {
       $item.addEventListener("click", () =>
         HSThemeAppearance.setAppearance(
           $item.getAttribute("data-hs-theme-click-value"),
           true
         )
-      );
-    });
+      )
+    })
 
-    $switchableThemes.forEach(($item) => {
-      $item.addEventListener("change", (e) => {
-        HSThemeAppearance.setAppearance(e.target.checked ? "dark" : "default");
-      });
+    $switchableThemes.forEach($item => {
+      $item.addEventListener("change", e => {
+        HSThemeAppearance.setAppearance(e.target.checked ? "dark" : "default")
+      })
 
       // Set switch to OFF (light mode) if no preference
-      $item.checked = HSThemeAppearance.getAppearance() === "dark";
-    });
+      $item.checked = HSThemeAppearance.getAppearance() === "dark"
+    })
 
-    window.addEventListener("on-hs-appearance-change", (e) => {
-      $switchableThemes.forEach(($item) => {
-        $item.checked = e.detail === "dark";
-      });
-    });
-  });
+    window.addEventListener("on-hs-appearance-change", e => {
+      $switchableThemes.forEach($item => {
+        $item.checked = e.detail === "dark"
+      })
+    })
+  })
 </script>
