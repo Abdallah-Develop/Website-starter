@@ -1,0 +1,159 @@
+---
+import Icon from "@components/ui/icons/Icon.astro"
+
+const {
+  name = "Sophia Davis",
+  role = "New Patient",
+  description = "Complaining of persistent headaches and dizziness, requires neurological evaluation and treatment.",
+  duration = "30 min",
+  type = "In-person - Clinic Visit",
+  location = "Paris",
+} = Astro.props
+---
+
+<div
+  class="bg-primary/5 relative h-[30rem] w-3/4 rounded-xl p-4"
+  style={{ "box-shadoww": "inset 0px 0px 20px 50px #00ffff22" }}
+>
+  <div
+    class="absolute inset-0 flex h-full w-full items-center overflow-hidden blur-3xl"
+  >
+    <div class="bg-primary absolute top-30 left-20 h-26 w-26 rounded-full">
+    </div>
+    <div class="bg-primary absolute top-85 left-55 h-22 w-22 rounded-full">
+    </div>
+    <div class="bg-primary absolute top-16 left-80 h-22 w-22 rounded-full">
+    </div>
+    <div class="bg-primary absolute top-76 left-110 h-26 w-26 rounded-full">
+    </div>
+    <div class="bg-primary absolute top-18 left-190 h-24 w-24 rounded-full">
+    </div>
+    <div class="bg-primary absolute top-75 left-180 h-29 w-28 rounded-full">
+    </div>
+  </div>
+
+  <div
+    class="inter grid h-full w-full grid-cols-1 items-center justify-between gap-4 rounded-xl border border-white/30 bg-white/10 p-4 backdrop-blur-md md:grid-cols-5"
+  >
+    <!-- Left: Consultant Profile -->
+    <div
+      class="col-span-2 flex h-full flex-col justify-between rounded-xl border border-white/50 bg-white/10 p-4"
+    >
+      <div class="flex flex-col gap-6">
+        <!-- Avatar & Name -->
+        <div class="flex items-center gap-4">
+          <div class="h-16 w-16 overflow-hidden rounded-full ring-2 ring-white">
+            <picture>
+              <source
+                srcset="/images/calendar-avatar/calendar-avatar.avif"
+                type="image/avif"
+              />
+              <img
+                src="/images/calendar-avatar/calendar-avatar.webp"
+                alt={name}
+                class="h-full w-full scale-130 rounded-full object-cover brightness-120 saturate-130"
+              />
+            </picture>
+          </div>
+          <div>
+            <h2 class="text-xl font-medium text-gray-700">{name}</h2>
+            <p class="text-primary font-medium">{role}</p>
+          </div>
+        </div>
+
+        <!-- Description -->
+        <p class="mt-2 text-sm leading-relaxed text-gray-700">{description}</p>
+      </div>
+
+      <!-- Metadata -->
+      <div class="mt-4 flex flex-col gap-2 text-sm text-gray-600">
+        <div class="flex items-center gap-2">
+          <span aria-hidden="true">
+            <Icon name="time" />
+          </span>
+          <span>{duration}</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span aria-hidden="true"></span>
+          <span>{type}</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span aria-hidden="true">
+            <Icon name="location" />
+          </span>
+          <span>{location}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Calendar -->
+    <div
+      class="col-span-3 h-full rounded-xl border border-white/50 bg-white/10"
+    >
+      <div class="flex flex-col p-8">
+        <h3 class="mb-4 text-lg font-bold text-gray-900">
+          March <span class="text-gray-400">2025</span>
+        </h3>
+
+        <!-- Weekday Headers -->
+        <div
+          class="mb-2 grid grid-cols-7 gap-1 text-center text-xs font-semibold tracking-wider text-gray-500 uppercase"
+        >
+          <span>Su</span>
+          <span>Mo</span>
+          <span>Tu</span>
+          <span>We</span>
+          <span>Th</span>
+          <span>Fr</span>
+          <span>Sa</span>
+        </div>
+
+        <!-- Calendar Dates -->
+        <div class="grid flex-1 grid-cols-7 gap-1">
+          {
+            Array.from({ length: 35 }, (_, i) => {
+              const date = i - 2 // Start from last days of prev month
+              if (date < 1) return <div class="h-10" />
+              if (date === 14) {
+                return (
+                  <button
+                    class="h-10 w-10 rounded-full bg-green-500 font-medium text-white hover:bg-green-600 focus:ring-2 focus:ring-green-300 focus:outline-none"
+                    aria-current="date"
+                  >
+                    {date}
+                  </button>
+                )
+              }
+              if (date === 15 || date === 16) {
+                return (
+                  <button class="h-10 w-10 rounded-full text-gray-700 hover:bg-gray-100">
+                    {date}
+                  </button>
+                )
+              }
+              return (
+                <button class="h-10 w-10 rounded-full text-gray-500 hover:bg-gray-100">
+                  {date}
+                </button>
+              )
+            })
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Optional: Add icon fallback if iconify isn't available */
+  [class^="i-material-symbols-"]::before,
+  [class*=" i-material-symbols-"]::before {
+    font-family: "Material Symbols Outlined";
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    text-transform: none;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+  }
+</style>

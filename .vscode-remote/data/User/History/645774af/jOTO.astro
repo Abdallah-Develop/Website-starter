@@ -1,0 +1,32 @@
+---
+const {
+  class: additionalClass = "",
+  style = {},
+  firstColor = "var(--color-primary-dark)",
+  middleColor = "var(--color-primary)",
+  lastColor = "var(--color-secondary)",
+  position = "bottom left",
+  shape = "circle",
+} = Astro.props
+
+// Construct the gradient using the three colors
+const background = `radial-gradient(
+                              ${shape} at ${position},
+                                                ${firstColor} 0%,
+                                                                    ${middleColor} 50%,
+                                                                                          ${lastColor} 100%
+                                                                                                                )`
+
+// Merge background into style, allowing override
+const finalStyle = {
+  ...style,
+  background,
+}
+---
+
+<div
+  class={`hero-background absolute top-160 -left-16 h-full w-full rounded-full rounded-l-none blur-3xl ${additionalClass}`}
+  style={finalStyle}
+  aria-hidden="true"
+>
+</div>

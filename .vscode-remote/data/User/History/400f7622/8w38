@@ -1,0 +1,26 @@
+{
+    "plugins": [
+        "prettier-plugin-astro",
+            "prettier-plugin-tailwindcss"
+              ],
+                "semi": false,
+                  "trailingComma": "es5",
+                    "singleQuote": false,
+                      "printWidth": 80,
+                        "tabWidth": 2,
+                          "useTabs": false,
+                            "bracketSpacing": true,
+                              "arrowParens": "avoid",
+                                "htmlWhitespaceSensitivity": "ignore",
+                                  "endOfLine": "lf",
+                                    "embeddedLanguageFormatting": "auto",
+                                      "overrides": [
+                                          {
+                                                "files": "*.astro",
+                                                      "options": {
+                                                              "parser": "astro"
+                                                                    }
+                                                                        }
+                                                                          ]
+                                                                          }
+}

@@ -1,0 +1,2 @@
+2025-08-09 14:52:32.157 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2025-08-09 14:52:32.157 [info] [Activation] Extension version: 0.114.3

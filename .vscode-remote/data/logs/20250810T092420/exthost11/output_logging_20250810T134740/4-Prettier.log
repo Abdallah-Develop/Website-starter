@@ -1,0 +1,41 @@
+["INFO" - 1:47:52 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 1:47:52 PM] Extension Version: 11.0.0.
+["INFO" - 1:47:55 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:47:58 PM] Formatting file:///workspace/Website-starter/src/components/ui/icons/icons.ts
+["INFO" - 1:47:58 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:47:58 PM] PrettierInstance:
+{
+  "modulePath": "/workspace/Website-starter/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.6.2"
+}
+["INFO" - 1:47:58 PM] Using ignore file (if present) at /workspace/Website-starter/.prettierignore
+["INFO" - 1:47:58 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 1:47:58 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:47:58 PM] Prettier Options:
+{
+  "filepath": "/workspace/Website-starter/src/components/ui/icons/icons.ts",
+  "parser": "typescript",
+  "plugins": [
+    "/workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js",
+    "/workspace/Website-starter/node_modules/prettier-plugin-tailwindcss/dist/index.mjs"
+  ],
+  "semi": false,
+  "trailingComma": "es5",
+  "singleQuote": false,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "htmlWhitespaceSensitivity": "ignore",
+  "endOfLine": "lf",
+  "embeddedLanguageFormatting": "auto"
+}
+["INFO" - 1:47:58 PM] Formatting completed in 162ms.
+["INFO" - 1:48:05 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:48:17 PM] Using config file at /workspace/Website-starter/.prettierrc

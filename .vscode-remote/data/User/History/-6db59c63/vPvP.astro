@@ -1,0 +1,123 @@
+---
+// Import the necessary dependencies
+import FooterSocialLink from "@components/ui/links/FooterSocialLink.astro"
+import EmailFooterInput from "@components/ui/forms/input/EmailFooterInput.astro"
+import Icon from "@components/ui/icons/Icon.astro"
+import BrandLogo from "@components/BrandLogo.astro"
+import { SITE } from "@data/constants"
+import navigations from "@utils/navigations.ts"
+
+const strings = {
+  footerLinks: [
+    {
+      section: "For Dentists",
+      links: [
+        { name: "How It Works", url: "/#how-it-works" },
+        { name: "Results", url: "/#results" },
+        { name: "Pricing", url: "/#pricing" },
+      ],
+    },
+    {
+      section: "Company",
+      links: [
+        { name: "About", url: "#" },
+        { name: "Contact", url: "#" },
+      ],
+    },
+  ],
+  socialLinks: {
+    linkedin: "https://www.linkedin.com/company/patientflow",
+    twitter: "https://twitter.com/patientflow",
+    instagram: "https://instagram.com/patientflow",
+  },
+}
+
+const sectionThreeTitle = "Stay up to date"
+const sectionThreeContent =
+  "Get dental SEO tips and exclusive growth strategies."
+---
+
+<footer class="w-full bg-neutral-300 dark:bg-neutral-900">
+  <div
+    class="mx-auto w-full max-w-[85rem] px-4 py-10 sm:px-6 lg:px-16 lg:pt-20"
+  >
+    <div class="grid grid-cols-2 gap-6 md:grid-cols-4 lg:grid-cols-5">
+      <!-- Brand Logo -->
+      <div class="col-span-full lg:col-span-1">
+        <BrandLogo class="h-auto w-32" />
+      </div>
+
+      <!-- Footer Links -->
+      {
+        navigations.footerLinks.map(section => (
+          <div class="col-span-1">
+            <h3 class="font-bold text-neutral-800 dark:text-neutral-200">
+              {section.section}
+            </h3>
+            <ul class="mt-3 space-y-3">
+              {section.links.map(link => (
+                <li>
+                  <a
+                    href={link.url}
+                    class="inline-flex gap-x-2 rounded-lg text-neutral-600 ring-zinc-500 outline-hidden transition duration-300 hover:text-neutral-500 focus-visible:ring-3 dark:text-neutral-400 dark:ring-zinc-200 dark:hover:text-neutral-300"
+                  >
+                    {link.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+
+      <!-- Newsletter -->
+      <div class="col-span-2">
+        <h3 class="font-bold text-neutral-800 dark:text-neutral-200">
+          {sectionThreeTitle}
+        </h3>
+        <form>
+          <EmailFooterInput />
+          <p class="mt-3 text-sm text-neutral-600 dark:text-neutral-400">
+            {sectionThreeContent}
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <!-- Copyright & Social -->
+    <div
+      class="mt-9 grid gap-y-4 sm:mt-12 sm:flex sm:items-center sm:justify-between"
+    >
+      <!-- Copyright -->
+      <p class="text-sm text-neutral-600 dark:text-neutral-400">
+        © <span id="current-year"></span>
+        {SITE.title}
+        <a
+          class="font-medium underline underline-offset-2 ring-zinc-500 outline-hidden transition duration-300 hover:text-neutral-700 hover:decoration-dashed focus-visible:ring-3 dark:ring-zinc-200"
+          href="https://www.gulamoff.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          gulamoff
+        </a>.
+      </p>
+
+      <!-- Social Links -->
+      <div class="flex space-x-4">
+        {
+          Object.entries(navigations.socialLinks).map(([name, url]) => (
+            <FooterSocialLink url={url}>
+              <Icon name={`${name === "x" ? "x" : name}Footer`} />
+            </FooterSocialLink>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Current Year Script -->
+    <script is:inline>
+      document.getElementById("current-year").textContent =
+        new Date().getFullYear()
+    </script>
+  </div>
+</footer>

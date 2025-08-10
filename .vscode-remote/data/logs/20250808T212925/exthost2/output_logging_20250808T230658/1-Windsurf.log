@@ -1,0 +1,161 @@
+(VSCode) 2025-08-08 23:07:07.741 [INFO]: No proxy settings found
+(VSCode) 2025-08-08 23:07:09.162 [INFO]: Checking network connection...
+(VSCode) 2025-08-08 23:07:10.442 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz
+(VSCode) 2025-08-08 23:07:14.605 [INFO]: Creating manager directory: /tmp/4803a08e-49e6-4379-834a-7454f4ba2916/codeium/manager
+(VSCode) 2025-08-08 23:07:16.428 [INFO]: Using cached LS with valid crc32: /workspace/.vscode-remote/extensions/codeium.codeium-1.48.2-universal/dist/e03af6ebc40b844314d448f947c80b636d093049/language_server_linux_x64
+(VSCode) 2025-08-08 23:07:16.442 [INFO]: Language server started
+2025/08/08 23:07:16 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0808 23:07:16.870350  6042 main.go:604] [Language Server Manager] Setting GOMAXPROCS to 4
+I0808 23:07:16.888983  6042 main.go:829] [Language Server Manager] Starting language server manager with pid 6042
+I0808 23:07:16.889204  6042 main.go:138] [Language Server Manager] Manager acquired its lock file /tmp/4803a08e-49e6-4379-834a-7454f4ba2916/codeium/manager/locks/manager.lock
+I0808 23:07:16.896506  6042 main.go:283] [Language Server Manager] Waiting for random port file in /tmp/4803a08e-49e6-4379-834a-7454f4ba2916/codeium/manager/child_random_port_1754694436891256362_3189384553207604483 to be created
+2025/08/08 23:07:16 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0808 23:07:17.189894  6063 main.go:604] Setting GOMAXPROCS to 4
+I0808 23:07:17.204189  6063 main.go:823] Starting language server process with pid 6063
+I0808 23:07:17.204340  6063 server.go:296] Language server will attempt to listen on host 127.0.0.1
+I0808 23:07:17.206013  6063 server.go:303] Language server listening on random port at 40215
+I0808 23:07:17.905846  6063 web_server.go:256] Chat Web Server listening at ws://127.0.0.1:37399
+I0808 23:07:18.231909  6063 server.go:955] Local search is enabled, will index local files.
+I0808 23:07:18.231943  6063 server.go:959] Using 4 indexer workers
+I0808 23:07:18.374493  6063 server.go:1196] Child process attempting to acquire lock file /tmp/4803a08e-49e6-4379-834a-7454f4ba2916/codeium/manager/locks/child_lock_1754694436891547212_8291887858176044579
+I0808 23:07:18.374556  6063 server.go:1204] Child process acquired lock file /tmp/4803a08e-49e6-4379-834a-7454f4ba2916/codeium/manager/locks/child_lock_1754694436891547212_8291887858176044579
+36421
+I0808 23:07:18.414889  6042 main.go:319] [Language Server Manager] Found random server port 40215
+I0808 23:07:18.414930  6042 main.go:320] [Language Server Manager] Found random lsp port 36421
+I0808 23:07:18.414946  6042 main.go:327] [Language Server Manager] Attempting to connect to language server at 127.0.0.1:40215
+I0808 23:07:18.427672  6042 main.go:192] [Language Server Manager] Fixing language server port at 40215
+I0808 23:07:18.427711  6042 main.go:381] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:40215
+(VSCode) 2025-08-08 23:07:18.511 [INFO]: Found language server running on port 40215
+Playwright Host validation warning: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo npx playwright install-deps                 ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libatk1.0-0\                ║
+║         libatk-bridge2.0-0\                          ║
+║         libcups2\                                    ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libxrandr2\                                  ║
+║         libgbm1\                                     ║
+║         libxkbcommon0\                               ║
+║         libatspi2.0-0                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Registry._validateHostRequirements (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:865:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:963:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:952:43)
+    at async t.<anonymous> (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/cli/program.js:122:7)
+(VSCode) 2025-08-08 23:07:22.930 [INFO]: openAllTextDocuments took 3077.1125809999976ms
+(VSCode) 2025-08-08 23:10:24.131 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:10:29.273 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:10:30.156 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:10:33.399 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:10:36.885 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:10:37.591 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:10:39.285 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:10:40.511 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:10:41.853 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:24.223 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:38.587 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:39.353 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:39.518 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:40.285 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:41.072 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:41.505 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:41.616 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:41.634 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:41.899 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:41.933 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:42.368 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:50.612 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:51.375 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:52.224 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:53.258 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:53.815 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:54.487 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:54.705 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:54.884 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:55.035 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:56.600 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:16:59.751 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:17:15.386 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:17:16.618 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:17:17.088 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:17:17.984 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:17:18.036 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:17:18.402 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:17:20.462 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:17:21.677 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:17:24.354 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:17:27.446 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:17:27.757 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:18:01.241 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:18:01.968 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:18:53.517 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:18:54.094 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:18:55.855 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:18:57.753 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:18:59.793 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:19:01.881 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:19:55.167 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:19:56.841 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:19:57.817 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:20:03.502 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:20:03.884 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:20:04.321 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:22:19.304 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:05.704 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:06.602 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:06.757 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:06.800 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:06.920 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:07.052 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:07.150 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:07.802 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:08.705 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:08.801 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:09.019 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:09.999 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:39.361 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:39.782 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:40.221 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:40.968 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:41.996 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:42.342 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:42.883 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:43.134 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:43.247 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:43.476 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:43.494 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:45.021 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:45.168 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:45.245 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:45.672 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:45.733 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:49.173 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:49.708 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:56.337 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:57.400 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:23:58.724 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:24:20.551 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:25:24.979 [WARN]: User not logged in
+(VSCode) 2025-08-08 23:26:44.216 [WARN]: User not logged in
+(VSCode) 2025-08-09 00:00:36.007 [INFO]: Disposing language server process
+(VSCode) 2025-08-09 00:00:36.008 [INFO]: Deleting manager directory: /tmp/4803a08e-49e6-4379-834a-7454f4ba2916/codeium/manager
+(VSCode) 2025-08-09 00:00:36.008 [INFO]: Successfully disposed language server
+W0809 00:00:36.008249  6042 main.go:142] [Language Server Manager] Got signal terminated, shutting down
+E0809 00:00:36.122024  6042 main.go:395] [Language Server Manager] Failed to acquire lock on /tmp/4803a08e-49e6-4379-834a-7454f4ba2916/codeium/manager/locks/child_lock_1754694436891547212_8291887858176044579: open /tmp/4803a08e-49e6-4379-834a-7454f4ba2916/codeium/manager/locks/child_lock_1754694436891547212_8291887858176044579: no such file or directory
+I0809 00:00:36.122823  6063 server.go:1422] Exit requested on language server process 6063
+I0809 00:00:36.123001  6063 server.go:1395] Language server shutting down
+(VSCode) 2025-08-09 00:00:37.836 [ERROR]: Failed to stop lsp
+(VSCode) 2025-08-09 00:00:37.841 [INFO]: Language server exited with code 0
+(VSCode) 2025-08-09 00:00:37.845 [ERROR]: Failed to stop exit
+(VSCode) 2025-08-09 00:00:37.846 [ERROR]: [unavailable] connect ECONNREFUSED 127.0.0.1:40215

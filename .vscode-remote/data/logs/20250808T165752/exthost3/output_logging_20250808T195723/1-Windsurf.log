@@ -1,0 +1,84 @@
+(VSCode) 2025-08-08 19:57:31.796 [INFO]: No proxy settings found
+(VSCode) 2025-08-08 19:57:33.599 [INFO]: Checking network connection...
+(VSCode) 2025-08-08 19:57:34.524 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz
+(VSCode) 2025-08-08 19:57:36.169 [INFO]: Creating manager directory: /tmp/6bc78f71-cc7c-447d-b76c-5e7245aacfe4/codeium/manager
+(VSCode) 2025-08-08 19:57:38.530 [INFO]: Using cached LS with valid crc32: /workspace/.vscode-remote/extensions/codeium.codeium-1.48.2-universal/dist/e03af6ebc40b844314d448f947c80b636d093049/language_server_linux_x64
+(VSCode) 2025-08-08 19:57:38.568 [INFO]: Language server started
+2025/08/08 19:57:38 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0808 19:57:39.141839 11100 main.go:604] [Language Server Manager] Setting GOMAXPROCS to 4
+I0808 19:57:39.142063 11100 main.go:829] [Language Server Manager] Starting language server manager with pid 11100
+I0808 19:57:39.142253 11100 main.go:138] [Language Server Manager] Manager acquired its lock file /tmp/6bc78f71-cc7c-447d-b76c-5e7245aacfe4/codeium/manager/locks/manager.lock
+I0808 19:57:39.144449 11100 main.go:283] [Language Server Manager] Waiting for random port file in /tmp/6bc78f71-cc7c-447d-b76c-5e7245aacfe4/codeium/manager/child_random_port_1754683059142635571_2120143473212562759 to be created
+2025/08/08 19:57:39 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0808 19:57:39.764403 11134 main.go:604] Setting GOMAXPROCS to 4
+I0808 19:57:39.772132 11134 main.go:823] Starting language server process with pid 11134
+I0808 19:57:39.772360 11134 server.go:296] Language server will attempt to listen on host 127.0.0.1
+I0808 19:57:39.781969 11134 server.go:303] Language server listening on random port at 43839
+I0808 19:57:40.517532 11134 web_server.go:256] Chat Web Server listening at ws://127.0.0.1:39677
+I0808 19:57:41.117206 11134 server.go:955] Local search is enabled, will index local files.
+I0808 19:57:41.117237 11134 server.go:959] Using 4 indexer workers
+I0808 19:57:41.230354 11134 server.go:1196] Child process attempting to acquire lock file /tmp/6bc78f71-cc7c-447d-b76c-5e7245aacfe4/codeium/manager/locks/child_lock_1754683059142856241_3017149848178687016
+I0808 19:57:41.230427 11134 server.go:1204] Child process acquired lock file /tmp/6bc78f71-cc7c-447d-b76c-5e7245aacfe4/codeium/manager/locks/child_lock_1754683059142856241_3017149848178687016
+45877
+I0808 19:57:41.297855 11100 main.go:319] [Language Server Manager] Found random server port 43839
+I0808 19:57:41.297888 11100 main.go:320] [Language Server Manager] Found random lsp port 45877
+I0808 19:57:41.297913 11100 main.go:327] [Language Server Manager] Attempting to connect to language server at 127.0.0.1:43839
+I0808 19:57:41.310391 11100 main.go:192] [Language Server Manager] Fixing language server port at 43839
+I0808 19:57:41.310428 11100 main.go:381] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:43839
+(VSCode) 2025-08-08 19:57:41.407 [INFO]: Found language server running on port 43839
+Playwright Host validation warning: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo npx playwright install-deps                 ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libatk1.0-0\                ║
+║         libatk-bridge2.0-0\                          ║
+║         libcups2\                                    ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libxrandr2\                                  ║
+║         libgbm1\                                     ║
+║         libxkbcommon0\                               ║
+║         libatspi2.0-0                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Registry._validateHostRequirements (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:865:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:963:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:952:43)
+    at async t.<anonymous> (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/cli/program.js:122:7)
+(VSCode) 2025-08-08 19:57:43.815 [INFO]: openAllTextDocuments took 848.9639050000005ms
+(VSCode) 2025-08-08 19:57:56.524 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:01:59.672 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:01:59.804 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:00.773 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:01.127 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:01.352 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:01.769 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:05.084 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:07.650 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:08.093 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:10.320 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:10.472 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:29.036 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:29.182 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:29.617 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:32.049 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:35.264 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:35.920 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:36.032 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:36.221 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:38.272 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:38.667 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:38.827 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:02:39.286 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:03:08.192 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:03:10.807 [WARN]: User not logged in
+(VSCode) 2025-08-08 20:06:47.182 [WARN]: User not logged in
+W0808 21:13:00.101286 11100 main.go:142] [Language Server Manager] Got signal terminated, shutting down

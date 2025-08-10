@@ -1,0 +1,126 @@
+SyntaxError: Unexpected token, expected "}" (2:15)
+  1 |
+> 2 |       position: absolute;
+    |               ^
+  3 |         z-index: -1;
+  4 |           top: 0;
+  5 |             left: 0;
+    at pa (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:14:16245)
+    at ua (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:14:16680)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:15:2919)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:817:37)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-tailwindcss/dist/index.mjs:1329:27573)
+    at async parse5 (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16731:11)
+    at async textToDoc (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16842:19)
+    at async wrapParserTryCatch (file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:667:16)
+    at async file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:573:23
+    at async printEmbeddedLanguages (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16782:20) {
+  loc: { start: { line: 2, column: 15 } },
+  cause: SyntaxError: Unexpected token, expected "}" (2:14)
+      at r (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:3:12378)
+      at ke.raise (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:19581)
+      at ke.unexpected (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:19940)
+      at ke.expect (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:24102)
+      at ke.jsxParseExpressionContainer (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:2860)
+      at ke.jsxParseElementAt (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:4427)
+      at ke.jsxParseElement (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:5081)
+      at ke.parseExprAtom (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:5203)
+      at ke.parseExprSubscripts (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:112680)
+      at ke.parseUpdate (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:112313) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'UnexpectedToken',
+    loc: B { line: 2, column: 14, index: 18 },
+    pos: 18,
+    syntaxPlugin: undefined
+  },
+  codeFrame: '  1 |\n' +
+    '> 2 |       position: absolute;\n' +
+    '    |               ^\n' +
+    '  3 |         z-index: -1;\n' +
+    '  4 |           top: 0;\n' +
+    '  5 |             left: 0;'
+}
+SyntaxError: Unexpected token, expected "}" (2:15)
+  1 |
+> 2 |       position: absolute;
+    |               ^
+  3 |         z-index: -1;
+  4 |           top: 0;
+  5 |             left: 0;
+    at pa (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:14:16245)
+    at ua (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:14:16680)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:15:2919)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:817:37)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-tailwindcss/dist/index.mjs:1329:27573)
+    at async parse5 (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16731:11)
+    at async textToDoc (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16842:19)
+    at async wrapParserTryCatch (file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:667:16)
+    at async file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:573:23
+    at async printEmbeddedLanguages (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16782:20) {
+  loc: { start: { line: 2, column: 15 } },
+  cause: SyntaxError: Unexpected token, expected "}" (2:14)
+      at r (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:3:12378)
+      at ke.raise (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:19581)
+      at ke.unexpected (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:19940)
+      at ke.expect (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:24102)
+      at ke.jsxParseExpressionContainer (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:2860)
+      at ke.jsxParseElementAt (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:4427)
+      at ke.jsxParseElement (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:5081)
+      at ke.parseExprAtom (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:5203)
+      at ke.parseExprSubscripts (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:112680)
+      at ke.parseUpdate (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:112313) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'UnexpectedToken',
+    loc: B { line: 2, column: 14, index: 18 },
+    pos: 18,
+    syntaxPlugin: undefined
+  },
+  codeFrame: '  1 |\n' +
+    '> 2 |       position: absolute;\n' +
+    '    |               ^\n' +
+    '  3 |         z-index: -1;\n' +
+    '  4 |           top: 0;\n' +
+    '  5 |             left: 0;'
+}
+SyntaxError: Unexpected token, expected "}" (2:15)
+  1 |
+> 2 |       position: absolute;
+    |               ^
+  3 |         z-index: -1;
+  4 |           top: 0;
+  5 |             left: 0;
+    at pa (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:14:16245)
+    at ua (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:14:16680)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:15:2919)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:817:37)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-tailwindcss/dist/index.mjs:1329:27573)
+    at async parse5 (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16731:11)
+    at async textToDoc (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16842:19)
+    at async wrapParserTryCatch (file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:667:16)
+    at async file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:573:23
+    at async printEmbeddedLanguages (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16782:20) {
+  loc: { start: { line: 2, column: 15 } },
+  cause: SyntaxError: Unexpected token, expected "}" (2:14)
+      at r (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:3:12378)
+      at ke.raise (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:19581)
+      at ke.unexpected (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:19940)
+      at ke.expect (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:24102)
+      at ke.jsxParseExpressionContainer (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:2860)
+      at ke.jsxParseElementAt (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:4427)
+      at ke.jsxParseElement (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:5081)
+      at ke.parseExprAtom (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:5203)
+      at ke.parseExprSubscripts (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:112680)
+      at ke.parseUpdate (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:112313) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'UnexpectedToken',
+    loc: B { line: 2, column: 14, index: 18 },
+    pos: 18,
+    syntaxPlugin: undefined
+  },
+  codeFrame: '  1 |\n' +
+    '> 2 |       position: absolute;\n' +
+    '    |               ^\n' +
+    '  3 |         z-index: -1;\n' +
+    '  4 |           top: 0;\n' +
+    '  5 |             left: 0;'
+}

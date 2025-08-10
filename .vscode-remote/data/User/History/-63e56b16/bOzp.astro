@@ -1,0 +1,62 @@
+---
+import Avatar from "@components/ui/avatars/Avatar.astro"
+import FullStar from "@components/ui/stars/FullStar.astro"
+import HalfStar from "@components/ui/stars/HalfStar.astro"
+
+const { avatars, starCount = 0, rating, reviews } = Astro.props
+
+interface Props {
+  avatars?: Array<string>
+  starCount?: number
+  rating?: string
+  reviews?: string
+}
+---
+
+<div class="mt-6 lg:mt-10 relative">
+  <div class="absolute inset-0 h-full w-full backdrop-blur-sm -z-1 p-2"></div>
+  <div class="flex flex-col items-start text-start">
+    <div class="xs:gap-4 flex shrink-0 items-center gap-2 pb-3">
+      <!-- Avatar Group -->
+      <div class="flex justify-center -space-x-2">
+        {avatars?.map(src => <Avatar src={src} alt="Avatar Description" />)}
+        <span
+          class="xs:w-9 xs:h-9 inline-flex h-8 w-8 items-center justify-center rounded-full bg-zinc-800 ring-2 ring-neutral-50"
+        >
+          <span
+            class="text-tiny xs:text-xs leading-none font-medium text-white uppercase"
+          >
+            1k+
+          </span>
+        </span>
+      </div>
+
+      <div class="flex items-center space-x-2">
+        <div class="flex space-x-1">
+          <!-- Your star ratings -->
+          {
+            Array(starCount)
+              .fill(0)
+              .map((_, i) => <FullStar key={i} />)
+          }
+          <!-- Adding additional half-star -->
+          <HalfStar />
+        </div>
+        <p class="text-sm text-white">
+          <Fragment set:html={rating} />
+        </p>
+      </div>
+    </div>
+
+    <!-- Review Ratings -->
+    <div class="flex flex-col items-center sm:items-start">
+      <div
+        class="tracking-tracking-normal ing-wide xs:tracking-wider text-sm text-white capitalize"
+      >
+        <p>
+          <Fragment set:html={reviews} />
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

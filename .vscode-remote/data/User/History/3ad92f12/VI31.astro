@@ -1,0 +1,38 @@
+---
+// Dashed vertical lines overlay
+const { class: additionalClass = "", style = {}, mask = {} } = Astro.props
+---
+
+<div
+  class={`lines absolute inset-0 ${additionalClass}`}
+    style={{ ...style, ...mask }}
+      aria-hidden="true"
+      >
+      </div>
+
+      <style>
+        .lines {
+            --line-gap: 5px;
+                --line-width: 2px;
+                    --line-color: var(--color-primary);
+
+                        background: repeating-linear-gradient(
+                              to right,
+                                    transparent 0,
+                                          transparent var(--line-gap),
+                                                var(--line-color) var(--line-gap),
+                                                      var(--line-color) calc(var(--line-gap) + var(--line-width))
+                                                          );
+                                                              opacity: 1;
+                                                                  pointer-events: none;
+                                                                      z-index: 1;
+
+                                                                          clip-path: polygon(
+                                                                                0% 0%,
+                                                                                      /* Top-left corner */ 100% 0%,
+                                                                                            /* Top-right corner */ 100% 100%,
+                                                                                                  /* Bottom-right corner */ 0% 100% /* Bottom-left corner */
+                                                                                                      );
+                                                                                                        }
+                                                                                                        </style>
+                                                                                                        

@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.showTabs": "single",
+    "window.menuBarVisibility": "classic",
+    "window.commandCenter": true,
+    "workbench.layoutControl.enabled": true
+}

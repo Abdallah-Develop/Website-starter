@@ -1,0 +1,929 @@
+(VSCode) 2025-08-09 18:59:55.183 [INFO]: No proxy settings found
+(VSCode) 2025-08-09 18:59:57.486 [INFO]: Checking network connection...
+(VSCode) 2025-08-09 18:59:58.424 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz
+(VSCode) 2025-08-09 19:00:02.357 [INFO]: Creating manager directory: /tmp/35eeee49-c311-488a-9c56-62cb89955177/codeium/manager
+(VSCode) 2025-08-09 19:00:02.620 [INFO]: Using cached LS with valid crc32: /workspace/.vscode-remote/extensions/codeium.codeium-1.48.2-universal/dist/e03af6ebc40b844314d448f947c80b636d093049/language_server_linux_x64
+(VSCode) 2025-08-09 19:00:02.628 [INFO]: Language server started
+2025/08/09 19:00:02 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0809 19:00:02.908663   732 main.go:604] [Language Server Manager] Setting GOMAXPROCS to 4
+I0809 19:00:02.908744   732 main.go:829] [Language Server Manager] Starting language server manager with pid 732
+I0809 19:00:02.908843   732 main.go:138] [Language Server Manager] Manager acquired its lock file /tmp/35eeee49-c311-488a-9c56-62cb89955177/codeium/manager/locks/manager.lock
+I0809 19:00:02.909795   732 main.go:283] [Language Server Manager] Waiting for random port file in /tmp/35eeee49-c311-488a-9c56-62cb89955177/codeium/manager/child_random_port_1754766002908991243_2855158214668593248 to be created
+2025/08/09 19:00:02 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0809 19:00:03.124811   757 main.go:604] Setting GOMAXPROCS to 4
+I0809 19:00:03.125160   757 main.go:823] Starting language server process with pid 757
+I0809 19:00:03.125222   757 server.go:296] Language server will attempt to listen on host 127.0.0.1
+I0809 19:00:03.125821   757 server.go:303] Language server listening on random port at 45893
+I0809 19:00:03.814929   757 web_server.go:256] Chat Web Server listening at ws://127.0.0.1:33391
+I0809 19:00:04.056176   757 server.go:955] Local search is enabled, will index local files.
+I0809 19:00:04.056201   757 server.go:959] Using 4 indexer workers
+I0809 19:00:04.285283   757 server.go:1196] Child process attempting to acquire lock file /tmp/35eeee49-c311-488a-9c56-62cb89955177/codeium/manager/locks/child_lock_1754766002909052483_4594133778472125654
+I0809 19:00:04.285352   757 server.go:1204] Child process acquired lock file /tmp/35eeee49-c311-488a-9c56-62cb89955177/codeium/manager/locks/child_lock_1754766002909052483_4594133778472125654
+36157
+I0809 19:00:04.316656   732 main.go:319] [Language Server Manager] Found random server port 45893
+I0809 19:00:04.316689   732 main.go:320] [Language Server Manager] Found random lsp port 36157
+I0809 19:00:04.316714   732 main.go:327] [Language Server Manager] Attempting to connect to language server at 127.0.0.1:45893
+I0809 19:00:04.329492   732 main.go:192] [Language Server Manager] Fixing language server port at 45893
+I0809 19:00:04.329521   732 main.go:381] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:45893
+(VSCode) 2025-08-09 19:00:04.398 [INFO]: Found language server running on port 45893
+Downloading Chromium 133.0.6943.16 (playwright build v1155) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1155/chromium-linux.zip
+(VSCode) 2025-08-09 19:00:07.504 [ERROR]: Invalid LSP port: Downloading Chromium 133.0.6943.16 (playwright build v1155) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1155/chromium-linux.zip
+
+(VSCode) 2025-08-09 19:00:07.742 [INFO]: openAllTextDocuments took 1710.5479659999983ms
+|                                                                                |   0% of 163.5 MiB
+(VSCode) 2025-08-09 19:00:07.769 [ERROR]: Invalid LSP port: |                                                                                |   0% of 163.5 MiB
+
+|■■■■■■■■                                                                        |  10% of 163.5 MiB
+(VSCode) 2025-08-09 19:00:07.894 [ERROR]: Invalid LSP port: |■■■■■■■■                                                                        |  10% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■                                                                |  20% of 163.5 MiB
+(VSCode) 2025-08-09 19:00:07.971 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■                                                                |  20% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 163.5 MiB
+(VSCode) 2025-08-09 19:00:08.095 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 163.5 MiB
+(VSCode) 2025-08-09 19:00:08.202 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 163.5 MiB
+(VSCode) 2025-08-09 19:00:08.286 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 163.5 MiB
+(VSCode) 2025-08-09 19:00:08.358 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 163.5 MiB
+(VSCode) 2025-08-09 19:00:08.540 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 163.5 MiB
+(VSCode) 2025-08-09 19:00:08.632 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 163.5 MiB
+(VSCode) 2025-08-09 19:00:09.065 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 163.5 MiB
+(VSCode) 2025-08-09 19:00:09.147 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 163.5 MiB
+
+Chromium 133.0.6943.16 (playwright build v1155) downloaded to /home/gitpod/.codeium/ws-browser/chromium-1155
+(VSCode) 2025-08-09 19:00:11.851 [ERROR]: Invalid LSP port: Chromium 133.0.6943.16 (playwright build v1155) downloaded to /home/gitpod/.codeium/ws-browser/chromium-1155
+
+Downloading FFMPEG playwright build v1011 from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip
+(VSCode) 2025-08-09 19:00:11.852 [ERROR]: Invalid LSP port: Downloading FFMPEG playwright build v1011 from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip
+
+|                                                                                |   0% of 2.3 MiB
+(VSCode) 2025-08-09 19:00:12.103 [ERROR]: Invalid LSP port: |                                                                                |   0% of 2.3 MiB
+
+|■■■■■■■■                                                                        |  10% of 2.3 MiB
+(VSCode) 2025-08-09 19:00:12.112 [ERROR]: Invalid LSP port: |■■■■■■■■                                                                        |  10% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■                                                                |  20% of 2.3 MiB
+(VSCode) 2025-08-09 19:00:12.116 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■                                                                |  20% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.3 MiB
+(VSCode) 2025-08-09 19:00:12.118 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.3 MiB
+(VSCode) 2025-08-09 19:00:12.120 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.3 MiB
+(VSCode) 2025-08-09 19:00:12.121 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.3 MiB
+(VSCode) 2025-08-09 19:00:12.123 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.3 MiB
+(VSCode) 2025-08-09 19:00:12.125 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.3 MiB
+(VSCode) 2025-08-09 19:00:12.126 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.3 MiB
+(VSCode) 2025-08-09 19:00:12.128 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.3 MiB
+(VSCode) 2025-08-09 19:00:12.129 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.3 MiB
+
+FFMPEG playwright build v1011 downloaded to /home/gitpod/.codeium/ws-browser/ffmpeg-1011
+(VSCode) 2025-08-09 19:00:12.191 [ERROR]: Invalid LSP port: FFMPEG playwright build v1011 downloaded to /home/gitpod/.codeium/ws-browser/ffmpeg-1011
+
+Downloading Chromium Headless Shell 133.0.6943.16 (playwright build v1155) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1155/chromium-headless-shell-linux.zip
+(VSCode) 2025-08-09 19:00:12.191 [ERROR]: Invalid LSP port: Downloading Chromium Headless Shell 133.0.6943.16 (playwright build v1155) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1155/chromium-headless-shell-linux.zip
+
+|                                                                                |   0% of 99.9 MiB
+(VSCode) 2025-08-09 19:00:12.431 [ERROR]: Invalid LSP port: |                                                                                |   0% of 99.9 MiB
+
+|■■■■■■■■                                                                        |  10% of 99.9 MiB
+(VSCode) 2025-08-09 19:00:12.499 [ERROR]: Invalid LSP port: |■■■■■■■■                                                                        |  10% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■                                                                |  20% of 99.9 MiB
+(VSCode) 2025-08-09 19:00:12.549 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■                                                                |  20% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 99.9 MiB
+(VSCode) 2025-08-09 19:00:12.980 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 99.9 MiB
+(VSCode) 2025-08-09 19:00:13.026 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 99.9 MiB
+(VSCode) 2025-08-09 19:00:13.076 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 99.9 MiB
+(VSCode) 2025-08-09 19:00:13.131 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 99.9 MiB
+(VSCode) 2025-08-09 19:00:13.178 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 99.9 MiB
+(VSCode) 2025-08-09 19:00:13.238 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 99.9 MiB
+(VSCode) 2025-08-09 19:00:13.286 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 99.9 MiB
+(VSCode) 2025-08-09 19:00:13.339 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 99.9 MiB
+
+Chromium Headless Shell 133.0.6943.16 (playwright build v1155) downloaded to /home/gitpod/.codeium/ws-browser/chromium_headless_shell-1155
+(VSCode) 2025-08-09 19:00:14.992 [ERROR]: Invalid LSP port: Chromium Headless Shell 133.0.6943.16 (playwright build v1155) downloaded to /home/gitpod/.codeium/ws-browser/chromium_headless_shell-1155
+
+Playwright Host validation warning: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo npx playwright install-deps                 ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libatk1.0-0\                ║
+║         libatk-bridge2.0-0\                          ║
+║         libcups2\                                    ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libxrandr2\                                  ║
+║         libgbm1\                                     ║
+║         libxkbcommon0\                               ║
+║         libatspi2.0-0                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Registry._validateHostRequirements (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:865:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:963:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:952:43)
+    at async t.<anonymous> (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/cli/program.js:122:7)
+(VSCode) 2025-08-09 19:01:11.728 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:02:37.601 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:02:38.093 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:03:21.039 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:03:33.474 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:03:34.019 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:03:35.709 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:03:37.906 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:03:37.931 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:03:43.199 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:03:55.567 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:04:19.277 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:04:20.881 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:04:20.992 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:04:21.426 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:04:21.584 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:04:31.276 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:04:46.097 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:04:48.046 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:04:49.556 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:04:49.718 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:04:53.737 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:04:53.903 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:04:54.063 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:04:54.427 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:05:20.803 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:05:22.312 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:05:30.653 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:05:31.181 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:06:16.254 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:06:16.351 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:06:17.429 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:06:25.120 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:06:25.793 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:06:27.870 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:06:29.278 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:06:29.404 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:06:34.907 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:06:34.999 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:06:35.397 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:06:44.682 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:07:10.768 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:07:11.168 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:07:11.858 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:07:14.031 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:07:20.719 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:07:21.538 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:07:26.962 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:07:29.078 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:07:40.278 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:07:40.582 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:07:45.530 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:07:47.327 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:07:50.002 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:07:59.689 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:00.340 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:05.218 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:09.666 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:10.899 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:12.747 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:14.278 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:29.298 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:34.291 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:34.859 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:35.594 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:38.321 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:40.441 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:40.626 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:42.244 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:43.799 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:08:52.778 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:10:18.978 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:10:23.678 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:10:36.408 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:10:45.418 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:10:51.248 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:10:52.228 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:11:02.069 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:11:14.220 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:11:14.866 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:11:15.502 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:11:15.959 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:11:18.578 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:11:19.873 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:11:20.578 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:11:22.825 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:11:23.766 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:11:26.643 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:11:51.112 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:11:51.420 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:11:54.832 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:12:01.597 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:12:02.858 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:12:59.439 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:12:59.600 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:13:05.906 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:13:08.974 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:13:13.153 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:13:13.158 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:13:16.784 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:14:36.528 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:14:37.466 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:14:37.628 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:14:38.109 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:14:52.369 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:14:53.267 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:15:19.017 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:15:19.918 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:15:42.937 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:15:43.762 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:15:52.810 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:15:53.188 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:15:54.446 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:15:54.603 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:16:26.848 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:16:27.238 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:16:27.429 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:16:28.125 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:22.408 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:24.558 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:24.677 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:25.295 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:25.299 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:26.418 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:27.987 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:28.978 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:29.619 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:30.317 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:30.876 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:31.166 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:31.946 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:32.607 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:33.238 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:36.738 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:37.244 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:49.268 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:53.667 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:54.201 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:17:54.966 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:18:02.828 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:18:07.146 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:18:21.818 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:18:23.448 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:18:26.680 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:18:28.416 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:18:29.705 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:18:30.847 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:18:31.219 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:18:31.318 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:19:52.166 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:19:54.150 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:19:56.612 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:19:58.948 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:06.848 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:09.021 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:12.096 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:19.071 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:20.878 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:21.635 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:22.662 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:25.344 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:25.745 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:26.895 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:27.574 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:28.478 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:30.288 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:31.159 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:31.378 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:33.258 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:42.029 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:45.886 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:46.566 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:47.658 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:47.845 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:48.398 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:48.938 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:20:49.019 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:02.758 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:04.278 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:07.262 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:07.684 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:08.326 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:08.857 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:10.082 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:13.178 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:14.166 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:15.186 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:15.918 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:16.462 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:19.664 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:20.678 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:21.030 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:21.349 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:22.226 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:22.678 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:24.229 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:25.932 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:26.218 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:27.518 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:27.818 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:28.094 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:28.272 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:28.718 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:31.587 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:33.460 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:33.787 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:34.431 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:34.838 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:35.038 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:35.222 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:36.074 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:39.082 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:39.470 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:40.518 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:40.929 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:41.428 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:43.258 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:46.213 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:47.058 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:21:48.665 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:22:08.369 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:22:08.921 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:22:10.759 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:22:10.964 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:22:11.088 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:22:12.143 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:22:12.595 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:22:13.515 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:22:13.868 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:22:16.050 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:22:16.435 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:22:16.778 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:23:57.998 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:23:58.671 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:19.346 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:25.300 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:26.486 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:27.474 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:28.818 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:31.378 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:32.238 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:35.518 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:36.521 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:39.238 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:40.963 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:43.218 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:43.785 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:43.788 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:44.986 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:46.749 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:55.604 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:56.341 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:56.344 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:56.349 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:56.380 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:57.255 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:24:58.613 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:00.018 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:01.942 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:05.118 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:05.538 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:05.854 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:06.198 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:08.026 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:08.971 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:10.742 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:11.139 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:14.478 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:16.299 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:18.146 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:18.298 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:18.891 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:19.993 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:22.218 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:24.042 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:26.393 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:26.886 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:28.086 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:30.690 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:31.849 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:36.855 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:37.418 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:37.558 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:42.278 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:44.438 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:50.574 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:50.606 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:51.372 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:51.722 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:53.042 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:53.785 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:54.578 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:58.034 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:58.183 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:25:59.358 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:26:03.995 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:26:04.135 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:26:04.623 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:26:04.829 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:26:05.676 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:26:06.108 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:26:06.526 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:26:06.622 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:26:51.212 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:27:00.261 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:27:02.418 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:30:56.736 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:30:56.830 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:30:57.860 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:31:39.786 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:31:40.092 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:31:40.638 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:31:43.180 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:31:46.622 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:31:47.264 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:31:48.355 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:31:50.444 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:32:55.243 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:32:55.858 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:32:57.330 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:32:57.746 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:32:59.354 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:33:00.623 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:33:01.606 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:33:02.667 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:33:49.957 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:33:54.781 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:02.202 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:03.558 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:03.984 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:04.178 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:05.418 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:06.746 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:07.778 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:08.559 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:26.797 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:27.683 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:28.067 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:28.844 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:30.870 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:37.536 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:38.095 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:39.518 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:42.398 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:42.438 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:43.718 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:45.022 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:47.958 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:48.278 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:50.388 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:53.748 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:54.199 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:54.986 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:55.438 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:56.086 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:34:57.368 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:35:00.138 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:35:01.572 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:35:01.693 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:35:02.475 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:35:20.016 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:35:28.909 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:35:42.178 [WARN]: User not logged in
+(VSCode) 2025-08-09 19:36:49.671 [INFO]: Successfully logged in
+(VSCode) 2025-08-09 19:36:51.404 [INFO]: Successfully logged in
+(VSCode) 2025-08-09 19:36:51.406 [INFO]: Successfully logged in
+(VSCode) 2025-08-09 19:36:51.408 [INFO]: Successfully logged in
+(VSCode) 2025-08-09 19:39:07.220 [INFO]: Completion request succeeded (562.09ms)
+(VSCode) 2025-08-09 19:39:07.222 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:39:07.222 [INFO]: provideInlineCompletionItems request succeeded (565.52ms)
+(VSCode) 2025-08-09 19:39:23.693 [INFO]: Completion request succeeded (369.01ms)
+(VSCode) 2025-08-09 19:39:23.694 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:39:23.694 [INFO]: provideInlineCompletionItems request succeeded (371.14ms)
+(VSCode) 2025-08-09 19:39:24.840 [INFO]: Completion request was cancelled by token (329.06ms)
+(VSCode) 2025-08-09 19:40:22.413 [INFO]: Completion request succeeded (374.71ms)
+(VSCode) 2025-08-09 19:40:22.414 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:40:22.414 [INFO]: provideInlineCompletionItems request succeeded (376.45ms)
+(VSCode) 2025-08-09 19:40:24.055 [INFO]: Completion request was cancelled by token (105.22ms)
+(VSCode) 2025-08-09 19:40:24.187 [INFO]: Completion request was cancelled by token (128.91ms)
+(VSCode) 2025-08-09 19:40:24.647 [INFO]: Completion request was cancelled by token (448.94ms)
+(VSCode) 2025-08-09 19:40:25.018 [INFO]: Completion request succeeded (369.45ms)
+(VSCode) 2025-08-09 19:40:25.019 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:40:25.019 [INFO]: provideInlineCompletionItems request succeeded (371.02ms)
+(VSCode) 2025-08-09 19:40:31.393 [INFO]: Completion request succeeded (375.05ms)
+(VSCode) 2025-08-09 19:40:31.394 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:40:31.394 [INFO]: provideInlineCompletionItems request succeeded (376.44ms)
+(VSCode) 2025-08-09 19:40:46.825 [INFO]: Completion request succeeded (366.54ms)
+(VSCode) 2025-08-09 19:40:46.826 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:40:46.826 [INFO]: provideInlineCompletionItems request succeeded (368.28ms)
+(VSCode) 2025-08-09 19:40:49.870 [INFO]: Completion request succeeded (570.51ms)
+(VSCode) 2025-08-09 19:40:49.870 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:40:49.870 [INFO]: provideInlineCompletionItems request succeeded (572.32ms)
+(VSCode) 2025-08-09 19:41:24.135 [INFO]: Completion request succeeded (356.41ms)
+(VSCode) 2025-08-09 19:41:24.136 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:41:24.136 [INFO]: provideInlineCompletionItems request succeeded (358.63ms)
+(VSCode) 2025-08-09 19:41:24.634 [INFO]: Completion request succeeded (374.27ms)
+(VSCode) 2025-08-09 19:41:24.635 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:41:24.635 [INFO]: provideInlineCompletionItems request succeeded (375.8ms)
+(VSCode) 2025-08-09 19:41:25.699 [INFO]: Completion request was cancelled by token (91.41ms)
+(VSCode) 2025-08-09 19:41:26.018 [INFO]: Completion request was cancelled by token (290.93ms)
+(VSCode) 2025-08-09 19:41:26.448 [INFO]: Completion request succeeded (363.81ms)
+(VSCode) 2025-08-09 19:41:26.449 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:41:26.449 [INFO]: provideInlineCompletionItems request succeeded (366.35ms)
+(VSCode) 2025-08-09 19:41:28.100 [INFO]: Completion request was cancelled by token (69.68ms)
+(VSCode) 2025-08-09 19:41:28.501 [INFO]: Completion request succeeded (369.81ms)
+(VSCode) 2025-08-09 19:41:28.502 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:41:28.503 [INFO]: provideInlineCompletionItems request succeeded (371.63ms)
+(VSCode) 2025-08-09 19:41:29.030 [INFO]: Completion request succeeded (391.19ms)
+(VSCode) 2025-08-09 19:41:29.030 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:41:29.031 [INFO]: provideInlineCompletionItems request succeeded (392.94ms)
+(VSCode) 2025-08-09 19:41:32.006 [INFO]: Completion request was cancelled by token (274.53ms)
+(VSCode) 2025-08-09 19:41:32.467 [INFO]: Completion request succeeded (377.99ms)
+(VSCode) 2025-08-09 19:41:32.468 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:41:32.468 [INFO]: provideInlineCompletionItems request succeeded (379.63ms)
+(VSCode) 2025-08-09 19:41:33.262 [INFO]: Completion request succeeded (362.53ms)
+(VSCode) 2025-08-09 19:41:33.262 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:41:33.262 [INFO]: provideInlineCompletionItems request succeeded (364.23ms)
+(VSCode) 2025-08-09 19:41:41.218 [INFO]: Completion request succeeded (366.84ms)
+(VSCode) 2025-08-09 19:41:41.219 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:41:41.219 [INFO]: provideInlineCompletionItems request succeeded (368.18ms)
+(VSCode) 2025-08-09 19:41:41.299 [INFO]: Completion request was cancelled by token (52.42ms)
+(VSCode) 2025-08-09 19:41:41.745 [INFO]: Completion request succeeded (378.39ms)
+(VSCode) 2025-08-09 19:41:41.746 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:41:41.746 [INFO]: provideInlineCompletionItems request succeeded (379.73ms)
+(VSCode) 2025-08-09 19:41:42.125 [INFO]: Completion request was cancelled by token (2.99ms)
+(VSCode) 2025-08-09 19:41:42.809 [INFO]: Completion request succeeded (663.38ms)
+(VSCode) 2025-08-09 19:41:42.810 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:41:42.811 [INFO]: provideInlineCompletionItems request succeeded (665.86ms)
+(VSCode) 2025-08-09 19:41:44.285 [INFO]: Completion request succeeded (366.78ms)
+(VSCode) 2025-08-09 19:41:44.286 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:41:44.286 [INFO]: provideInlineCompletionItems request succeeded (368.57ms)
+(VSCode) 2025-08-09 19:42:16.468 [INFO]: Completion request was cancelled by token (328.89ms)
+(VSCode) 2025-08-09 19:42:16.899 [INFO]: Completion request was cancelled by token (267.55ms)
+(VSCode) 2025-08-09 19:42:17.188 [INFO]: Completion request was cancelled by token (280.67ms)
+(VSCode) 2025-08-09 19:42:18.032 [INFO]: Completion request was cancelled by token (752.04ms)
+(VSCode) 2025-08-09 19:42:18.319 [INFO]: Completion request was cancelled by token (281.18ms)
+(VSCode) 2025-08-09 19:42:18.730 [INFO]: Completion request was cancelled by token (321.88ms)
+(VSCode) 2025-08-09 19:42:21.028 [INFO]: Completion request succeeded (2296.36ms)
+(VSCode) 2025-08-09 19:42:21.029 [INFO]: Generated 7 completions
+(VSCode) 2025-08-09 19:42:21.033 [INFO]: provideInlineCompletionItems request succeeded (2301.64ms)
+(VSCode) 2025-08-09 19:42:24.221 [INFO]: Completion request succeeded (361.91ms)
+(VSCode) 2025-08-09 19:42:24.221 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:42:24.221 [INFO]: provideInlineCompletionItems request succeeded (363.49ms)
+(VSCode) 2025-08-09 19:42:24.948 [INFO]: Completion request was cancelled by token (1.23ms)
+(VSCode) 2025-08-09 19:42:25.119 [INFO]: Completion request was cancelled by token (111.64ms)
+(VSCode) 2025-08-09 19:42:25.467 [INFO]: Completion request was cancelled by token (313.14ms)
+(VSCode) 2025-08-09 19:42:25.874 [INFO]: Completion request succeeded (346.77ms)
+(VSCode) 2025-08-09 19:42:25.875 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:42:25.875 [INFO]: provideInlineCompletionItems request succeeded (348.5ms)
+(VSCode) 2025-08-09 19:43:00.767 [INFO]: Completion request was cancelled by token (248.4ms)
+(VSCode) 2025-08-09 19:43:01.306 [INFO]: Completion request succeeded (395.24ms)
+(VSCode) 2025-08-09 19:43:01.307 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:43:01.308 [INFO]: provideInlineCompletionItems request succeeded (397.31ms)
+(VSCode) 2025-08-09 19:43:02.156 [INFO]: Completion request succeeded (5.02ms)
+(VSCode) 2025-08-09 19:43:02.157 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:43:02.157 [INFO]: provideInlineCompletionItems request succeeded (7.03ms)
+(VSCode) 2025-08-09 19:43:02.277 [INFO]: Completion request succeeded (4.17ms)
+(VSCode) 2025-08-09 19:43:02.278 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:43:02.278 [INFO]: provideInlineCompletionItems request succeeded (5.53ms)
+(VSCode) 2025-08-09 19:43:02.478 [INFO]: Completion request succeeded (4.03ms)
+(VSCode) 2025-08-09 19:43:02.479 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:43:02.479 [INFO]: provideInlineCompletionItems request succeeded (5.33ms)
+(VSCode) 2025-08-09 19:43:03.402 [INFO]: Completion request succeeded (643.1ms)
+(VSCode) 2025-08-09 19:43:03.402 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:43:03.403 [INFO]: provideInlineCompletionItems request succeeded (644.93ms)
+(VSCode) 2025-08-09 19:43:37.328 [INFO]: Completion request was cancelled by token (484ms)
+(VSCode) 2025-08-09 19:43:38.019 [INFO]: Completion request succeeded (644.96ms)
+(VSCode) 2025-08-09 19:43:38.020 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:43:38.020 [INFO]: provideInlineCompletionItems request succeeded (646.66ms)
+(VSCode) 2025-08-09 19:43:42.276 [INFO]: Completion request succeeded (367.83ms)
+(VSCode) 2025-08-09 19:43:42.277 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:43:42.278 [INFO]: provideInlineCompletionItems request succeeded (370.19ms)
+(VSCode) 2025-08-09 19:44:00.568 [INFO]: Completion request succeeded (640.02ms)
+(VSCode) 2025-08-09 19:44:00.568 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:44:00.568 [INFO]: provideInlineCompletionItems request succeeded (641.55ms)
+(VSCode) 2025-08-09 19:44:18.696 [INFO]: Completion request was cancelled by token (48.53ms)
+(VSCode) 2025-08-09 19:44:31.773 [INFO]: Completion request succeeded (394.36ms)
+(VSCode) 2025-08-09 19:44:31.774 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 19:44:31.775 [INFO]: provideInlineCompletionItems request succeeded (396.38ms)
+(VSCode) 2025-08-09 19:44:42.973 [INFO]: Completion request succeeded (374.62ms)
+(VSCode) 2025-08-09 19:44:42.974 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:44:42.974 [INFO]: provideInlineCompletionItems request succeeded (376.05ms)
+(VSCode) 2025-08-09 19:44:47.073 [INFO]: Completion request succeeded (657.15ms)
+(VSCode) 2025-08-09 19:44:47.074 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:44:47.075 [INFO]: provideInlineCompletionItems request succeeded (659.2ms)
+(VSCode) 2025-08-09 19:44:48.081 [INFO]: Completion request succeeded (642.37ms)
+(VSCode) 2025-08-09 19:44:48.081 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:44:48.082 [INFO]: provideInlineCompletionItems request succeeded (643.94ms)
+(VSCode) 2025-08-09 19:45:21.627 [INFO]: Completion request was cancelled by token (607.21ms)
+(VSCode) 2025-08-09 19:45:22.325 [INFO]: Completion request succeeded (630.05ms)
+(VSCode) 2025-08-09 19:45:22.326 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:45:22.326 [INFO]: provideInlineCompletionItems request succeeded (631.67ms)
+(VSCode) 2025-08-09 19:45:24.295 [INFO]: Completion request was cancelled by token (429.11ms)
+(VSCode) 2025-08-09 19:45:24.960 [INFO]: Completion request succeeded (641.24ms)
+(VSCode) 2025-08-09 19:45:24.961 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:45:24.961 [INFO]: provideInlineCompletionItems request succeeded (642.84ms)
+(VSCode) 2025-08-09 19:45:46.186 [INFO]: Completion request succeeded (368.14ms)
+(VSCode) 2025-08-09 19:45:46.187 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:45:46.187 [INFO]: provideInlineCompletionItems request succeeded (370.03ms)
+(VSCode) 2025-08-09 19:45:47.504 [INFO]: Completion request succeeded (645.42ms)
+(VSCode) 2025-08-09 19:45:47.504 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:45:47.505 [INFO]: provideInlineCompletionItems request succeeded (646.88ms)
+(VSCode) 2025-08-09 19:45:48.546 [INFO]: Completion request succeeded (807.61ms)
+(VSCode) 2025-08-09 19:45:48.547 [INFO]: Generated 7 completions
+(VSCode) 2025-08-09 19:45:48.548 [INFO]: provideInlineCompletionItems request succeeded (809.86ms)
+(VSCode) 2025-08-09 19:46:21.309 [INFO]: Completion request succeeded (650.78ms)
+(VSCode) 2025-08-09 19:46:21.310 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:46:21.310 [INFO]: provideInlineCompletionItems request succeeded (652.22ms)
+(VSCode) 2025-08-09 19:46:24.447 [INFO]: Completion request succeeded (647.77ms)
+(VSCode) 2025-08-09 19:46:24.448 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:46:24.448 [INFO]: provideInlineCompletionItems request succeeded (649.47ms)
+(VSCode) 2025-08-09 19:46:25.898 [INFO]: Completion request succeeded (658.33ms)
+(VSCode) 2025-08-09 19:46:25.899 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:46:25.899 [INFO]: provideInlineCompletionItems request succeeded (659.93ms)
+(VSCode) 2025-08-09 19:46:26.342 [INFO]: Completion request succeeded (3.44ms)
+(VSCode) 2025-08-09 19:46:26.342 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:46:26.343 [INFO]: provideInlineCompletionItems request succeeded (5.05ms)
+(VSCode) 2025-08-09 19:46:27.346 [INFO]: Completion request succeeded (666.64ms)
+(VSCode) 2025-08-09 19:46:27.346 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:46:27.347 [INFO]: provideInlineCompletionItems request succeeded (667.89ms)
+(VSCode) 2025-08-09 19:46:28.344 [INFO]: Completion request succeeded (636.82ms)
+(VSCode) 2025-08-09 19:46:28.345 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:46:28.345 [INFO]: provideInlineCompletionItems request succeeded (638.34ms)
+(VSCode) 2025-08-09 19:46:38.360 [INFO]: Completion request was cancelled by token (211.93ms)
+(VSCode) 2025-08-09 19:46:38.410 [INFO]: Completion request succeeded (3.25ms)
+(VSCode) 2025-08-09 19:46:38.411 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:46:38.411 [INFO]: provideInlineCompletionItems request succeeded (5.06ms)
+(VSCode) 2025-08-09 19:46:38.859 [INFO]: Completion request was cancelled by token (320.78ms)
+(VSCode) 2025-08-09 19:46:39.257 [INFO]: Completion request succeeded (359.11ms)
+(VSCode) 2025-08-09 19:46:39.258 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:46:39.258 [INFO]: provideInlineCompletionItems request succeeded (360.71ms)
+(VSCode) 2025-08-09 19:46:53.927 [INFO]: Completion request was cancelled by token (114.45ms)
+(VSCode) 2025-08-09 19:46:54.651 [INFO]: Completion request succeeded (632.42ms)
+(VSCode) 2025-08-09 19:46:54.651 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 19:46:54.652 [INFO]: provideInlineCompletionItems request succeeded (634.32ms)
+(VSCode) 2025-08-09 19:46:55.230 [INFO]: Completion request succeeded (3.59ms)
+(VSCode) 2025-08-09 19:46:55.230 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 19:46:55.231 [INFO]: provideInlineCompletionItems request succeeded (5.23ms)
+(VSCode) 2025-08-09 19:46:58.218 [INFO]: Completion request succeeded (360.35ms)
+(VSCode) 2025-08-09 19:46:58.219 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:46:58.220 [INFO]: provideInlineCompletionItems request succeeded (362.02ms)
+(VSCode) 2025-08-09 19:46:58.887 [INFO]: Completion request succeeded (3.63ms)
+(VSCode) 2025-08-09 19:46:58.887 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:46:58.887 [INFO]: provideInlineCompletionItems request succeeded (4.92ms)
+(VSCode) 2025-08-09 19:46:59.990 [INFO]: Completion request succeeded (3.31ms)
+(VSCode) 2025-08-09 19:46:59.991 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:46:59.991 [INFO]: provideInlineCompletionItems request succeeded (4.52ms)
+(VSCode) 2025-08-09 19:47:00.788 [INFO]: Completion request succeeded (647.44ms)
+(VSCode) 2025-08-09 19:47:00.789 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:47:00.789 [INFO]: provideInlineCompletionItems request succeeded (649.04ms)
+(VSCode) 2025-08-09 19:48:23.196 [INFO]: Completion request was cancelled by token (720.19ms)
+(VSCode) 2025-08-09 19:48:23.818 [INFO]: Completion request succeeded (620.1ms)
+(VSCode) 2025-08-09 19:48:23.819 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:48:23.819 [INFO]: provideInlineCompletionItems request succeeded (622ms)
+(VSCode) 2025-08-09 19:48:42.621 [INFO]: Completion request succeeded (493.21ms)
+(VSCode) 2025-08-09 19:48:42.622 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:48:42.622 [INFO]: provideInlineCompletionItems request succeeded (494.79ms)
+(VSCode) 2025-08-09 19:48:42.968 [INFO]: Completion request succeeded (328.85ms)
+(VSCode) 2025-08-09 19:48:42.969 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:48:42.969 [INFO]: provideInlineCompletionItems request succeeded (330.38ms)
+(VSCode) 2025-08-09 19:48:47.437 [INFO]: Completion request succeeded (624.95ms)
+(VSCode) 2025-08-09 19:48:47.438 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:48:47.438 [INFO]: provideInlineCompletionItems request succeeded (626.45ms)
+(VSCode) 2025-08-09 19:48:49.412 [INFO]: Completion request succeeded (760.95ms)
+(VSCode) 2025-08-09 19:48:49.413 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 19:48:49.414 [INFO]: provideInlineCompletionItems request succeeded (763.01ms)
+(VSCode) 2025-08-09 19:48:51.447 [INFO]: Completion request succeeded (660.65ms)
+(VSCode) 2025-08-09 19:48:51.447 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:48:51.448 [INFO]: provideInlineCompletionItems request succeeded (662ms)
+(VSCode) 2025-08-09 19:49:28.291 [INFO]: Completion request was cancelled by token (364.7ms)
+(VSCode) 2025-08-09 19:49:28.742 [INFO]: Completion request succeeded (441.19ms)
+(VSCode) 2025-08-09 19:49:28.743 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 19:49:28.744 [INFO]: provideInlineCompletionItems request succeeded (443.44ms)
+(VSCode) 2025-08-09 19:49:50.019 [INFO]: Completion request was cancelled by token (21.62ms)
+(VSCode) 2025-08-09 19:49:50.139 [INFO]: Completion request was cancelled by token (113.99ms)
+(VSCode) 2025-08-09 19:49:50.282 [INFO]: Completion request was cancelled by token (123.79ms)
+(VSCode) 2025-08-09 19:49:50.708 [INFO]: Completion request succeeded (423.75ms)
+(VSCode) 2025-08-09 19:49:50.709 [INFO]: Generated 5 completions
+(VSCode) 2025-08-09 19:49:50.710 [INFO]: provideInlineCompletionItems request succeeded (426.08ms)
+(VSCode) 2025-08-09 19:49:50.959 [INFO]: Completion request was cancelled by token (199.42ms)
+(VSCode) 2025-08-09 19:49:51.361 [INFO]: Completion request succeeded (362.89ms)
+(VSCode) 2025-08-09 19:49:51.362 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:49:51.362 [INFO]: provideInlineCompletionItems request succeeded (364.2ms)
+(VSCode) 2025-08-09 19:50:18.127 [INFO]: Completion request succeeded (360.87ms)
+(VSCode) 2025-08-09 19:50:18.128 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:50:18.128 [INFO]: provideInlineCompletionItems request succeeded (362.32ms)
+(VSCode) 2025-08-09 19:50:18.543 [INFO]: Completion request was cancelled by token (381.32ms)
+(VSCode) 2025-08-09 19:50:18.978 [INFO]: Completion request succeeded (369.64ms)
+(VSCode) 2025-08-09 19:50:18.978 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:50:18.979 [INFO]: provideInlineCompletionItems request succeeded (371.31ms)
+(VSCode) 2025-08-09 19:50:19.710 [INFO]: Completion request succeeded (366.82ms)
+(VSCode) 2025-08-09 19:50:19.711 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:50:19.711 [INFO]: provideInlineCompletionItems request succeeded (368.31ms)
+(VSCode) 2025-08-09 19:50:55.483 [INFO]: Completion request was cancelled by token (314.47ms)
+(VSCode) 2025-08-09 19:50:55.958 [INFO]: Completion request succeeded (471.24ms)
+(VSCode) 2025-08-09 19:50:55.959 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:50:55.959 [INFO]: provideInlineCompletionItems request succeeded (472.72ms)
+(VSCode) 2025-08-09 19:50:56.379 [INFO]: Completion request was cancelled by token (71.86ms)
+(VSCode) 2025-08-09 19:50:56.783 [INFO]: Completion request succeeded (384.24ms)
+(VSCode) 2025-08-09 19:50:56.784 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:50:56.784 [INFO]: provideInlineCompletionItems request succeeded (385.51ms)
+(VSCode) 2025-08-09 19:51:19.908 [INFO]: Completion request succeeded (355.85ms)
+(VSCode) 2025-08-09 19:51:19.908 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:51:19.908 [INFO]: provideInlineCompletionItems request succeeded (357.25ms)
+(VSCode) 2025-08-09 19:51:20.638 [INFO]: Completion request succeeded (637.73ms)
+(VSCode) 2025-08-09 19:51:20.639 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:51:20.639 [INFO]: provideInlineCompletionItems request succeeded (638.98ms)
+(VSCode) 2025-08-09 19:51:31.307 [INFO]: Completion request was cancelled by token (468.81ms)
+(VSCode) 2025-08-09 19:51:32.010 [INFO]: Completion request succeeded (627.86ms)
+(VSCode) 2025-08-09 19:51:32.011 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:51:32.011 [INFO]: provideInlineCompletionItems request succeeded (629.69ms)
+(VSCode) 2025-08-09 19:51:43.647 [INFO]: Completion request was cancelled by token (187.45ms)
+(VSCode) 2025-08-09 19:51:43.875 [INFO]: Completion request was cancelled by token (223.87ms)
+(VSCode) 2025-08-09 19:51:44.353 [INFO]: Completion request succeeded (475.4ms)
+(VSCode) 2025-08-09 19:51:44.353 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:51:44.353 [INFO]: provideInlineCompletionItems request succeeded (476.87ms)
+(VSCode) 2025-08-09 19:51:45.956 [INFO]: Completion request succeeded (369.73ms)
+(VSCode) 2025-08-09 19:51:45.957 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:51:45.957 [INFO]: provideInlineCompletionItems request succeeded (371.3ms)
+(VSCode) 2025-08-09 19:51:48.218 [INFO]: Completion request succeeded (355.43ms)
+(VSCode) 2025-08-09 19:51:48.218 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:51:48.218 [INFO]: provideInlineCompletionItems request succeeded (356.98ms)
+(VSCode) 2025-08-09 19:51:49.590 [INFO]: Completion request succeeded (646.95ms)
+(VSCode) 2025-08-09 19:51:49.591 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:51:49.591 [INFO]: provideInlineCompletionItems request succeeded (648.31ms)
+(VSCode) 2025-08-09 19:51:49.778 [INFO]: Completion request was cancelled by token (90.94ms)
+(VSCode) 2025-08-09 19:51:50.265 [INFO]: Completion request succeeded (365.11ms)
+(VSCode) 2025-08-09 19:51:50.265 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:51:50.265 [INFO]: provideInlineCompletionItems request succeeded (366.51ms)
+(VSCode) 2025-08-09 19:51:57.075 [INFO]: Completion request succeeded (375.59ms)
+(VSCode) 2025-08-09 19:51:57.076 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:51:57.076 [INFO]: provideInlineCompletionItems request succeeded (377.26ms)
+(VSCode) 2025-08-09 19:51:57.848 [INFO]: Completion request succeeded (640.1ms)
+(VSCode) 2025-08-09 19:51:57.849 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:51:57.849 [INFO]: provideInlineCompletionItems request succeeded (641.8ms)
+(VSCode) 2025-08-09 19:51:59.726 [INFO]: Completion request succeeded (667.28ms)
+(VSCode) 2025-08-09 19:51:59.727 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:51:59.728 [INFO]: provideInlineCompletionItems request succeeded (669.14ms)
+(VSCode) 2025-08-09 19:52:01.507 [INFO]: Completion request was cancelled by token (564.15ms)
+(VSCode) 2025-08-09 19:52:01.587 [INFO]: Completion request succeeded (4.75ms)
+(VSCode) 2025-08-09 19:52:01.588 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:52:01.589 [INFO]: provideInlineCompletionItems request succeeded (7.05ms)
+(VSCode) 2025-08-09 19:52:02.463 [INFO]: Completion request succeeded (4.04ms)
+(VSCode) 2025-08-09 19:52:02.463 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:52:02.464 [INFO]: provideInlineCompletionItems request succeeded (5.82ms)
+(VSCode) 2025-08-09 19:52:02.967 [INFO]: Completion request succeeded (376ms)
+(VSCode) 2025-08-09 19:52:02.968 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:02.968 [INFO]: provideInlineCompletionItems request succeeded (377.78ms)
+(VSCode) 2025-08-09 19:52:08.693 [INFO]: Completion request succeeded (644.92ms)
+(VSCode) 2025-08-09 19:52:08.693 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:08.694 [INFO]: provideInlineCompletionItems request succeeded (646.4ms)
+(VSCode) 2025-08-09 19:52:12.983 [INFO]: Completion request succeeded (644.5ms)
+(VSCode) 2025-08-09 19:52:12.984 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:12.984 [INFO]: provideInlineCompletionItems request succeeded (646.22ms)
+(VSCode) 2025-08-09 19:52:17.009 [INFO]: Completion request succeeded (638.63ms)
+(VSCode) 2025-08-09 19:52:17.010 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:17.010 [INFO]: provideInlineCompletionItems request succeeded (640ms)
+(VSCode) 2025-08-09 19:52:18.595 [INFO]: Completion request was cancelled by token (132.27ms)
+(VSCode) 2025-08-09 19:52:18.856 [INFO]: Completion request was cancelled by token (216.63ms)
+(VSCode) 2025-08-09 19:52:18.887 [INFO]: Completion request was cancelled by token (29.16ms)
+(VSCode) 2025-08-09 19:52:19.417 [INFO]: Completion request succeeded (514.02ms)
+(VSCode) 2025-08-09 19:52:19.417 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:19.418 [INFO]: provideInlineCompletionItems request succeeded (515.62ms)
+(VSCode) 2025-08-09 19:52:20.698 [INFO]: Completion request succeeded (363.34ms)
+(VSCode) 2025-08-09 19:52:20.699 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:20.699 [INFO]: provideInlineCompletionItems request succeeded (364.73ms)
+(VSCode) 2025-08-09 19:52:21.548 [INFO]: Completion request was cancelled by token (221.4ms)
+(VSCode) 2025-08-09 19:52:21.859 [INFO]: Completion request was cancelled by token (280.68ms)
+(VSCode) 2025-08-09 19:52:22.249 [INFO]: Completion request succeeded (370.61ms)
+(VSCode) 2025-08-09 19:52:22.250 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:22.250 [INFO]: provideInlineCompletionItems request succeeded (371.98ms)
+(VSCode) 2025-08-09 19:52:22.753 [INFO]: Completion request succeeded (354.77ms)
+(VSCode) 2025-08-09 19:52:22.754 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:22.754 [INFO]: provideInlineCompletionItems request succeeded (356.68ms)
+(VSCode) 2025-08-09 19:52:23.663 [INFO]: Completion request succeeded (663.93ms)
+(VSCode) 2025-08-09 19:52:23.663 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:23.664 [INFO]: provideInlineCompletionItems request succeeded (665.43ms)
+(VSCode) 2025-08-09 19:52:24.476 [INFO]: Completion request succeeded (648.73ms)
+(VSCode) 2025-08-09 19:52:24.476 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:24.477 [INFO]: provideInlineCompletionItems request succeeded (650.24ms)
+(VSCode) 2025-08-09 19:52:26.755 [INFO]: Completion request was cancelled by token (376.71ms)
+(VSCode) 2025-08-09 19:52:26.848 [INFO]: Completion request was cancelled by token (47.66ms)
+(VSCode) 2025-08-09 19:52:27.263 [INFO]: Completion request succeeded (364.45ms)
+(VSCode) 2025-08-09 19:52:27.264 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:27.264 [INFO]: provideInlineCompletionItems request succeeded (366.03ms)
+(VSCode) 2025-08-09 19:52:34.559 [INFO]: Completion request succeeded (375.37ms)
+(VSCode) 2025-08-09 19:52:34.560 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:34.560 [INFO]: provideInlineCompletionItems request succeeded (376.88ms)
+(VSCode) 2025-08-09 19:52:35.512 [INFO]: Completion request succeeded (353.21ms)
+(VSCode) 2025-08-09 19:52:35.513 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:35.513 [INFO]: provideInlineCompletionItems request succeeded (354.57ms)
+(VSCode) 2025-08-09 19:52:35.631 [INFO]: Completion request was cancelled by token (39.2ms)
+(VSCode) 2025-08-09 19:52:35.859 [INFO]: Completion request was cancelled by token (225.88ms)
+(VSCode) 2025-08-09 19:52:36.107 [INFO]: Completion request was cancelled by token (220.65ms)
+(VSCode) 2025-08-09 19:52:36.516 [INFO]: Completion request succeeded (352.39ms)
+(VSCode) 2025-08-09 19:52:36.517 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:36.517 [INFO]: provideInlineCompletionItems request succeeded (353.92ms)
+(VSCode) 2025-08-09 19:52:44.754 [INFO]: Completion request succeeded (1054.18ms)
+(VSCode) 2025-08-09 19:52:44.754 [INFO]: Generated 7 completions
+(VSCode) 2025-08-09 19:52:44.755 [INFO]: provideInlineCompletionItems request succeeded (1056.7ms)
+(VSCode) 2025-08-09 19:52:48.132 [INFO]: Completion request succeeded (374.58ms)
+(VSCode) 2025-08-09 19:52:48.132 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:48.133 [INFO]: provideInlineCompletionItems request succeeded (376ms)
+(VSCode) 2025-08-09 19:52:49.366 [INFO]: Completion request succeeded (661.98ms)
+(VSCode) 2025-08-09 19:52:49.366 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:52:49.367 [INFO]: provideInlineCompletionItems request succeeded (663.41ms)
+(VSCode) 2025-08-09 19:52:51.977 [INFO]: Completion request succeeded (880.93ms)
+(VSCode) 2025-08-09 19:52:51.978 [INFO]: Generated 8 completions
+(VSCode) 2025-08-09 19:52:51.979 [INFO]: provideInlineCompletionItems request succeeded (883.44ms)
+(VSCode) 2025-08-09 19:52:56.084 [INFO]: Completion request was cancelled by token (285.18ms)
+(VSCode) 2025-08-09 19:52:56.547 [INFO]: Completion request was cancelled by token (448.37ms)
+(VSCode) 2025-08-09 19:52:56.961 [INFO]: Completion request succeeded (398.49ms)
+(VSCode) 2025-08-09 19:52:56.962 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:52:56.962 [INFO]: provideInlineCompletionItems request succeeded (400.44ms)
+(VSCode) 2025-08-09 19:52:58.556 [INFO]: Completion request succeeded (6.28ms)
+(VSCode) 2025-08-09 19:52:58.556 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:52:58.557 [INFO]: provideInlineCompletionItems request succeeded (7.94ms)
+(VSCode) 2025-08-09 19:52:59.743 [INFO]: Completion request succeeded (4.42ms)
+(VSCode) 2025-08-09 19:52:59.743 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:52:59.743 [INFO]: provideInlineCompletionItems request succeeded (5.98ms)
+(VSCode) 2025-08-09 19:53:03.734 [INFO]: Completion request succeeded (6.02ms)
+(VSCode) 2025-08-09 19:53:03.734 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:53:03.735 [INFO]: provideInlineCompletionItems request succeeded (7.95ms)
+(VSCode) 2025-08-09 19:53:05.243 [INFO]: Completion request succeeded (3.38ms)
+(VSCode) 2025-08-09 19:53:05.243 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:53:05.244 [INFO]: provideInlineCompletionItems request succeeded (4.94ms)
+(VSCode) 2025-08-09 19:53:09.523 [INFO]: Completion request succeeded (3.66ms)
+(VSCode) 2025-08-09 19:53:09.524 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:53:09.525 [INFO]: provideInlineCompletionItems request succeeded (5.54ms)
+(VSCode) 2025-08-09 19:53:13.025 [INFO]: Completion request succeeded (18.85ms)
+(VSCode) 2025-08-09 19:53:13.025 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:53:13.026 [INFO]: provideInlineCompletionItems request succeeded (20.68ms)
+(VSCode) 2025-08-09 19:53:14.915 [INFO]: Completion request succeeded (3.85ms)
+(VSCode) 2025-08-09 19:53:14.915 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:53:14.915 [INFO]: provideInlineCompletionItems request succeeded (5.23ms)
+(VSCode) 2025-08-09 19:53:16.242 [INFO]: Completion request succeeded (3.77ms)
+(VSCode) 2025-08-09 19:53:16.243 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:53:16.243 [INFO]: provideInlineCompletionItems request succeeded (5.24ms)
+(VSCode) 2025-08-09 19:53:16.912 [INFO]: Completion request succeeded (5.76ms)
+(VSCode) 2025-08-09 19:53:16.913 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:53:16.913 [INFO]: provideInlineCompletionItems request succeeded (7.22ms)
+(VSCode) 2025-08-09 19:53:20.291 [INFO]: Completion request succeeded (3.74ms)
+(VSCode) 2025-08-09 19:53:20.291 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:53:20.292 [INFO]: provideInlineCompletionItems request succeeded (5.44ms)
+(VSCode) 2025-08-09 19:53:20.686 [INFO]: Completion request succeeded (3.41ms)
+(VSCode) 2025-08-09 19:53:20.686 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:53:20.687 [INFO]: provideInlineCompletionItems request succeeded (4.71ms)
+(VSCode) 2025-08-09 19:53:23.474 [INFO]: Completion request succeeded (360.47ms)
+(VSCode) 2025-08-09 19:53:23.475 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:53:23.475 [INFO]: provideInlineCompletionItems request succeeded (361.88ms)
+(VSCode) 2025-08-09 20:00:13.712 [INFO]: Disposing language server process
+(VSCode) 2025-08-09 20:00:13.712 [INFO]: Deleting manager directory: /tmp/35eeee49-c311-488a-9c56-62cb89955177/codeium/manager
+(VSCode) 2025-08-09 20:00:13.712 [INFO]: Successfully disposed language server
+W0809 20:00:13.712200   732 main.go:142] [Language Server Manager] Got signal terminated, shutting down
+I0809 20:00:13.831793   757 server.go:1422] Exit requested on language server process 757
+I0809 20:00:13.831954   757 server.go:1395] Language server shutting down

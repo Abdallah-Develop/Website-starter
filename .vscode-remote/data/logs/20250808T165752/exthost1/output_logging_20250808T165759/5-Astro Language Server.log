@@ -1,0 +1,37 @@
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x15c94a0, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:477 +0x1c6
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x15c8f20, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:761 +0x564
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x15c8b00, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:371 +0xca
+github.com/withastro/compiler/internal/printer.PrintToTSX({0x15bb400, 0x1ea}, 0x15c8b00, {0x0, 0x0}, {{0x3c6b4, 0x6}, {0x1648380, 0x3e}, {0x1648380, ...}, ...}, ...)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:35 +0x12
+main.main.ConvertToTSX.func3({{}, 0x7ff80001000000be, 0x15c71b8}, {0x14344e0, 0x2, 0x2})
+	./astro-wasm.go:285 +0xf
+syscall/js.handleEvent()
+	syscall/js/func.go:100 +0x23
+exit code: 2
+There was an error transforming /workspace/Website-starter/src/components/GradientCircle.astro to TSX. An empty file will be returned instead. Please create an issue: https://github.com/withastro/language-tools/issues
+Error: TypeError: Cannot read properties of undefined (reading 'map').
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x1478420, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:477 +0x1c6
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x15ff600, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:761 +0x564
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x15ff080, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:371 +0xca
+github.com/withastro/compiler/internal/printer.PrintToTSX({0x174cc00, 0xada}, 0x15ff080, {0x0, 0x0}, {{0x3c6b4, 0x6}, {0x145c0a0, 0x4c}, {0x145c0a0, ...}, ...}, ...)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:35 +0x12
+main.main.ConvertToTSX.func3({{}, 0x7ff800010000015d, 0x1670008}, {0x1434000, 0x2, 0x2})
+	./astro-wasm.go:285 +0xf
+syscall/js.handleEvent()
+	syscall/js/func.go:100 +0x23
+exit code: 2
+There was an error transforming /workspace/Website-starter/src/components/sections/landing/HeroSection.astro to TSX. An empty file will be returned instead. Please create an issue: https://github.com/withastro/language-tools/issues
+Error: TypeError: Cannot read properties of undefined (reading 'map').
+[volar-service-typescript] The language client lacks support for the command/edit properties in the resolve code action. Therefore, the code action resolve is pre-calculated.

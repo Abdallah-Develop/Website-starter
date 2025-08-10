@@ -1,0 +1,400 @@
+Locating server…
+Booting server...
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+{"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/workspace/Website-starter/src/assets/styles/starlight_main.css"}
+{"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/workspace/Website-starter/src/assets/styles/starlight.css"}
+{"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/workspace/Website-starter/src/assets/styles/global.css"}
+[Global] Creating projects: [{"folder":"/workspace/Website-starter","config":"/workspace/Website-starter/src/assets/styles/global.css","selectors":[{"pattern":"/workspace/Website-starter/src/assets/styles/global.css","priority":0},{"pattern":"/workspace/Website-starter/.github/FUNDING.yml","priority":1},{"pattern":"/workspace/Website-starter/.github/dependabot.yml","priority":1},{"pattern":"/workspace/Website-starter/.gitpod.yml","priority":1},{"pattern":"/workspace/Website-starter/.prettierrc","priority":1},{"pattern":"/workspace/Website-starter/.vscode/settings.json","priority":1},{"pattern":"/workspace/Website-starter/CODE_OF_CONDUCT.md","priority":1},{"pattern":"/workspace/Website-starter/LICENSE","priority":1},{"pattern":"/workspace/Website-starter/README.md","priority":1},{"pattern":"/workspace/Website-starter/astro.config.mjs","priority":1},{"pattern":"/workspace/Website-starter/package.json","priority":1},{"pattern":"/workspace/Website-starter/process-html.mjs","priority":1},{"pattern":"/workspace/Website-starter/public/banner-pattern.svg","priority":1},{"pattern":"/workspace/Website-starter/src/.prettierignore","priority":1},{"pattern":"/workspace/Website-starter/src/assets/scripts/lenisSmoothScroll.js","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/amina/demo.html","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/amina/stylesheet.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/atyp/demo.html","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/atyp/stylesheet.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/lenis.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/starlight.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/starlight_main.css","priority":1},{"pattern":"/workspace/Website-starter/src/components/Badge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/BrandLogo.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/GradientCircle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Lines.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Meta.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Noise.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesGeneral.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesNavs.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStats.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStatsAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/ClientsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/ContactSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/FAQ.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/FooterSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/Navbar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/NavbarMegaMenu.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/pricing/PricingSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/Avatar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlogLarge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarTestimonialSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/banners/AnnouncementBanner.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/AccordionItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ContactIconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/IconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/LeftSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/MainSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ReviewComponent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/RightSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsBig.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsGrid.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabContent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabNav.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/AuthBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Bookmark.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Btn404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GithubBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GoogleBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/LoginBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/PrimaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/ProductTabBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SecondaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SocialShare.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlogRecent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardInsight.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardRelated.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardWide.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/feedback/PostFeedback.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/LoginModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RecoverModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RegisterModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/Checkbox.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailContactInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PasswordInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PhoneInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextAreaInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/Icon.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/icons.ts","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/FooterSocialLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/MegaMenuLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/NavLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/Head.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/MobileMenuFooter.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/SiteTitle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelect.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelectMobile.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/FullStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/HalfStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/content.config.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/constants.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/faqs.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/features.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/mega_link.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/pricing.json","priority":1},{"pattern":"/workspace/Website-starter/src/env.d.ts","priority":1},{"pattern":"/workspace/Website-starter/src/images/icon.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/docs_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/layouts/MainLayout.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/favicon.ico.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/index.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/manifest.json.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/robots.txt.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/navigations.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/ui.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/utils.ts","priority":1},{"pattern":"/workspace/Website-starter/tsconfig.json","priority":1},{"pattern":"/workspace/Website-starter/vercel.json","priority":1},{"pattern":"/workspace/Website-starter/*","priority":1},{"pattern":"/workspace/Website-starter/.github/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/.vscode/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/**","priority":2},{"pattern":"/workspace/Website-starter/**","priority":4}],"user":false,"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false}},{"folder":"/workspace/Website-starter","config":"/workspace/Website-starter/src/assets/styles/starlight.css","selectors":[{"pattern":"/workspace/Website-starter/src/assets/styles/starlight.css","priority":0},{"pattern":"/workspace/Website-starter/.github/FUNDING.yml","priority":1},{"pattern":"/workspace/Website-starter/.github/dependabot.yml","priority":1},{"pattern":"/workspace/Website-starter/.gitpod.yml","priority":1},{"pattern":"/workspace/Website-starter/.prettierrc","priority":1},{"pattern":"/workspace/Website-starter/.vscode/settings.json","priority":1},{"pattern":"/workspace/Website-starter/CODE_OF_CONDUCT.md","priority":1},{"pattern":"/workspace/Website-starter/LICENSE","priority":1},{"pattern":"/workspace/Website-starter/README.md","priority":1},{"pattern":"/workspace/Website-starter/astro.config.mjs","priority":1},{"pattern":"/workspace/Website-starter/package.json","priority":1},{"pattern":"/workspace/Website-starter/process-html.mjs","priority":1},{"pattern":"/workspace/Website-starter/public/banner-pattern.svg","priority":1},{"pattern":"/workspace/Website-starter/src/.prettierignore","priority":1},{"pattern":"/workspace/Website-starter/src/assets/scripts/lenisSmoothScroll.js","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/amina/demo.html","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/amina/stylesheet.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/atyp/demo.html","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/atyp/stylesheet.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/global.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/lenis.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/starlight_main.css","priority":1},{"pattern":"/workspace/Website-starter/src/components/Badge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/BrandLogo.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/GradientCircle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Lines.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Meta.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Noise.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesGeneral.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesNavs.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStats.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStatsAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/ClientsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/ContactSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/FAQ.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/FooterSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/Navbar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/NavbarMegaMenu.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/pricing/PricingSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/Avatar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlogLarge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarTestimonialSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/banners/AnnouncementBanner.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/AccordionItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ContactIconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/IconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/LeftSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/MainSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ReviewComponent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/RightSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsBig.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsGrid.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabContent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabNav.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/AuthBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Bookmark.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Btn404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GithubBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GoogleBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/LoginBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/PrimaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/ProductTabBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SecondaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SocialShare.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlogRecent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardInsight.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardRelated.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardWide.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/feedback/PostFeedback.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/LoginModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RecoverModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RegisterModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/Checkbox.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailContactInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PasswordInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PhoneInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextAreaInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/Icon.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/icons.ts","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/FooterSocialLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/MegaMenuLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/NavLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/Head.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/MobileMenuFooter.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/SiteTitle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelect.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelectMobile.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/FullStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/HalfStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/content.config.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/constants.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/faqs.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/features.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/mega_link.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/pricing.json","priority":1},{"pattern":"/workspace/Website-starter/src/env.d.ts","priority":1},{"pattern":"/workspace/Website-starter/src/images/icon.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/docs_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/layouts/MainLayout.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/favicon.ico.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/index.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/manifest.json.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/robots.txt.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/navigations.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/ui.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/utils.ts","priority":1},{"pattern":"/workspace/Website-starter/tsconfig.json","priority":1},{"pattern":"/workspace/Website-starter/vercel.json","priority":1},{"pattern":"/workspace/Website-starter/*","priority":1},{"pattern":"/workspace/Website-starter/.github/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/.vscode/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/**","priority":2},{"pattern":"/workspace/Website-starter/**","priority":4}],"user":false,"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false}},{"folder":"/workspace/Website-starter","config":"/workspace/Website-starter/src/assets/styles/starlight_main.css","selectors":[{"pattern":"/workspace/Website-starter/src/assets/styles/starlight_main.css","priority":0},{"pattern":"/workspace/Website-starter/.github/FUNDING.yml","priority":1},{"pattern":"/workspace/Website-starter/.github/dependabot.yml","priority":1},{"pattern":"/workspace/Website-starter/.gitpod.yml","priority":1},{"pattern":"/workspace/Website-starter/.prettierrc","priority":1},{"pattern":"/workspace/Website-starter/.vscode/settings.json","priority":1},{"pattern":"/workspace/Website-starter/CODE_OF_CONDUCT.md","priority":1},{"pattern":"/workspace/Website-starter/LICENSE","priority":1},{"pattern":"/workspace/Website-starter/README.md","priority":1},{"pattern":"/workspace/Website-starter/astro.config.mjs","priority":1},{"pattern":"/workspace/Website-starter/package.json","priority":1},{"pattern":"/workspace/Website-starter/process-html.mjs","priority":1},{"pattern":"/workspace/Website-starter/public/banner-pattern.svg","priority":1},{"pattern":"/workspace/Website-starter/src/.prettierignore","priority":1},{"pattern":"/workspace/Website-starter/src/assets/scripts/lenisSmoothScroll.js","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/amina/demo.html","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/amina/stylesheet.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/atyp/demo.html","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/atyp/stylesheet.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/global.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/lenis.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/starlight.css","priority":1},{"pattern":"/workspace/Website-starter/src/components/Badge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/BrandLogo.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/GradientCircle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Lines.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Meta.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Noise.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesGeneral.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesNavs.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStats.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStatsAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/ClientsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/ContactSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/FAQ.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/FooterSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/Navbar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/NavbarMegaMenu.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/pricing/PricingSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/Avatar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlogLarge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarTestimonialSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/banners/AnnouncementBanner.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/AccordionItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ContactIconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/IconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/LeftSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/MainSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ReviewComponent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/RightSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsBig.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsGrid.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabContent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabNav.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/AuthBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Bookmark.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Btn404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GithubBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GoogleBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/LoginBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/PrimaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/ProductTabBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SecondaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SocialShare.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlogRecent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardInsight.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardRelated.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardWide.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/feedback/PostFeedback.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/LoginModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RecoverModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RegisterModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/Checkbox.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailContactInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PasswordInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PhoneInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextAreaInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/Icon.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/icons.ts","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/FooterSocialLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/MegaMenuLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/NavLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/Head.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/MobileMenuFooter.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/SiteTitle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelect.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelectMobile.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/FullStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/HalfStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/content.config.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/constants.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/faqs.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/features.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/mega_link.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/pricing.json","priority":1},{"pattern":"/workspace/Website-starter/src/env.d.ts","priority":1},{"pattern":"/workspace/Website-starter/src/images/icon.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/docs_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/layouts/MainLayout.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/favicon.ico.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/index.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/manifest.json.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/robots.txt.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/navigations.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/ui.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/utils.ts","priority":1},{"pattern":"/workspace/Website-starter/tsconfig.json","priority":1},{"pattern":"/workspace/Website-starter/vercel.json","priority":1},{"pattern":"/workspace/Website-starter/*","priority":1},{"pattern":"/workspace/Website-starter/.github/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/.vscode/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/**","priority":2},{"pattern":"/workspace/Website-starter/**","priority":4}],"user":false,"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false}}]
+[Global] Preparing projects...
+[Global] Initializing projects...
+[src/assets/styles/global.css] Initializing...
+[Global] Adding watch patterns: /workspace/Website-starter/src/assets/styles/global.css, /workspace/Website-starter/src/assets/styles, /workspace/Website-starter/src/assets, /workspace/Website-starter/src, /workspace/Website-starter
+[src/assets/styles/global.css] supported features: ["css-at-theme","layer:base","content-list","source-inline","source-not"]
+[src/assets/styles/global.css] Loaded tailwindcss v4.1.11: /workspace/Website-starter/node_modules/tailwindcss
+[src/assets/styles/global.css] Building...
+[Global] Adding watch patterns: /workspace/Website-starter/node_modules/tailwindcss/index.css, /workspace/Website-starter/node_modules/preline/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/dropdown/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/remove-element/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/tooltip/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/accordion/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/tree-view/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/collapse/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/tabs/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/overlay/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/scrollspy/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/carousel/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/select/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/input-number/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/pin-input/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/strong-password/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/stepper/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/combobox/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/layout-splitter/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/scroll-nav/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/datatable/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/range-slider/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/file-upload/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/datepicker/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/theme-switch/variants.css, /workspace/Website-starter/node_modules/@tailwindcss/forms/src/index.js
+[Global] Initialized 1 projects
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1509.95ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 999.16ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+[Error - 2:17:54 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:21:3: Unknown word --color-primary-dar
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unknownWord (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10065)
+    at CR.other (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8468)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8787)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at lF (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3549:1565)
+    at async Object.reload (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3551:834)
+    at async aC.softRestart (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3555:206) {
+  reason: 'Unknown word --color-primary-dar',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: '@import "tailwindcss";\n' +
+    '@import "preline/variants.css";\n' +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '  --breakpoint-xs: 30rem;\n' +
+    '  --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '\n' +
+    '                             \n' +
+    '                                              \n' +
+    '\n' +
+    '                                           \n' +
+    '                                                    \n' +
+    '\n' +
+    '  --color-primary: #00bfff;\n' +
+    '  --color-primary-dar#00fff0;\n' +
+    '  --color-secondary: #00ffff;\n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                                                      \n' +
+    '                                                                                                     \n' +
+    '                                                                              \n' +
+    '\n' +
+    '                                                                                                           \n' +
+    '                                                                                                \n' +
+    '                                      \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'nav .primaryCTA {\n' +
+    '  padding-top: 0.4rem;\n' +
+    '  padding-bottom: 0.4rem;\n' +
+    '}\n' +
+    '\n' +
+    '.lines-bg {\n' +
+    '  background: repeating-linear-gradient(\n' +
+    '    to right,\n' +
+    '    transparent,\n' +
+    '    transparent 1px,\n' +
+    '    var(--color-primary) 48px,\n' +
+    '    var(--color-primary) 50px\n' +
+    '  );\n' +
+    '  opacity: 1;\n' +
+    '  pointer-events: none;\n' +
+    '  z-index: 0;\n' +
+    '}\n' +
+    '.empty-text {\n' +
+    '  -webkit-text-fill-color: transparent;\n' +
+    '  -webkit-background-clip: text;\n' +
+    '  background-clip: text;\n' +
+    '}\n' +
+    '\n' +
+    '.bgb {\n' +
+    '  mix-blend-mode: multiply;\n' +
+    '}\n',
+  line: 21,
+  column: 3,
+  endLine: 21,
+  endColumn: 22,
+  input: {
+    column: 3,
+    endColumn: 22,
+    endLine: 21,
+    endOffset: 488,
+    line: 21,
+    offset: 469,
+    source: '@import "tailwindcss";\n' +
+      '@import "preline/variants.css";\n' +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '  --breakpoint-xs: 30rem;\n' +
+      '  --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '\n' +
+      '                             \n' +
+      '                                              \n' +
+      '\n' +
+      '                                           \n' +
+      '                                                    \n' +
+      '\n' +
+      '  --color-primary: #00bfff;\n' +
+      '  --color-primary-dar#00fff0;\n' +
+      '  --color-secondary: #00ffff;\n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                                                      \n' +
+      '                                                                                                     \n' +
+      '                                                                              \n' +
+      '\n' +
+      '                                                                                                           \n' +
+      '                                                                                                \n' +
+      '                                      \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'nav .primaryCTA {\n' +
+      '  padding-top: 0.4rem;\n' +
+      '  padding-bottom: 0.4rem;\n' +
+      '}\n' +
+      '\n' +
+      '.lines-bg {\n' +
+      '  background: repeating-linear-gradient(\n' +
+      '    to right,\n' +
+      '    transparent,\n' +
+      '    transparent 1px,\n' +
+      '    var(--color-primary) 48px,\n' +
+      '    var(--color-primary) 50px\n' +
+      '  );\n' +
+      '  opacity: 1;\n' +
+      '  pointer-events: none;\n' +
+      '  z-index: 0;\n' +
+      '}\n' +
+      '.empty-text {\n' +
+      '  -webkit-text-fill-color: transparent;\n' +
+      '  -webkit-background-clip: text;\n' +
+      '  background-clip: text;\n' +
+      '}\n' +
+      '\n' +
+      '.bgb {\n' +
+      '  mix-blend-mode: multiply;\n' +
+      '}\n',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+[Error - 2:18:01 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:21:3: Unknown word --color-primary-dark
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unknownWord (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10065)
+    at CR.other (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8468)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8787)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at lF (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3549:1565)
+    at async Object.reload (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3551:834)
+    at async aC.softRestart (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3555:206) {
+  reason: 'Unknown word --color-primary-dark',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: '@import "tailwindcss";\n' +
+    '@import "preline/variants.css";\n' +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '  --breakpoint-xs: 30rem;\n' +
+    '  --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '\n' +
+    '                             \n' +
+    '                                              \n' +
+    '\n' +
+    '                                           \n' +
+    '                                                    \n' +
+    '\n' +
+    '  --color-primary: #00bfff;\n' +
+    '  --color-primary-dark#00fff0;\n' +
+    '  --color-secondary: #00ffff;\n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                                                      \n' +
+    '                                                                                                     \n' +
+    '                                                                              \n' +
+    '\n' +
+    '                                                                                                           \n' +
+    '                                                                                                \n' +
+    '                                      \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'nav .primaryCTA {\n' +
+    '  padding-top: 0.4rem;\n' +
+    '  padding-bottom: 0.4rem;\n' +
+    '}\n' +
+    '\n' +
+    '.lines-bg {\n' +
+    '  background: repeating-linear-gradient(\n' +
+    '    to right,\n' +
+    '    transparent,\n' +
+    '    transparent 1px,\n' +
+    '    var(--color-primary) 48px,\n' +
+    '    var(--color-primary) 50px\n' +
+    '  );\n' +
+    '  opacity: 1;\n' +
+    '  pointer-events: none;\n' +
+    '  z-index: 0;\n' +
+    '}\n' +
+    '.empty-text {\n' +
+    '  -webkit-text-fill-color: transparent;\n' +
+    '  -webkit-background-clip: text;\n' +
+    '  background-clip: text;\n' +
+    '}\n' +
+    '\n' +
+    '.bgb {\n' +
+    '  mix-blend-mode: multiply;\n' +
+    '}\n',
+  line: 21,
+  column: 3,
+  endLine: 21,
+  endColumn: 23,
+  input: {
+    column: 3,
+    endColumn: 23,
+    endLine: 21,
+    endOffset: 489,
+    line: 21,
+    offset: 469,
+    source: '@import "tailwindcss";\n' +
+      '@import "preline/variants.css";\n' +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '  --breakpoint-xs: 30rem;\n' +
+      '  --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '\n' +
+      '                             \n' +
+      '                                              \n' +
+      '\n' +
+      '                                           \n' +
+      '                                                    \n' +
+      '\n' +
+      '  --color-primary: #00bfff;\n' +
+      '  --color-primary-dark#00fff0;\n' +
+      '  --color-secondary: #00ffff;\n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                                                      \n' +
+      '                                                                                                     \n' +
+      '                                                                              \n' +
+      '\n' +
+      '                                                                                                           \n' +
+      '                                                                                                \n' +
+      '                                      \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'nav .primaryCTA {\n' +
+      '  padding-top: 0.4rem;\n' +
+      '  padding-bottom: 0.4rem;\n' +
+      '}\n' +
+      '\n' +
+      '.lines-bg {\n' +
+      '  background: repeating-linear-gradient(\n' +
+      '    to right,\n' +
+      '    transparent,\n' +
+      '    transparent 1px,\n' +
+      '    var(--color-primary) 48px,\n' +
+      '    var(--color-primary) 50px\n' +
+      '  );\n' +
+      '  opacity: 1;\n' +
+      '  pointer-events: none;\n' +
+      '  z-index: 0;\n' +
+      '}\n' +
+      '.empty-text {\n' +
+      '  -webkit-text-fill-color: transparent;\n' +
+      '  -webkit-background-clip: text;\n' +
+      '  background-clip: text;\n' +
+      '}\n' +
+      '\n' +
+      '.bgb {\n' +
+      '  mix-blend-mode: multiply;\n' +
+      '}\n',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1103.11ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 837.48ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1123.06ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 2249.51ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 969.59ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1533.06ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1739.85ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 847.58ms ----

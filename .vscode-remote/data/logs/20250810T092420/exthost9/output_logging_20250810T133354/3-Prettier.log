@@ -1,0 +1,49 @@
+["INFO" - 1:34:01 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 1:34:01 PM] Extension Version: 11.0.0.
+["INFO" - 1:34:02 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:34:11 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:34:14 PM] Formatting file:///workspace/Website-starter/src/components/ui/icons/icons.ts
+["INFO" - 1:34:14 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:34:14 PM] PrettierInstance:
+{
+  "modulePath": "/workspace/Website-starter/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.6.2"
+}
+["INFO" - 1:34:14 PM] Using ignore file (if present) at /workspace/Website-starter/.prettierignore
+["INFO" - 1:34:14 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 1:34:14 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:34:14 PM] Prettier Options:
+{
+  "filepath": "/workspace/Website-starter/src/components/ui/icons/icons.ts",
+  "parser": "typescript",
+  "plugins": [
+    "/workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js",
+    "/workspace/Website-starter/node_modules/prettier-plugin-tailwindcss/dist/index.mjs"
+  ],
+  "semi": false,
+  "trailingComma": "es5",
+  "singleQuote": false,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "htmlWhitespaceSensitivity": "ignore",
+  "endOfLine": "lf",
+  "embeddedLanguageFormatting": "auto"
+}
+["INFO" - 1:34:14 PM] Formatting completed in 145ms.
+["INFO" - 1:34:21 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:34:32 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:35:03 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:35:12 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:36:08 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:36:50 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:36:54 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:37:18 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:39:57 PM] Using config file at /workspace/Website-starter/.prettierrc

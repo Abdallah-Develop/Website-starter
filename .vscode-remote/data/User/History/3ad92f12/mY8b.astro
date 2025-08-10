@@ -1,0 +1,47 @@
+---
+// Dashed vertical lines overlay — fully customizable
+const {
+  class: additionalClass = "",
+  style = {},
+  mask = {},
+  linesColor = "var(--color-primary)", // e.g. "red", "#00ff00", "var(--my-color)"
+  lineGap = "5px", // space between lines
+  lineWidth = "2px", // width of each line
+} = Astro.props
+
+// Inject dynamic values as CSS variables via inline style
+const finalStyle = {
+  ...style,
+  ...mask,
+  "--line-color": linesColor,
+  "--line-gap": lineGap,
+  "--line-width": lineWidth,
+}
+---
+
+<div
+  class={`lines absolute inset-0 ${additionalClass}`}
+  style={finalStyle}
+  aria-hidden="true"
+>
+</div>
+
+<style>
+  .lines {
+    /* Default values — will be overridden by inline style if provided */
+    --line-color: var(--color-primary);
+    --line-gap: 5px;
+    --line-width: 2px;
+
+    background: repeating-linear-gradient(
+      to right,
+      transparent 0,
+      transparent var(--line-gap),
+      var(--line-color) var(--line-gap),
+      var(--line-color) calc(var(--line-gap) + var(--line-width))
+    );
+    opacity: 1;
+    pointer-events: none;
+    z-index: 1;
+  }
+</style>

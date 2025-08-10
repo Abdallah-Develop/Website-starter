@@ -1,0 +1,39 @@
+2025-08-08 00:46:37.305 [info] [main] Log level: Info
+2025-08-08 00:46:37.305 [info] [main] Validating found git in: "git"
+2025-08-08 00:46:37.305 [info] [main] Using git "2.49.0" from "git"
+2025-08-08 00:46:37.305 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-08 00:46:37.305 [info] > git rev-parse --show-toplevel [3ms]
+2025-08-08 00:46:37.305 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-08-08 00:46:37.305 [info] [Model][openRepository] Opened repository (path): /workspace/Website-starter
+2025-08-08 00:46:37.305 [info] [Model][openRepository] Opened repository (real path): /workspace/Website-starter
+2025-08-08 00:46:37.305 [info] > git config --get commit.template [8ms]
+2025-08-08 00:46:37.305 [info] > git rev-parse --show-toplevel [10ms]
+2025-08-08 00:46:37.305 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-08-08 00:46:37.305 [info] > git rev-parse --show-toplevel [17ms]
+2025-08-08 00:46:37.305 [info] > git status -z -uall [16ms]
+2025-08-08 00:46:37.305 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-08-08 00:46:37.305 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2025-08-08 00:46:37.305 [info] > git rev-parse --show-toplevel [55ms]
+2025-08-08 00:46:37.305 [info] > git config --get commit.template [17ms]
+2025-08-08 00:46:37.305 [info] > git rev-parse --show-toplevel [2ms]
+2025-08-08 00:46:37.305 [info] > git config --get --local branch.main.vscode-merge-base [11ms]
+2025-08-08 00:46:37.305 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-08-08 00:46:37.305 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [15ms]
+2025-08-08 00:46:37.305 [info] > git rev-parse --show-toplevel [17ms]
+2025-08-08 00:46:37.305 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2025-08-08 00:46:37.305 [info] > git diff --name-status -z --diff-filter=ADMR 0d7a3a898007be1d8200d8db99d59472a2da8d06...refs/remotes/origin/main [44ms]
+2025-08-08 00:46:37.305 [info] > git rev-parse --show-toplevel [39ms]
+2025-08-08 00:46:37.305 [info] > git status -z -uall [40ms]
+2025-08-08 00:46:37.305 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-08-08 00:46:37.305 [info] > git rev-parse --show-toplevel [9ms]
+2025-08-08 00:46:37.305 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-08-08 00:46:37.305 [info] > git fetch [368ms]
+2025-08-08 00:46:37.305 [info] > git config --get commit.template [2ms]
+2025-08-08 00:46:37.305 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-08-08 00:46:37.305 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-08-08 00:46:37.305 [info] > git status -z -uall [15ms]
+2025-08-08 00:46:37.811 [info] > git check-ignore -v -z --stdin [3ms]
+2025-08-08 00:46:38.320 [info] > git config --get commit.template [6ms]
+2025-08-08 00:46:38.322 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-08-08 00:46:38.337 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-08-08 00:46:38.342 [info] > git status -z -uall [15ms]

@@ -1,0 +1,68 @@
+2025-08-10 10:28:08.624 [info] Expanding terminal instance, old id 1cafd87f-6 -> new id undefined
+2025-08-10 10:28:08.625 [info] Expanding terminal instance, old id 1cafd87f-7 -> new id undefined
+2025-08-10 10:28:08.625 [info] Expanding terminal instance, old id 1cafd87f-8 -> new id undefined
+2025-08-10 10:28:08.625 [info] Expanding terminal instance, old id 1cafd87f-9 -> new id undefined
+2025-08-10 10:28:08.626 [info] Expanding terminal instance, old id 1cafd87f-10 -> new id undefined
+2025-08-10 10:28:08.626 [info] Expanding terminal instance, old id 1cafd87f-11 -> new id undefined
+2025-08-10 10:28:08.626 [info] Expanding terminal instance, old id 1cafd87f-12 -> new id undefined
+2025-08-10 10:28:08.626 [info] Expanding terminal instance, old id 1cafd87f-13 -> new id undefined
+2025-08-10 10:28:15.013 [warning] Persistent process "13": Process had no disconnect runners but was an orphan
+2025-08-10 10:28:15.013 [info] Persistent process reconnection "13"
+2025-08-10 10:28:15.196 [warning] Persistent process "6": Process had no disconnect runners but was an orphan
+2025-08-10 10:28:15.197 [info] Persistent process reconnection "6"
+2025-08-10 10:28:15.197 [warning] Persistent process "7": Process had no disconnect runners but was an orphan
+2025-08-10 10:28:15.197 [warning] Persistent process "8": Process had no disconnect runners but was an orphan
+2025-08-10 10:28:15.197 [warning] Persistent process "9": Process had no disconnect runners but was an orphan
+2025-08-10 10:28:15.197 [warning] Persistent process "10": Process had no disconnect runners but was an orphan
+2025-08-10 10:28:15.197 [warning] Persistent process "11": Process had no disconnect runners but was an orphan
+2025-08-10 10:28:15.197 [warning] Persistent process "12": Process had no disconnect runners but was an orphan
+2025-08-10 10:28:15.197 [info] Persistent process reconnection "7"
+2025-08-10 10:28:15.197 [info] Persistent process reconnection "8"
+2025-08-10 10:28:15.197 [info] Persistent process reconnection "9"
+2025-08-10 10:28:15.197 [info] Persistent process reconnection "10"
+2025-08-10 10:28:15.197 [info] Persistent process reconnection "11"
+2025-08-10 10:28:15.197 [info] Persistent process reconnection "12"
+2025-08-10 10:28:15.332 [info] Persistent process "13": Replaying 569 chars and 1 size events
+2025-08-10 10:28:15.367 [info] Persistent process "6": Replaying 226 chars and 1 size events
+2025-08-10 10:28:15.503 [info] Persistent process "7": Replaying 867 chars and 1 size events
+2025-08-10 10:28:15.508 [info] Persistent process "8": Replaying 207 chars and 1 size events
+2025-08-10 10:28:15.508 [info] Persistent process "9": Replaying 605 chars and 1 size events
+2025-08-10 10:28:15.508 [info] Persistent process "10": Replaying 529 chars and 1 size events
+2025-08-10 10:28:15.508 [info] Persistent process "11": Replaying 226 chars and 1 size events
+2025-08-10 10:28:15.508 [info] Persistent process "12": Replaying 577 chars and 1 size events
+2025-08-10 10:34:31.115 [info] Expanding terminal instance, old id 1cafd87f-6 -> new id undefined
+2025-08-10 10:34:31.115 [info] Expanding terminal instance, old id 1cafd87f-7 -> new id undefined
+2025-08-10 10:34:31.115 [info] Expanding terminal instance, old id 1cafd87f-8 -> new id undefined
+2025-08-10 10:34:31.115 [info] Expanding terminal instance, old id 1cafd87f-9 -> new id undefined
+2025-08-10 10:34:31.115 [info] Expanding terminal instance, old id 1cafd87f-10 -> new id undefined
+2025-08-10 10:34:33.754 [warning] Persistent process "10": Process had no disconnect runners but was an orphan
+2025-08-10 10:34:33.754 [info] Persistent process reconnection "10"
+2025-08-10 10:34:33.854 [warning] Persistent process "6": Process had no disconnect runners but was an orphan
+2025-08-10 10:34:33.854 [info] Persistent process reconnection "6"
+2025-08-10 10:34:33.855 [warning] Persistent process "7": Process had no disconnect runners but was an orphan
+2025-08-10 10:34:33.855 [warning] Persistent process "8": Process had no disconnect runners but was an orphan
+2025-08-10 10:34:33.855 [warning] Persistent process "9": Process had no disconnect runners but was an orphan
+2025-08-10 10:34:33.855 [info] Persistent process reconnection "7"
+2025-08-10 10:34:33.855 [info] Persistent process reconnection "8"
+2025-08-10 10:34:33.855 [info] Persistent process reconnection "9"
+2025-08-10 10:34:33.906 [info] Persistent process "10": Replaying 529 chars and 1 size events
+2025-08-10 10:34:33.975 [info] Persistent process "6": Replaying 226 chars and 1 size events
+2025-08-10 10:34:34.010 [info] Persistent process "7": Replaying 867 chars and 1 size events
+2025-08-10 10:34:34.011 [info] Persistent process "8": Replaying 207 chars and 1 size events
+2025-08-10 10:34:34.011 [info] Persistent process "9": Replaying 605 chars and 1 size events
+2025-08-10 10:35:01.197 [info] Expanding terminal instance, old id 1cafd87f-6 -> new id undefined
+2025-08-10 10:35:01.198 [info] Expanding terminal instance, old id 1cafd87f-7 -> new id undefined
+2025-08-10 10:35:01.198 [info] Expanding terminal instance, old id 1cafd87f-8 -> new id undefined
+2025-08-10 10:35:01.198 [info] Expanding terminal instance, old id 1cafd87f-9 -> new id undefined
+2025-08-10 10:35:03.021 [warning] Persistent process "9": Process had no disconnect runners but was an orphan
+2025-08-10 10:35:03.021 [info] Persistent process reconnection "9"
+2025-08-10 10:35:03.084 [warning] Persistent process "6": Process had no disconnect runners but was an orphan
+2025-08-10 10:35:03.084 [info] Persistent process reconnection "6"
+2025-08-10 10:35:03.084 [warning] Persistent process "7": Process had no disconnect runners but was an orphan
+2025-08-10 10:35:03.084 [warning] Persistent process "8": Process had no disconnect runners but was an orphan
+2025-08-10 10:35:03.084 [info] Persistent process reconnection "7"
+2025-08-10 10:35:03.084 [info] Persistent process reconnection "8"
+2025-08-10 10:35:03.187 [info] Persistent process "9": Replaying 605 chars and 1 size events
+2025-08-10 10:35:03.244 [info] Persistent process "6": Replaying 226 chars and 1 size events
+2025-08-10 10:35:03.245 [info] Persistent process "7": Replaying 867 chars and 1 size events
+2025-08-10 10:35:03.245 [info] Persistent process "8": Replaying 207 chars and 1 size events

@@ -1,0 +1,77 @@
+---
+// Import
+import Icon from "@components/ui/icons/Icon.astro"
+
+// Define props with TypeScript interface
+interface Props {
+  title?: string
+  url?: string
+  noArrow?: boolean
+  variant?: "primary" | "glass" | "white"
+  class?: string
+}
+
+const {
+  title,
+  url,
+  noArrow = false,
+  variant = "primary",
+  class: additionalClass = "",
+} = Astro.props
+
+// Base shared classes
+const baseClasses =
+  "group inline-flex items-center justify-center gap-x-2 rounded-lg px-4 py-2.5 text-sm font-bold " +
+  "transition duration-300 focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-zinc-500"
+
+const disableClasses = "disabled:pointer-events-none disabled:opacity-50"
+const responsiveClasses = "2xl:text-base"
+
+// Variant-specific classes (clean, valid Tailwind)
+const variantStyles = {
+  primary: [
+    "bg-primary text-white border-2 border-primary/40",
+    "hover:bg-primary-dark active:bg-primary-dark",
+    "focus-visible:ring-white/50",
+  ],
+  glass: [
+    "bg-white/10 backdrop-blur-sm text-white border border-white/50",
+    "hover:bg-white/20 hover:border-white/30 active:bg-white/30",
+    "focus-visible:ring-white/50",
+  ],
+  white: [
+    "bg-white text-primary border border-white/30",
+    "hover:bg-white/70 active:bg-white",
+    "focus-visible:ring-primary/50",
+  ],
+}
+
+// Get variant classes safely
+const variantClasses = variantStyles[variant] || variantStyles.primary
+
+// Combine all classes into a clean, deduplicated string
+const buttonClasses = [
+  baseClasses,
+  ...variantClasses,
+  disableClasses,
+  responsiveClasses,
+  additionalClass,
+]
+  .filter(Boolean)
+  .join(" ")
+  .trim()
+---
+
+<!-- Render anchor -->
+<a href={url} class={buttonClasses} role="button" aria-label={title}>
+  <span class="relative z-10">{title}</span>
+
+  {
+    noArrow ? null : (
+      <Icon
+        name="arrowRight"
+        class="relative z-10 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"
+      />
+    )
+  }
+</a>

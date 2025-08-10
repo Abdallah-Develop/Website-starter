@@ -1,0 +1,800 @@
+(VSCode) 2025-08-09 19:58:15.105 [INFO]: No proxy settings found
+(VSCode) 2025-08-09 19:58:17.262 [INFO]: Checking network connection...
+(VSCode) 2025-08-09 19:58:18.489 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz
+(VSCode) 2025-08-09 19:58:19.845 [INFO]: Creating manager directory: /tmp/d3cbd791-1883-47b1-8b6b-aa59ced5b7c8/codeium/manager
+(VSCode) 2025-08-09 19:58:20.163 [INFO]: Using cached LS with valid crc32: /workspace/.vscode-remote/extensions/codeium.codeium-1.48.2-universal/dist/e03af6ebc40b844314d448f947c80b636d093049/language_server_linux_x64
+(VSCode) 2025-08-09 19:58:20.171 [INFO]: Language server started
+2025/08/09 19:58:20 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0809 19:58:20.383165  4433 main.go:604] [Language Server Manager] Setting GOMAXPROCS to 4
+I0809 19:58:20.383253  4433 main.go:829] [Language Server Manager] Starting language server manager with pid 4433
+I0809 19:58:20.383357  4433 main.go:138] [Language Server Manager] Manager acquired its lock file /tmp/d3cbd791-1883-47b1-8b6b-aa59ced5b7c8/codeium/manager/locks/manager.lock
+I0809 19:58:20.384111  4433 main.go:283] [Language Server Manager] Waiting for random port file in /tmp/d3cbd791-1883-47b1-8b6b-aa59ced5b7c8/codeium/manager/child_random_port_1754769500383460614_8097991443750329681 to be created
+2025/08/09 19:58:20 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0809 19:58:20.589578  4454 main.go:604] Setting GOMAXPROCS to 4
+I0809 19:58:20.589751  4454 main.go:823] Starting language server process with pid 4454
+I0809 19:58:20.589790  4454 server.go:296] Language server will attempt to listen on host 127.0.0.1
+I0809 19:58:20.590278  4454 server.go:303] Language server listening on random port at 42231
+I0809 19:58:21.285267  4454 web_server.go:256] Chat Web Server listening at ws://127.0.0.1:46323
+I0809 19:58:21.524498  4454 server.go:955] Local search is enabled, will index local files.
+I0809 19:58:21.524526  4454 server.go:959] Using 4 indexer workers
+I0809 19:58:21.758640  4454 server.go:1196] Child process attempting to acquire lock file /tmp/d3cbd791-1883-47b1-8b6b-aa59ced5b7c8/codeium/manager/locks/child_lock_1754769500383502344_7259474555994577348
+I0809 19:58:21.758698  4454 server.go:1204] Child process acquired lock file /tmp/d3cbd791-1883-47b1-8b6b-aa59ced5b7c8/codeium/manager/locks/child_lock_1754769500383502344_7259474555994577348
+37375
+I0809 19:58:21.789991  4433 main.go:319] [Language Server Manager] Found random server port 42231
+I0809 19:58:21.790029  4433 main.go:320] [Language Server Manager] Found random lsp port 37375
+I0809 19:58:21.790057  4433 main.go:327] [Language Server Manager] Attempting to connect to language server at 127.0.0.1:42231
+I0809 19:58:21.802748  4433 main.go:192] [Language Server Manager] Fixing language server port at 42231
+I0809 19:58:21.802787  4433 main.go:381] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:42231
+(VSCode) 2025-08-09 19:58:21.875 [INFO]: Found language server running on port 42231
+Playwright Host validation warning: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo npx playwright install-deps                 ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libatk1.0-0\                ║
+║         libatk-bridge2.0-0\                          ║
+║         libcups2\                                    ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libxrandr2\                                  ║
+║         libgbm1\                                     ║
+║         libxkbcommon0\                               ║
+║         libatspi2.0-0                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/dependencies.js:216:9)
+    at async Registry._validateHostRequirements (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:865:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:963:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:952:43)
+    at async t.<anonymous> (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/cli/program.js:122:7)
+(VSCode) 2025-08-09 19:58:24.425 [INFO]: openAllTextDocuments took 1011.3938359999993ms
+(VSCode) 2025-08-09 19:58:46.127 [INFO]: Completion request succeeded (464.01ms)
+(VSCode) 2025-08-09 19:58:46.129 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:58:46.131 [INFO]: provideInlineCompletionItems request succeeded (470.35ms)
+(VSCode) 2025-08-09 19:58:46.688 [INFO]: Completion request succeeded (5.65ms)
+(VSCode) 2025-08-09 19:58:46.689 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:58:46.690 [INFO]: provideInlineCompletionItems request succeeded (8.17ms)
+(VSCode) 2025-08-09 19:58:50.229 [INFO]: Completion request succeeded (577.65ms)
+(VSCode) 2025-08-09 19:58:50.230 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:58:50.231 [INFO]: provideInlineCompletionItems request succeeded (580.39ms)
+(VSCode) 2025-08-09 19:58:51.035 [INFO]: Completion request succeeded (6.78ms)
+(VSCode) 2025-08-09 19:58:51.036 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:58:51.037 [INFO]: provideInlineCompletionItems request succeeded (9.42ms)
+(VSCode) 2025-08-09 19:58:51.839 [INFO]: Completion request succeeded (364.85ms)
+(VSCode) 2025-08-09 19:58:51.841 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:58:51.841 [INFO]: provideInlineCompletionItems request succeeded (367.45ms)
+(VSCode) 2025-08-09 19:58:53.755 [INFO]: Completion request was cancelled by token (244.11ms)
+(VSCode) 2025-08-09 19:58:54.488 [INFO]: Completion request succeeded (689.19ms)
+(VSCode) 2025-08-09 19:58:54.489 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 19:58:54.491 [INFO]: provideInlineCompletionItems request succeeded (692.21ms)
+(VSCode) 2025-08-09 19:58:56.144 [INFO]: Completion request succeeded (389.06ms)
+(VSCode) 2025-08-09 19:58:56.145 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:58:56.146 [INFO]: provideInlineCompletionItems request succeeded (391.15ms)
+(VSCode) 2025-08-09 19:58:57.612 [INFO]: Completion request succeeded (4.35ms)
+(VSCode) 2025-08-09 19:58:57.613 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 19:58:57.614 [INFO]: provideInlineCompletionItems request succeeded (6.57ms)
+(VSCode) 2025-08-09 19:58:58.707 [INFO]: Completion request succeeded (4.82ms)
+(VSCode) 2025-08-09 19:58:58.707 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 19:58:58.708 [INFO]: provideInlineCompletionItems request succeeded (7.14ms)
+(VSCode) 2025-08-09 19:58:59.210 [INFO]: Completion request succeeded (4.54ms)
+(VSCode) 2025-08-09 19:58:59.211 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:58:59.211 [INFO]: provideInlineCompletionItems request succeeded (6.48ms)
+(VSCode) 2025-08-09 19:59:00.541 [INFO]: Completion request succeeded (637.76ms)
+(VSCode) 2025-08-09 19:59:00.541 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:59:00.542 [INFO]: provideInlineCompletionItems request succeeded (639.51ms)
+(VSCode) 2025-08-09 19:59:01.546 [INFO]: Completion request succeeded (703.83ms)
+(VSCode) 2025-08-09 19:59:01.547 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:59:01.548 [INFO]: provideInlineCompletionItems request succeeded (705.87ms)
+(VSCode) 2025-08-09 19:59:02.504 [INFO]: Completion request succeeded (4.24ms)
+(VSCode) 2025-08-09 19:59:02.505 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:59:02.506 [INFO]: provideInlineCompletionItems request succeeded (6.28ms)
+(VSCode) 2025-08-09 19:59:10.921 [INFO]: Completion request succeeded (680.88ms)
+(VSCode) 2025-08-09 19:59:10.922 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:59:10.922 [INFO]: provideInlineCompletionItems request succeeded (682.78ms)
+(VSCode) 2025-08-09 19:59:11.524 [INFO]: Completion request succeeded (3.75ms)
+(VSCode) 2025-08-09 19:59:11.525 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:59:11.525 [INFO]: provideInlineCompletionItems request succeeded (5.37ms)
+(VSCode) 2025-08-09 19:59:11.777 [INFO]: Completion request succeeded (4.35ms)
+(VSCode) 2025-08-09 19:59:11.778 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 19:59:11.778 [INFO]: provideInlineCompletionItems request succeeded (5.99ms)
+(VSCode) 2025-08-09 19:59:16.460 [INFO]: Completion request was cancelled by token (312.01ms)
+(VSCode) 2025-08-09 19:59:16.949 [INFO]: Completion request was cancelled by token (468.83ms)
+(VSCode) 2025-08-09 19:59:17.336 [INFO]: Completion request succeeded (359.35ms)
+(VSCode) 2025-08-09 19:59:17.337 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:59:17.338 [INFO]: provideInlineCompletionItems request succeeded (361.28ms)
+(VSCode) 2025-08-09 19:59:17.928 [INFO]: Completion request succeeded (376.68ms)
+(VSCode) 2025-08-09 19:59:17.929 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:59:17.929 [INFO]: provideInlineCompletionItems request succeeded (378.52ms)
+(VSCode) 2025-08-09 19:59:19.065 [INFO]: Completion request succeeded (3.6ms)
+(VSCode) 2025-08-09 19:59:19.066 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:59:19.066 [INFO]: provideInlineCompletionItems request succeeded (5.29ms)
+(VSCode) 2025-08-09 19:59:20.606 [INFO]: Completion request succeeded (645.76ms)
+(VSCode) 2025-08-09 19:59:20.607 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:59:20.607 [INFO]: provideInlineCompletionItems request succeeded (647.79ms)
+(VSCode) 2025-08-09 19:59:27.129 [INFO]: Completion request was cancelled by token (229.22ms)
+(VSCode) 2025-08-09 19:59:27.563 [INFO]: Completion request was cancelled by token (398.96ms)
+(VSCode) 2025-08-09 19:59:28.097 [INFO]: Completion request was cancelled by token (451.58ms)
+(VSCode) 2025-08-09 19:59:28.376 [INFO]: Completion request was cancelled by token (244.1ms)
+(VSCode) 2025-08-09 19:59:28.574 [INFO]: Completion request was cancelled by token (168.8ms)
+(VSCode) 2025-08-09 19:59:29.020 [INFO]: Completion request was cancelled by token (414.12ms)
+(VSCode) 2025-08-09 19:59:29.474 [INFO]: Completion request succeeded (416.17ms)
+(VSCode) 2025-08-09 19:59:29.475 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:59:29.475 [INFO]: provideInlineCompletionItems request succeeded (417.94ms)
+(VSCode) 2025-08-09 19:59:30.444 [INFO]: Completion request succeeded (4.81ms)
+(VSCode) 2025-08-09 19:59:30.444 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:59:30.445 [INFO]: provideInlineCompletionItems request succeeded (7.15ms)
+(VSCode) 2025-08-09 19:59:32.929 [INFO]: Completion request succeeded (4.36ms)
+(VSCode) 2025-08-09 19:59:32.929 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:59:32.930 [INFO]: provideInlineCompletionItems request succeeded (6.3ms)
+(VSCode) 2025-08-09 19:59:54.084 [INFO]: Completion request succeeded (400.37ms)
+(VSCode) 2025-08-09 19:59:54.085 [INFO]: No completions were generated
+(VSCode) 2025-08-09 19:59:54.085 [INFO]: provideInlineCompletionItems request succeeded (401.87ms)
+(VSCode) 2025-08-09 19:59:57.834 [INFO]: Completion request succeeded (722.66ms)
+(VSCode) 2025-08-09 19:59:57.835 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 19:59:57.835 [INFO]: provideInlineCompletionItems request succeeded (724.38ms)
+(VSCode) 2025-08-09 20:00:01.913 [INFO]: Completion request succeeded (653.63ms)
+(VSCode) 2025-08-09 20:00:01.914 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:00:01.914 [INFO]: provideInlineCompletionItems request succeeded (655.42ms)
+(VSCode) 2025-08-09 20:00:03.925 [INFO]: Completion request succeeded (4.06ms)
+(VSCode) 2025-08-09 20:00:03.926 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:00:03.927 [INFO]: provideInlineCompletionItems request succeeded (6.31ms)
+(VSCode) 2025-08-09 20:00:22.075 [INFO]: Completion request succeeded (3.76ms)
+(VSCode) 2025-08-09 20:00:22.075 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:00:22.075 [INFO]: provideInlineCompletionItems request succeeded (5.26ms)
+(VSCode) 2025-08-09 20:00:22.420 [INFO]: Completion request succeeded (3.68ms)
+(VSCode) 2025-08-09 20:00:22.420 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:00:22.421 [INFO]: provideInlineCompletionItems request succeeded (5.04ms)
+(VSCode) 2025-08-09 20:00:22.930 [INFO]: Completion request succeeded (3.82ms)
+(VSCode) 2025-08-09 20:00:22.930 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:00:22.930 [INFO]: provideInlineCompletionItems request succeeded (5.41ms)
+(VSCode) 2025-08-09 20:00:23.308 [INFO]: Completion request was cancelled by token (2.23ms)
+(VSCode) 2025-08-09 20:00:23.441 [INFO]: Completion request succeeded (3.55ms)
+(VSCode) 2025-08-09 20:00:23.442 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:00:23.442 [INFO]: provideInlineCompletionItems request succeeded (4.94ms)
+(VSCode) 2025-08-09 20:00:23.569 [INFO]: Completion request succeeded (3.34ms)
+(VSCode) 2025-08-09 20:00:23.569 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:00:23.570 [INFO]: provideInlineCompletionItems request succeeded (4.6ms)
+(VSCode) 2025-08-09 20:00:26.072 [INFO]: Completion request succeeded (4.09ms)
+(VSCode) 2025-08-09 20:00:26.072 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:00:26.072 [INFO]: provideInlineCompletionItems request succeeded (5.36ms)
+(VSCode) 2025-08-09 20:00:29.823 [INFO]: Completion request was cancelled by token (309.55ms)
+(VSCode) 2025-08-09 20:00:30.356 [INFO]: Completion request succeeded (496.57ms)
+(VSCode) 2025-08-09 20:00:30.357 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:00:30.357 [INFO]: provideInlineCompletionItems request succeeded (498.22ms)
+(VSCode) 2025-08-09 20:00:30.856 [INFO]: Completion request was cancelled by token (70.26ms)
+(VSCode) 2025-08-09 20:00:31.293 [INFO]: Completion request succeeded (407.98ms)
+(VSCode) 2025-08-09 20:00:31.294 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:00:31.294 [INFO]: provideInlineCompletionItems request succeeded (409.66ms)
+(VSCode) 2025-08-09 20:00:32.258 [INFO]: Completion request succeeded (412.08ms)
+(VSCode) 2025-08-09 20:00:32.259 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:00:32.260 [INFO]: provideInlineCompletionItems request succeeded (413.8ms)
+(VSCode) 2025-08-09 20:00:32.928 [INFO]: Completion request succeeded (4.6ms)
+(VSCode) 2025-08-09 20:00:32.929 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:00:32.930 [INFO]: provideInlineCompletionItems request succeeded (6.97ms)
+(VSCode) 2025-08-09 20:00:33.980 [INFO]: Completion request succeeded (4.14ms)
+(VSCode) 2025-08-09 20:00:33.980 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:00:33.981 [INFO]: provideInlineCompletionItems request succeeded (5.8ms)
+(VSCode) 2025-08-09 20:00:35.004 [INFO]: Completion request succeeded (3.75ms)
+(VSCode) 2025-08-09 20:00:35.004 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:00:35.005 [INFO]: provideInlineCompletionItems request succeeded (5.59ms)
+(VSCode) 2025-08-09 20:00:35.434 [INFO]: Completion request succeeded (3.96ms)
+(VSCode) 2025-08-09 20:00:35.434 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:00:35.435 [INFO]: provideInlineCompletionItems request succeeded (5.87ms)
+(VSCode) 2025-08-09 20:00:35.973 [INFO]: Completion request succeeded (6.39ms)
+(VSCode) 2025-08-09 20:00:35.974 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:00:35.974 [INFO]: provideInlineCompletionItems request succeeded (8.14ms)
+(VSCode) 2025-08-09 20:00:37.966 [INFO]: Completion request succeeded (4.1ms)
+(VSCode) 2025-08-09 20:00:37.966 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:00:37.967 [INFO]: provideInlineCompletionItems request succeeded (5.67ms)
+(VSCode) 2025-08-09 20:00:40.241 [INFO]: Completion request succeeded (4.82ms)
+(VSCode) 2025-08-09 20:00:40.241 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:00:40.242 [INFO]: provideInlineCompletionItems request succeeded (6.98ms)
+(VSCode) 2025-08-09 20:00:41.118 [INFO]: Completion request succeeded (3.68ms)
+(VSCode) 2025-08-09 20:00:41.118 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:00:41.119 [INFO]: provideInlineCompletionItems request succeeded (5.48ms)
+(VSCode) 2025-08-09 20:00:41.643 [INFO]: Completion request succeeded (3.64ms)
+(VSCode) 2025-08-09 20:00:41.643 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:00:41.644 [INFO]: provideInlineCompletionItems request succeeded (5.19ms)
+(VSCode) 2025-08-09 20:00:43.343 [INFO]: Completion request succeeded (649.69ms)
+(VSCode) 2025-08-09 20:00:43.343 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:00:43.344 [INFO]: provideInlineCompletionItems request succeeded (651.64ms)
+(VSCode) 2025-08-09 20:00:50.932 [INFO]: Completion request succeeded (642ms)
+(VSCode) 2025-08-09 20:00:50.933 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:00:50.933 [INFO]: provideInlineCompletionItems request succeeded (643.62ms)
+(VSCode) 2025-08-09 20:00:53.516 [INFO]: Completion request was cancelled by token (308.55ms)
+(VSCode) 2025-08-09 20:00:54.006 [INFO]: Completion request succeeded (372.9ms)
+(VSCode) 2025-08-09 20:00:54.007 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:00:54.007 [INFO]: provideInlineCompletionItems request succeeded (374.43ms)
+(VSCode) 2025-08-09 20:00:54.511 [INFO]: Completion request succeeded (371.52ms)
+(VSCode) 2025-08-09 20:00:54.512 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:00:54.512 [INFO]: provideInlineCompletionItems request succeeded (373.14ms)
+(VSCode) 2025-08-09 20:00:58.591 [INFO]: Completion request was cancelled by token (411.35ms)
+(VSCode) 2025-08-09 20:01:04.010 [INFO]: Completion request succeeded (553.54ms)
+(VSCode) 2025-08-09 20:01:04.011 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:01:04.012 [INFO]: provideInlineCompletionItems request succeeded (556.07ms)
+(VSCode) 2025-08-09 20:01:06.347 [INFO]: Completion request succeeded (827.01ms)
+(VSCode) 2025-08-09 20:01:06.348 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:01:06.349 [INFO]: provideInlineCompletionItems request succeeded (828.98ms)
+(VSCode) 2025-08-09 20:01:14.347 [INFO]: Completion request succeeded (643.33ms)
+(VSCode) 2025-08-09 20:01:14.348 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:01:14.348 [INFO]: provideInlineCompletionItems request succeeded (644.89ms)
+(VSCode) 2025-08-09 20:01:20.188 [INFO]: Completion request succeeded (366.81ms)
+(VSCode) 2025-08-09 20:01:20.189 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:01:20.189 [INFO]: provideInlineCompletionItems request succeeded (368.25ms)
+(VSCode) 2025-08-09 20:01:22.324 [INFO]: Completion request succeeded (371.32ms)
+(VSCode) 2025-08-09 20:01:22.324 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:01:22.324 [INFO]: provideInlineCompletionItems request succeeded (372.7ms)
+(VSCode) 2025-08-09 20:01:25.092 [INFO]: Completion request was cancelled by token (363.14ms)
+(VSCode) 2025-08-09 20:01:25.174 [INFO]: Completion request was cancelled by token (54.49ms)
+(VSCode) 2025-08-09 20:01:25.228 [INFO]: Completion request was cancelled by token (30.05ms)
+(VSCode) 2025-08-09 20:01:25.324 [INFO]: Completion request was cancelled by token (48.85ms)
+(VSCode) 2025-08-09 20:01:25.402 [INFO]: Completion request was cancelled by token (45ms)
+(VSCode) 2025-08-09 20:01:25.481 [INFO]: Completion request was cancelled by token (49.07ms)
+(VSCode) 2025-08-09 20:01:25.928 [INFO]: Completion request succeeded (403.18ms)
+(VSCode) 2025-08-09 20:01:25.928 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:01:25.929 [INFO]: provideInlineCompletionItems request succeeded (404.65ms)
+(VSCode) 2025-08-09 20:01:26.589 [INFO]: Completion request was cancelled by token (363.4ms)
+(VSCode) 2025-08-09 20:01:26.669 [INFO]: Completion request was cancelled by token (47.99ms)
+(VSCode) 2025-08-09 20:01:26.724 [INFO]: Completion request was cancelled by token (20.61ms)
+(VSCode) 2025-08-09 20:01:26.834 [INFO]: Completion request was cancelled by token (59.71ms)
+(VSCode) 2025-08-09 20:01:27.004 [INFO]: Completion request was cancelled by token (120.84ms)
+(VSCode) 2025-08-09 20:01:27.203 [INFO]: Completion request was cancelled by token (168.23ms)
+(VSCode) 2025-08-09 20:01:27.319 [INFO]: Completion request was cancelled by token (114.31ms)
+(VSCode) 2025-08-09 20:01:27.413 [INFO]: Completion request was cancelled by token (77.83ms)
+(VSCode) 2025-08-09 20:01:27.584 [INFO]: Completion request was cancelled by token (124.31ms)
+(VSCode) 2025-08-09 20:01:27.759 [INFO]: Completion request was cancelled by token (142.6ms)
+(VSCode) 2025-08-09 20:01:28.045 [INFO]: Completion request was cancelled by token (274.29ms)
+(VSCode) 2025-08-09 20:01:28.198 [INFO]: Completion request was cancelled by token (118.46ms)
+(VSCode) 2025-08-09 20:01:28.436 [INFO]: Completion request was cancelled by token (209.52ms)
+(VSCode) 2025-08-09 20:01:28.684 [INFO]: Completion request was cancelled by token (150.85ms)
+(VSCode) 2025-08-09 20:01:29.349 [INFO]: Completion request succeeded (614.05ms)
+(VSCode) 2025-08-09 20:01:29.350 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:01:29.350 [INFO]: provideInlineCompletionItems request succeeded (615.89ms)
+(VSCode) 2025-08-09 20:01:29.637 [INFO]: Completion request succeeded (5.89ms)
+(VSCode) 2025-08-09 20:01:29.637 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:01:29.638 [INFO]: provideInlineCompletionItems request succeeded (7.2ms)
+(VSCode) 2025-08-09 20:01:30.739 [INFO]: Completion request succeeded (651.37ms)
+(VSCode) 2025-08-09 20:01:30.740 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:01:30.740 [INFO]: provideInlineCompletionItems request succeeded (652.71ms)
+(VSCode) 2025-08-09 20:01:47.618 [INFO]: Completion request succeeded (653.38ms)
+(VSCode) 2025-08-09 20:01:47.620 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:01:47.620 [INFO]: provideInlineCompletionItems request succeeded (656.11ms)
+(VSCode) 2025-08-09 20:01:48.331 [INFO]: Completion request succeeded (654.42ms)
+(VSCode) 2025-08-09 20:01:48.332 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:01:48.332 [INFO]: provideInlineCompletionItems request succeeded (655.83ms)
+(VSCode) 2025-08-09 20:01:56.865 [INFO]: Completion request was cancelled by token (375.66ms)
+(VSCode) 2025-08-09 20:01:56.933 [INFO]: Completion request was cancelled by token (32.97ms)
+(VSCode) 2025-08-09 20:01:56.992 [INFO]: Completion request was cancelled by token (19.63ms)
+(VSCode) 2025-08-09 20:01:57.089 [INFO]: Completion request was cancelled by token (50.2ms)
+(VSCode) 2025-08-09 20:01:57.505 [INFO]: Completion request succeeded (371.1ms)
+(VSCode) 2025-08-09 20:01:57.506 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:01:57.507 [INFO]: provideInlineCompletionItems request succeeded (372.95ms)
+(VSCode) 2025-08-09 20:01:58.462 [INFO]: Completion request succeeded (371.69ms)
+(VSCode) 2025-08-09 20:01:58.463 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:01:58.463 [INFO]: provideInlineCompletionItems request succeeded (373.5ms)
+(VSCode) 2025-08-09 20:01:59.606 [INFO]: Completion request succeeded (651.52ms)
+(VSCode) 2025-08-09 20:01:59.607 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:01:59.607 [INFO]: provideInlineCompletionItems request succeeded (653.22ms)
+(VSCode) 2025-08-09 20:02:01.899 [INFO]: Completion request succeeded (4.07ms)
+(VSCode) 2025-08-09 20:02:01.900 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:02:01.900 [INFO]: provideInlineCompletionItems request succeeded (5.24ms)
+(VSCode) 2025-08-09 20:02:02.270 [INFO]: Completion request succeeded (3.79ms)
+(VSCode) 2025-08-09 20:02:02.270 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:02:02.270 [INFO]: provideInlineCompletionItems request succeeded (5.05ms)
+(VSCode) 2025-08-09 20:02:04.824 [INFO]: Completion request succeeded (4.66ms)
+(VSCode) 2025-08-09 20:02:04.825 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:02:04.825 [INFO]: provideInlineCompletionItems request succeeded (5.94ms)
+(VSCode) 2025-08-09 20:02:05.810 [INFO]: Completion request succeeded (656.89ms)
+(VSCode) 2025-08-09 20:02:05.810 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:02:05.811 [INFO]: provideInlineCompletionItems request succeeded (658.87ms)
+(VSCode) 2025-08-09 20:02:07.152 [INFO]: Completion request succeeded (650.38ms)
+(VSCode) 2025-08-09 20:02:07.153 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:02:07.154 [INFO]: provideInlineCompletionItems request succeeded (652.98ms)
+(VSCode) 2025-08-09 20:02:08.731 [INFO]: Completion request succeeded (4.35ms)
+(VSCode) 2025-08-09 20:02:08.732 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:02:08.734 [INFO]: provideInlineCompletionItems request succeeded (7.99ms)
+(VSCode) 2025-08-09 20:02:08.886 [INFO]: Completion request succeeded (3.52ms)
+(VSCode) 2025-08-09 20:02:08.887 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:02:08.887 [INFO]: provideInlineCompletionItems request succeeded (4.75ms)
+(VSCode) 2025-08-09 20:02:10.543 [INFO]: Completion request succeeded (638ms)
+(VSCode) 2025-08-09 20:02:10.543 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:02:10.544 [INFO]: provideInlineCompletionItems request succeeded (640.06ms)
+(VSCode) 2025-08-09 20:02:32.759 [INFO]: Completion request was cancelled by token (302.8ms)
+(VSCode) 2025-08-09 20:02:33.292 [INFO]: Completion request succeeded (509.49ms)
+(VSCode) 2025-08-09 20:02:33.294 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:02:33.295 [INFO]: provideInlineCompletionItems request succeeded (512.77ms)
+(VSCode) 2025-08-09 20:02:33.750 [INFO]: Completion request succeeded (4.49ms)
+(VSCode) 2025-08-09 20:02:33.750 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:02:33.751 [INFO]: provideInlineCompletionItems request succeeded (6.38ms)
+(VSCode) 2025-08-09 20:02:34.437 [INFO]: Completion request succeeded (4.05ms)
+(VSCode) 2025-08-09 20:02:34.438 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:02:34.439 [INFO]: provideInlineCompletionItems request succeeded (5.7ms)
+(VSCode) 2025-08-09 20:02:35.026 [INFO]: Completion request succeeded (3.98ms)
+(VSCode) 2025-08-09 20:02:35.027 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:02:35.027 [INFO]: provideInlineCompletionItems request succeeded (5.63ms)
+(VSCode) 2025-08-09 20:02:35.785 [INFO]: Completion request succeeded (348.88ms)
+(VSCode) 2025-08-09 20:02:35.786 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:02:35.786 [INFO]: provideInlineCompletionItems request succeeded (350.4ms)
+(VSCode) 2025-08-09 20:03:55.563 [INFO]: Completion request was cancelled by token (403.49ms)
+(VSCode) 2025-08-09 20:03:55.588 [INFO]: Completion request succeeded (3.68ms)
+(VSCode) 2025-08-09 20:03:55.589 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:03:55.589 [INFO]: provideInlineCompletionItems request succeeded (5.24ms)
+(VSCode) 2025-08-09 20:03:57.163 [INFO]: Completion request was cancelled by token (37.28ms)
+(VSCode) 2025-08-09 20:03:57.558 [INFO]: Completion request was cancelled by token (322.91ms)
+(VSCode) 2025-08-09 20:03:58.241 [INFO]: Completion request succeeded (655.91ms)
+(VSCode) 2025-08-09 20:03:58.241 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:03:58.242 [INFO]: provideInlineCompletionItems request succeeded (657.62ms)
+(VSCode) 2025-08-09 20:03:59.286 [INFO]: Completion request succeeded (407.38ms)
+(VSCode) 2025-08-09 20:03:59.287 [INFO]: Generated 4 completions
+(VSCode) 2025-08-09 20:03:59.288 [INFO]: provideInlineCompletionItems request succeeded (410.56ms)
+(VSCode) 2025-08-09 20:04:00.615 [INFO]: Completion request succeeded (4.14ms)
+(VSCode) 2025-08-09 20:04:00.615 [INFO]: Generated 4 completions
+(VSCode) 2025-08-09 20:04:00.616 [INFO]: provideInlineCompletionItems request succeeded (6.15ms)
+(VSCode) 2025-08-09 20:04:01.249 [INFO]: Completion request was cancelled by token (462.01ms)
+(VSCode) 2025-08-09 20:04:01.886 [INFO]: Completion request succeeded (592.49ms)
+(VSCode) 2025-08-09 20:04:01.886 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:04:01.887 [INFO]: provideInlineCompletionItems request succeeded (594.56ms)
+(VSCode) 2025-08-09 20:04:02.084 [INFO]: Completion request was cancelled by token (176.55ms)
+(VSCode) 2025-08-09 20:04:02.102 [INFO]: Completion request succeeded (4.19ms)
+(VSCode) 2025-08-09 20:04:02.103 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:04:02.103 [INFO]: provideInlineCompletionItems request succeeded (5.73ms)
+(VSCode) 2025-08-09 20:04:04.949 [INFO]: Completion request succeeded (385.09ms)
+(VSCode) 2025-08-09 20:04:04.950 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:04:04.951 [INFO]: provideInlineCompletionItems request succeeded (386.77ms)
+(VSCode) 2025-08-09 20:04:05.676 [INFO]: Completion request succeeded (3.65ms)
+(VSCode) 2025-08-09 20:04:05.677 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:04:05.677 [INFO]: provideInlineCompletionItems request succeeded (5.12ms)
+(VSCode) 2025-08-09 20:04:07.087 [INFO]: Completion request succeeded (356.05ms)
+(VSCode) 2025-08-09 20:04:07.088 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:04:07.088 [INFO]: provideInlineCompletionItems request succeeded (357.93ms)
+(VSCode) 2025-08-09 20:04:24.322 [INFO]: Completion request succeeded (380.28ms)
+(VSCode) 2025-08-09 20:04:24.323 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:04:24.323 [INFO]: provideInlineCompletionItems request succeeded (382.54ms)
+(VSCode) 2025-08-09 20:04:27.965 [INFO]: Completion request succeeded (646.23ms)
+(VSCode) 2025-08-09 20:04:27.966 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:04:27.966 [INFO]: provideInlineCompletionItems request succeeded (648.29ms)
+(VSCode) 2025-08-09 20:04:32.191 [INFO]: Completion request was cancelled by token (458.68ms)
+(VSCode) 2025-08-09 20:04:32.862 [INFO]: Completion request succeeded (642.95ms)
+(VSCode) 2025-08-09 20:04:32.863 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:04:32.863 [INFO]: provideInlineCompletionItems request succeeded (644.31ms)
+(VSCode) 2025-08-09 20:05:27.217 [INFO]: Completion request succeeded (367.63ms)
+(VSCode) 2025-08-09 20:05:27.218 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:05:27.218 [INFO]: provideInlineCompletionItems request succeeded (369.7ms)
+(VSCode) 2025-08-09 20:05:27.993 [INFO]: Completion request succeeded (670.42ms)
+(VSCode) 2025-08-09 20:05:27.994 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:05:27.995 [INFO]: provideInlineCompletionItems request succeeded (672.25ms)
+(VSCode) 2025-08-09 20:05:29.539 [INFO]: Completion request succeeded (666.42ms)
+(VSCode) 2025-08-09 20:05:29.540 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:05:29.541 [INFO]: provideInlineCompletionItems request succeeded (668.37ms)
+(VSCode) 2025-08-09 20:05:31.535 [INFO]: Completion request succeeded (4.04ms)
+(VSCode) 2025-08-09 20:05:31.536 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:05:31.536 [INFO]: provideInlineCompletionItems request succeeded (5.93ms)
+(VSCode) 2025-08-09 20:05:34.640 [INFO]: Completion request succeeded (3.67ms)
+(VSCode) 2025-08-09 20:05:34.641 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:05:34.641 [INFO]: provideInlineCompletionItems request succeeded (5.06ms)
+(VSCode) 2025-08-09 20:05:35.452 [INFO]: Completion request succeeded (648.62ms)
+(VSCode) 2025-08-09 20:05:35.453 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:05:35.453 [INFO]: provideInlineCompletionItems request succeeded (649.94ms)
+(VSCode) 2025-08-09 20:05:38.199 [INFO]: Completion request was cancelled by token (486.99ms)
+(VSCode) 2025-08-09 20:05:38.888 [INFO]: Completion request succeeded (644.54ms)
+(VSCode) 2025-08-09 20:05:38.889 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:05:38.889 [INFO]: provideInlineCompletionItems request succeeded (646.2ms)
+(VSCode) 2025-08-09 20:05:40.564 [INFO]: Completion request succeeded (462.82ms)
+(VSCode) 2025-08-09 20:05:40.566 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:05:40.566 [INFO]: provideInlineCompletionItems request succeeded (465.63ms)
+(VSCode) 2025-08-09 20:05:41.886 [INFO]: Completion request succeeded (649.2ms)
+(VSCode) 2025-08-09 20:05:41.887 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:05:41.887 [INFO]: provideInlineCompletionItems request succeeded (650.86ms)
+(VSCode) 2025-08-09 20:06:21.375 [INFO]: Completion request succeeded (441.49ms)
+(VSCode) 2025-08-09 20:06:21.377 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:06:21.377 [INFO]: provideInlineCompletionItems request succeeded (443.54ms)
+(VSCode) 2025-08-09 20:06:24.113 [INFO]: Completion request was cancelled by token (343.19ms)
+(VSCode) 2025-08-09 20:06:24.188 [INFO]: Completion request was cancelled by token (51.44ms)
+(VSCode) 2025-08-09 20:06:24.571 [INFO]: Completion request succeeded (347.02ms)
+(VSCode) 2025-08-09 20:06:24.571 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:06:24.571 [INFO]: provideInlineCompletionItems request succeeded (348.21ms)
+(VSCode) 2025-08-09 20:06:25.536 [INFO]: Completion request succeeded (340.47ms)
+(VSCode) 2025-08-09 20:06:25.537 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:06:25.537 [INFO]: provideInlineCompletionItems request succeeded (341.65ms)
+(VSCode) 2025-08-09 20:06:26.771 [INFO]: Completion request was cancelled by token (317.96ms)
+(VSCode) 2025-08-09 20:06:26.846 [INFO]: Completion request was cancelled by token (32.99ms)
+(VSCode) 2025-08-09 20:06:27.247 [INFO]: Completion request succeeded (360.1ms)
+(VSCode) 2025-08-09 20:06:27.247 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:06:27.247 [INFO]: provideInlineCompletionItems request succeeded (361.47ms)
+(VSCode) 2025-08-09 20:06:27.648 [INFO]: Completion request succeeded (347.94ms)
+(VSCode) 2025-08-09 20:06:27.649 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:06:27.649 [INFO]: provideInlineCompletionItems request succeeded (349.24ms)
+(VSCode) 2025-08-09 20:06:30.399 [INFO]: Completion request succeeded (637.62ms)
+(VSCode) 2025-08-09 20:06:30.400 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:06:30.400 [INFO]: provideInlineCompletionItems request succeeded (639.09ms)
+(VSCode) 2025-08-09 20:06:35.877 [INFO]: Completion request succeeded (354.48ms)
+(VSCode) 2025-08-09 20:06:35.877 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:06:35.878 [INFO]: provideInlineCompletionItems request succeeded (355.93ms)
+(VSCode) 2025-08-09 20:06:46.742 [INFO]: Completion request was cancelled by token (82.48ms)
+(VSCode) 2025-08-09 20:06:46.833 [INFO]: Completion request was cancelled by token (76.83ms)
+(VSCode) 2025-08-09 20:06:47.247 [INFO]: Completion request succeeded (375.28ms)
+(VSCode) 2025-08-09 20:06:47.248 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:06:47.248 [INFO]: provideInlineCompletionItems request succeeded (376.54ms)
+(VSCode) 2025-08-09 20:06:48.771 [INFO]: Completion request succeeded (377.71ms)
+(VSCode) 2025-08-09 20:06:48.772 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:06:48.772 [INFO]: provideInlineCompletionItems request succeeded (378.99ms)
+(VSCode) 2025-08-09 20:06:55.256 [INFO]: Completion request succeeded (349.85ms)
+(VSCode) 2025-08-09 20:06:55.257 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:06:55.257 [INFO]: provideInlineCompletionItems request succeeded (351.37ms)
+(VSCode) 2025-08-09 20:07:27.871 [INFO]: Completion request was cancelled by token (151.24ms)
+(VSCode) 2025-08-09 20:07:28.215 [INFO]: Completion request was cancelled by token (306.34ms)
+(VSCode) 2025-08-09 20:07:28.728 [INFO]: Completion request succeeded (488.75ms)
+(VSCode) 2025-08-09 20:07:28.730 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:07:28.730 [INFO]: provideInlineCompletionItems request succeeded (491.34ms)
+(VSCode) 2025-08-09 20:07:30.982 [INFO]: Completion request succeeded (350.92ms)
+(VSCode) 2025-08-09 20:07:30.984 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:07:30.984 [INFO]: provideInlineCompletionItems request succeeded (353.15ms)
+(VSCode) 2025-08-09 20:07:31.722 [INFO]: Completion request succeeded (349.49ms)
+(VSCode) 2025-08-09 20:07:31.723 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:07:31.723 [INFO]: provideInlineCompletionItems request succeeded (350.89ms)
+(VSCode) 2025-08-09 20:07:38.904 [INFO]: Completion request succeeded (635.83ms)
+(VSCode) 2025-08-09 20:07:38.905 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:07:38.905 [INFO]: provideInlineCompletionItems request succeeded (637.18ms)
+(VSCode) 2025-08-09 20:07:40.722 [INFO]: Completion request succeeded (655.06ms)
+(VSCode) 2025-08-09 20:07:40.723 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:07:40.723 [INFO]: provideInlineCompletionItems request succeeded (656.47ms)
+(VSCode) 2025-08-09 20:07:43.007 [INFO]: Completion request succeeded (656.59ms)
+(VSCode) 2025-08-09 20:07:43.007 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:07:43.008 [INFO]: provideInlineCompletionItems request succeeded (657.98ms)
+(VSCode) 2025-08-09 20:07:44.958 [INFO]: Completion request succeeded (640.9ms)
+(VSCode) 2025-08-09 20:07:44.959 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:07:44.960 [INFO]: provideInlineCompletionItems request succeeded (642.46ms)
+(VSCode) 2025-08-09 20:07:51.497 [INFO]: Completion request succeeded (358.52ms)
+(VSCode) 2025-08-09 20:07:51.498 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:07:51.498 [INFO]: provideInlineCompletionItems request succeeded (359.97ms)
+(VSCode) 2025-08-09 20:07:54.542 [INFO]: Completion request succeeded (367.88ms)
+(VSCode) 2025-08-09 20:07:54.543 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:07:54.543 [INFO]: provideInlineCompletionItems request succeeded (369.26ms)
+(VSCode) 2025-08-09 20:07:55.517 [INFO]: Completion request succeeded (716.01ms)
+(VSCode) 2025-08-09 20:07:55.518 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:07:55.519 [INFO]: provideInlineCompletionItems request succeeded (717.55ms)
+(VSCode) 2025-08-09 20:07:56.175 [INFO]: Completion request succeeded (3.97ms)
+(VSCode) 2025-08-09 20:07:56.176 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:07:56.176 [INFO]: provideInlineCompletionItems request succeeded (5.22ms)
+(VSCode) 2025-08-09 20:07:57.376 [INFO]: Completion request succeeded (650.13ms)
+(VSCode) 2025-08-09 20:07:57.376 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:07:57.377 [INFO]: provideInlineCompletionItems request succeeded (651.72ms)
+(VSCode) 2025-08-09 20:07:58.500 [INFO]: Completion request succeeded (3.75ms)
+(VSCode) 2025-08-09 20:07:58.501 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:07:58.501 [INFO]: provideInlineCompletionItems request succeeded (5.07ms)
+(VSCode) 2025-08-09 20:08:00.333 [INFO]: Completion request succeeded (677.78ms)
+(VSCode) 2025-08-09 20:08:00.334 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:08:00.334 [INFO]: provideInlineCompletionItems request succeeded (679.45ms)
+(VSCode) 2025-08-09 20:08:01.954 [INFO]: Completion request succeeded (654.51ms)
+(VSCode) 2025-08-09 20:08:01.955 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:08:01.955 [INFO]: provideInlineCompletionItems request succeeded (655.78ms)
+(VSCode) 2025-08-09 20:11:32.322 [INFO]: Completion request succeeded (367.66ms)
+(VSCode) 2025-08-09 20:11:32.323 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:11:32.324 [INFO]: provideInlineCompletionItems request succeeded (369.28ms)
+(VSCode) 2025-08-09 20:11:32.911 [INFO]: Completion request succeeded (368.34ms)
+(VSCode) 2025-08-09 20:11:32.911 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:11:32.911 [INFO]: provideInlineCompletionItems request succeeded (369.57ms)
+(VSCode) 2025-08-09 20:11:43.073 [INFO]: Completion request succeeded (349.11ms)
+(VSCode) 2025-08-09 20:11:43.074 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:11:43.074 [INFO]: provideInlineCompletionItems request succeeded (350.51ms)
+(VSCode) 2025-08-09 20:11:50.722 [INFO]: Completion request succeeded (557.09ms)
+(VSCode) 2025-08-09 20:11:50.723 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:11:50.723 [INFO]: provideInlineCompletionItems request succeeded (558.65ms)
+(VSCode) 2025-08-09 20:13:34.318 [INFO]: Completion request was cancelled by token (381.01ms)
+(VSCode) 2025-08-09 20:13:34.399 [INFO]: Completion request was cancelled by token (51.72ms)
+(VSCode) 2025-08-09 20:13:34.473 [INFO]: Completion request was cancelled by token (42.97ms)
+(VSCode) 2025-08-09 20:13:34.567 [INFO]: Completion request was cancelled by token (58.53ms)
+(VSCode) 2025-08-09 20:13:34.804 [INFO]: Completion request was cancelled by token (1.37ms)
+(VSCode) 2025-08-09 20:13:35.268 [INFO]: Completion request succeeded (446.8ms)
+(VSCode) 2025-08-09 20:13:35.269 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:13:35.270 [INFO]: provideInlineCompletionItems request succeeded (448.57ms)
+(VSCode) 2025-08-09 20:13:35.879 [INFO]: Completion request was cancelled by token (379.29ms)
+(VSCode) 2025-08-09 20:13:35.955 [INFO]: Completion request was cancelled by token (17.25ms)
+(VSCode) 2025-08-09 20:13:36.009 [INFO]: Completion request was cancelled by token (25.55ms)
+(VSCode) 2025-08-09 20:13:36.111 [INFO]: Completion request was cancelled by token (54ms)
+(VSCode) 2025-08-09 20:13:36.183 [INFO]: Completion request was cancelled by token (46.71ms)
+(VSCode) 2025-08-09 20:13:36.271 [INFO]: Completion request was cancelled by token (53.62ms)
+(VSCode) 2025-08-09 20:13:36.450 [INFO]: Completion request was cancelled by token (146.66ms)
+(VSCode) 2025-08-09 20:13:36.600 [INFO]: Completion request was cancelled by token (118.73ms)
+(VSCode) 2025-08-09 20:13:36.752 [INFO]: Completion request was cancelled by token (119.05ms)
+(VSCode) 2025-08-09 20:13:36.890 [INFO]: Completion request was cancelled by token (135.02ms)
+(VSCode) 2025-08-09 20:13:37.054 [INFO]: Completion request was cancelled by token (152.79ms)
+(VSCode) 2025-08-09 20:13:37.432 [INFO]: Completion request was cancelled by token (343.55ms)
+(VSCode) 2025-08-09 20:13:37.876 [INFO]: Completion request succeeded (359.18ms)
+(VSCode) 2025-08-09 20:13:37.877 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:13:37.877 [INFO]: provideInlineCompletionItems request succeeded (360.8ms)
+(VSCode) 2025-08-09 20:13:38.456 [INFO]: Completion request succeeded (575.62ms)
+(VSCode) 2025-08-09 20:13:38.457 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:13:38.457 [INFO]: provideInlineCompletionItems request succeeded (576.87ms)
+(VSCode) 2025-08-09 20:13:39.963 [INFO]: Completion request succeeded (357.4ms)
+(VSCode) 2025-08-09 20:13:39.963 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:13:39.963 [INFO]: provideInlineCompletionItems request succeeded (358.75ms)
+(VSCode) 2025-08-09 20:13:46.362 [INFO]: Completion request was cancelled by token (379.51ms)
+(VSCode) 2025-08-09 20:13:46.752 [INFO]: Completion request succeeded (361.75ms)
+(VSCode) 2025-08-09 20:13:46.753 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:13:46.753 [INFO]: provideInlineCompletionItems request succeeded (362.98ms)
+(VSCode) 2025-08-09 20:13:48.886 [INFO]: Completion request succeeded (649.35ms)
+(VSCode) 2025-08-09 20:13:48.886 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:13:48.886 [INFO]: provideInlineCompletionItems request succeeded (650.65ms)
+(VSCode) 2025-08-09 20:13:53.751 [INFO]: Completion request succeeded (357.79ms)
+(VSCode) 2025-08-09 20:13:53.751 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:13:53.751 [INFO]: provideInlineCompletionItems request succeeded (359.26ms)
+(VSCode) 2025-08-09 20:13:59.855 [INFO]: Completion request was cancelled by token (361.48ms)
+(VSCode) 2025-08-09 20:14:00.523 [INFO]: Completion request succeeded (639.48ms)
+(VSCode) 2025-08-09 20:14:00.524 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:14:00.524 [INFO]: provideInlineCompletionItems request succeeded (640.89ms)
+(VSCode) 2025-08-09 20:14:01.349 [INFO]: Completion request was cancelled by token (364.82ms)
+(VSCode) 2025-08-09 20:14:01.412 [INFO]: Completion request was cancelled by token (36.52ms)
+(VSCode) 2025-08-09 20:14:01.485 [INFO]: Completion request was cancelled by token (45.94ms)
+(VSCode) 2025-08-09 20:14:01.823 [INFO]: Completion request was cancelled by token (309.06ms)
+(VSCode) 2025-08-09 20:14:02.116 [INFO]: Completion request was cancelled by token (259.44ms)
+(VSCode) 2025-08-09 20:14:02.655 [INFO]: Completion request succeeded (493.37ms)
+(VSCode) 2025-08-09 20:14:02.656 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:14:02.656 [INFO]: provideInlineCompletionItems request succeeded (494.83ms)
+(VSCode) 2025-08-09 20:15:05.282 [INFO]: Completion request succeeded (433.65ms)
+(VSCode) 2025-08-09 20:15:05.283 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:15:05.283 [INFO]: provideInlineCompletionItems request succeeded (435.34ms)
+(VSCode) 2025-08-09 20:15:06.886 [INFO]: Completion request succeeded (492.93ms)
+(VSCode) 2025-08-09 20:15:06.887 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:15:06.887 [INFO]: provideInlineCompletionItems request succeeded (494.68ms)
+(VSCode) 2025-08-09 20:15:09.639 [INFO]: Completion request succeeded (424.63ms)
+(VSCode) 2025-08-09 20:15:09.640 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:15:09.640 [INFO]: provideInlineCompletionItems request succeeded (426.09ms)
+(VSCode) 2025-08-09 20:15:10.883 [INFO]: Completion request was cancelled by token (1.72ms)
+(VSCode) 2025-08-09 20:15:11.059 [INFO]: Completion request was cancelled by token (146.22ms)
+(VSCode) 2025-08-09 20:15:11.502 [INFO]: Completion request succeeded (418.92ms)
+(VSCode) 2025-08-09 20:15:11.502 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:15:11.502 [INFO]: provideInlineCompletionItems request succeeded (420.8ms)
+(VSCode) 2025-08-09 20:15:11.868 [INFO]: Completion request was cancelled by token (124.73ms)
+(VSCode) 2025-08-09 20:15:12.538 [INFO]: Completion request succeeded (646.42ms)
+(VSCode) 2025-08-09 20:15:12.538 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:15:12.538 [INFO]: provideInlineCompletionItems request succeeded (647.77ms)
+(VSCode) 2025-08-09 20:15:13.423 [INFO]: Completion request was cancelled by token (329.2ms)
+(VSCode) 2025-08-09 20:15:14.116 [INFO]: Completion request succeeded (358.15ms)
+(VSCode) 2025-08-09 20:15:14.117 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:15:14.117 [INFO]: provideInlineCompletionItems request succeeded (359.28ms)
+(VSCode) 2025-08-09 20:15:50.252 [INFO]: Completion request succeeded (1908.49ms)
+(VSCode) 2025-08-09 20:15:50.253 [INFO]: Generated 8 completions
+(VSCode) 2025-08-09 20:15:50.254 [INFO]: provideInlineCompletionItems request succeeded (1911.68ms)
+(VSCode) 2025-08-09 20:15:51.092 [INFO]: Completion request succeeded (5.61ms)
+(VSCode) 2025-08-09 20:15:51.093 [INFO]: Generated 8 completions
+(VSCode) 2025-08-09 20:15:51.094 [INFO]: provideInlineCompletionItems request succeeded (8.58ms)
+(VSCode) 2025-08-09 20:15:54.116 [INFO]: Completion request succeeded (1477.35ms)
+(VSCode) 2025-08-09 20:15:54.117 [INFO]: Generated 8 completions
+(VSCode) 2025-08-09 20:15:54.118 [INFO]: provideInlineCompletionItems request succeeded (1480.26ms)
+(VSCode) 2025-08-09 20:16:09.905 [INFO]: Completion request was cancelled by token (316.92ms)
+(VSCode) 2025-08-09 20:16:10.099 [INFO]: Completion request was cancelled by token (160.96ms)
+(VSCode) 2025-08-09 20:16:10.363 [INFO]: Completion request was cancelled by token (227.69ms)
+(VSCode) 2025-08-09 20:16:10.897 [INFO]: Completion request succeeded (512.85ms)
+(VSCode) 2025-08-09 20:16:10.898 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:16:10.899 [INFO]: provideInlineCompletionItems request succeeded (514.63ms)
+(VSCode) 2025-08-09 20:16:12.227 [INFO]: Completion request succeeded (5.22ms)
+(VSCode) 2025-08-09 20:16:12.228 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:16:12.228 [INFO]: provideInlineCompletionItems request succeeded (6.62ms)
+(VSCode) 2025-08-09 20:16:12.993 [INFO]: Completion request succeeded (400.61ms)
+(VSCode) 2025-08-09 20:16:12.994 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:16:12.994 [INFO]: provideInlineCompletionItems request succeeded (402.11ms)
+(VSCode) 2025-08-09 20:16:39.133 [INFO]: Completion request was cancelled by token (1061.92ms)
+(VSCode) 2025-08-09 20:16:44.045 [INFO]: Completion request succeeded (383.8ms)
+(VSCode) 2025-08-09 20:16:44.046 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:16:44.046 [INFO]: provideInlineCompletionItems request succeeded (385.23ms)
+(VSCode) 2025-08-09 20:16:47.518 [INFO]: Completion request succeeded (568.37ms)
+(VSCode) 2025-08-09 20:16:47.519 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:16:47.519 [INFO]: provideInlineCompletionItems request succeeded (569.52ms)
+(VSCode) 2025-08-09 20:16:50.367 [INFO]: Completion request was cancelled by token (409.78ms)
+(VSCode) 2025-08-09 20:16:50.926 [INFO]: Completion request succeeded (540.87ms)
+(VSCode) 2025-08-09 20:16:50.927 [INFO]: Generated 5 completions
+(VSCode) 2025-08-09 20:16:50.928 [INFO]: provideInlineCompletionItems request succeeded (542.76ms)
+(VSCode) 2025-08-09 20:16:58.402 [INFO]: Completion request succeeded (391.88ms)
+(VSCode) 2025-08-09 20:16:58.402 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:16:58.402 [INFO]: provideInlineCompletionItems request succeeded (393.09ms)
+(VSCode) 2025-08-09 20:17:11.082 [INFO]: Completion request succeeded (1231.8ms)
+(VSCode) 2025-08-09 20:17:11.084 [INFO]: Generated 8 completions
+(VSCode) 2025-08-09 20:17:11.085 [INFO]: provideInlineCompletionItems request succeeded (1235.55ms)
+(VSCode) 2025-08-09 20:17:14.463 [INFO]: Completion request succeeded (550.85ms)
+(VSCode) 2025-08-09 20:17:14.463 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:17:14.464 [INFO]: provideInlineCompletionItems request succeeded (552.49ms)
+(VSCode) 2025-08-09 20:17:16.166 [INFO]: Completion request succeeded (366.96ms)
+(VSCode) 2025-08-09 20:17:16.167 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:17:16.167 [INFO]: provideInlineCompletionItems request succeeded (368.28ms)
+(VSCode) 2025-08-09 20:17:45.527 [INFO]: Completion request succeeded (374.74ms)
+(VSCode) 2025-08-09 20:17:45.528 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:17:45.528 [INFO]: provideInlineCompletionItems request succeeded (376.12ms)
+(VSCode) 2025-08-09 20:17:52.547 [INFO]: Completion request succeeded (560.92ms)
+(VSCode) 2025-08-09 20:17:52.547 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:17:52.547 [INFO]: provideInlineCompletionItems request succeeded (562.1ms)
+(VSCode) 2025-08-09 20:17:54.233 [INFO]: Completion request succeeded (349.7ms)
+(VSCode) 2025-08-09 20:17:54.234 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:17:54.234 [INFO]: provideInlineCompletionItems request succeeded (351.03ms)
+(VSCode) 2025-08-09 20:18:26.873 [INFO]: Completion request was cancelled by token (346.73ms)
+(VSCode) 2025-08-09 20:18:26.950 [INFO]: Completion request was cancelled by token (30.52ms)
+(VSCode) 2025-08-09 20:18:27.033 [INFO]: Completion request was cancelled by token (45.66ms)
+(VSCode) 2025-08-09 20:18:27.105 [INFO]: Completion request was cancelled by token (38.25ms)
+(VSCode) 2025-08-09 20:18:27.163 [INFO]: Completion request was cancelled by token (24.31ms)
+(VSCode) 2025-08-09 20:18:27.255 [INFO]: Completion request was cancelled by token (37.02ms)
+(VSCode) 2025-08-09 20:18:27.336 [INFO]: Completion request was cancelled by token (50.59ms)
+(VSCode) 2025-08-09 20:18:27.390 [INFO]: Completion request was cancelled by token (21.42ms)
+(VSCode) 2025-08-09 20:18:27.487 [INFO]: Completion request was cancelled by token (2.9ms)
+(VSCode) 2025-08-09 20:18:28.251 [INFO]: Completion request succeeded (731.44ms)
+(VSCode) 2025-08-09 20:18:28.251 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:18:28.252 [INFO]: provideInlineCompletionItems request succeeded (733.23ms)
+(VSCode) 2025-08-09 20:18:28.680 [INFO]: Completion request was cancelled by token (348.5ms)
+(VSCode) 2025-08-09 20:18:29.951 [INFO]: Completion request succeeded (712.08ms)
+(VSCode) 2025-08-09 20:18:29.952 [INFO]: Generated 3 completions
+(VSCode) 2025-08-09 20:18:29.952 [INFO]: provideInlineCompletionItems request succeeded (713.59ms)
+(VSCode) 2025-08-09 20:18:30.952 [INFO]: Completion request was cancelled by token (369.77ms)
+(VSCode) 2025-08-09 20:18:31.089 [INFO]: Completion request was cancelled by token (103.61ms)
+(VSCode) 2025-08-09 20:18:31.619 [INFO]: Completion request was cancelled by token (183.7ms)
+(VSCode) 2025-08-09 20:18:31.924 [INFO]: Completion request was cancelled by token (283.92ms)
+(VSCode) 2025-08-09 20:18:31.990 [INFO]: Completion request was cancelled by token (26.46ms)
+(VSCode) 2025-08-09 20:18:32.066 [INFO]: Completion request was cancelled by token (22.24ms)
+(VSCode) 2025-08-09 20:18:32.305 [INFO]: Completion request was cancelled by token (137.82ms)
+(VSCode) 2025-08-09 20:18:32.724 [INFO]: Completion request was cancelled by token (401.91ms)
+(VSCode) 2025-08-09 20:18:32.777 [INFO]: Completion request was cancelled by token (44.03ms)
+(VSCode) 2025-08-09 20:18:32.846 [INFO]: Completion request was cancelled by token (35.53ms)
+(VSCode) 2025-08-09 20:18:32.933 [INFO]: Completion request was cancelled by token (38.07ms)
+(VSCode) 2025-08-09 20:18:33.004 [INFO]: Completion request was cancelled by token (46.33ms)
+(VSCode) 2025-08-09 20:18:33.082 [INFO]: Completion request was cancelled by token (53.21ms)
+(VSCode) 2025-08-09 20:18:33.162 [INFO]: Completion request was cancelled by token (52.69ms)
+(VSCode) 2025-08-09 20:18:33.237 [INFO]: Completion request was cancelled by token (39.2ms)
+(VSCode) 2025-08-09 20:18:33.331 [INFO]: Completion request was cancelled by token (67.85ms)
+(VSCode) 2025-08-09 20:18:33.553 [INFO]: Completion request was cancelled by token (207.13ms)
+(VSCode) 2025-08-09 20:18:33.739 [INFO]: Completion request was cancelled by token (166.22ms)
+(VSCode) 2025-08-09 20:18:33.904 [INFO]: Completion request was cancelled by token (123.67ms)
+(VSCode) 2025-08-09 20:18:34.027 [INFO]: Completion request was cancelled by token (95.98ms)
+(VSCode) 2025-08-09 20:18:34.431 [INFO]: Completion request was cancelled by token (375.17ms)
+(VSCode) 2025-08-09 20:18:34.502 [INFO]: Completion request was cancelled by token (39.54ms)
+(VSCode) 2025-08-09 20:18:34.586 [INFO]: Completion request was cancelled by token (53.1ms)
+(VSCode) 2025-08-09 20:18:34.786 [INFO]: Completion request was cancelled by token (164.45ms)
+(VSCode) 2025-08-09 20:18:34.933 [INFO]: Completion request was cancelled by token (84.89ms)
+(VSCode) 2025-08-09 20:18:35.340 [INFO]: Completion request succeeded (374.77ms)
+(VSCode) 2025-08-09 20:18:35.340 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:18:35.340 [INFO]: provideInlineCompletionItems request succeeded (375.91ms)
+(VSCode) 2025-08-09 20:18:35.898 [INFO]: Completion request was cancelled by token (480.84ms)
+(VSCode) 2025-08-09 20:18:36.934 [INFO]: Completion request succeeded (980.13ms)
+(VSCode) 2025-08-09 20:18:36.935 [INFO]: Generated 8 completions
+(VSCode) 2025-08-09 20:18:36.935 [INFO]: provideInlineCompletionItems request succeeded (981.87ms)
+(VSCode) 2025-08-09 20:18:40.959 [INFO]: Completion request was cancelled by token (332.15ms)
+(VSCode) 2025-08-09 20:18:41.037 [INFO]: Completion request was cancelled by token (50.8ms)
+(VSCode) 2025-08-09 20:18:41.108 [INFO]: Completion request was cancelled by token (42.09ms)
+(VSCode) 2025-08-09 20:18:41.397 [INFO]: Completion request was cancelled by token (256.1ms)
+(VSCode) 2025-08-09 20:18:41.562 [INFO]: Completion request was cancelled by token (134.8ms)
+(VSCode) 2025-08-09 20:18:42.071 [INFO]: Completion request was cancelled by token (438.79ms)
+(VSCode) 2025-08-09 20:18:42.444 [INFO]: Completion request succeeded (356.94ms)
+(VSCode) 2025-08-09 20:18:42.444 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:18:42.445 [INFO]: provideInlineCompletionItems request succeeded (358.13ms)
+(VSCode) 2025-08-09 20:18:58.749 [INFO]: Completion request was cancelled by token (363.53ms)
+(VSCode) 2025-08-09 20:18:58.828 [INFO]: Completion request was cancelled by token (43.87ms)
+(VSCode) 2025-08-09 20:18:58.924 [INFO]: Completion request was cancelled by token (57.4ms)
+(VSCode) 2025-08-09 20:18:59.246 [INFO]: Completion request was cancelled by token (309.52ms)
+(VSCode) 2025-08-09 20:18:59.435 [INFO]: Completion request was cancelled by token (135.29ms)
+(VSCode) 2025-08-09 20:18:59.762 [INFO]: Completion request was cancelled by token (291.86ms)
+(VSCode) 2025-08-09 20:19:00.191 [INFO]: Completion request succeeded (399.5ms)
+(VSCode) 2025-08-09 20:19:00.192 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:19:00.192 [INFO]: provideInlineCompletionItems request succeeded (401.62ms)
+(VSCode) 2025-08-09 20:19:00.648 [INFO]: Completion request was cancelled by token (364.44ms)
+(VSCode) 2025-08-09 20:19:00.918 [INFO]: Completion request was cancelled by token (221.64ms)
+(VSCode) 2025-08-09 20:19:01.078 [INFO]: Completion request was cancelled by token (82.2ms)
+(VSCode) 2025-08-09 20:19:01.456 [INFO]: Completion request was cancelled by token (353.13ms)
+(VSCode) 2025-08-09 20:19:01.634 [INFO]: Completion request was cancelled by token (146.68ms)
+(VSCode) 2025-08-09 20:19:02.118 [INFO]: Completion request was cancelled by token (465.06ms)
+(VSCode) 2025-08-09 20:19:02.599 [INFO]: Completion request succeeded (479.36ms)
+(VSCode) 2025-08-09 20:19:02.599 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:19:02.600 [INFO]: provideInlineCompletionItems request succeeded (480.92ms)
+(VSCode) 2025-08-09 20:19:07.550 [INFO]: Completion request was cancelled by token (357.87ms)
+(VSCode) 2025-08-09 20:19:07.626 [INFO]: Completion request was cancelled by token (46.6ms)
+(VSCode) 2025-08-09 20:19:07.702 [INFO]: Completion request was cancelled by token (44.86ms)
+(VSCode) 2025-08-09 20:19:07.760 [INFO]: Completion request was cancelled by token (26.44ms)
+(VSCode) 2025-08-09 20:19:07.857 [INFO]: Completion request was cancelled by token (48.81ms)
+(VSCode) 2025-08-09 20:19:07.926 [INFO]: Completion request was cancelled by token (31.03ms)
+(VSCode) 2025-08-09 20:19:08.012 [INFO]: Completion request was cancelled by token (54.29ms)
+(VSCode) 2025-08-09 20:19:08.076 [INFO]: Completion request was cancelled by token (33.02ms)
+(VSCode) 2025-08-09 20:19:08.162 [INFO]: Completion request was cancelled by token (52.15ms)
+(VSCode) 2025-08-09 20:19:08.277 [INFO]: Completion request was cancelled by token (86.85ms)
+(VSCode) 2025-08-09 20:19:08.417 [INFO]: Completion request was cancelled by token (122.22ms)
+(VSCode) 2025-08-09 20:19:08.569 [INFO]: Completion request was cancelled by token (117.65ms)
+(VSCode) 2025-08-09 20:19:08.694 [INFO]: Completion request was cancelled by token (78.28ms)
+(VSCode) 2025-08-09 20:19:09.281 [INFO]: Completion request succeeded (516.21ms)
+(VSCode) 2025-08-09 20:19:09.281 [INFO]: Generated 5 completions
+(VSCode) 2025-08-09 20:19:09.281 [INFO]: provideInlineCompletionItems request succeeded (517.66ms)
+(VSCode) 2025-08-09 20:19:09.875 [INFO]: Completion request was cancelled by token (379.91ms)
+(VSCode) 2025-08-09 20:19:09.922 [INFO]: Completion request was cancelled by token (19.76ms)
+(VSCode) 2025-08-09 20:19:10.050 [INFO]: Completion request was cancelled by token (76.82ms)
+(VSCode) 2025-08-09 20:19:10.089 [INFO]: Completion request was cancelled by token (27.87ms)
+(VSCode) 2025-08-09 20:19:10.173 [INFO]: Completion request was cancelled by token (14.23ms)
+(VSCode) 2025-08-09 20:19:10.237 [INFO]: Completion request was cancelled by token (27.76ms)
+(VSCode) 2025-08-09 20:19:10.316 [INFO]: Completion request was cancelled by token (44.37ms)
+(VSCode) 2025-08-09 20:19:10.377 [INFO]: Completion request was cancelled by token (17.79ms)
+(VSCode) 2025-08-09 20:19:10.473 [INFO]: Completion request was cancelled by token (47.3ms)
+(VSCode) 2025-08-09 20:19:10.555 [INFO]: Completion request was cancelled by token (51.59ms)
+(VSCode) 2025-08-09 20:19:10.694 [INFO]: Completion request was cancelled by token (101.11ms)
+(VSCode) 2025-08-09 20:19:10.834 [INFO]: Completion request was cancelled by token (107.31ms)
+(VSCode) 2025-08-09 20:19:10.970 [INFO]: Completion request was cancelled by token (95.93ms)
+(VSCode) 2025-08-09 20:19:11.542 [INFO]: Completion request succeeded (517.26ms)
+(VSCode) 2025-08-09 20:19:11.542 [INFO]: Generated 5 completions
+(VSCode) 2025-08-09 20:19:11.543 [INFO]: provideInlineCompletionItems request succeeded (518.7ms)
+(VSCode) 2025-08-09 20:19:11.962 [INFO]: Completion request was cancelled by token (57.23ms)
+(VSCode) 2025-08-09 20:19:12.114 [INFO]: Completion request was cancelled by token (123.07ms)
+(VSCode) 2025-08-09 20:19:12.249 [INFO]: Completion request was cancelled by token (114.12ms)
+(VSCode) 2025-08-09 20:19:12.606 [INFO]: Completion request was cancelled by token (320.53ms)
+(VSCode) 2025-08-09 20:19:12.946 [INFO]: Completion request was cancelled by token (232.43ms)
+(VSCode) 2025-08-09 20:19:13.919 [INFO]: Completion request succeeded (932.62ms)
+(VSCode) 2025-08-09 20:19:13.920 [INFO]: Generated 5 completions
+(VSCode) 2025-08-09 20:19:13.920 [INFO]: provideInlineCompletionItems request succeeded (934.15ms)
+(VSCode) 2025-08-09 20:20:24.474 [INFO]: Completion request succeeded (348.76ms)
+(VSCode) 2025-08-09 20:20:24.475 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:20:24.475 [INFO]: provideInlineCompletionItems request succeeded (350ms)
+(VSCode) 2025-08-09 20:20:34.040 [INFO]: Completion request succeeded (363.84ms)
+(VSCode) 2025-08-09 20:20:34.041 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:20:34.041 [INFO]: provideInlineCompletionItems request succeeded (365.05ms)
+(VSCode) 2025-08-09 20:21:37.023 [INFO]: Completion request succeeded (364.69ms)
+(VSCode) 2025-08-09 20:21:37.023 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:21:37.023 [INFO]: provideInlineCompletionItems request succeeded (365.84ms)
+(VSCode) 2025-08-09 20:21:39.853 [INFO]: Completion request succeeded (367.97ms)
+(VSCode) 2025-08-09 20:21:39.854 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:21:39.854 [INFO]: provideInlineCompletionItems request succeeded (369.4ms)
+(VSCode) 2025-08-09 20:21:40.481 [INFO]: Completion request was cancelled by token (363.37ms)
+(VSCode) 2025-08-09 20:21:41.151 [INFO]: Completion request succeeded (664.57ms)
+(VSCode) 2025-08-09 20:21:41.151 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:21:41.152 [INFO]: provideInlineCompletionItems request succeeded (665.65ms)
+(VSCode) 2025-08-09 20:22:44.083 [INFO]: Completion request succeeded (560.11ms)
+(VSCode) 2025-08-09 20:22:44.084 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:22:44.084 [INFO]: provideInlineCompletionItems request succeeded (561.84ms)
+(VSCode) 2025-08-09 20:22:45.798 [INFO]: Completion request succeeded (367.6ms)
+(VSCode) 2025-08-09 20:22:45.799 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:22:45.799 [INFO]: provideInlineCompletionItems request succeeded (369.5ms)
+(VSCode) 2025-08-09 20:22:46.037 [INFO]: Completion request was cancelled by token (129.71ms)
+(VSCode) 2025-08-09 20:22:46.722 [INFO]: Completion request succeeded (669.16ms)
+(VSCode) 2025-08-09 20:22:46.723 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:22:46.723 [INFO]: provideInlineCompletionItems request succeeded (671.13ms)
+(VSCode) 2025-08-09 20:22:47.885 [INFO]: Completion request succeeded (427.95ms)
+(VSCode) 2025-08-09 20:22:47.886 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:22:47.887 [INFO]: provideInlineCompletionItems request succeeded (430.04ms)
+(VSCode) 2025-08-09 20:23:36.833 [INFO]: Completion request was cancelled by token (377.56ms)
+(VSCode) 2025-08-09 20:23:37.033 [INFO]: Completion request was cancelled by token (178.35ms)
+(VSCode) 2025-08-09 20:23:37.181 [INFO]: Completion request was cancelled by token (97.77ms)
+(VSCode) 2025-08-09 20:23:37.341 [INFO]: Completion request was cancelled by token (105.09ms)
+(VSCode) 2025-08-09 20:23:37.493 [INFO]: Completion request was cancelled by token (120.47ms)
+(VSCode) 2025-08-09 20:23:37.934 [INFO]: Completion request succeeded (396.52ms)
+(VSCode) 2025-08-09 20:23:37.935 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:23:37.935 [INFO]: provideInlineCompletionItems request succeeded (398.38ms)
+(VSCode) 2025-08-09 20:23:38.894 [INFO]: Completion request was cancelled by token (202.76ms)
+(VSCode) 2025-08-09 20:23:39.406 [INFO]: Completion request was cancelled by token (479.04ms)
+(VSCode) 2025-08-09 20:23:39.819 [INFO]: Completion request was cancelled by token (386.26ms)
+(VSCode) 2025-08-09 20:23:40.284 [INFO]: Completion request succeeded (433.69ms)
+(VSCode) 2025-08-09 20:23:40.285 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:23:40.286 [INFO]: provideInlineCompletionItems request succeeded (435.59ms)
+(VSCode) 2025-08-09 20:23:41.423 [INFO]: Completion request was cancelled by token (372.2ms)
+(VSCode) 2025-08-09 20:23:42.162 [INFO]: Completion request succeeded (700.11ms)
+(VSCode) 2025-08-09 20:23:42.163 [INFO]: Generated 4 completions
+(VSCode) 2025-08-09 20:23:42.164 [INFO]: provideInlineCompletionItems request succeeded (701.99ms)
+(VSCode) 2025-08-09 20:26:14.029 [INFO]: Completion request succeeded (388.91ms)
+(VSCode) 2025-08-09 20:26:14.030 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:26:14.031 [INFO]: provideInlineCompletionItems request succeeded (390.88ms)
+(VSCode) 2025-08-09 20:26:14.890 [INFO]: Completion request succeeded (372.91ms)
+(VSCode) 2025-08-09 20:26:14.891 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:26:14.891 [INFO]: provideInlineCompletionItems request succeeded (374.02ms)
+(VSCode) 2025-08-09 20:26:25.037 [INFO]: Completion request succeeded (678.63ms)
+(VSCode) 2025-08-09 20:26:25.037 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:26:25.038 [INFO]: provideInlineCompletionItems request succeeded (680.61ms)
+(VSCode) 2025-08-09 20:26:26.112 [INFO]: Completion request succeeded (648.08ms)
+(VSCode) 2025-08-09 20:26:26.113 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:26:26.113 [INFO]: provideInlineCompletionItems request succeeded (649.71ms)
+(VSCode) 2025-08-09 20:51:42.820 [INFO]: Disposing language server process
+(VSCode) 2025-08-09 20:51:42.821 [INFO]: Deleting manager directory: /tmp/d3cbd791-1883-47b1-8b6b-aa59ced5b7c8/codeium/manager
+(VSCode) 2025-08-09 20:51:42.821 [INFO]: Successfully disposed language server
+W0809 20:51:42.821051  4433 main.go:142] [Language Server Manager] Got signal terminated, shutting down
+E0809 20:51:42.925975  4433 main.go:395] [Language Server Manager] Failed to acquire lock on /tmp/d3cbd791-1883-47b1-8b6b-aa59ced5b7c8/codeium/manager/locks/child_lock_1754769500383502344_7259474555994577348: open /tmp/d3cbd791-1883-47b1-8b6b-aa59ced5b7c8/codeium/manager/locks/child_lock_1754769500383502344_7259474555994577348: no such file or directory
+I0809 20:51:42.926760  4454 server.go:1422] Exit requested on language server process 4454
+I0809 20:51:42.926941  4454 server.go:1395] Language server shutting down
+(VSCode) 2025-08-09 20:51:44.631 [ERROR]: Failed to stop lsp
+(VSCode) 2025-08-09 20:51:44.635 [INFO]: Language server exited with code 0
+(VSCode) 2025-08-09 20:51:44.646 [ERROR]: Failed to stop exit
+(VSCode) 2025-08-09 20:51:44.646 [ERROR]: [unavailable] connect ECONNREFUSED 127.0.0.1:42231
+(VSCode) 2025-08-09 20:51:44.647 [ERROR]: connect ECONNREFUSED 127.0.0.1:46323
+(VSCode) 2025-08-09 20:51:44.648 [ERROR]: connect ECONNREFUSED 127.0.0.1:46323

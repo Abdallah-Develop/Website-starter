@@ -1,0 +1,62 @@
+---
+import { Icons } from "./icons.ts"
+
+// Define types
+interface Path {
+  d: string
+  class?: string
+}
+
+interface IconProps {
+  name: string
+  size?: "xs" | "sm" | "md" | "lg" | number
+  class?: string
+}
+
+// Destructure props
+const { name, size = "md", class: additionalClass = "" } = Astro.props
+
+// Get icon from icons.ts
+const icon = (Icons as Record<string, any>)[name]
+
+// Map size to dimensions
+const sizeMap = {
+  xs: { width: 16, height: 16 },
+  sm: { width: 18, height: 18 },
+  md: { width: 20, height: 20 },
+  lg: { width: 24, height: 24 },
+}
+
+// Safely get size config with fallback
+const sizeConfig =
+  typeof size === "number"
+      ? { width: size, height: size }
+          : sizeMap[size] || sizeMap.md // fallback to 'md' if invalid
+          
+          const { width, height } = sizeConfig
+---
+
+{
+  icon ? (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={width}
+      height={height}
+      viewBox={icon.viewBox || "0 0 24 24"}
+      fill={icon.fill ?? "currentColor"}
+      stroke={icon.stroke ?? "currentColor"}
+      stroke-width={icon.strokeWidth ?? "2"}
+      stroke-linecap={icon.strokeLinecap ?? "round"}
+      stroke-linejoin={icon.strokeLinejoin ?? "round"}
+      clip-rule={icon.clipRule}
+      fill-rule={icon.fillRule}
+      class={`inline-block shrink-0 ${additionalClass}`}
+      aria-hidden="true"
+    >
+      {icon.title && <title>{icon.title}</title>}
+      {icon.paths?.map((path: Path) => (
+        <path d={path.d} class={path.class} />
+      ))}
+    </svg>
+  ) : null
+}

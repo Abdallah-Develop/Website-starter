@@ -1,0 +1,1299 @@
+Locating server…
+Server was not started. Search for Tailwind CSS-related files was taking too long.
+Checking if /workspace/Website-starter/src/assets/styles/global.css may be Tailwind-related…
+Booting server...
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+[Info  - 10:51:18 PM] Unable to resolve imports for /workspace/Website-starter/src/assets/styles/global.css.
+[Info  - 10:51:18 PM] This may result in failure to locate Tailwind CSS projects.
+[Error - 10:51:18 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:48:1: Unknown word na
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unknownWord (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10065)
+    at CR.other (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8468)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8787)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at e.resolveImports (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:1813:21493)
+    at /workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:1813:18101
+    at Array.map (<anonymous>) {
+  reason: 'Unknown word na',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: "@import 'tailwindcss';\n" +
+    "@import 'preline/variants.css';\n" +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '   --breakpoint-xs: 30rem;\n' +
+    '   --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '    \n' +
+    '                             \n' +
+    '                                \n' +
+    '\n' +
+    '                           \n' +
+    '                                  \n' +
+    '      \n' +
+    '--color-primary: #00bfff;\n' +
+    '  --color-primary-dark: #00aae3;\n' +
+    '    \n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                            \n' +
+    '                                                                         \n' +
+    '                                                \n' +
+    '\n' +
+    '                                                                           \n' +
+    '                                                              \n' +
+    '  \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'na',
+  line: 48,
+  column: 1,
+  endLine: 48,
+  endColumn: 3,
+  input: {
+    column: 1,
+    endColumn: 3,
+    endLine: 48,
+    endOffset: 1049,
+    line: 48,
+    offset: 1047,
+    source: "@import 'tailwindcss';\n" +
+      "@import 'preline/variants.css';\n" +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '   --breakpoint-xs: 30rem;\n' +
+      '   --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '    \n' +
+      '                             \n' +
+      '                                \n' +
+      '\n' +
+      '                           \n' +
+      '                                  \n' +
+      '      \n' +
+      '--color-primary: #00bfff;\n' +
+      '  --color-primary-dark: #00aae3;\n' +
+      '    \n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                            \n' +
+      '                                                                         \n' +
+      '                                                \n' +
+      '\n' +
+      '                                                                           \n' +
+      '                                                              \n' +
+      '  \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'na',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+{"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/workspace/Website-starter/src/assets/styles/global.css"}
+{"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/workspace/Website-starter/src/assets/styles/starlight_main.css"}
+{"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/workspace/Website-starter/src/assets/styles/starlight.css"}
+[Global] Creating projects: [{"folder":"/workspace/Website-starter","config":"/workspace/Website-starter/src/assets/styles/global.css","selectors":[{"pattern":"/workspace/Website-starter/src/assets/styles/global.css","priority":0},{"pattern":"/workspace/Website-starter/.github/FUNDING.yml","priority":1},{"pattern":"/workspace/Website-starter/.github/dependabot.yml","priority":1},{"pattern":"/workspace/Website-starter/.gitpod.yml","priority":1},{"pattern":"/workspace/Website-starter/.prettierrc","priority":1},{"pattern":"/workspace/Website-starter/.vscode/settings.json","priority":1},{"pattern":"/workspace/Website-starter/CODE_OF_CONDUCT.md","priority":1},{"pattern":"/workspace/Website-starter/LICENSE","priority":1},{"pattern":"/workspace/Website-starter/README.md","priority":1},{"pattern":"/workspace/Website-starter/astro.config.mjs","priority":1},{"pattern":"/workspace/Website-starter/package.json","priority":1},{"pattern":"/workspace/Website-starter/process-html.mjs","priority":1},{"pattern":"/workspace/Website-starter/public/banner-pattern.svg","priority":1},{"pattern":"/workspace/Website-starter/src/.prettierignore","priority":1},{"pattern":"/workspace/Website-starter/src/assets/scripts/lenisSmoothScroll.js","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/lenis.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/starlight.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/starlight_main.css","priority":1},{"pattern":"/workspace/Website-starter/src/components/Badge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/BrandLogo.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/GradientCircle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Meta.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesGeneral.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesNavs.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStats.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStatsAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/ClientsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/ContactSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/FAQ.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/FooterSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/Navbar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/NavbarMegaMenu.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/pricing/PricingSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/Avatar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlogLarge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarTestimonialSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/banners/AnnouncementBanner.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/AccordionItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ContactIconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/IconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/LeftSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/MainSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ReviewComponent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/RightSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsBig.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsGrid.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabContent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabNav.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/AuthBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Bookmark.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Btn404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GithubBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GoogleBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/LoginBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/PrimaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/ProductTabBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SecondaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SocialShare.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlogRecent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardInsight.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardRelated.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardWide.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/feedback/PostFeedback.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/LoginModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RecoverModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RegisterModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/Checkbox.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailContactInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PasswordInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PhoneInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextAreaInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/Icon.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/icons.ts","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/FooterSocialLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/MegaMenuLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/NavLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/Head.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/MobileMenuFooter.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/SiteTitle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelect.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelectMobile.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/FullStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/HalfStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/content.config.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/constants.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/faqs.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/features.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/mega_link.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/pricing.json","priority":1},{"pattern":"/workspace/Website-starter/src/env.d.ts","priority":1},{"pattern":"/workspace/Website-starter/src/images/icon.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/docs_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/layouts/MainLayout.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/favicon.ico.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/index.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/manifest.json.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/robots.txt.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/navigations.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/ui.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/utils.ts","priority":1},{"pattern":"/workspace/Website-starter/tsconfig.json","priority":1},{"pattern":"/workspace/Website-starter/vercel.json","priority":1},{"pattern":"/workspace/Website-starter/*","priority":1},{"pattern":"/workspace/Website-starter/.github/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/.vscode/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/**","priority":2},{"pattern":"/workspace/Website-starter/**","priority":4}],"user":false,"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false}},{"folder":"/workspace/Website-starter","config":"/workspace/Website-starter/src/assets/styles/starlight.css","selectors":[{"pattern":"/workspace/Website-starter/src/assets/styles/starlight.css","priority":0},{"pattern":"/workspace/Website-starter/.github/FUNDING.yml","priority":1},{"pattern":"/workspace/Website-starter/.github/dependabot.yml","priority":1},{"pattern":"/workspace/Website-starter/.gitpod.yml","priority":1},{"pattern":"/workspace/Website-starter/.prettierrc","priority":1},{"pattern":"/workspace/Website-starter/.vscode/settings.json","priority":1},{"pattern":"/workspace/Website-starter/CODE_OF_CONDUCT.md","priority":1},{"pattern":"/workspace/Website-starter/LICENSE","priority":1},{"pattern":"/workspace/Website-starter/README.md","priority":1},{"pattern":"/workspace/Website-starter/astro.config.mjs","priority":1},{"pattern":"/workspace/Website-starter/package.json","priority":1},{"pattern":"/workspace/Website-starter/process-html.mjs","priority":1},{"pattern":"/workspace/Website-starter/public/banner-pattern.svg","priority":1},{"pattern":"/workspace/Website-starter/src/.prettierignore","priority":1},{"pattern":"/workspace/Website-starter/src/assets/scripts/lenisSmoothScroll.js","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/global.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/lenis.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/starlight_main.css","priority":1},{"pattern":"/workspace/Website-starter/src/components/Badge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/BrandLogo.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/GradientCircle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Meta.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesGeneral.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesNavs.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStats.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStatsAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/ClientsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/ContactSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/FAQ.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/FooterSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/Navbar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/NavbarMegaMenu.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/pricing/PricingSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/Avatar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlogLarge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarTestimonialSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/banners/AnnouncementBanner.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/AccordionItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ContactIconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/IconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/LeftSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/MainSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ReviewComponent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/RightSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsBig.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsGrid.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabContent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabNav.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/AuthBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Bookmark.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Btn404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GithubBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GoogleBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/LoginBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/PrimaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/ProductTabBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SecondaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SocialShare.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlogRecent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardInsight.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardRelated.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardWide.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/feedback/PostFeedback.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/LoginModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RecoverModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RegisterModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/Checkbox.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailContactInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PasswordInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PhoneInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextAreaInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/Icon.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/icons.ts","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/FooterSocialLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/MegaMenuLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/NavLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/Head.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/MobileMenuFooter.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/SiteTitle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelect.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelectMobile.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/FullStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/HalfStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/content.config.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/constants.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/faqs.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/features.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/mega_link.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/pricing.json","priority":1},{"pattern":"/workspace/Website-starter/src/env.d.ts","priority":1},{"pattern":"/workspace/Website-starter/src/images/icon.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/docs_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/layouts/MainLayout.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/favicon.ico.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/index.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/manifest.json.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/robots.txt.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/navigations.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/ui.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/utils.ts","priority":1},{"pattern":"/workspace/Website-starter/tsconfig.json","priority":1},{"pattern":"/workspace/Website-starter/vercel.json","priority":1},{"pattern":"/workspace/Website-starter/*","priority":1},{"pattern":"/workspace/Website-starter/.github/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/.vscode/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/**","priority":2},{"pattern":"/workspace/Website-starter/**","priority":4}],"user":false,"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false}},{"folder":"/workspace/Website-starter","config":"/workspace/Website-starter/src/assets/styles/starlight_main.css","selectors":[{"pattern":"/workspace/Website-starter/src/assets/styles/starlight_main.css","priority":0},{"pattern":"/workspace/Website-starter/.github/FUNDING.yml","priority":1},{"pattern":"/workspace/Website-starter/.github/dependabot.yml","priority":1},{"pattern":"/workspace/Website-starter/.gitpod.yml","priority":1},{"pattern":"/workspace/Website-starter/.prettierrc","priority":1},{"pattern":"/workspace/Website-starter/.vscode/settings.json","priority":1},{"pattern":"/workspace/Website-starter/CODE_OF_CONDUCT.md","priority":1},{"pattern":"/workspace/Website-starter/LICENSE","priority":1},{"pattern":"/workspace/Website-starter/README.md","priority":1},{"pattern":"/workspace/Website-starter/astro.config.mjs","priority":1},{"pattern":"/workspace/Website-starter/package.json","priority":1},{"pattern":"/workspace/Website-starter/process-html.mjs","priority":1},{"pattern":"/workspace/Website-starter/public/banner-pattern.svg","priority":1},{"pattern":"/workspace/Website-starter/src/.prettierignore","priority":1},{"pattern":"/workspace/Website-starter/src/assets/scripts/lenisSmoothScroll.js","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/global.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/lenis.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/starlight.css","priority":1},{"pattern":"/workspace/Website-starter/src/components/Badge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/BrandLogo.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/GradientCircle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Meta.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesGeneral.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesNavs.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStats.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStatsAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/ClientsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/ContactSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/FAQ.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/FooterSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/Navbar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/NavbarMegaMenu.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/pricing/PricingSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/Avatar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlogLarge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarTestimonialSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/banners/AnnouncementBanner.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/AccordionItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ContactIconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/IconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/LeftSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/MainSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ReviewComponent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/RightSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsBig.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsGrid.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabContent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabNav.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/AuthBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Bookmark.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Btn404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GithubBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GoogleBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/LoginBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/PrimaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/ProductTabBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SecondaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SocialShare.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlogRecent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardInsight.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardRelated.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardWide.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/feedback/PostFeedback.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/LoginModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RecoverModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RegisterModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/Checkbox.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailContactInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PasswordInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PhoneInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextAreaInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/Icon.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/icons.ts","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/FooterSocialLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/MegaMenuLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/NavLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/Head.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/MobileMenuFooter.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/SiteTitle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelect.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelectMobile.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/FullStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/HalfStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/content.config.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/constants.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/faqs.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/features.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/mega_link.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/pricing.json","priority":1},{"pattern":"/workspace/Website-starter/src/env.d.ts","priority":1},{"pattern":"/workspace/Website-starter/src/images/icon.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/docs_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/layouts/MainLayout.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/favicon.ico.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/index.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/manifest.json.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/robots.txt.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/navigations.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/ui.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/utils.ts","priority":1},{"pattern":"/workspace/Website-starter/tsconfig.json","priority":1},{"pattern":"/workspace/Website-starter/vercel.json","priority":1},{"pattern":"/workspace/Website-starter/*","priority":1},{"pattern":"/workspace/Website-starter/.github/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/.vscode/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/**","priority":2},{"pattern":"/workspace/Website-starter/**","priority":4}],"user":false,"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false}}]
+[Global] Preparing projects...
+[Global] Initializing projects...
+[src/assets/styles/global.css] Initializing...
+[Global] Adding watch patterns: /workspace/Website-starter/src/assets/styles/global.css, /workspace/Website-starter/src/assets/styles, /workspace/Website-starter/src/assets, /workspace/Website-starter/src, /workspace/Website-starter
+[src/assets/styles/global.css] supported features: ["css-at-theme","layer:base","content-list","source-inline","source-not"]
+[src/assets/styles/global.css] Loaded tailwindcss v4.1.11: /workspace/Website-starter/node_modules/tailwindcss
+[src/assets/styles/global.css] Building...
+[Global] Adding watch patterns: /workspace/Website-starter/node_modules/tailwindcss/index.css, /workspace/Website-starter/node_modules/preline/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/dropdown/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/remove-element/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/tooltip/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/accordion/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/tree-view/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/collapse/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/tabs/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/overlay/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/scrollspy/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/carousel/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/select/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/input-number/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/pin-input/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/strong-password/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/stepper/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/combobox/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/layout-splitter/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/scroll-nav/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/datatable/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/file-upload/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/range-slider/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/datepicker/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/theme-switch/variants.css, /workspace/Website-starter/node_modules/@tailwindcss/forms/src/index.js
+[Global] Initialized 1 projects
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 835.88ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 972.57ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 870.04ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 783.73ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 763.38ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 733.08ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+[Error - 10:51:38 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:49:3: Unknown word padd
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unknownWord (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10065)
+    at CR.other (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8468)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8787)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at lF (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3549:1565)
+    at async Object.reload (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3551:834)
+    at async aC.softRestart (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3555:206) {
+  reason: 'Unknown word padd',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: "@import 'tailwindcss';\n" +
+    "@import 'preline/variants.css';\n" +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '   --breakpoint-xs: 30rem;\n' +
+    '   --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '    \n' +
+    '                             \n' +
+    '                                \n' +
+    '\n' +
+    '                           \n' +
+    '                                  \n' +
+    '      \n' +
+    '--color-primary: #00bfff;\n' +
+    '  --color-primary-dark: #00aae3;\n' +
+    '    \n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                            \n' +
+    '                                                                         \n' +
+    '                                                \n' +
+    '\n' +
+    '                                                                           \n' +
+    '                                                              \n' +
+    '  \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'nav .ccv {\n' +
+    '  padd\n' +
+    '}',
+  line: 49,
+  column: 3,
+  endLine: 49,
+  endColumn: 7,
+  input: {
+    column: 3,
+    endColumn: 7,
+    endLine: 49,
+    endOffset: 1064,
+    line: 49,
+    offset: 1060,
+    source: "@import 'tailwindcss';\n" +
+      "@import 'preline/variants.css';\n" +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '   --breakpoint-xs: 30rem;\n' +
+      '   --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '    \n' +
+      '                             \n' +
+      '                                \n' +
+      '\n' +
+      '                           \n' +
+      '                                  \n' +
+      '      \n' +
+      '--color-primary: #00bfff;\n' +
+      '  --color-primary-dark: #00aae3;\n' +
+      '    \n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                            \n' +
+      '                                                                         \n' +
+      '                                                \n' +
+      '\n' +
+      '                                                                           \n' +
+      '                                                              \n' +
+      '  \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'nav .ccv {\n' +
+      '  padd\n' +
+      '}',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+[Error - 10:51:46 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:49:3: Unknown word padding
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unknownWord (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10065)
+    at CR.other (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8468)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8787)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at lF (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3549:1565)
+    at async Object.reload (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3551:834)
+    at async aC.softRestart (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3555:206) {
+  reason: 'Unknown word padding',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: "@import 'tailwindcss';\n" +
+    "@import 'preline/variants.css';\n" +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '   --breakpoint-xs: 30rem;\n' +
+    '   --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '    \n' +
+    '                             \n' +
+    '                                \n' +
+    '\n' +
+    '                           \n' +
+    '                                  \n' +
+    '      \n' +
+    '--color-primary: #00bfff;\n' +
+    '  --color-primary-dark: #00aae3;\n' +
+    '    \n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                            \n' +
+    '                                                                         \n' +
+    '                                                \n' +
+    '\n' +
+    '                                                                           \n' +
+    '                                                              \n' +
+    '  \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'nav .ccv {\n' +
+    '  padding \n' +
+    '}',
+  line: 49,
+  column: 3,
+  endLine: 49,
+  endColumn: 10,
+  input: {
+    column: 3,
+    endColumn: 10,
+    endLine: 49,
+    endOffset: 1067,
+    line: 49,
+    offset: 1060,
+    source: "@import 'tailwindcss';\n" +
+      "@import 'preline/variants.css';\n" +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '   --breakpoint-xs: 30rem;\n' +
+      '   --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '    \n' +
+      '                             \n' +
+      '                                \n' +
+      '\n' +
+      '                           \n' +
+      '                                  \n' +
+      '      \n' +
+      '--color-primary: #00bfff;\n' +
+      '  --color-primary-dark: #00aae3;\n' +
+      '    \n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                            \n' +
+      '                                                                         \n' +
+      '                                                \n' +
+      '\n' +
+      '                                                                           \n' +
+      '                                                              \n' +
+      '  \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'nav .ccv {\n' +
+      '  padding \n' +
+      '}',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+[Error - 10:51:50 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:49:3: Unknown word padding
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unknownWord (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10065)
+    at CR.other (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8468)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8787)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at lF (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3549:1565)
+    at async Object.reload (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3551:834)
+    at async aC.softRestart (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3555:206) {
+  reason: 'Unknown word padding',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: "@import 'tailwindcss';\n" +
+    "@import 'preline/variants.css';\n" +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '   --breakpoint-xs: 30rem;\n' +
+    '   --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '    \n' +
+    '                             \n' +
+    '                                \n' +
+    '\n' +
+    '                           \n' +
+    '                                  \n' +
+    '      \n' +
+    '--color-primary: #00bfff;\n' +
+    '  --color-primary-dark: #00aae3;\n' +
+    '    \n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                            \n' +
+    '                                                                         \n' +
+    '                                                \n' +
+    '\n' +
+    '                                                                           \n' +
+    '                                                              \n' +
+    '  \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'nav .ccv {\n' +
+    '  padding\n' +
+    '}',
+  line: 49,
+  column: 3,
+  endLine: 49,
+  endColumn: 10,
+  input: {
+    column: 3,
+    endColumn: 10,
+    endLine: 49,
+    endOffset: 1067,
+    line: 49,
+    offset: 1060,
+    source: "@import 'tailwindcss';\n" +
+      "@import 'preline/variants.css';\n" +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '   --breakpoint-xs: 30rem;\n' +
+      '   --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '    \n' +
+      '                             \n' +
+      '                                \n' +
+      '\n' +
+      '                           \n' +
+      '                                  \n' +
+      '      \n' +
+      '--color-primary: #00bfff;\n' +
+      '  --color-primary-dark: #00aae3;\n' +
+      '    \n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                            \n' +
+      '                                                                         \n' +
+      '                                                \n' +
+      '\n' +
+      '                                                                           \n' +
+      '                                                              \n' +
+      '  \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'nav .ccv {\n' +
+      '  padding\n' +
+      '}',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+[Error - 10:51:55 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:49:3: Unknown word padding-top
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unknownWord (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10065)
+    at CR.other (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8468)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8787)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at lF (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3549:1565)
+    at async Object.reload (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3551:834)
+    at async aC.softRestart (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3555:206) {
+  reason: 'Unknown word padding-top',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: "@import 'tailwindcss';\n" +
+    "@import 'preline/variants.css';\n" +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '   --breakpoint-xs: 30rem;\n' +
+    '   --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '    \n' +
+    '                             \n' +
+    '                                \n' +
+    '\n' +
+    '                           \n' +
+    '                                  \n' +
+    '      \n' +
+    '--color-primary: #00bfff;\n' +
+    '  --color-primary-dark: #00aae3;\n' +
+    '    \n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                            \n' +
+    '                                                                         \n' +
+    '                                                \n' +
+    '\n' +
+    '                                                                           \n' +
+    '                                                              \n' +
+    '  \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'nav .ccv {\n' +
+    '  padding-top\n' +
+    '}',
+  line: 49,
+  column: 3,
+  endLine: 49,
+  endColumn: 14,
+  input: {
+    column: 3,
+    endColumn: 14,
+    endLine: 49,
+    endOffset: 1071,
+    line: 49,
+    offset: 1060,
+    source: "@import 'tailwindcss';\n" +
+      "@import 'preline/variants.css';\n" +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '   --breakpoint-xs: 30rem;\n' +
+      '   --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '    \n' +
+      '                             \n' +
+      '                                \n' +
+      '\n' +
+      '                           \n' +
+      '                                  \n' +
+      '      \n' +
+      '--color-primary: #00bfff;\n' +
+      '  --color-primary-dark: #00aae3;\n' +
+      '    \n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                            \n' +
+      '                                                                         \n' +
+      '                                                \n' +
+      '\n' +
+      '                                                                           \n' +
+      '                                                              \n' +
+      '  \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'nav .ccv {\n' +
+      '  padding-top\n' +
+      '}',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1027.46ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 979.32ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 807.75ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 769.11ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 950.29ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 875.88ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+[Error - 10:53:56 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:50:3: Unknown word p
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unknownWord (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10065)
+    at CR.other (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8468)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8787)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at lF (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3549:1565)
+    at async Object.reload (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3551:834)
+    at async aC.softRestart (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3555:206) {
+  reason: 'Unknown word p',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: "@import 'tailwindcss';\n" +
+    "@import 'preline/variants.css';\n" +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '   --breakpoint-xs: 30rem;\n' +
+    '   --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '    \n' +
+    '                             \n' +
+    '                                \n' +
+    '\n' +
+    '                           \n' +
+    '                                  \n' +
+    '      \n' +
+    '--color-primary: #00bfff;\n' +
+    '  --color-primary-dark: #00aae3;\n' +
+    '    \n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                            \n' +
+    '                                                                         \n' +
+    '                                                \n' +
+    '\n' +
+    '                                                                           \n' +
+    '                                                              \n' +
+    '  \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'nav .primaryCTA {\n' +
+    '  padding-top:2rem;\n' +
+    '  p\n' +
+    '}',
+  line: 50,
+  column: 3,
+  endLine: 50,
+  endColumn: 4,
+  input: {
+    column: 3,
+    endColumn: 4,
+    endLine: 50,
+    endOffset: 1088,
+    line: 50,
+    offset: 1087,
+    source: "@import 'tailwindcss';\n" +
+      "@import 'preline/variants.css';\n" +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '   --breakpoint-xs: 30rem;\n' +
+      '   --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '    \n' +
+      '                             \n' +
+      '                                \n' +
+      '\n' +
+      '                           \n' +
+      '                                  \n' +
+      '      \n' +
+      '--color-primary: #00bfff;\n' +
+      '  --color-primary-dark: #00aae3;\n' +
+      '    \n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                            \n' +
+      '                                                                         \n' +
+      '                                                \n' +
+      '\n' +
+      '                                                                           \n' +
+      '                                                              \n' +
+      '  \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'nav .primaryCTA {\n' +
+      '  padding-top:2rem;\n' +
+      '  p\n' +
+      '}',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+[Error - 10:53:58 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:50:3: Unknown word pa
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unknownWord (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10065)
+    at CR.other (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8468)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8787)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at lF (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3549:1565)
+    at async Object.reload (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3551:834)
+    at async aC.softRestart (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3555:206) {
+  reason: 'Unknown word pa',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: "@import 'tailwindcss';\n" +
+    "@import 'preline/variants.css';\n" +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '   --breakpoint-xs: 30rem;\n' +
+    '   --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '    \n' +
+    '                             \n' +
+    '                                \n' +
+    '\n' +
+    '                           \n' +
+    '                                  \n' +
+    '      \n' +
+    '--color-primary: #00bfff;\n' +
+    '  --color-primary-dark: #00aae3;\n' +
+    '    \n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                            \n' +
+    '                                                                         \n' +
+    '                                                \n' +
+    '\n' +
+    '                                                                           \n' +
+    '                                                              \n' +
+    '  \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'nav .primaryCTA {\n' +
+    '  padding-top:2rem;\n' +
+    '  pa\n' +
+    '}',
+  line: 50,
+  column: 3,
+  endLine: 50,
+  endColumn: 5,
+  input: {
+    column: 3,
+    endColumn: 5,
+    endLine: 50,
+    endOffset: 1089,
+    line: 50,
+    offset: 1087,
+    source: "@import 'tailwindcss';\n" +
+      "@import 'preline/variants.css';\n" +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '   --breakpoint-xs: 30rem;\n' +
+      '   --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '    \n' +
+      '                             \n' +
+      '                                \n' +
+      '\n' +
+      '                           \n' +
+      '                                  \n' +
+      '      \n' +
+      '--color-primary: #00bfff;\n' +
+      '  --color-primary-dark: #00aae3;\n' +
+      '    \n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                            \n' +
+      '                                                                         \n' +
+      '                                                \n' +
+      '\n' +
+      '                                                                           \n' +
+      '                                                              \n' +
+      '  \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'nav .primaryCTA {\n' +
+      '  padding-top:2rem;\n' +
+      '  pa\n' +
+      '}',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+[Error - 10:53:59 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:50:3: Unknown word padd
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unknownWord (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10065)
+    at CR.other (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8468)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8787)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at lF (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3549:1565)
+    at async Object.reload (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3551:834)
+    at async aC.softRestart (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3555:206) {
+  reason: 'Unknown word padd',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: "@import 'tailwindcss';\n" +
+    "@import 'preline/variants.css';\n" +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '   --breakpoint-xs: 30rem;\n' +
+    '   --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '    \n' +
+    '                             \n' +
+    '                                \n' +
+    '\n' +
+    '                           \n' +
+    '                                  \n' +
+    '      \n' +
+    '--color-primary: #00bfff;\n' +
+    '  --color-primary-dark: #00aae3;\n' +
+    '    \n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                            \n' +
+    '                                                                         \n' +
+    '                                                \n' +
+    '\n' +
+    '                                                                           \n' +
+    '                                                              \n' +
+    '  \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'nav .primaryCTA {\n' +
+    '  padding-top:2rem;\n' +
+    '  padd\n' +
+    '}',
+  line: 50,
+  column: 3,
+  endLine: 50,
+  endColumn: 7,
+  input: {
+    column: 3,
+    endColumn: 7,
+    endLine: 50,
+    endOffset: 1091,
+    line: 50,
+    offset: 1087,
+    source: "@import 'tailwindcss';\n" +
+      "@import 'preline/variants.css';\n" +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '   --breakpoint-xs: 30rem;\n' +
+      '   --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '    \n' +
+      '                             \n' +
+      '                                \n' +
+      '\n' +
+      '                           \n' +
+      '                                  \n' +
+      '      \n' +
+      '--color-primary: #00bfff;\n' +
+      '  --color-primary-dark: #00aae3;\n' +
+      '    \n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                            \n' +
+      '                                                                         \n' +
+      '                                                \n' +
+      '\n' +
+      '                                                                           \n' +
+      '                                                              \n' +
+      '  \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'nav .primaryCTA {\n' +
+      '  padding-top:2rem;\n' +
+      '  padd\n' +
+      '}',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+[Error - 10:54:01 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:50:3: Unknown word padding-left
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unknownWord (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10065)
+    at CR.other (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8468)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8787)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at lF (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3549:1565)
+    at async Object.reload (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3551:834)
+    at async aC.softRestart (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3555:206) {
+  reason: 'Unknown word padding-left',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: "@import 'tailwindcss';\n" +
+    "@import 'preline/variants.css';\n" +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '   --breakpoint-xs: 30rem;\n' +
+    '   --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '    \n' +
+    '                             \n' +
+    '                                \n' +
+    '\n' +
+    '                           \n' +
+    '                                  \n' +
+    '      \n' +
+    '--color-primary: #00bfff;\n' +
+    '  --color-primary-dark: #00aae3;\n' +
+    '    \n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                            \n' +
+    '                                                                         \n' +
+    '                                                \n' +
+    '\n' +
+    '                                                                           \n' +
+    '                                                              \n' +
+    '  \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'nav .primaryCTA {\n' +
+    '  padding-top:2rem;\n' +
+    '  padding-left \n' +
+    '}',
+  line: 50,
+  column: 3,
+  endLine: 50,
+  endColumn: 15,
+  input: {
+    column: 3,
+    endColumn: 15,
+    endLine: 50,
+    endOffset: 1099,
+    line: 50,
+    offset: 1087,
+    source: "@import 'tailwindcss';\n" +
+      "@import 'preline/variants.css';\n" +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '   --breakpoint-xs: 30rem;\n' +
+      '   --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '    \n' +
+      '                             \n' +
+      '                                \n' +
+      '\n' +
+      '                           \n' +
+      '                                  \n' +
+      '      \n' +
+      '--color-primary: #00bfff;\n' +
+      '  --color-primary-dark: #00aae3;\n' +
+      '    \n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                            \n' +
+      '                                                                         \n' +
+      '                                                \n' +
+      '\n' +
+      '                                                                           \n' +
+      '                                                              \n' +
+      '  \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'nav .primaryCTA {\n' +
+      '  padding-top:2rem;\n' +
+      '  padding-left \n' +
+      '}',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 940.17ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 783.72ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 781.72ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 836.88ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 771.09ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 760.00ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 879.87ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 759.78ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 858.27ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1000.10ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 809.28ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 709.88ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 920.94ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 809.59ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 873.22ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 956.73ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 807.67ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 695.91ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 702.63ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 697.45ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1470.61ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1048.27ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 844.19ms ----

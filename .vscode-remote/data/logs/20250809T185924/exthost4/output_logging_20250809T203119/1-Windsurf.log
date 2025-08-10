@@ -1,0 +1,140 @@
+(VSCode) 2025-08-09 20:31:34.020 [INFO]: No proxy settings found
+(VSCode) 2025-08-09 20:31:39.004 [INFO]: Checking network connection...
+(VSCode) 2025-08-09 20:31:40.909 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz
+(VSCode) 2025-08-09 20:31:42.544 [INFO]: Creating manager directory: /tmp/895ea40a-5e14-4a61-8ad2-4370b868ed6b/codeium/manager
+(VSCode) 2025-08-09 20:31:42.950 [INFO]: Using cached LS with valid crc32: /workspace/.vscode-remote/extensions/codeium.codeium-1.48.2-universal/dist/e03af6ebc40b844314d448f947c80b636d093049/language_server_linux_x64
+(VSCode) 2025-08-09 20:31:42.957 [INFO]: Language server started
+2025/08/09 20:31:42 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0809 20:31:43.170023  6510 main.go:604] [Language Server Manager] Setting GOMAXPROCS to 4
+I0809 20:31:43.170123  6510 main.go:829] [Language Server Manager] Starting language server manager with pid 6510
+I0809 20:31:43.170216  6510 main.go:138] [Language Server Manager] Manager acquired its lock file /tmp/895ea40a-5e14-4a61-8ad2-4370b868ed6b/codeium/manager/locks/manager.lock
+I0809 20:31:43.170944  6510 main.go:283] [Language Server Manager] Waiting for random port file in /tmp/895ea40a-5e14-4a61-8ad2-4370b868ed6b/codeium/manager/child_random_port_1754771503170342995_6394245157533797948 to be created
+2025/08/09 20:31:43 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0809 20:31:43.386683  6530 main.go:604] Setting GOMAXPROCS to 4
+I0809 20:31:43.386825  6530 main.go:823] Starting language server process with pid 6530
+I0809 20:31:43.386861  6530 server.go:296] Language server will attempt to listen on host 127.0.0.1
+I0809 20:31:43.387322  6530 server.go:303] Language server listening on random port at 45071
+I0809 20:31:44.068851  6530 web_server.go:256] Chat Web Server listening at ws://127.0.0.1:37539
+I0809 20:31:44.334350  6530 server.go:955] Local search is enabled, will index local files.
+I0809 20:31:44.334375  6530 server.go:959] Using 4 indexer workers
+I0809 20:31:44.525924  6530 server.go:1196] Child process attempting to acquire lock file /tmp/895ea40a-5e14-4a61-8ad2-4370b868ed6b/codeium/manager/locks/child_lock_1754771503170378675_7108400313851777683
+I0809 20:31:44.525986  6530 server.go:1204] Child process acquired lock file /tmp/895ea40a-5e14-4a61-8ad2-4370b868ed6b/codeium/manager/locks/child_lock_1754771503170378675_7108400313851777683
+44521
+I0809 20:31:44.577254  6510 main.go:319] [Language Server Manager] Found random server port 45071
+I0809 20:31:44.577287  6510 main.go:320] [Language Server Manager] Found random lsp port 44521
+I0809 20:31:44.577328  6510 main.go:327] [Language Server Manager] Attempting to connect to language server at 127.0.0.1:45071
+I0809 20:31:44.589762  6510 main.go:192] [Language Server Manager] Fixing language server port at 45071
+I0809 20:31:44.589801  6510 main.go:381] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:45071
+(VSCode) 2025-08-09 20:31:44.665 [INFO]: Found language server running on port 45071
+Playwright Host validation warning: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo npx playwright install-deps                 ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libatk1.0-0\                ║
+║         libatk-bridge2.0-0\                          ║
+║         libcups2\                                    ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libxrandr2\                                  ║
+║         libgbm1\                                     ║
+║         libxkbcommon0\                               ║
+║         libatspi2.0-0                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Registry._validateHostRequirements (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:865:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:963:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:952:43)
+    at async t.<anonymous> (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/cli/program.js:122:7)
+(VSCode) 2025-08-09 20:31:46.238 [INFO]: openAllTextDocuments took 922.0255380000017ms
+(VSCode) 2025-08-09 20:31:49.785 [INFO]: Completion request was cancelled by token (401.97ms)
+(VSCode) 2025-08-09 20:31:50.087 [INFO]: Completion request was cancelled by token (202.54ms)
+(VSCode) 2025-08-09 20:31:50.888 [INFO]: Completion request succeeded (796.07ms)
+(VSCode) 2025-08-09 20:31:50.890 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:31:50.891 [INFO]: provideInlineCompletionItems request succeeded (799.72ms)
+(VSCode) 2025-08-09 20:31:51.100 [INFO]: Completion request succeeded (4.29ms)
+(VSCode) 2025-08-09 20:31:51.100 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:31:51.101 [INFO]: provideInlineCompletionItems request succeeded (6.34ms)
+(VSCode) 2025-08-09 20:31:51.756 [INFO]: Completion request succeeded (4.45ms)
+(VSCode) 2025-08-09 20:31:51.756 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:31:51.757 [INFO]: provideInlineCompletionItems request succeeded (6.39ms)
+(VSCode) 2025-08-09 20:31:52.574 [INFO]: Completion request succeeded (6.56ms)
+(VSCode) 2025-08-09 20:31:52.575 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:31:52.576 [INFO]: provideInlineCompletionItems request succeeded (9.02ms)
+(VSCode) 2025-08-09 20:31:54.001 [INFO]: Completion request succeeded (4.38ms)
+(VSCode) 2025-08-09 20:31:54.001 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:31:54.002 [INFO]: provideInlineCompletionItems request succeeded (6.3ms)
+(VSCode) 2025-08-09 20:31:54.483 [INFO]: Completion request succeeded (45.04ms)
+(VSCode) 2025-08-09 20:31:54.483 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:31:54.484 [INFO]: provideInlineCompletionItems request succeeded (46.91ms)
+(VSCode) 2025-08-09 20:31:57.824 [INFO]: Completion request succeeded (555.44ms)
+(VSCode) 2025-08-09 20:31:57.825 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:31:57.826 [INFO]: provideInlineCompletionItems request succeeded (557.43ms)
+(VSCode) 2025-08-09 20:32:08.240 [INFO]: Completion request was cancelled by token (357.78ms)
+(VSCode) 2025-08-09 20:32:08.298 [INFO]: Completion request was cancelled by token (51.06ms)
+(VSCode) 2025-08-09 20:32:08.799 [INFO]: Completion request succeeded (369.72ms)
+(VSCode) 2025-08-09 20:32:08.800 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:32:08.801 [INFO]: provideInlineCompletionItems request succeeded (371.6ms)
+(VSCode) 2025-08-09 20:32:09.405 [INFO]: Completion request was cancelled by token (431ms)
+(VSCode) 2025-08-09 20:32:10.127 [INFO]: Completion request succeeded (694.09ms)
+(VSCode) 2025-08-09 20:32:10.128 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:32:10.129 [INFO]: provideInlineCompletionItems request succeeded (696.46ms)
+(VSCode) 2025-08-09 20:32:10.550 [INFO]: Completion request succeeded (5.16ms)
+(VSCode) 2025-08-09 20:32:10.551 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:32:10.551 [INFO]: provideInlineCompletionItems request succeeded (6.83ms)
+(VSCode) 2025-08-09 20:32:11.111 [INFO]: Completion request succeeded (4.25ms)
+(VSCode) 2025-08-09 20:32:11.111 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:32:11.112 [INFO]: provideInlineCompletionItems request succeeded (6.11ms)
+(VSCode) 2025-08-09 20:32:11.956 [INFO]: Completion request succeeded (5.07ms)
+(VSCode) 2025-08-09 20:32:11.956 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:32:11.957 [INFO]: provideInlineCompletionItems request succeeded (6.69ms)
+(VSCode) 2025-08-09 20:32:12.764 [INFO]: Completion request succeeded (4.31ms)
+(VSCode) 2025-08-09 20:32:12.765 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:32:12.765 [INFO]: provideInlineCompletionItems request succeeded (5.94ms)
+(VSCode) 2025-08-09 20:32:13.800 [INFO]: Completion request succeeded (419.53ms)
+(VSCode) 2025-08-09 20:32:13.800 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:32:13.801 [INFO]: provideInlineCompletionItems request succeeded (421.51ms)
+(VSCode) 2025-08-09 20:32:14.794 [INFO]: Completion request succeeded (390.51ms)
+(VSCode) 2025-08-09 20:32:14.795 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:32:14.795 [INFO]: provideInlineCompletionItems request succeeded (392.57ms)
+(VSCode) 2025-08-09 20:32:15.188 [INFO]: Completion request succeeded (4.08ms)
+(VSCode) 2025-08-09 20:32:15.188 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:32:15.189 [INFO]: provideInlineCompletionItems request succeeded (5.58ms)
+(VSCode) 2025-08-09 20:32:17.649 [INFO]: Completion request succeeded (675.28ms)
+(VSCode) 2025-08-09 20:32:17.650 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:32:17.650 [INFO]: provideInlineCompletionItems request succeeded (677.39ms)
+(VSCode) 2025-08-09 20:32:18.906 [INFO]: Completion request succeeded (392.5ms)
+(VSCode) 2025-08-09 20:32:18.907 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:32:18.907 [INFO]: provideInlineCompletionItems request succeeded (394.6ms)
+(VSCode) 2025-08-09 20:32:20.180 [INFO]: Completion request succeeded (401.11ms)
+(VSCode) 2025-08-09 20:32:20.181 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:32:20.182 [INFO]: provideInlineCompletionItems request succeeded (402.94ms)
+(VSCode) 2025-08-09 20:33:08.685 [INFO]: Completion request succeeded (457.52ms)
+(VSCode) 2025-08-09 20:33:08.687 [INFO]: Generated 1 completion
+(VSCode) 2025-08-09 20:33:08.687 [INFO]: provideInlineCompletionItems request succeeded (460.21ms)
+(VSCode) 2025-08-09 20:33:09.208 [INFO]: Completion request succeeded (389.15ms)
+(VSCode) 2025-08-09 20:33:09.209 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:33:09.210 [INFO]: provideInlineCompletionItems request succeeded (391.05ms)
+(VSCode) 2025-08-09 20:33:15.143 [INFO]: Completion request succeeded (381.28ms)
+(VSCode) 2025-08-09 20:33:15.144 [INFO]: Generated 2 completions
+(VSCode) 2025-08-09 20:33:15.144 [INFO]: provideInlineCompletionItems request succeeded (382.88ms)
+(VSCode) 2025-08-09 20:33:15.871 [INFO]: Completion request succeeded (346.8ms)
+(VSCode) 2025-08-09 20:33:15.872 [INFO]: No completions were generated
+(VSCode) 2025-08-09 20:33:15.872 [INFO]: provideInlineCompletionItems request succeeded (348.44ms)
+(VSCode) 2025-08-09 20:51:42.800 [INFO]: Disposing language server process
+(VSCode) 2025-08-09 20:51:42.800 [INFO]: Deleting manager directory: /tmp/895ea40a-5e14-4a61-8ad2-4370b868ed6b/codeium/manager
+(VSCode) 2025-08-09 20:51:42.801 [INFO]: Successfully disposed language server
+W0809 20:51:42.800357  6510 main.go:142] [Language Server Manager] Got signal terminated, shutting down
+E0809 20:51:43.135690  6510 main.go:395] [Language Server Manager] Failed to acquire lock on /tmp/895ea40a-5e14-4a61-8ad2-4370b868ed6b/codeium/manager/locks/child_lock_1754771503170378675_7108400313851777683: open /tmp/895ea40a-5e14-4a61-8ad2-4370b868ed6b/codeium/manager/locks/child_lock_1754771503170378675_7108400313851777683: no such file or directory
+I0809 20:51:43.136417  6530 server.go:1422] Exit requested on language server process 6530
+I0809 20:51:43.136576  6530 server.go:1395] Language server shutting down
+(VSCode) 2025-08-09 20:51:43.716 [ERROR]: Failed to stop lsp
+(VSCode) 2025-08-09 20:51:43.720 [INFO]: Language server exited with code 0
+(VSCode) 2025-08-09 20:51:43.723 [ERROR]: Failed to stop exit

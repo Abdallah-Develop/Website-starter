@@ -1,0 +1,292 @@
+(VSCode) 2025-08-10 09:24:37.722 [INFO]: No proxy settings found
+(VSCode) 2025-08-10 09:24:40.116 [INFO]: Checking network connection...
+(VSCode) 2025-08-10 09:24:41.151 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz
+(VSCode) 2025-08-10 09:24:41.533 [INFO]: Creating manager directory: /tmp/52c38943-61e6-4d38-ba74-eb5b53a3350a/codeium/manager
+(VSCode) 2025-08-10 09:24:44.720 [INFO]: Using cached LS with valid crc32: /workspace/.vscode-remote/extensions/codeium.codeium-1.48.2-universal/dist/e03af6ebc40b844314d448f947c80b636d093049/language_server_linux_x64
+(VSCode) 2025-08-10 09:24:44.731 [INFO]: Language server started
+2025/08/10 09:24:44 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0810 09:24:45.760920   739 main.go:604] [Language Server Manager] Setting GOMAXPROCS to 4
+I0810 09:24:45.761056   739 main.go:829] [Language Server Manager] Starting language server manager with pid 739
+I0810 09:24:45.761178   739 main.go:138] [Language Server Manager] Manager acquired its lock file /tmp/52c38943-61e6-4d38-ba74-eb5b53a3350a/codeium/manager/locks/manager.lock
+I0810 09:24:45.762334   739 main.go:283] [Language Server Manager] Waiting for random port file in /tmp/52c38943-61e6-4d38-ba74-eb5b53a3350a/codeium/manager/child_random_port_1754817885761466082_5539707071853792572 to be created
+2025/08/10 09:24:45 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0810 09:24:46.419626   759 main.go:604] Setting GOMAXPROCS to 4
+I0810 09:24:46.420010   759 main.go:823] Starting language server process with pid 759
+I0810 09:24:46.420067   759 server.go:296] Language server will attempt to listen on host 127.0.0.1
+I0810 09:24:46.420741   759 server.go:303] Language server listening on random port at 38459
+I0810 09:24:47.140656   759 web_server.go:256] Chat Web Server listening at ws://127.0.0.1:44027
+I0810 09:24:47.601298   759 server.go:955] Local search is enabled, will index local files.
+I0810 09:24:47.601358   759 server.go:959] Using 4 indexer workers
+I0810 09:24:47.728158   759 server.go:1196] Child process attempting to acquire lock file /tmp/52c38943-61e6-4d38-ba74-eb5b53a3350a/codeium/manager/locks/child_lock_1754817885761533932_1504704641703884939
+I0810 09:24:47.728265   759 server.go:1204] Child process acquired lock file /tmp/52c38943-61e6-4d38-ba74-eb5b53a3350a/codeium/manager/locks/child_lock_1754817885761533932_1504704641703884939
+46509
+I0810 09:24:47.823645   739 main.go:319] [Language Server Manager] Found random server port 38459
+I0810 09:24:47.823682   739 main.go:320] [Language Server Manager] Found random lsp port 46509
+I0810 09:24:47.823712   739 main.go:327] [Language Server Manager] Attempting to connect to language server at 127.0.0.1:38459
+I0810 09:24:47.836900   739 main.go:192] [Language Server Manager] Fixing language server port at 38459
+I0810 09:24:47.836963   739 main.go:381] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:38459
+(VSCode) 2025-08-10 09:24:47.852 [INFO]: Found language server running on port 38459
+(VSCode) 2025-08-10 09:24:49.706 [INFO]: openAllTextDocuments took 290.30144799999835ms
+Downloading Chromium 133.0.6943.16 (playwright build v1155) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1155/chromium-linux.zip
+(VSCode) 2025-08-10 09:24:51.219 [ERROR]: Invalid LSP port: Downloading Chromium 133.0.6943.16 (playwright build v1155) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1155/chromium-linux.zip
+
+|                                                                                |   0% of 163.5 MiB
+(VSCode) 2025-08-10 09:24:51.497 [ERROR]: Invalid LSP port: |                                                                                |   0% of 163.5 MiB
+
+|■■■■■■■■                                                                        |  10% of 163.5 MiB
+(VSCode) 2025-08-10 09:24:51.636 [ERROR]: Invalid LSP port: |■■■■■■■■                                                                        |  10% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■                                                                |  20% of 163.5 MiB
+(VSCode) 2025-08-10 09:24:51.738 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■                                                                |  20% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 163.5 MiB
+(VSCode) 2025-08-10 09:24:52.648 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 163.5 MiB
+(VSCode) 2025-08-10 09:24:52.728 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 163.5 MiB
+(VSCode) 2025-08-10 09:24:52.811 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 163.5 MiB
+(VSCode) 2025-08-10 09:24:52.891 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 163.5 MiB
+(VSCode) 2025-08-10 09:24:53.004 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 163.5 MiB
+(VSCode) 2025-08-10 09:24:53.101 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 163.5 MiB
+(VSCode) 2025-08-10 09:24:53.248 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 163.5 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 163.5 MiB
+(VSCode) 2025-08-10 09:24:53.328 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 163.5 MiB
+
+Chromium 133.0.6943.16 (playwright build v1155) downloaded to /home/gitpod/.codeium/ws-browser/chromium-1155
+(VSCode) 2025-08-10 09:24:57.779 [ERROR]: Invalid LSP port: Chromium 133.0.6943.16 (playwright build v1155) downloaded to /home/gitpod/.codeium/ws-browser/chromium-1155
+
+Downloading FFMPEG playwright build v1011 from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip
+(VSCode) 2025-08-10 09:24:57.780 [ERROR]: Invalid LSP port: Downloading FFMPEG playwright build v1011 from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip
+
+|                                                                                |   0% of 2.3 MiB
+(VSCode) 2025-08-10 09:24:58.013 [ERROR]: Invalid LSP port: |                                                                                |   0% of 2.3 MiB
+
+|■■■■■■■■                                                                        |  10% of 2.3 MiB
+(VSCode) 2025-08-10 09:24:58.022 [ERROR]: Invalid LSP port: |■■■■■■■■                                                                        |  10% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■                                                                |  20% of 2.3 MiB
+(VSCode) 2025-08-10 09:24:58.025 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■                                                                |  20% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.3 MiB
+(VSCode) 2025-08-10 09:24:58.029 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.3 MiB
+(VSCode) 2025-08-10 09:24:58.030 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.3 MiB
+(VSCode) 2025-08-10 09:24:58.032 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.3 MiB
+(VSCode) 2025-08-10 09:24:58.033 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.3 MiB
+(VSCode) 2025-08-10 09:24:58.035 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.3 MiB
+(VSCode) 2025-08-10 09:24:58.038 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.3 MiB
+(VSCode) 2025-08-10 09:24:58.039 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.3 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.3 MiB
+(VSCode) 2025-08-10 09:24:58.041 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.3 MiB
+
+FFMPEG playwright build v1011 downloaded to /home/gitpod/.codeium/ws-browser/ffmpeg-1011
+(VSCode) 2025-08-10 09:24:58.127 [ERROR]: Invalid LSP port: FFMPEG playwright build v1011 downloaded to /home/gitpod/.codeium/ws-browser/ffmpeg-1011
+
+Downloading Chromium Headless Shell 133.0.6943.16 (playwright build v1155) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1155/chromium-headless-shell-linux.zip
+(VSCode) 2025-08-10 09:24:58.128 [ERROR]: Invalid LSP port: Downloading Chromium Headless Shell 133.0.6943.16 (playwright build v1155) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1155/chromium-headless-shell-linux.zip
+
+|                                                                                |   0% of 99.9 MiB
+(VSCode) 2025-08-10 09:24:58.514 [ERROR]: Invalid LSP port: |                                                                                |   0% of 99.9 MiB
+
+|■■■■■■■■                                                                        |  10% of 99.9 MiB
+(VSCode) 2025-08-10 09:24:58.612 [ERROR]: Invalid LSP port: |■■■■■■■■                                                                        |  10% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■                                                                |  20% of 99.9 MiB
+(VSCode) 2025-08-10 09:24:58.772 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■                                                                |  20% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 99.9 MiB
+(VSCode) 2025-08-10 09:24:58.834 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 99.9 MiB
+(VSCode) 2025-08-10 09:24:58.906 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 99.9 MiB
+(VSCode) 2025-08-10 09:24:58.950 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 99.9 MiB
+(VSCode) 2025-08-10 09:24:59.012 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 99.9 MiB
+(VSCode) 2025-08-10 09:24:59.074 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 99.9 MiB
+(VSCode) 2025-08-10 09:24:59.128 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 99.9 MiB
+(VSCode) 2025-08-10 09:24:59.184 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 99.9 MiB
+
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 99.9 MiB
+(VSCode) 2025-08-10 09:24:59.279 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 99.9 MiB
+
+Chromium Headless Shell 133.0.6943.16 (playwright build v1155) downloaded to /home/gitpod/.codeium/ws-browser/chromium_headless_shell-1155
+(VSCode) 2025-08-10 09:25:01.503 [ERROR]: Invalid LSP port: Chromium Headless Shell 133.0.6943.16 (playwright build v1155) downloaded to /home/gitpod/.codeium/ws-browser/chromium_headless_shell-1155
+
+Playwright Host validation warning: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo npx playwright install-deps                 ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libatk1.0-0\                ║
+║         libatk-bridge2.0-0\                          ║
+║         libcups2\                                    ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libxrandr2\                                  ║
+║         libgbm1\                                     ║
+║         libxkbcommon0\                               ║
+║         libatspi2.0-0                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/dependencies.js:216:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Registry._validateHostRequirements (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:865:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:963:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:952:43)
+    at async t.<anonymous> (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/cli/program.js:122:7)
+(VSCode) 2025-08-10 10:03:19.730 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:03:21.320 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:03:33.184 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:03:33.483 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:03:33.840 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:03:34.257 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:03:36.034 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:03:40.435 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:03:44.800 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:03:45.039 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:03:45.457 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:03:45.999 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:03:46.389 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:03:46.560 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:03:49.609 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:00.485 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:07.490 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:08.490 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:09.340 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:11.058 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:13.148 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:14.043 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:14.906 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:15.368 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:15.954 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:20.176 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:20.453 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:21.256 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:22.354 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:22.919 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:23.467 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:24.487 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:26.310 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:27.229 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:27.835 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:28.157 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:28.639 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:28.976 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:29.584 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:54.145 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:54.289 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:54.815 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:54.868 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:55.101 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:55.224 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:55.378 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:55.508 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:56.461 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:56.594 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:04:57.113 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:01.250 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:03.276 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:03.822 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:04.914 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:06.143 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:06.852 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:29.759 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:31.422 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:31.742 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:31.986 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:33.075 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:33.493 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:33.555 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:33.640 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:34.019 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:34.172 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:34.323 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:34.412 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:34.619 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:35.585 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:37.420 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:39.949 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:40.095 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:41.020 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:41.152 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:41.331 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:41.470 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:41.629 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:41.730 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:41.903 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:42.045 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:42.361 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:42.664 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:42.949 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:43.263 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:43.456 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:05:43.929 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:10.797 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:11.295 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:11.373 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:11.398 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:11.589 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:11.703 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:11.873 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:12.216 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:13.393 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:16.376 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:16.527 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:16.660 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:17.095 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:18.287 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:18.769 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:19.337 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:19.794 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:32.849 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:33.424 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:33.730 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:33.830 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:34.045 [WARN]: User not logged in
+(VSCode) 2025-08-10 10:06:34.287 [WARN]: User not logged in
+(VSCode) 2025-08-10 11:19:50.779 [INFO]: Disposing language server process
+(VSCode) 2025-08-10 11:19:50.779 [INFO]: Deleting manager directory: /tmp/52c38943-61e6-4d38-ba74-eb5b53a3350a/codeium/manager
+(VSCode) 2025-08-10 11:19:50.780 [INFO]: Successfully disposed language server
+W0810 11:19:50.780095   739 main.go:142] [Language Server Manager] Got signal terminated, shutting down
+E0810 11:19:50.833608   739 main.go:395] [Language Server Manager] Failed to acquire lock on /tmp/52c38943-61e6-4d38-ba74-eb5b53a3350a/codeium/manager/locks/child_lock_1754817885761533932_1504704641703884939: open /tmp/52c38943-61e6-4d38-ba74-eb5b53a3350a/codeium/manager/locks/child_lock_1754817885761533932_1504704641703884939: no such file or directory
+I0810 11:19:50.834786   759 server.go:1422] Exit requested on language server process 759
+I0810 11:19:50.835014   759 server.go:1395] Language server shutting down
+(VSCode) 2025-08-10 11:19:55.337 [ERROR]: Failed to stop lsp
+(VSCode) 2025-08-10 11:19:55.343 [INFO]: Language server exited with code 0

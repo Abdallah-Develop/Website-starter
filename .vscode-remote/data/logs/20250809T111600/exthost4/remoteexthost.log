@@ -1,0 +1,927 @@
+2025-08-09 12:33:55.789 [info] Extension host with pid 6328 started
+2025-08-09 12:33:55.789 [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock'
+2025-08-09 12:33:55.789 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-08-09 12:33:55.790 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': The lock does not look stale, elapsed: 136 ms, giving up.
+2025-08-09 12:33:55.791 [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f-1/vscode.lock'
+2025-08-09 12:33:55.792 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-08-09 12:33:55.792 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f-1/vscode.lock': The lock does not look stale, elapsed: 290 ms, giving up.
+2025-08-09 12:33:55.793 [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f-2/vscode.lock'
+2025-08-09 12:33:55.796 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f-2/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-08-09 12:33:55.797 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f-2/vscode.lock': The pid 12726 appears to be gone.
+2025-08-09 12:33:55.797 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f-2/vscode.lock': Deleting a stale lock.
+2025-08-09 12:33:55.809 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f-2/vscode.lock': Lock acquired.
+2025-08-09 12:33:57.106 [info] ExtensionService#_doActivateExtension astro-build.astro-vscode, startup: false, activationEvent: 'onLanguage:astro'
+2025-08-09 12:33:57.108 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-09 12:33:58.109 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-09 12:33:58.110 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: true, activationEvent: '*'
+2025-08-09 12:33:58.296 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-08-09 12:33:59.409 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-09 12:33:59.409 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-09 12:34:00.677 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:34:00.922 [info] Eager extensions activated
+2025-08-09 12:34:00.922 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 12:34:00.923 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 12:34:00.923 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 12:34:00.924 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 12:34:00.924 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 12:34:00.924 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2025-08-09 12:34:00.924 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 12:34:03.639 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2025-08-09 12:34:04.640 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 12:34:06.629 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 12:34:06.647 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 12:34:07.952 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 12:34:07.952 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 12:34:07.952 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 12:34:08.283 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-08-09 12:34:16.343 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:34:19.570 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-08-09 12:34:21.519 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:35:19.169 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:35:27.554 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:35:51.831 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:36:05.267 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:36:38.469 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:36:46.566 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:37:01.193 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:37:01.657 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:37:06.294 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:37:33.348 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:37:40.699 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:37:45.857 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:37:53.765 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:38:04.056 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:38:20.302 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:38:34.074 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:39:24.682 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:39:29.787 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:39:43.900 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:40:02.111 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:40:03.356 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:40:23.136 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:40:28.197 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:41:11.114 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:43:00.053 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:43:02.571 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:43:13.140 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:43:20.514 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:43:56.188 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:44:26.250 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:44:33.254 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:44:41.783 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:44:54.497 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:45:04.939 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:45:11.518 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:45:29.012 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:46:03.026 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:46:04.251 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:48:16.048 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:48:34.194 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:49:00.286 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:49:03.448 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:49:09.105 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:49:16.240 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:49:22.030 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:49:33.951 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:49:46.531 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:49:56.658 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 12:50:08.517 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 13:15:25.542 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-08-09 13:15:25.548 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f-2/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-08-09 13:15:25.575 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.575 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.576 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.577 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:25.578 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 13:15:27.474 [error] Error: Channel has been closed
+	at n (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:120:3673)
+	at Object.info (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:120:4043)
+	at T.info (/ide/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:291132)
+	at ChildProcess.<anonymous> (/ide/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:514778)
+	at ChildProcess.emit (node:events:518:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-08-09 13:15:27.478 [info] Extension host with pid 6328 exiting with code 0

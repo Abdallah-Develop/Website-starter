@@ -1,0 +1,103 @@
+["INFO" - 1:25:00 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 1:25:00 PM] Extension Version: 11.0.0.
+["INFO" - 1:25:00 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:25:08 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:26:09 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:28:41 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:28:44 PM] Formatting file:///workspace/Website-starter/src/components/ui/icons/icons.ts
+["INFO" - 1:28:44 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:28:44 PM] PrettierInstance:
+{
+  "modulePath": "/workspace/Website-starter/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.6.2"
+}
+["INFO" - 1:28:44 PM] Using ignore file (if present) at /workspace/Website-starter/.prettierignore
+["INFO" - 1:28:44 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 1:28:44 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:28:44 PM] Prettier Options:
+{
+  "filepath": "/workspace/Website-starter/src/components/ui/icons/icons.ts",
+  "parser": "typescript",
+  "plugins": [
+    "/workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js",
+    "/workspace/Website-starter/node_modules/prettier-plugin-tailwindcss/dist/index.mjs"
+  ],
+  "semi": false,
+  "trailingComma": "es5",
+  "singleQuote": false,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "htmlWhitespaceSensitivity": "ignore",
+  "endOfLine": "lf",
+  "embeddedLanguageFormatting": "auto"
+}
+["ERROR" - 1:28:44 PM] Error formatting document.
+["ERROR" - 1:28:44 PM] Declaration or statement expected. (558:3)
+  556 |                                                                                         },
+  557 |                                                                                         };
+> 558 |   }
+      |   ^
+  559 |   }
+SyntaxError: Declaration or statement expected. (558:3)
+  556 |                                                                                         },
+  557 |                                                                                         };
+> 558 |   }
+      |   ^
+  559 |   }
+    at S4 (file:///workspace/Website-starter/node_modules/prettier/plugins/typescript.mjs:17:72190)
+    at Q4 (file:///workspace/Website-starter/node_modules/prettier/plugins/typescript.mjs:20:1042)
+    at Object.e3 [as parse] (file:///workspace/Website-starter/node_modules/prettier/plugins/typescript.mjs:20:1584)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-tailwindcss/dist/index.mjs:1329:27573)
+    at async parse5 (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16731:11)
+    at async coreFormat (file:///workspace/Website-starter/node_modules/prettier/index.mjs:17287:25)
+    at async formatWithCursor (file:///workspace/Website-starter/node_modules/prettier/index.mjs:17504:14)
+    at async Module.format2 (file:///workspace/Website-starter/node_modules/prettier/index.mjs:19051:25)
+["INFO" - 1:28:44 PM] Formatting completed in 104ms.
+["INFO" - 1:28:50 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:28:53 PM] Formatting file:///workspace/Website-starter/src/components/ui/icons/icons.ts
+["INFO" - 1:28:53 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:28:53 PM] PrettierInstance:
+{
+  "modulePath": "/workspace/Website-starter/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.6.2"
+}
+["INFO" - 1:28:53 PM] Using ignore file (if present) at /workspace/Website-starter/.prettierignore
+["INFO" - 1:28:53 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "typescript"
+}
+["INFO" - 1:28:53 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 1:28:53 PM] Prettier Options:
+{
+  "filepath": "/workspace/Website-starter/src/components/ui/icons/icons.ts",
+  "parser": "typescript",
+  "plugins": [
+    "/workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js",
+    "/workspace/Website-starter/node_modules/prettier-plugin-tailwindcss/dist/index.mjs"
+  ],
+  "semi": false,
+  "trailingComma": "es5",
+  "singleQuote": false,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "htmlWhitespaceSensitivity": "ignore",
+  "endOfLine": "lf",
+  "embeddedLanguageFormatting": "auto"
+}
+["INFO" - 1:28:53 PM] Formatting completed in 81ms.
+["INFO" - 1:28:55 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:29:09 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 1:29:40 PM] Using config file at /workspace/Website-starter/.prettierrc

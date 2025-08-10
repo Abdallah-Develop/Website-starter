@@ -1,0 +1,95 @@
+---
+// Import relevant dependencies
+import NavLink from "@components/ui/links/NavLink.astro"
+import PrimaryCTA from "@components/ui/buttons/PrimaryCTA.astro"
+import BrandLogo from "@components/BrandLogo.astro"
+import navigations from "@utils/navigations.ts"
+---
+
+<!-- Main header component -->
+<header
+  class="sticky inset-x-0 top-4 z-50 flex w-full flex-wrap text-sm md:flex-nowrap"
+>
+  <!-- Navigation container -->
+  <nav
+    class="relative mx-2 w-full rounded-xl bg-white/10 px-4 py-3 backdrop-blur-md md:flex md:items-center md:justify-between md:px-3 md:py-3 lg:px-6 xl:mx-auto"
+    aria-label="Global"
+  >
+    <!-- Brand logo and right-side controls for smaller screens -->
+    <div class="flex w-full items-center justify-between md:w-auto">
+      <!-- Brand logo -->
+      <a
+        class="text-md flex-none rounded-lg font-bold ring-zinc-500 outline-hidden focus-visible:ring-3"
+        href="/"
+        aria-label="Brand"
+      >
+        <BrandLogo class="h-auto w-20" />
+      </a>
+
+      <!-- Right-side controls for smaller screens -->
+      <span class="ml-auto flex items-center md:hidden">
+        <PrimaryCTA title="Start Audit" />
+        <button
+          type="button"
+          class="hs-collapse-toggle flex h-10 w-10 items-center justify-center rounded-full text-sm font-bold text-neutral-600 transition duration-300 hover:bg-neutral-200 disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:outline-hidden"
+          data-hs-collapse="#navbar-collapse-with-animation"
+          aria-controls="navbar-collapse-with-animation"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            class="hs-collapse-open:hidden h-[1.25rem] w-[1.25rem] shrink-0"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="3" x2="21" y1="6" y2="6"></line>
+            <line x1="3" x2="21" y1="12" y2="12"></line>
+            <line x1="3" x2="21" y1="18" y2="18"></line>
+          </svg>
+          <svg
+            class="hs-collapse-open:block hidden h-[1.25rem] w-[1.25rem] shrink-0"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+        </button>
+      </span>
+    </div>
+
+    <!-- Contains navigation links and right-side controls for larger screens -->
+    <div
+      id="navbar-collapse-with-animation"
+      class="hs-collapse hidden gap-8 grow basis-full overflow-hidden transition-all duration-300 md:flex md:items-center md:justify-center"
+    >
+      <!-- Navigation links container -->
+      <div
+        class="mt-5 flex flex-col gap-x-0 gap-y-4 md:mt-0 md:flex-row md:items-center md:justify-end md:gap-x-4 md:gap-y-0 md:ps-7 lg:gap-x-7"
+      >
+        {
+          navigations.navBarLinks.map(link => (
+            <NavLink url={link.url} name={link.name} />
+          ))
+        }
+      </div>
+    </div>
+
+      <!-- Right-side for larger screens -->
+      <div class="hidden items-center gap-4 md:block">
+        <PrimaryCTA title="Start Audit" />
+      </div>
+  
+  </nav>
+</header>

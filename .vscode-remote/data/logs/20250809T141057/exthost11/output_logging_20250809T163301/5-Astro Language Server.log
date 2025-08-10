@@ -1,0 +1,42 @@
+SyntaxError: Unexpected token (2:9)
+  1 |
+> 2 |   title?: string
+    |         ^
+  3 |   url?: string
+  4 |   noArrow?: boolean
+  5 |   variant?: "primary" | "glass" | "white"
+    at pa (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:14:16245)
+    at ua (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:14:16680)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:15:2919)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:817:37)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-tailwindcss/dist/index.mjs:1329:27573)
+    at async parse5 (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16731:11)
+    at async textToDoc (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16842:19)
+    at async wrapParserTryCatch (file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:667:16)
+    at async file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:573:23
+    at async printEmbeddedLanguages (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16782:20) {
+  loc: { start: { line: 2, column: 9 } },
+  cause: SyntaxError: Unexpected token (2:8)
+      at r (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:3:12378)
+      at ke.raise (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:19581)
+      at ke.unexpected (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:19940)
+      at ke.parseExprAtom (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:119715)
+      at ke.parseExprAtom (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:5334)
+      at ke.parseExprSubscripts (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:112680)
+      at ke.parseUpdate (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:112313)
+      at ke.parseMaybeUnary (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:111939)
+      at ke.parseMaybeUnary (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:86377)
+      at ke.parseMaybeUnaryOrPrivate (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:108840) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'UnexpectedToken',
+    loc: B { line: 2, column: 8, index: 12 },
+    pos: 12,
+    syntaxPlugin: undefined
+  },
+  codeFrame: '  1 |\n' +
+    '> 2 |   title?: string\n' +
+    '    |         ^\n' +
+    '  3 |   url?: string\n' +
+    '  4 |   noArrow?: boolean\n' +
+    '  5 |   variant?: "primary" | "glass" | "white"'
+}

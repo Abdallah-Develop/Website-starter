@@ -1,0 +1,53 @@
+---
+// src/components/ui/badges/Badge.astro
+import Icon from "@components/ui/icons/Icon.astro"
+
+const {
+  text,
+  variant = "primary", // primary, green, red, blue, gray
+  LeftIcon,
+  RightIcon,
+} = Astro.props
+
+// Map variant to Tailwind text/ring color
+const colorClass =
+  variant === "red"
+    ? "text-red-500 ring-red-500/75"
+    : variant === "green"
+      ? "text-green-500 ring-green-500/75"
+      : variant === "blue"
+        ? "text-blue-500 ring-blue-500/75"
+        : variant === "gray"
+          ? "text-gray-500 ring-gray-200/75"
+          : "text-primary ring-primary/75"
+
+// Background class
+const bgClass =
+  variant === "red"
+    ? "bg-red-100"
+    : variant === "green"
+      ? "bg-green-100"
+      : variant === "blue"
+        ? "bg-blue-100"
+        : variant === "gray"
+          ? "bg-gray-100"
+          : "bg-primary/20"
+
+const ringClass = "ring-1 ring-inset"
+const baseClass =
+  "flex max-w-max items-center gap-2 rounded-full px-3 py-1.5 text-xs font-medium shadow-sm"
+---
+
+<div class={`${baseClass} ${bgClass} ${ringClass} ${colorClass}`}>
+  {
+    LeftIcon && (
+      <Icon name={LeftIcon} classs="!h-4 !w-4 flex-shrink-0 !text-primary" />
+    )
+  }
+  <span>{text}</span>
+  {
+    RightIcon && (
+      <Icon name={RightIcon} class="h-4 w-4 flex-shrink-0 fill-current" />
+    )
+  }
+</div>

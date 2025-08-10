@@ -1,0 +1,184 @@
+2025-08-08 16:03:20.868 [info] 
+
+
+
+
+2025-08-08 16:03:20.884 [info] Extension host agent started.
+2025-08-08 16:03:21.062 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2025-08-08 16:03:21.062 [info] Extension 'github.vscode-pull-request-github' v0.114.3 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2025-08-08 16:03:25.795 [info] [192.168.100.139][b15c08dd][ManagementConnection] New connection established.
+2025-08-08 16:03:26.344 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] New connection established.
+2025-08-08 16:03:26.493 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> Launched Extension Host Process.
+2025-08-08 16:03:38.330 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-08 16:03:38 [INFO]: No proxy settings found[39m
+
+2025-08-08 16:03:40.135 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-08 16:03:40 [INFO]: Checking network connection...[39m
+
+2025-08-08 16:03:41.421 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-08 16:03:41 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz[39m
+
+2025-08-08 16:03:42.437 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-08 16:03:42 [INFO]: Creating manager directory: /tmp/cc722a30-1563-44b1-8de1-6b1f460322ab/codeium/manager[39m
+
+2025-08-08 16:03:44.640 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-08 16:03:44 [INFO]: Using cached LS with valid crc32: /workspace/.vscode-remote/extensions/codeium.codeium-1.48.2-universal/dist/e03af6ebc40b844314d448f947c80b636d093049/language_server_linux_x64[39m
+
+2025-08-08 16:03:44.732 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-08 16:03:44 [INFO]: Language server started[39m
+
+2025-08-08 16:03:46.939 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-08 16:03:46 [INFO]: Found language server running on port 40335[39m
+
+2025-08-08 16:03:50.224 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-08 16:03:50 [INFO]: openAllTextDocuments took 1574.6203609999975ms[39m
+
+2025-08-08 16:03:50.336 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:50 [ERROR]: Invalid LSP port: Downloading Chromium 133.0.6943.16 (playwright build v1155) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1155/chromium-linux.zip[39m
+[31m[39m
+
+2025-08-08 16:03:51.122 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:51 [ERROR]: Invalid LSP port: |                                                                                |   0% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:51.274 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:51 [ERROR]: Invalid LSP port: |■■■■■■■■                                                                        |  10% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:51.555 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:51 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■                                                                |  20% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:51.736 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:51 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:51.863 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:51 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:52.031 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:52 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:52.153 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:52 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:52.277 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:52 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:52.436 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:52 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:52.544 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:52 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:52.642 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:52 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:57.762 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:57 [ERROR]: Invalid LSP port: Chromium 133.0.6943.16 (playwright build v1155) downloaded to /home/gitpod/.codeium/ws-browser/chromium-1155[39m
+[31m[39m
+
+2025-08-08 16:03:57.766 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:57 [ERROR]: Invalid LSP port: Downloading FFMPEG playwright build v1011 from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip[39m
+[31m[39m
+
+2025-08-08 16:03:57.988 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:57 [ERROR]: Invalid LSP port: |                                                                                |   0% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:57.997 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:57 [ERROR]: Invalid LSP port: |■■■■■■■■                                                                        |  10% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.001 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■                                                                |  20% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.004 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.006 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.008 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.010 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.013 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.015 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.016 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.018 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.096 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: FFMPEG playwright build v1011 downloaded to /home/gitpod/.codeium/ws-browser/ffmpeg-1011[39m
+[31m[39m
+
+2025-08-08 16:03:58.098 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: Downloading Chromium Headless Shell 133.0.6943.16 (playwright build v1155) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1155/chromium-headless-shell-linux.zip[39m
+[31m[39m
+
+2025-08-08 16:03:58.321 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |                                                                                |   0% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.403 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■                                                                        |  10% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.459 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■                                                                |  20% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.506 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.545 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.583 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.626 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.665 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.701 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:58.737 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-08 16:03:59.069 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:03:59 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-08 16:04:01.682 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 16:04:01 [ERROR]: Invalid LSP port: Chromium Headless Shell 133.0.6943.16 (playwright build v1155) downloaded to /home/gitpod/.codeium/ws-browser/chromium_headless_shell-1155[39m
+[31m[39m
+
+2025-08-08 16:09:45.764 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-08 16:09:45 [WARN]: User not logged in[39m
+
+2025-08-08 16:09:46.343 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-08 16:09:46 [WARN]: User not logged in[39m
+
+2025-08-08 16:10:04.272 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-08 16:10:04 [WARN]: User not logged in[39m
+
+2025-08-08 16:10:05.097 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-08 16:10:05 [WARN]: User not logged in[39m
+
+2025-08-08 16:10:07.885 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-08 16:10:07 [WARN]: User not logged in[39m
+
+2025-08-08 16:10:10.092 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-08 16:10:10 [WARN]: User not logged in[39m
+
+2025-08-08 16:10:28.104 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-08 16:10:28 [WARN]: User not logged in[39m
+
+2025-08-08 16:10:28.739 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-08 16:10:28 [WARN]: User not logged in[39m
+
+2025-08-08 16:11:11.754 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-08 16:11:11 [WARN]: User not logged in[39m
+
+2025-08-08 16:11:12.466 [info] [192.168.190.11][81a33ca2][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-08 16:11:12 [WARN]: User not logged in[39m
+
+2025-08-08 16:19:18.893 [info] [192.168.100.139][45ebf38c][ManagementConnection] New connection established.
+2025-08-08 16:19:19.325 [info] [192.168.100.139][5e1f2846][ExtensionHostConnection] New connection established.
+2025-08-08 16:19:19.332 [info] [192.168.100.139][5e1f2846][ExtensionHostConnection] <1856> Launched Extension Host Process.
+2025-08-08 16:19:30.074 [info] [192.168.100.139][5e1f2846][ExtensionHostConnection] <1856> [32m(VSCode) 2025-08-08 16:19:30 [INFO]: No proxy settings found[39m
+
+2025-08-08 16:19:31.732 [info] [192.168.100.139][5e1f2846][ExtensionHostConnection] <1856> [32m(VSCode) 2025-08-08 16:19:31 [INFO]: Checking network connection...[39m
+
+2025-08-08 16:19:34.090 [info] [192.168.100.139][5e1f2846][ExtensionHostConnection] <1856> [32m(VSCode) 2025-08-08 16:19:34 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz[39m
+
+2025-08-08 16:19:35.011 [info] [192.168.100.139][5e1f2846][ExtensionHostConnection] <1856> [32m(VSCode) 2025-08-08 16:19:35 [INFO]: Creating manager directory: /tmp/138b9c13-6ac1-48a4-98b0-fc1baf2c4ae9/codeium/manager[39m
+
+2025-08-08 16:19:35.340 [info] [192.168.100.139][5e1f2846][ExtensionHostConnection] <1856> [32m(VSCode) 2025-08-08 16:19:35 [INFO]: Using cached LS with valid crc32: /workspace/.vscode-remote/extensions/codeium.codeium-1.48.2-universal/dist/e03af6ebc40b844314d448f947c80b636d093049/language_server_linux_x64[39m
+
+2025-08-08 16:19:35.348 [info] [192.168.100.139][5e1f2846][ExtensionHostConnection] <1856> [32m(VSCode) 2025-08-08 16:19:35 [INFO]: Language server started[39m
+
+2025-08-08 16:19:37.210 [info] [192.168.100.139][5e1f2846][ExtensionHostConnection] <1856> [32m(VSCode) 2025-08-08 16:19:37 [INFO]: Found language server running on port 37989[39m
+
+2025-08-08 16:19:40.995 [info] [192.168.100.139][5e1f2846][ExtensionHostConnection] <1856> [32m(VSCode) 2025-08-08 16:19:40 [INFO]: openAllTextDocuments took 654.7764590000006ms[39m
+
+2025-08-08 16:29:48.324 [info] [192.168.100.139][b15c08dd][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

@@ -1,0 +1,446 @@
+2025-08-09 14:11:28.066 [info] Extension host with pid 535 started
+2025-08-09 14:11:28.066 [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock'
+2025-08-09 14:11:28.066 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-08-09 14:11:28.067 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': The pid 8321 appears to be gone.
+2025-08-09 14:11:28.067 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': Deleting a stale lock.
+2025-08-09 14:11:28.072 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': Lock acquired.
+2025-08-09 14:11:29.589 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-09 14:11:29.590 [info] ExtensionService#_doActivateExtension astro-build.astro-vscode, startup: false, activationEvent: 'onLanguage:astro'
+2025-08-09 14:11:29.590 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-08-09 14:11:30.590 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-09 14:11:30.591 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: true, activationEvent: '*'
+2025-08-09 14:11:30.725 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-08-09 14:11:30.960 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-09 14:11:30.960 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-09 14:11:31.788 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:11:32.497 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:11:32.578 [info] Eager extensions activated
+2025-08-09 14:11:32.578 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 14:11:32.578 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 14:11:32.579 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 14:11:32.579 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 14:11:32.579 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 14:11:32.579 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2025-08-09 14:11:32.579 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 14:11:34.585 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2025-08-09 14:11:34.966 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 14:11:36.171 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 14:11:36.173 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 14:11:36.972 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 14:11:37.676 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 14:11:37.976 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 14:11:38.265 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-08-09 14:11:38.265 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-08-09 14:11:38.266 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-08-09 14:11:39.539 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 14:11:46.623 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:12:28.520 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:12:48.285 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:12:53.341 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:12:58.402 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:13:03.453 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:13:09.200 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:13:15.629 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:13:22.450 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:13:41.584 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:13:46.636 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:13:55.508 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onCommand:simpleBrowser.api.open'
+2025-08-09 14:14:12.047 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:14:18.121 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:14:23.169 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:14:31.441 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:14:32.886 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:14:36.490 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:14:41.542 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:14:46.596 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:14:51.643 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:14:56.692 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:15:03.340 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:15:08.396 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:15:13.448 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:15:19.353 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:15:36.667 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:15:45.868 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:15:50.916 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:15:55.967 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:16:01.019 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:16:11.213 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:16:16.260 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:16:21.318 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:16:26.370 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:16:34.209 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:16:39.267 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:16:44.311 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:16:49.361 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:16:54.410 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:16:59.462 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:17:28.164 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:17:33.256 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:17:35.010 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:17:52.455 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:17:57.519 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:18:02.577 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:18:07.635 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:18:32.079 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:18:40.631 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:19:28.936 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model13)
+2025-08-09 14:19:38.208 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:19:50.536 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:21:31.962 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:21:32.304 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:21:37.008 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:22:05.970 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:22:11.664 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:23:53.650 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:24:17.293 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:24:22.348 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:24:27.400 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:24:32.705 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:24:32.754 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:24:56.446 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:25:04.185 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:25:09.237 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:25:14.302 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:25:21.976 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:25:37.309 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:25:54.275 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:26:11.191 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:26:38.821 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:26:43.887 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:26:48.944 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:26:54.964 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:27:00.025 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:27:13.816 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:27:21.777 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:27:47.569 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:27:48.844 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:27:54.002 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:28:40.027 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:29:07.725 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:29:29.280 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:29:35.156 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:29:58.981 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:30:04.029 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:30:10.400 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:30:15.446 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:30:31.208 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:30:48.013 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:30:49.245 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:32:08.600 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:33:04.115 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:33:17.326 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:33:35.320 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:33:41.399 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:33:48.408 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:33:49.703 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:34:42.815 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:34:47.655 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model25)
+2025-08-09 14:35:25.598 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:35:43.101 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model30)
+2025-08-09 14:36:41.065 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:36:46.122 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:36:48.803 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:36:51.173 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:36:56.219 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:37:01.266 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:37:06.312 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:37:11.363 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:37:16.416 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:37:37.371 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:37:51.104 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:38:02.921 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:38:07.987 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:38:30.541 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:38:49.177 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:39:56.030 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:39:56.362 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:40:01.075 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:40:16.080 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:40:21.127 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:40:30.207 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:40:47.507 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:41:05.943 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:41:10.994 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:41:16.045 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:41:27.555 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:41:33.925 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:43:29.562 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:43:29.913 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:43:34.621 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:43:39.675 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:57:21.322 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-08-09 14:57:21.325 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-08-09 14:57:21.352 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.352 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.352 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.352 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.352 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.352 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.352 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.352 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.352 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.353 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.353 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.353 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.353 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.353 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.353 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.353 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.353 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.353 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.353 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.353 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.353 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.353 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 14:57:21.354 [warning] Canceled
+2025-08-09 14:57:21.893 [error] Error: Channel has been closed
+	at n (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:120:3673)
+	at Object.info (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:120:4043)
+	at T.info (/ide/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:291132)
+	at ChildProcess.<anonymous> (/ide/extensions/json-language-features/client/dist/node/jsonClientMain.js:2:514778)
+	at ChildProcess.emit (node:events:518:28)
+	at ChildProcess.emit (node:domain:489:12)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-08-09 14:57:21.895 [info] Extension host with pid 535 exiting with code 0

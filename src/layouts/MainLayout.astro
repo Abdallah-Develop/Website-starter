@@ -5,6 +5,9 @@ import Navbar from "@components/sections/navbar&footer/Navbar.astro";
 import FooterSection from "@components/sections/navbar&footer/FooterSection.astro";
 import { SITE } from "@data/constants";
 import "@styles/global.css";
+import "@styles/amina/stylesheet.css";
+import "@fonts/fonts.css";
+
 
 // Setting expected props
 const {
@@ -38,30 +41,18 @@ interface Props {
     />
     {/* Define the title of the page */}
     <title>{title}</title>
-    <script is:inline>
-      // Script to handle dark mode. It will check if the theme is stored in localStorage or if dark theme is preferred by system settings
-      if (
-        localStorage.getItem("hs_theme") === "dark" ||
-        (!("hs_theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ) {
-        document.documentElement.classList.add("dark");
-      } else {
-        document.documentElement.classList.remove("dark");
-      }
-    </script>
     <script>
       import "@scripts/lenisSmoothScroll.js";
     </script>
   </head>
   <body
-    class="bg-neutral-200 selection:bg-yellow-400 selection:text-neutral-700 dark:bg-neutral-800 flex flex-col min-h-screen"
+    class="bg-neutral-2000 selection:bg-primary selection:text-white flex flex-col min-h-screen"
   >
     {/*
     Setting up the main structure of the page.
     The Navbar is placed at the top, with a slot for the main content and FooterSection at the bottom.
     */}
-    <div class="w-full mx-auto max-w-(--breakpoint-2xl) px-4 sm:px-6 lg:px-8 flex-grow">
+    <div class="w-full mx-auto max-w-(--breakpoint-2xl) px-4 lg:px-6 flex-grow">
       <Navbar />
       <main>
         <slot />

@@ -1,0 +1,34 @@
+---
+// HeroBackground.astro
+// A customizable radial gradient background with three color stops
+const {
+  class: additionalClass = "",
+  style = {},
+  firstColor = "var(--color-primary-dark)",
+  middleColor = "var(--color-primary)",
+  lastColor = "var(--color-secondary)",
+  position = "bottom left",
+  shape = "circle",
+} = Astro.props
+
+// Construct the gradient using the three colors
+const background = `radial-gradient(
+                ${shape} at ${position},
+                  ${firstColor} 25%,
+                    ${middleColor} 50%,
+                      ${lastColor} 100%
+                      )`
+
+// Merge background into style, allowing override
+const finalStyle = {
+  ...style,
+  background,
+}
+---
+
+<div
+  class={`hero-background ${additionalClass}`}
+  style={finalStyle}
+  aria-hidden="true"
+>
+</div>

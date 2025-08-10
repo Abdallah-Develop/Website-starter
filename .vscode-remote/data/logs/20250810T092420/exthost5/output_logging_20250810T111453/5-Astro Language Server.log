@@ -1,0 +1,59 @@
+[volar-service-typescript] The language client lacks support for the command/edit properties in the resolve code action. Therefore, the code action resolve is pre-calculated.
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x14791e0, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:477 +0x1c6
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x1478580, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:761 +0x564
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x1478160, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:371 +0xca
+github.com/withastro/compiler/internal/printer.PrintToTSX({0x1566a00, 0x1431}, 0x1478160, {0x0, 0x0}, {{0x3c6b4, 0x6}, {0x1618a00, 0x3c}, {0x1618a00, ...}, ...}, ...)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:35 +0x12
+main.main.ConvertToTSX.func3({{}, 0x7ff8000100000026, 0x1613770}, {0x1434000, 0x2, 0x2})
+	./astro-wasm.go:285 +0xf
+syscall/js.handleEvent()
+	syscall/js/func.go:100 +0x23
+exit code: 2
+There was an error transforming /workspace/Website-starter/src/components/booking-card.astro to TSX. An empty file will be returned instead. Please create an issue: https://github.com/withastro/language-tools/issues
+Error: TypeError: Cannot read properties of undefined (reading 'map').
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x14edce0, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:477 +0x1c6
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x14ed080, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:761 +0x564
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x14ecc60, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:371 +0xca
+github.com/withastro/compiler/internal/printer.PrintToTSX({0x14c4a00, 0x142f}, 0x14ecc60, {0x0, 0x0}, {{0x3c6b4, 0x6}, {0x14da300, 0x3c}, {0x14da300, ...}, ...}, ...)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:35 +0x12
+main.main.ConvertToTSX.func3({{}, 0x7ff800010000000d, 0x1c4c6d0}, {0x1434000, 0x2, 0x2})
+	./astro-wasm.go:285 +0xf
+syscall/js.handleEvent()
+	syscall/js/func.go:100 +0x23
+exit code: 2
+There was an error transforming /workspace/Website-starter/src/components/booking-card.astro to TSX. An empty file will be returned instead. Please create an issue: https://github.com/withastro/language-tools/issues
+Error: TypeError: Cannot read properties of undefined (reading 'map').
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+github.com/withastro/compiler/internal/printer.renderTsx(0x151d838, 0x153e840, 0x151dab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:477 +0x1c6
+github.com/withastro/compiler/internal/printer.renderTsx(0x151d838, 0x148e580, 0x151dab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:761 +0x564
+github.com/withastro/compiler/internal/printer.renderTsx(0x151d838, 0x15a5ce0, 0x151dab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:761 +0x564
+github.com/withastro/compiler/internal/printer.renderTsx(0x151d838, 0x15a5080, 0x151dab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:761 +0x564
+github.com/withastro/compiler/internal/printer.renderTsx(0x151d838, 0x15a4c60, 0x151dab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:371 +0xca
+github.com/withastro/compiler/internal/printer.PrintToTSX({0x1c7d500, 0x1401}, 0x15a4c60, {0x0, 0x0}, {{0x3c6b4, 0x6}, {0x17cd580, 0x3c}, {0x17cd580, ...}, ...}, ...)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:35 +0x12
+main.main.ConvertToTSX.func3({{}, 0x7ff8000100000016, 0x1c51c30}, {0x1434000, 0x2, 0x2})
+	./astro-wasm.go:285 +0xf
+syscall/js.handleEvent()
+	syscall/js/func.go:100 +0x23
+exit code: 2
+There was an error transforming /workspace/Website-starter/src/components/booking-card.astro to TSX. An empty file will be returned instead. Please create an issue: https://github.com/withastro/language-tools/issues
+Error: TypeError: Cannot read properties of undefined (reading 'map').

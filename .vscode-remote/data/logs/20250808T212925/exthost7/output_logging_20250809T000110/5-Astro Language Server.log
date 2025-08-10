@@ -1,0 +1,18 @@
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x148e840, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:477 +0x1c6
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x148e580, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:761 +0x564
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x148e160, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:371 +0xca
+github.com/withastro/compiler/internal/printer.PrintToTSX({0x169e900, 0x845}, 0x148e160, {0x0, 0x0}, {{0x3c6b4, 0x6}, {0x178e5f0, 0x45}, {0x178e5f0, ...}, ...}, ...)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:35 +0x12
+main.main.ConvertToTSX.func3({{}, 0x7ff800010000007c, 0x174c018}, {0x1434000, 0x2, 0x2})
+	./astro-wasm.go:285 +0xf
+syscall/js.handleEvent()
+	syscall/js/func.go:100 +0x23
+exit code: 2
+There was an error transforming /workspace/Website-starter/src/components/ui/buttons/PrimaryCTA.astro to TSX. An empty file will be returned instead. Please create an issue: https://github.com/withastro/language-tools/issues
+Error: TypeError: Cannot read properties of undefined (reading 'map').

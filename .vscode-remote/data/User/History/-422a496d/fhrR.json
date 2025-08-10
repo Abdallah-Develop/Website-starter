@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "window.commandCenter": true,
+    "workbench.layoutControl.enabled": true,
+    "workbench.commandPalette.experimental.askChatLocation": "quickChat",
+    "workbench.statusBar.visible": false,
+    "workbench.sideBar.location": "right"
+}

@@ -1,0 +1,73 @@
+@import "tailwindcss";
+@import "preline/variants.css";
+@plugin '@tailwindcss/forms';
+
+@theme {
+  --breakpoint-xs: 30rem;
+  --text-tiny: 0.625rem;
+
+  --color-transparent: transparent;
+  --color-current: currentColor;
+  --color-black: #000;
+  --color-white: #fff;
+
+  /*--color-primary: #10B981;
+                --color-primary-dark: #059669;
+
+                  --color-primary: #996fff;
+                    --color-primary-dark: #804aff;*/
+
+  --color-primary: #00bfff;
+  --color-primary-dark: #00aaee;
+  --color-secondary: #00ffff;
+}
+
+/*
+                            The default border color has changed to `currentColor` in Tailwind CSS v4,
+                              so we've added these compatibility styles to make sure everything still
+                                looks the same as it did with Tailwind CSS v3.
+
+                                  If we ever want to remove these styles, we need to add an explicit border
+                                    color utility to any element that depends on these defaults.
+                                    */
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+nav .primaryCTA {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+.lines-bg {
+  background: repeating-linear-gradient(
+    to right,
+    transparent,
+    transparent 1px,
+    var(--color-primary) 48px,
+    var(--color-primary) 50px
+  );
+  opacity: 1;
+  pointer-events: none;
+  z-index: 0;
+}
+.empty-text {
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.bgb {
+  mix-blend-mode: multiply;
+}

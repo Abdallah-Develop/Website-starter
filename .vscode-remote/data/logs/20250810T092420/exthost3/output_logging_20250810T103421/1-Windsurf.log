@@ -1,0 +1,61 @@
+(VSCode) 2025-08-10 10:34:28.454 [INFO]: No proxy settings found
+(VSCode) 2025-08-10 10:34:30.349 [INFO]: Checking network connection...
+(VSCode) 2025-08-10 10:34:31.415 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz
+(VSCode) 2025-08-10 10:34:32.887 [INFO]: Creating manager directory: /tmp/5c55f364-d96c-4402-a5f5-f65f298d54ec/codeium/manager
+(VSCode) 2025-08-10 10:34:33.511 [INFO]: Using cached LS with valid crc32: /workspace/.vscode-remote/extensions/codeium.codeium-1.48.2-universal/dist/e03af6ebc40b844314d448f947c80b636d093049/language_server_linux_x64
+(VSCode) 2025-08-10 10:34:33.521 [INFO]: Language server started
+2025/08/10 10:34:33 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0810 10:34:33.795616  9721 main.go:604] [Language Server Manager] Setting GOMAXPROCS to 4
+I0810 10:34:33.795751  9721 main.go:829] [Language Server Manager] Starting language server manager with pid 9721
+I0810 10:34:33.795847  9721 main.go:138] [Language Server Manager] Manager acquired its lock file /tmp/5c55f364-d96c-4402-a5f5-f65f298d54ec/codeium/manager/locks/manager.lock
+I0810 10:34:33.796572  9721 main.go:283] [Language Server Manager] Waiting for random port file in /tmp/5c55f364-d96c-4402-a5f5-f65f298d54ec/codeium/manager/child_random_port_1754822073795956200_8844815100270894291 to be created
+2025/08/10 10:34:33 maxprocs: Leaving GOMAXPROCS=16: CPU quota undefined
+I0810 10:34:34.051097  9742 main.go:604] Setting GOMAXPROCS to 4
+I0810 10:34:34.051266  9742 main.go:823] Starting language server process with pid 9742
+I0810 10:34:34.051306  9742 server.go:296] Language server will attempt to listen on host 127.0.0.1
+I0810 10:34:34.051892  9742 server.go:303] Language server listening on random port at 41451
+I0810 10:34:34.758568  9742 web_server.go:256] Chat Web Server listening at ws://127.0.0.1:38469
+I0810 10:34:35.078110  9742 server.go:955] Local search is enabled, will index local files.
+I0810 10:34:35.078145  9742 server.go:959] Using 4 indexer workers
+I0810 10:34:35.221730  9742 server.go:1196] Child process attempting to acquire lock file /tmp/5c55f364-d96c-4402-a5f5-f65f298d54ec/codeium/manager/locks/child_lock_1754822073796002280_531673480457463873
+I0810 10:34:35.221985  9742 server.go:1204] Child process acquired lock file /tmp/5c55f364-d96c-4402-a5f5-f65f298d54ec/codeium/manager/locks/child_lock_1754822073796002280_531673480457463873
+I0810 10:34:35.313444  9721 main.go:319] [Language Server Manager] Found random server port 41451
+I0810 10:34:35.313483  9721 main.go:320] [Language Server Manager] Found random lsp port 33469
+I0810 10:34:35.313527  9721 main.go:327] [Language Server Manager] Attempting to connect to language server at 127.0.0.1:41451
+33469
+I0810 10:34:35.326938  9721 main.go:192] [Language Server Manager] Fixing language server port at 41451
+I0810 10:34:35.326989  9721 main.go:381] [Language Server Manager] Successfully connected to new language server at 127.0.0.1:41451
+(VSCode) 2025-08-10 10:34:35.414 [INFO]: Found language server running on port 41451
+Playwright Host validation warning: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Please install them with the following command:      ║
+║                                                      ║
+║     sudo npx playwright install-deps                 ║
+║                                                      ║
+║ Alternatively, use apt:                              ║
+║     sudo apt-get install libatk1.0-0\                ║
+║         libatk-bridge2.0-0\                          ║
+║         libcups2\                                    ║
+║         libxcomposite1\                              ║
+║         libxdamage1\                                 ║
+║         libxfixes3\                                  ║
+║         libxrandr2\                                  ║
+║         libgbm1\                                     ║
+║         libxkbcommon0\                               ║
+║         libatspi2.0-0                                ║
+║                                                      ║
+║ <3 Playwright Team                                   ║
+╚══════════════════════════════════════════════════════╝
+    at validateDependenciesLinux (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/dependencies.js:216:9)
+    at async Registry._validateHostRequirements (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:865:43)
+    at async Registry._validateHostRequirementsForExecutableIfNeeded (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:963:7)
+    at async Registry.validateHostRequirementsForExecutablesIfNeeded (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/server/registry/index.js:952:43)
+    at async t.<anonymous> (/home/gitpod/.cache/ms-playwright-go/1.50.1/package/lib/cli/program.js:122:7)
+(VSCode) 2025-08-10 10:34:37.230 [INFO]: openAllTextDocuments took 601.8920749999997ms
+(VSCode) 2025-08-10 10:34:45.726 [INFO]: Disposing language server process
+(VSCode) 2025-08-10 10:34:45.727 [INFO]: Deleting manager directory: /tmp/5c55f364-d96c-4402-a5f5-f65f298d54ec/codeium/manager
+(VSCode) 2025-08-10 10:34:45.728 [INFO]: Successfully disposed language server
+W0810 10:34:45.726981  9721 main.go:142] [Language Server Manager] Got signal terminated, shutting down
+I0810 10:34:45.754959  9742 server.go:1422] Exit requested on language server process 9742
+I0810 10:34:45.755083  9742 server.go:1395] Language server shutting down

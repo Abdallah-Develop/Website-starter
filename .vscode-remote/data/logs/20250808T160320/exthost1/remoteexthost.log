@@ -1,0 +1,31 @@
+2025-08-08 16:03:31.670 [info] Extension host with pid 523 started
+2025-08-08 16:03:31.670 [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock'
+2025-08-08 16:03:31.670 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-08-08 16:03:31.670 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': The pid 8274 appears to be gone.
+2025-08-08 16:03:31.670 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': Deleting a stale lock.
+2025-08-08 16:03:31.673 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': Lock acquired.
+2025-08-08 16:03:32.057 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onWebviewPanel:simpleBrowser.view'
+2025-08-08 16:03:32.059 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-08 16:03:32.059 [info] ExtensionService#_doActivateExtension astro-build.astro-vscode, startup: false, activationEvent: 'onLanguage:astro'
+2025-08-08 16:03:33.061 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-08 16:03:33.061 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: true, activationEvent: '*'
+2025-08-08 16:03:33.251 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-08-08 16:03:33.523 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-08 16:03:33.523 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-08 16:03:35.049 [info] Eager extensions activated
+2025-08-08 16:03:35.050 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-08 16:03:35.051 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-08 16:03:35.051 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-08-08 16:03:35.051 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2025-08-08 16:03:35.051 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-08-08 16:03:35.052 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2025-08-08 16:03:35.052 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-08-08 16:03:37.933 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2025-08-08 16:03:38.336 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-08-08 16:03:40.155 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-08 16:03:40.158 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-08 16:03:41.431 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-08 16:03:41.431 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-08 16:03:41.432 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-08 16:03:50.065 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-08-08 16:03:50.148 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'

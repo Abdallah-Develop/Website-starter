@@ -1,0 +1,1066 @@
+Locating server…
+Booting server...
+Setting up server…
+Listening for messages…
+Searching for Tailwind CSS projects in the workspace's folders.
+{"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/workspace/Website-starter/src/assets/styles/global.css"}
+{"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/workspace/Website-starter/src/assets/styles/starlight.css"}
+{"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false},"path":"/workspace/Website-starter/src/assets/styles/starlight_main.css"}
+[Global] Creating projects: [{"folder":"/workspace/Website-starter","config":"/workspace/Website-starter/src/assets/styles/global.css","selectors":[{"pattern":"/workspace/Website-starter/src/assets/styles/global.css","priority":0},{"pattern":"/workspace/Website-starter/.github/FUNDING.yml","priority":1},{"pattern":"/workspace/Website-starter/.github/dependabot.yml","priority":1},{"pattern":"/workspace/Website-starter/.gitpod.yml","priority":1},{"pattern":"/workspace/Website-starter/.prettierrc","priority":1},{"pattern":"/workspace/Website-starter/.vscode/settings.json","priority":1},{"pattern":"/workspace/Website-starter/CODE_OF_CONDUCT.md","priority":1},{"pattern":"/workspace/Website-starter/LICENSE","priority":1},{"pattern":"/workspace/Website-starter/README.md","priority":1},{"pattern":"/workspace/Website-starter/amina/demo.html","priority":1},{"pattern":"/workspace/Website-starter/amina/stylesheet.css","priority":1},{"pattern":"/workspace/Website-starter/astro.config.mjs","priority":1},{"pattern":"/workspace/Website-starter/package.json","priority":1},{"pattern":"/workspace/Website-starter/process-html.mjs","priority":1},{"pattern":"/workspace/Website-starter/public/banner-pattern.svg","priority":1},{"pattern":"/workspace/Website-starter/src/.prettierignore","priority":1},{"pattern":"/workspace/Website-starter/src/assets/scripts/lenisSmoothScroll.js","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/lenis.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/starlight.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/starlight_main.css","priority":1},{"pattern":"/workspace/Website-starter/src/components/Badge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/BrandLogo.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/GradientCircle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Meta.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesGeneral.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesNavs.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStats.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStatsAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/ClientsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/ContactSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/FAQ.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/FooterSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/Navbar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/NavbarMegaMenu.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/pricing/PricingSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/Avatar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlogLarge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarTestimonialSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/banners/AnnouncementBanner.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/AccordionItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ContactIconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/IconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/LeftSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/MainSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ReviewComponent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/RightSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsBig.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsGrid.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabContent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabNav.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/AuthBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Bookmark.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Btn404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GithubBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GoogleBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/LoginBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/PrimaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/ProductTabBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SecondaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SocialShare.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlogRecent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardInsight.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardRelated.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardWide.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/feedback/PostFeedback.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/LoginModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RecoverModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RegisterModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/Checkbox.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailContactInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PasswordInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PhoneInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextAreaInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/Icon.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/icons.ts","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/FooterSocialLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/MegaMenuLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/NavLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/Head.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/MobileMenuFooter.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/SiteTitle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelect.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelectMobile.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/FullStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/HalfStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/content.config.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/constants.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/faqs.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/features.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/mega_link.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/pricing.json","priority":1},{"pattern":"/workspace/Website-starter/src/env.d.ts","priority":1},{"pattern":"/workspace/Website-starter/src/images/icon.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/docs_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/layouts/MainLayout.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/favicon.ico.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/index.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/manifest.json.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/robots.txt.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/navigations.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/ui.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/utils.ts","priority":1},{"pattern":"/workspace/Website-starter/tsconfig.json","priority":1},{"pattern":"/workspace/Website-starter/vercel.json","priority":1},{"pattern":"/workspace/Website-starter/*","priority":1},{"pattern":"/workspace/Website-starter/.github/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/.vscode/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/amina/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/**","priority":2},{"pattern":"/workspace/Website-starter/**","priority":4}],"user":false,"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false}},{"folder":"/workspace/Website-starter","config":"/workspace/Website-starter/src/assets/styles/starlight.css","selectors":[{"pattern":"/workspace/Website-starter/src/assets/styles/starlight.css","priority":0},{"pattern":"/workspace/Website-starter/.github/FUNDING.yml","priority":1},{"pattern":"/workspace/Website-starter/.github/dependabot.yml","priority":1},{"pattern":"/workspace/Website-starter/.gitpod.yml","priority":1},{"pattern":"/workspace/Website-starter/.prettierrc","priority":1},{"pattern":"/workspace/Website-starter/.vscode/settings.json","priority":1},{"pattern":"/workspace/Website-starter/CODE_OF_CONDUCT.md","priority":1},{"pattern":"/workspace/Website-starter/LICENSE","priority":1},{"pattern":"/workspace/Website-starter/README.md","priority":1},{"pattern":"/workspace/Website-starter/amina/demo.html","priority":1},{"pattern":"/workspace/Website-starter/amina/stylesheet.css","priority":1},{"pattern":"/workspace/Website-starter/astro.config.mjs","priority":1},{"pattern":"/workspace/Website-starter/package.json","priority":1},{"pattern":"/workspace/Website-starter/process-html.mjs","priority":1},{"pattern":"/workspace/Website-starter/public/banner-pattern.svg","priority":1},{"pattern":"/workspace/Website-starter/src/.prettierignore","priority":1},{"pattern":"/workspace/Website-starter/src/assets/scripts/lenisSmoothScroll.js","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/global.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/lenis.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/starlight_main.css","priority":1},{"pattern":"/workspace/Website-starter/src/components/Badge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/BrandLogo.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/GradientCircle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Meta.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesGeneral.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesNavs.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStats.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStatsAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/ClientsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/ContactSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/FAQ.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/FooterSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/Navbar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/NavbarMegaMenu.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/pricing/PricingSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/Avatar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlogLarge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarTestimonialSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/banners/AnnouncementBanner.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/AccordionItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ContactIconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/IconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/LeftSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/MainSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ReviewComponent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/RightSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsBig.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsGrid.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabContent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabNav.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/AuthBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Bookmark.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Btn404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GithubBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GoogleBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/LoginBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/PrimaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/ProductTabBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SecondaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SocialShare.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlogRecent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardInsight.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardRelated.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardWide.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/feedback/PostFeedback.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/LoginModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RecoverModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RegisterModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/Checkbox.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailContactInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PasswordInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PhoneInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextAreaInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/Icon.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/icons.ts","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/FooterSocialLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/MegaMenuLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/NavLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/Head.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/MobileMenuFooter.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/SiteTitle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelect.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelectMobile.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/FullStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/HalfStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/content.config.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/constants.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/faqs.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/features.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/mega_link.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/pricing.json","priority":1},{"pattern":"/workspace/Website-starter/src/env.d.ts","priority":1},{"pattern":"/workspace/Website-starter/src/images/icon.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/docs_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/layouts/MainLayout.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/favicon.ico.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/index.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/manifest.json.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/robots.txt.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/navigations.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/ui.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/utils.ts","priority":1},{"pattern":"/workspace/Website-starter/tsconfig.json","priority":1},{"pattern":"/workspace/Website-starter/vercel.json","priority":1},{"pattern":"/workspace/Website-starter/*","priority":1},{"pattern":"/workspace/Website-starter/.github/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/.vscode/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/amina/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/**","priority":2},{"pattern":"/workspace/Website-starter/**","priority":4}],"user":false,"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false}},{"folder":"/workspace/Website-starter","config":"/workspace/Website-starter/src/assets/styles/starlight_main.css","selectors":[{"pattern":"/workspace/Website-starter/src/assets/styles/starlight_main.css","priority":0},{"pattern":"/workspace/Website-starter/.github/FUNDING.yml","priority":1},{"pattern":"/workspace/Website-starter/.github/dependabot.yml","priority":1},{"pattern":"/workspace/Website-starter/.gitpod.yml","priority":1},{"pattern":"/workspace/Website-starter/.prettierrc","priority":1},{"pattern":"/workspace/Website-starter/.vscode/settings.json","priority":1},{"pattern":"/workspace/Website-starter/CODE_OF_CONDUCT.md","priority":1},{"pattern":"/workspace/Website-starter/LICENSE","priority":1},{"pattern":"/workspace/Website-starter/README.md","priority":1},{"pattern":"/workspace/Website-starter/amina/demo.html","priority":1},{"pattern":"/workspace/Website-starter/amina/stylesheet.css","priority":1},{"pattern":"/workspace/Website-starter/astro.config.mjs","priority":1},{"pattern":"/workspace/Website-starter/package.json","priority":1},{"pattern":"/workspace/Website-starter/process-html.mjs","priority":1},{"pattern":"/workspace/Website-starter/public/banner-pattern.svg","priority":1},{"pattern":"/workspace/Website-starter/src/.prettierignore","priority":1},{"pattern":"/workspace/Website-starter/src/assets/scripts/lenisSmoothScroll.js","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/global.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/lenis.css","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/starlight.css","priority":1},{"pattern":"/workspace/Website-starter/src/components/Badge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/BrandLogo.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/GradientCircle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/Meta.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesGeneral.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesNavs.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStats.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/features/FeaturesStatsAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/ClientsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/landing/HeroSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/ContactSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/misc/FAQ.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/FooterSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/Navbar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/navbar&footer/NavbarMegaMenu.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/pricing/PricingSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/sections/testimonials/TestimonialsSectionAlt.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/Avatar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarBlogLarge.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/avatars/AvatarTestimonialSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/banners/AnnouncementBanner.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/AccordionItem.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ContactIconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/IconBlock.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/LeftSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/MainSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/ReviewComponent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/RightSection.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsBig.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsGrid.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/StatsSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabContent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/blocks/TabNav.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/AuthBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Bookmark.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/Btn404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GithubBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/GoogleBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/LoginBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/PrimaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/ProductTabBtn.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SecondaryCTA.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/buttons/SocialShare.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlog.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardBlogRecent.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardInsight.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardRelated.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardSmall.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/cards/CardWide.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/feedback/PostFeedback.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/LoginModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RecoverModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/RegisterModal.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/Checkbox.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailContactInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/EmailInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PasswordInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/PhoneInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextAreaInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/forms/input/TextInput.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/Icon.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/icons/icons.ts","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/FooterSocialLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/MegaMenuLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/links/NavLink.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/Head.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/MobileMenuFooter.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/SiteTitle.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelect.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/starlight/ThemeSelectMobile.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/FullStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/components/ui/stars/HalfStar.astro","priority":1},{"pattern":"/workspace/Website-starter/src/content.config.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/constants.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/faqs.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/features.json","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/mega_link.ts","priority":1},{"pattern":"/workspace/Website-starter/src/data_files/pricing.json","priority":1},{"pattern":"/workspace/Website-starter/src/env.d.ts","priority":1},{"pattern":"/workspace/Website-starter/src/images/icon.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/docs_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_hero_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo.svg","priority":1},{"pattern":"/workspace/Website-starter/src/images/starlight/screwfast_logo_dark.svg","priority":1},{"pattern":"/workspace/Website-starter/src/layouts/MainLayout.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/404.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/favicon.ico.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/index.astro","priority":1},{"pattern":"/workspace/Website-starter/src/pages/manifest.json.ts","priority":1},{"pattern":"/workspace/Website-starter/src/pages/robots.txt.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/navigations.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/ui.ts","priority":1},{"pattern":"/workspace/Website-starter/src/utils/utils.ts","priority":1},{"pattern":"/workspace/Website-starter/tsconfig.json","priority":1},{"pattern":"/workspace/Website-starter/vercel.json","priority":1},{"pattern":"/workspace/Website-starter/*","priority":1},{"pattern":"/workspace/Website-starter/.github/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/.vscode/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/amina/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/**/*.{,aspx,astro,cjs,css,cts,eex,erb,gjs,gts,haml,handlebars,hbs,heex,html,jade,js,json,jsx,liquid,md,mdx,mjs,mts,mustache,njk,nunjucks,php,pug,py,razor,rb,rhtml,rs,slim,svelte,svg,tpl,ts,tsx,twig,vue,yml}","priority":1},{"pattern":"/workspace/Website-starter/src/assets/styles/**","priority":2},{"pattern":"/workspace/Website-starter/**","priority":4}],"user":false,"tailwind":{"version":"4.1.11","features":["css-at-theme","layer:base","content-list","source-inline","source-not"],"isDefaultVersion":false}}]
+[Global] Preparing projects...
+[Global] Initializing projects...
+[src/assets/styles/global.css] Initializing...
+[Global] Adding watch patterns: /workspace/Website-starter/src/assets/styles/global.css, /workspace/Website-starter/src/assets/styles, /workspace/Website-starter/src/assets, /workspace/Website-starter/src, /workspace/Website-starter
+[src/assets/styles/global.css] supported features: ["css-at-theme","layer:base","content-list","source-inline","source-not"]
+[src/assets/styles/global.css] Loaded tailwindcss v4.1.11: /workspace/Website-starter/node_modules/tailwindcss
+[src/assets/styles/global.css] Building...
+[Global] Adding watch patterns: /workspace/Website-starter/node_modules/tailwindcss/index.css, /workspace/Website-starter/node_modules/preline/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/dropdown/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/remove-element/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/tooltip/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/accordion/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/tree-view/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/collapse/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/tabs/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/overlay/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/scrollspy/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/carousel/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/select/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/input-number/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/pin-input/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/strong-password/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/stepper/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/combobox/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/layout-splitter/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/scroll-nav/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/datatable/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/range-slider/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/file-upload/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/datepicker/variants.css, /workspace/Website-starter/node_modules/preline/src/plugins/theme-switch/variants.css, /workspace/Website-starter/node_modules/@tailwindcss/forms/src/index.js
+[Global] Initialized 1 projects
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1589.49ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1085.82ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+[Error - 5:11:38 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:68:1: Unexpected }
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unexpectedClose (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:9981)
+    at CR.end (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:6956)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8658)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at lF (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3549:1565)
+    at async Object.reload (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3551:834)
+    at async aC.softRestart (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3555:206) {
+  reason: 'Unexpected }',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: "@import 'tailwindcss';\n" +
+    "@import 'preline/variants.css';\n" +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '   --breakpoint-xs: 30rem;\n' +
+    '   --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '       --gfs:1440px;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '    \n' +
+    '                             \n' +
+    '                                \n' +
+    '\n' +
+    '                           \n' +
+    '                                  \n' +
+    '      \n' +
+    '--color-primary: #00bfff;\n' +
+    '  --color-primary-dark: #00aae3;\n' +
+    '    \n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                            \n' +
+    '                                                                         \n' +
+    '                                                \n' +
+    '\n' +
+    '                                                                           \n' +
+    '                                                              \n' +
+    '  \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'nav .primaryCTA {\n' +
+    '  padding-top: .4rem;\n' +
+    '  padding-bottom: .4rem;\n' +
+    '}\n' +
+    '.lines {\n' +
+    '              z-index: 64;\n' +
+    '                  bottom: 0;\n' +
+    '                      left: 0;\n' +
+    '                          width: 100%;\n' +
+    '                              height: 100%;\n' +
+    '                                  pointer-events: none;\n' +
+    '                                      background-size: calc(73 / 1440px * 100vw) calc(73 / 1440px * 100vw);\n' +
+    '                                          background-position: calc(-45 / 1440px * 100vw)\n' +
+    '                                                calc(-45 / 1440px * 100vw);\n' +
+    '                                                    background-image:\n' +
+    '                                                          linear-gradient(90deg, hsla(0, 0%, 0%, 0.7) 1px, transparent 0),\n' +
+    '                                                                linear-gradient(180deg, hsla(0, 0%, 0%, 0.9) 1px, transparent 0);\n' +
+    '                                                                  }\n' +
+    '}',
+  line: 68,
+  column: 1,
+  endLine: 68,
+  endColumn: 2,
+  input: {
+    column: 1,
+    endColumn: 2,
+    endLine: 68,
+    endOffset: 2037,
+    line: 68,
+    offset: 2036,
+    source: "@import 'tailwindcss';\n" +
+      "@import 'preline/variants.css';\n" +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '   --breakpoint-xs: 30rem;\n' +
+      '   --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '       --gfs:1440px;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '    \n' +
+      '                             \n' +
+      '                                \n' +
+      '\n' +
+      '                           \n' +
+      '                                  \n' +
+      '      \n' +
+      '--color-primary: #00bfff;\n' +
+      '  --color-primary-dark: #00aae3;\n' +
+      '    \n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                            \n' +
+      '                                                                         \n' +
+      '                                                \n' +
+      '\n' +
+      '                                                                           \n' +
+      '                                                              \n' +
+      '  \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'nav .primaryCTA {\n' +
+      '  padding-top: .4rem;\n' +
+      '  padding-bottom: .4rem;\n' +
+      '}\n' +
+      '.lines {\n' +
+      '              z-index: 64;\n' +
+      '                  bottom: 0;\n' +
+      '                      left: 0;\n' +
+      '                          width: 100%;\n' +
+      '                              height: 100%;\n' +
+      '                                  pointer-events: none;\n' +
+      '                                      background-size: calc(73 / 1440px * 100vw) calc(73 / 1440px * 100vw);\n' +
+      '                                          background-position: calc(-45 / 1440px * 100vw)\n' +
+      '                                                calc(-45 / 1440px * 100vw);\n' +
+      '                                                    background-image:\n' +
+      '                                                          linear-gradient(90deg, hsla(0, 0%, 0%, 0.7) 1px, transparent 0),\n' +
+      '                                                                linear-gradient(180deg, hsla(0, 0%, 0%, 0.9) 1px, transparent 0);\n' +
+      '                                                                  }\n' +
+      '}',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1702.66ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1049.59ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 913.19ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1142.64ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1605.97ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1304.89ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1248.05ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1494.99ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 957.75ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1281.47ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1007.01ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1026.15ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1008.84ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 927.35ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 978.27ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 888.25ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 916.36ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 977.57ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 878.24ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 965.19ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 2150.64ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1014.56ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 984.78ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1330.98ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1024.38ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1539.89ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 970.59ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 917.41ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 936.31ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 923.62ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 849.66ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 868.13ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 777.49ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 807.38ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1231.77ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1131.67ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1292.65ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1118.31ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1592.11ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1066.65ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1105.27ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+[Error - 5:46:38 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:79:1: Unexpected }
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unexpectedClose (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:9981)
+    at CR.end (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:6956)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8658)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at lF (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3549:1565)
+    at async Object.reload (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3551:834)
+    at async aC.softRestart (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3555:206) {
+  reason: 'Unexpected }',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: '@import "tailwindcss";\n' +
+    '@import "preline/variants.css";\n' +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '  --breakpoint-xs: 30rem;\n' +
+    '  --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '\n' +
+    '                             \n' +
+    '                                \n' +
+    '\n' +
+    '                           \n' +
+    '                                  \n' +
+    '\n' +
+    '  --color-primary: #00bfff;\n' +
+    '  --color-primary-dark: #00aae3;\n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                            \n' +
+    '                                                                         \n' +
+    '                                                \n' +
+    '\n' +
+    '                                                                           \n' +
+    '                                                              \n' +
+    '  \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'nav .primaryCTA {\n' +
+    '  padding-top: 0.4rem;\n' +
+    '  padding-bottom: 0.4rem;\n' +
+    '}\n' +
+    '\n' +
+    '.lines {\n' +
+    '  z-index: 64;\n' +
+    '  bottom: 0;\n' +
+    '  left: 0;\n' +
+    '  width: 100%;\n' +
+    '  height: 100%;\n' +
+    '  pointer-events: none;\n' +
+    '  background-repeat:repeat;\n' +
+    '  background-size: calc(73 / 1440px * 100vw) calc(73 / 1440px * 100vw);\n' +
+    '    background-position: 0 0;\n' +
+    '  background-image:\n' +
+    '    linear-gradient(90deg, hsla(0, 0%, 0%, 0.7) 1px, transparent 0),\n' +
+    '    linear-gradient(180deg, hsla(0, 0%, 0%, 0.9) 1px, transparent 0);\n' +
+    '}\n' +
+    '\n' +
+    '.lines {\n' +
+    '    background: repeating-linear-gradient(\n' +
+    '        to right,\n' +
+    '            transparent,\n' +
+    '                transparent 48px,\n' +
+    '                    black 48px,\n' +
+    '                        black 50px\n' +
+    '                          );\n' +
+    '                            opacity: 0.08;\n' +
+    '                              pointer-events: none;\n' +
+    '                                z-index: 0;\n' +
+    '                                }\n' +
+    '}',
+  line: 79,
+  column: 1,
+  endLine: 79,
+  endColumn: 2,
+  input: {
+    column: 1,
+    endColumn: 2,
+    endLine: 79,
+    endOffset: 1896,
+    line: 79,
+    offset: 1895,
+    source: '@import "tailwindcss";\n' +
+      '@import "preline/variants.css";\n' +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '  --breakpoint-xs: 30rem;\n' +
+      '  --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '\n' +
+      '                             \n' +
+      '                                \n' +
+      '\n' +
+      '                           \n' +
+      '                                  \n' +
+      '\n' +
+      '  --color-primary: #00bfff;\n' +
+      '  --color-primary-dark: #00aae3;\n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                            \n' +
+      '                                                                         \n' +
+      '                                                \n' +
+      '\n' +
+      '                                                                           \n' +
+      '                                                              \n' +
+      '  \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'nav .primaryCTA {\n' +
+      '  padding-top: 0.4rem;\n' +
+      '  padding-bottom: 0.4rem;\n' +
+      '}\n' +
+      '\n' +
+      '.lines {\n' +
+      '  z-index: 64;\n' +
+      '  bottom: 0;\n' +
+      '  left: 0;\n' +
+      '  width: 100%;\n' +
+      '  height: 100%;\n' +
+      '  pointer-events: none;\n' +
+      '  background-repeat:repeat;\n' +
+      '  background-size: calc(73 / 1440px * 100vw) calc(73 / 1440px * 100vw);\n' +
+      '    background-position: 0 0;\n' +
+      '  background-image:\n' +
+      '    linear-gradient(90deg, hsla(0, 0%, 0%, 0.7) 1px, transparent 0),\n' +
+      '    linear-gradient(180deg, hsla(0, 0%, 0%, 0.9) 1px, transparent 0);\n' +
+      '}\n' +
+      '\n' +
+      '.lines {\n' +
+      '    background: repeating-linear-gradient(\n' +
+      '        to right,\n' +
+      '            transparent,\n' +
+      '                transparent 48px,\n' +
+      '                    black 48px,\n' +
+      '                        black 50px\n' +
+      '                          );\n' +
+      '                            opacity: 0.08;\n' +
+      '                              pointer-events: none;\n' +
+      '                                z-index: 0;\n' +
+      '                                }\n' +
+      '}',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1701.17ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1617.18ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1001.41ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1283.19ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+[Error - 5:47:57 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:47:1: Unclosed block
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unclosedBlock (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:9813)
+    at CR.endFile (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:7011)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8807)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at lF (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3549:1565)
+    at async Object.reload (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3551:834)
+    at async aC.softRestart (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3555:206) {
+  reason: 'Unclosed block',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: '@import "tailwindcss";\n' +
+    '@import "preline/variants.css";\n' +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '  --breakpoint-xs: 30rem;\n' +
+    '  --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '\n' +
+    '                             \n' +
+    '                                \n' +
+    '\n' +
+    '                           \n' +
+    '                                  \n' +
+    '\n' +
+    '  --color-primary: #00bfff;\n' +
+    '  --color-primary-dark: #00aae3;\n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                            \n' +
+    '                                                                         \n' +
+    '                                                \n' +
+    '\n' +
+    '                                                                           \n' +
+    '                                                              \n' +
+    '  \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'nav .primaryCTA {\n' +
+    '  padding-top: 0.4rem;\n' +
+    '  padding-bottom: 0.4rem;\n' +
+    '\n' +
+    '\n' +
+    '.linesz {\n' +
+    '  background: repeating-linear-gradient(\n' +
+    '    to right,\n' +
+    '    transparent,\n' +
+    '    transparent 48px,\n' +
+    '    black 48px,\n' +
+    '    black 50px\n' +
+    '  );\n' +
+    '  \n' +
+    '  pointer-events: none;\n' +
+    '  z-index: 0;\n' +
+    '}\n',
+  line: 47,
+  column: 1,
+  input: {
+    column: 1,
+    endColumn: undefined,
+    endLine: undefined,
+    endOffset: undefined,
+    line: 47,
+    offset: 1032,
+    source: '@import "tailwindcss";\n' +
+      '@import "preline/variants.css";\n' +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '  --breakpoint-xs: 30rem;\n' +
+      '  --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '\n' +
+      '                             \n' +
+      '                                \n' +
+      '\n' +
+      '                           \n' +
+      '                                  \n' +
+      '\n' +
+      '  --color-primary: #00bfff;\n' +
+      '  --color-primary-dark: #00aae3;\n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                            \n' +
+      '                                                                         \n' +
+      '                                                \n' +
+      '\n' +
+      '                                                                           \n' +
+      '                                                              \n' +
+      '  \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'nav .primaryCTA {\n' +
+      '  padding-top: 0.4rem;\n' +
+      '  padding-bottom: 0.4rem;\n' +
+      '\n' +
+      '\n' +
+      '.linesz {\n' +
+      '  background: repeating-linear-gradient(\n' +
+      '    to right,\n' +
+      '    transparent,\n' +
+      '    transparent 48px,\n' +
+      '    black 48px,\n' +
+      '    black 50px\n' +
+      '  );\n' +
+      '  \n' +
+      '  pointer-events: none;\n' +
+      '  z-index: 0;\n' +
+      '}\n',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1239.75ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1265.23ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1109.06ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1403.65ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1602.37ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1004.88ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 977.21ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1431.08ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1021.78ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1366.11ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 942.75ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1327.04ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1063.21ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 973.44ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 914.02ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 2057.66ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1766.21ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 918.82ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1021.71ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 964.60ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1180.85ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1013.97ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1100.87ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1496.80ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1145.90ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1269.31ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1143.03ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 992.87ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 2022.73ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 959.77ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 994.96ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1264.18ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1151.68ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1138.59ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1073.28ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 856.12ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 927.21ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 907.78ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 931.50ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1082.16ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1182.84ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1230.50ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1037.24ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1054.34ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1115.18ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 894.60ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 881.02ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1032.24ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1397.90ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 992.07ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1252.58ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1044.61ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1200.37ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1677.79ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+[Error - 5:59:26 PM] e [CssSyntaxError]: /workspace/Website-starter/src/assets/styles/global.css:63:1: Unexpected }
+    at Zm.error (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:198:1445)
+    at CR.unexpectedClose (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:9981)
+    at CR.end (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:6956)
+    at CR.parse (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:8658)
+    at US (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:203:10392)
+    at new e (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:3066)
+    at vf.process (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:206:10684)
+    at lF (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3549:1565)
+    at async Object.reload (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3551:834)
+    at async aC.softRestart (/workspace/.vscode-remote/extensions/bradlc.vscode-tailwindcss-0.14.26-universal/dist/tailwindServer.js:3555:206) {
+  reason: 'Unexpected }',
+  file: '/workspace/Website-starter/src/assets/styles/global.css',
+  source: '@import "tailwindcss";\n' +
+    '@import "preline/variants.css";\n' +
+    "@plugin '@tailwindcss/forms';\n" +
+    '\n' +
+    '@theme {\n' +
+    '  --breakpoint-xs: 30rem;\n' +
+    '  --text-tiny: 0.625rem;\n' +
+    '\n' +
+    '  --color-transparent: transparent;\n' +
+    '  --color-current: currentColor;\n' +
+    '  --color-black: #000;\n' +
+    '  --color-white: #fff;\n' +
+    '\n' +
+    '                             \n' +
+    '                                \n' +
+    '\n' +
+    '                           \n' +
+    '                                  \n' +
+    '\n' +
+    '  --color-primary: #00bfff;\n' +
+    '  --color-primary-dark: #00aae3;\n' +
+    '}\n' +
+    '\n' +
+    '  \n' +
+    '                                                                            \n' +
+    '                                                                         \n' +
+    '                                                \n' +
+    '\n' +
+    '                                                                           \n' +
+    '                                                              \n' +
+    '  \n' +
+    '@layer base {\n' +
+    '  *,\n' +
+    '  ::after,\n' +
+    '  ::before,\n' +
+    '  ::backdrop,\n' +
+    '  ::file-selector-button {\n' +
+    '    border-color: var(--color-gray-200, currentColor);\n' +
+    '  }\n' +
+    '\n' +
+    '  button:not(:disabled),\n' +
+    '  [role="button"]:not(:disabled) {\n' +
+    '    cursor: pointer;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    'nav .primaryCTA {\n' +
+    '  padding-top: 0.4rem;\n' +
+    '  padding-bottom: 0.4rem;\n' +
+    '}\n' +
+    '.lines {\n' +
+    '    background: repeating-linear-gradient(\n' +
+    '        to right,\n' +
+    '            transparent,\n' +
+    '                transparent 48px,\n' +
+    '                    black 48px,\n' +
+    '                        black 50px\n' +
+    '                          );\n' +
+    '                            opacity: 0.08;\n' +
+    '                              pointer-events: none;\n' +
+    '                                z-index: 0;\n' +
+    '                                }\n' +
+    '}\n' +
+    '.lines-bg {\n' +
+    '  background: repeating-linear-gradient(\n' +
+    '    to right,\n' +
+    '    transparent,\n' +
+    '    transparent 1px,\n' +
+    '    var(--color-primary) 48px,\n' +
+    '    var(--color-primary) 50px\n' +
+    '  );\n' +
+    '  opacity: 1;\n' +
+    '  pointer-events: none;\n' +
+    '  z-index: 0;\n' +
+    '}\n',
+  line: 63,
+  column: 1,
+  endLine: 63,
+  endColumn: 2,
+  input: {
+    column: 1,
+    endColumn: 2,
+    endLine: 63,
+    endOffset: 1500,
+    line: 63,
+    offset: 1499,
+    source: '@import "tailwindcss";\n' +
+      '@import "preline/variants.css";\n' +
+      "@plugin '@tailwindcss/forms';\n" +
+      '\n' +
+      '@theme {\n' +
+      '  --breakpoint-xs: 30rem;\n' +
+      '  --text-tiny: 0.625rem;\n' +
+      '\n' +
+      '  --color-transparent: transparent;\n' +
+      '  --color-current: currentColor;\n' +
+      '  --color-black: #000;\n' +
+      '  --color-white: #fff;\n' +
+      '\n' +
+      '                             \n' +
+      '                                \n' +
+      '\n' +
+      '                           \n' +
+      '                                  \n' +
+      '\n' +
+      '  --color-primary: #00bfff;\n' +
+      '  --color-primary-dark: #00aae3;\n' +
+      '}\n' +
+      '\n' +
+      '  \n' +
+      '                                                                            \n' +
+      '                                                                         \n' +
+      '                                                \n' +
+      '\n' +
+      '                                                                           \n' +
+      '                                                              \n' +
+      '  \n' +
+      '@layer base {\n' +
+      '  *,\n' +
+      '  ::after,\n' +
+      '  ::before,\n' +
+      '  ::backdrop,\n' +
+      '  ::file-selector-button {\n' +
+      '    border-color: var(--color-gray-200, currentColor);\n' +
+      '  }\n' +
+      '\n' +
+      '  button:not(:disabled),\n' +
+      '  [role="button"]:not(:disabled) {\n' +
+      '    cursor: pointer;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      'nav .primaryCTA {\n' +
+      '  padding-top: 0.4rem;\n' +
+      '  padding-bottom: 0.4rem;\n' +
+      '}\n' +
+      '.lines {\n' +
+      '    background: repeating-linear-gradient(\n' +
+      '        to right,\n' +
+      '            transparent,\n' +
+      '                transparent 48px,\n' +
+      '                    black 48px,\n' +
+      '                        black 50px\n' +
+      '                          );\n' +
+      '                            opacity: 0.08;\n' +
+      '                              pointer-events: none;\n' +
+      '                                z-index: 0;\n' +
+      '                                }\n' +
+      '}\n' +
+      '.lines-bg {\n' +
+      '  background: repeating-linear-gradient(\n' +
+      '    to right,\n' +
+      '    transparent,\n' +
+      '    transparent 1px,\n' +
+      '    var(--color-primary) 48px,\n' +
+      '    var(--color-primary) 50px\n' +
+      '  );\n' +
+      '  opacity: 1;\n' +
+      '  pointer-events: none;\n' +
+      '  z-index: 0;\n' +
+      '}\n',
+    url: 'file:///workspace/Website-starter/src/assets/styles/global.css',
+    file: '/workspace/Website-starter/src/assets/styles/global.css'
+  }
+}
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1157.27ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1727.99ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1140.64ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1150.52ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1141.56ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1030.13ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1368.13ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1111.90ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 983.74ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1136.54ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1092.28ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1015.18ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 994.73ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1036.94ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1311.51ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1188.56ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1298.96ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1409.20ms ----
+---- RELOADING DESIGN SYSTEM ----
+---- /workspace/Website-starter/src/assets/styles/global.css ----
+---- RELOADED IN 1262.76ms ----

@@ -1,0 +1,97 @@
+2025-08-09 14:52:25.112 [info] Extension host with pid 3232 started
+2025-08-09 14:52:25.113 [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock'
+2025-08-09 14:52:25.113 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-08-09 14:52:25.114 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': The lock does not look stale, elapsed: 580 ms, giving up.
+2025-08-09 14:52:25.116 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f-1/vscode.lock': Lock acquired.
+2025-08-09 14:52:26.525 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onWebviewPanel:simpleBrowser.view'
+2025-08-09 14:52:26.526 [info] ExtensionService#_doActivateExtension astro-build.astro-vscode, startup: false, activationEvent: 'onLanguage:astro'
+2025-08-09 14:52:26.527 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-09 14:52:27.528 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-09 14:52:27.528 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: true, activationEvent: '*'
+2025-08-09 14:52:27.646 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-08-09 14:52:28.332 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-09 14:52:28.332 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-09 14:52:28.702 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:52:28.835 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:52:28.980 [info] Eager extensions activated
+2025-08-09 14:52:28.980 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 14:52:28.981 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 14:52:28.981 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 14:52:28.981 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 14:52:28.981 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 14:52:28.981 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2025-08-09 14:52:28.982 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 14:52:29.907 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:52:31.134 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2025-08-09 14:52:31.324 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 14:52:31.631 [warning] [Decorations] CAPPING events from decorations provider vscode.git 262
+2025-08-09 14:52:32.379 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 14:52:32.382 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 14:52:34.826 [info] Extension host terminating: received terminate message from renderer
+2025-08-09 14:52:34.827 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-08-09 14:52:34.843 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at new FM (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:137084)
+	at cS._remoteCall (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:143379)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:140138)
+	at ow.resolveProxy (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:109:72841)
+	at Object.resolveProxy (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:166:23158)
+	at useProxySettings (/ide/node_modules/@vscode/proxy-agent/out/index.js:182:16)
+	at /ide/node_modules/@vscode/proxy-agent/out/index.js:205:13
+	at new Promise (<anonymous>)
+	at resolveProxyURL (/ide/node_modules/@vscode/proxy-agent/out/index.js:204:35)
+	at /ide/node_modules/@vscode/proxy-agent/out/index.js:522:53
+	at Generator.next (<anonymous>)
+	at /ide/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/ide/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at patchedFetch (/ide/node_modules/@vscode/proxy-agent/out/index.js:507:16)
+	at globalThis.fetch (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:166:25569)
+	at _ (/ide/extensions/gitpod-web/out/extension.js:2:484218)
+	at D.send (/ide/extensions/gitpod-web/out/extension.js:2:487680)
+	at D.flushAfterClose (/ide/extensions/gitpod-web/out/extension.js:2:486482)
+	at Z.closeAndFlush (/ide/extensions/gitpod-web/out/extension.js:2:505866)
+	at /ide/extensions/gitpod-web/out/extension.js:2:1054813
+	at Map.forEach (<anonymous>)
+	at Object.flush (/ide/extensions/gitpod-web/out/extension.js:2:1054792)
+	at j4.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:46239)
+	at r (/ide/extensions/gitpod-web/out/extension.js:2:1011848)
+	at h.dispose (/ide/extensions/gitpod-web/out/extension.js:2:1012079)
+	at t.GitpodExtensionContext.dispose (/ide/extensions/gitpod-web/out/extension.js:2:1049172)
+	at t.deactivate (/ide/extensions/gitpod-web/out/extension.js:2:1411254)
+	at KG._deactivate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:14504)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12015
+	at Array.map (<anonymous>)
+	at KG._deactivateAll (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12003)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12356)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at Zd.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:8698)
+	at k._deliver (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2939)
+	at k.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:3259)
+	at ao.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:10942)
+	at zv._receiveMessage (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:15884)
+	at Zd.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:13247)
+	at k._deliver (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2939)
+	at k.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:3259)
+	at zE.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:8738)
+	at Zd.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:7867)
+	at k._deliver (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2939)
+	at k.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:3259)
+	at xN._processReadQueue (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:27354) 
+2025-08-09 14:52:34.853 [error] [astro-build.astro-vscode] provider FAILED
+2025-08-09 14:52:34.853 [error] Error: Starting server failed
+	at nf.$start (/workspace/.vscode-remote/extensions/astro-build.astro-vscode-2.15.4-linux-x64/dist/node/client.js:43:12225)
+	at async nf.sendRequest (/workspace/.vscode-remote/extensions/astro-build.astro-vscode-2.15.4-linux-x64/dist/node/client.js:41:113630)
+	at async lb.provideColors (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:140:168728)
+2025-08-09 14:52:34.904 [error] [astro-build.astro-vscode] provider FAILED
+2025-08-09 14:52:34.904 [error] Error: Starting server failed
+	at nf.$start (/workspace/.vscode-remote/extensions/astro-build.astro-vscode-2.15.4-linux-x64/dist/node/client.js:43:12225)
+	at async nf.sendRequest (/workspace/.vscode-remote/extensions/astro-build.astro-vscode-2.15.4-linux-x64/dist/node/client.js:41:113630)
+	at async Gm.provideCodeActions (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:140:147591)
+2025-08-09 14:52:34.904 [error] [astro-build.astro-vscode] provider FAILED
+2025-08-09 14:52:34.904 [error] Error: Starting server failed
+	at nf.$start (/workspace/.vscode-remote/extensions/astro-build.astro-vscode-2.15.4-linux-x64/dist/node/client.js:43:12225)
+	at async nf.sendRequest (/workspace/.vscode-remote/extensions/astro-build.astro-vscode-2.15.4-linux-x64/dist/node/client.js:41:113630)
+	at async Gm.provideCodeActions (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:140:147591)
+2025-08-09 14:52:34.908 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 14:52:34.911 [info] Extension host with pid 3232 exiting with code 0

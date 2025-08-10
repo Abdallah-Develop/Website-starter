@@ -1,0 +1,85 @@
+---
+import Icon from "@components/ui/icons/Icon.astro"
+// Define props
+const {
+  title,
+  url,
+  noArrow = false,
+  variant = "primary",
+  class: additionalClass = "",
+} = Astro.props
+
+// TypeScript interface
+interface Props {
+  title?: string
+  url?: string
+  noArrow?: boolean
+  variant?: "primary" | "glass" | "white"
+  class?: string
+}
+
+// Shared base classes
+const baseClasses =
+  "group inline-flex items-center justify-center gap-x-2 rounded-lg px-4 py-2.5 text-sm font-bold transition duration-300 focus-visible:ring-3 focus-visible:ring-zinc-500 outline-none relative"
+
+// --- Variant: Primary ---
+const primaryClasses = [
+  "bg-primary hover:bg-primary-dark active:bg-primary-dark inset-shadow-[10_35px_35px_rgba(0,0,0,0.75)]",
+  "border-2 border-primary/40",
+  "text-white",
+]
+
+// --- Variant: Glass ---
+const glassClasses = [
+  "bg-white/10 backdrop-blur-sm",
+  "border border-white/50",
+  "hover:bg-white/20 hover:border-white/30",
+  "active:bg-white/30",
+  "text-white",
+  "focus-visible:ring-white/50",
+]
+
+// --- Variant: White (Transparent Text / Knockout Effect) ---
+const whiteClasses = [
+  "bg-white text-primary",
+  "bordero border-white/30",
+  "hover:bg-white/70",
+  "active:bg-white70",
+  "focus-visible:ring-white/50",
+]
+
+// Select variant classes
+const variantClasses =
+  variant === "glass"
+    ? glassClasses
+    : variant === "white"
+      ? whiteClasses
+      : primaryClasses
+
+const disableClasses = "disabled:pointer-events-none disabled:opacity-50"
+const fontSizeClasses = "2xl:text-base"
+
+// Combine all classes
+const buttonClasses = [
+  baseClasses,
+  ...variantClasses,
+  disableClasses,
+  fontSizeClasses,
+]
+  .filter(Boolean)
+  .join(" ")
+---
+
+<a href={url} class={`${buttonClasses} ${additionalClass} primaryCTA`} role="button">
+  <span class="relative z-10">{title}</span>
+
+  {
+    noArrow ? null : (
+      <Icon
+        name="arrowRight"
+        class="relative z-10 h-4 w-4 transition-transform group-hover:translate-x-1"
+      />
+    )
+  }
+</a>
+					AAa

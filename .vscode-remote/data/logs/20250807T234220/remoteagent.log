@@ -1,0 +1,971 @@
+2025-08-07 23:42:20.417 [info] 
+
+
+
+
+2025-08-07 23:42:20.434 [info] Extension host agent started.
+2025-08-07 23:42:20.609 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2025-08-07 23:42:20.610 [info] Extension 'github.vscode-pull-request-github' v0.114.3 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2025-08-07 23:42:24.706 [info] [192.168.190.11][c55e8d8a][ManagementConnection] New connection established.
+2025-08-07 23:42:25.975 [info] [192.168.190.11][94934c72][ExtensionHostConnection] New connection established.
+2025-08-07 23:42:25.983 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> Launched Extension Host Process.
+2025-08-07 23:42:43.655 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-07 23:42:43 [INFO]: No proxy settings found[39m
+
+2025-08-07 23:42:44.907 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-07 23:42:44 [INFO]: Checking network connection...[39m
+
+2025-08-07 23:42:48.707 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-07 23:42:48 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz[39m
+
+2025-08-07 23:42:49.918 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-07 23:42:49 [INFO]: Creating manager directory: /tmp/a92f8b0b-14ef-4301-891c-c4d6602f26f4/codeium/manager[39m
+
+2025-08-07 23:42:51.495 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-07 23:42:51 [INFO]: Using cached LS with valid crc32: /workspace/.vscode-remote/extensions/codeium.codeium-1.48.2-universal/dist/e03af6ebc40b844314d448f947c80b636d093049/language_server_linux_x64[39m
+
+2025-08-07 23:42:51.504 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-07 23:42:51 [INFO]: Language server started[39m
+
+2025-08-07 23:42:53.713 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-07 23:42:53 [INFO]: Found language server running on port 39135[39m
+
+2025-08-07 23:42:56.667 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:42:56 [ERROR]: Invalid LSP port: Downloading Chromium 133.0.6943.16 (playwright build v1155) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1155/chromium-linux.zip[39m
+[31m[39m
+
+2025-08-07 23:42:56.982 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:42:56 [ERROR]: Invalid LSP port: |                                                                                |   0% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-07 23:42:57.183 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:42:57 [ERROR]: Invalid LSP port: |■■■■■■■■                                                                        |  10% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-07 23:42:57.282 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:42:57 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■                                                                |  20% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-07 23:42:57.344 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:42:57 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-07 23:42:57.423 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:42:57 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-07 23:42:57.514 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:42:57 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-07 23:42:57.603 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:42:57 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-07 23:42:57.691 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:42:57 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-07 23:42:57.746 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:42:57 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-07 23:42:57.820 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:42:57 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-07 23:42:58.206 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:42:58 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 163.5 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:01.454 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-07 23:43:01 [INFO]: openAllTextDocuments took 958.3748479999995ms[39m
+
+2025-08-07 23:43:03.048 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:43:03 [WARN]: User not logged in[39m
+
+2025-08-07 23:43:03.334 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: Chromium 133.0.6943.16 (playwright build v1155) downloaded to /home/gitpod/.codeium/ws-browser/chromium-1155[39m
+[31m[39m
+
+2025-08-07 23:43:03.335 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: Downloading FFMPEG playwright build v1011 from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip[39m
+[31m[39m
+
+2025-08-07 23:43:03.649 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: |                                                                                |   0% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:03.664 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: |■■■■■■■■                                                                        |  10% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:03.667 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■                                                                |  20% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:03.676 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:03.677 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:03.680 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:03.682 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:03.685 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:03.685 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:03.687 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:03.688 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.3 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:03.766 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: FFMPEG playwright build v1011 downloaded to /home/gitpod/.codeium/ws-browser/ffmpeg-1011[39m
+[31m[39m
+
+2025-08-07 23:43:03.769 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:03 [ERROR]: Invalid LSP port: Downloading Chromium Headless Shell 133.0.6943.16 (playwright build v1155) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1155/chromium-headless-shell-linux.zip[39m
+[31m[39m
+
+2025-08-07 23:43:04.032 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:04 [ERROR]: Invalid LSP port: |                                                                                |   0% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:04.127 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:04 [ERROR]: Invalid LSP port: |■■■■■■■■                                                                        |  10% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:04.213 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:04 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■                                                                |  20% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:04.284 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:04 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:04.324 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:04 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:04.388 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:04 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:04.425 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:04 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:04.479 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:04 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:04.515 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:04 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:04.546 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:04 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:04.608 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:04 [ERROR]: Invalid LSP port: |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 99.9 MiB[39m
+[31m[39m
+
+2025-08-07 23:43:07.114 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-07 23:43:07 [ERROR]: Invalid LSP port: Chromium Headless Shell 133.0.6943.16 (playwright build v1155) downloaded to /home/gitpod/.codeium/ws-browser/chromium_headless_shell-1155[39m
+[31m[39m
+
+2025-08-07 23:45:20.866 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:20 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:20.946 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:20 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:21.083 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:21 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:21.219 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:21 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:21.374 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:21 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:21.529 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:21 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:23.031 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:23 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:25.666 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:25 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:25.670 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:25 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:26.011 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:26 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:27.293 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:27 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:28.066 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:28 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:28.649 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:28 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:28.807 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:28 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:33.878 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:33 [WARN]: User not logged in[39m
+
+2025-08-07 23:45:34.653 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:45:34 [WARN]: User not logged in[39m
+
+2025-08-07 23:46:58.984 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:46:58 [WARN]: User not logged in[39m
+
+2025-08-07 23:46:59.664 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:46:59 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:03.380 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:03 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:06.232 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:06 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:09.666 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:09 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:18.488 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:18 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:21.083 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:21 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:21.346 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:21 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:21.531 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:21 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:22.044 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:22 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:22.267 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:22 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:22.822 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:22 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:23.687 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:23 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:23.904 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:23 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:24.149 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:24 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:24.170 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:24 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:24.648 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:24 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:31.863 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:31 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:34.627 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:34 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:38.970 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:38 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:40.304 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:40 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:47.211 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:47 [WARN]: User not logged in[39m
+
+2025-08-07 23:47:51.856 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:47:51 [WARN]: User not logged in[39m
+
+2025-08-07 23:48:33.369 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:48:33 [WARN]: User not logged in[39m
+
+2025-08-07 23:48:35.104 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:48:35 [WARN]: User not logged in[39m
+
+2025-08-07 23:48:35.193 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:48:35 [WARN]: User not logged in[39m
+
+2025-08-07 23:48:35.505 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:48:35 [WARN]: User not logged in[39m
+
+2025-08-07 23:48:38.649 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:48:38 [WARN]: User not logged in[39m
+
+2025-08-07 23:48:41.746 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:48:41 [WARN]: User not logged in[39m
+
+2025-08-07 23:48:43.268 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:48:43 [WARN]: User not logged in[39m
+
+2025-08-07 23:48:43.945 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:48:43 [WARN]: User not logged in[39m
+
+2025-08-07 23:48:46.072 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:48:46 [WARN]: User not logged in[39m
+
+2025-08-07 23:48:48.487 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:48:48 [WARN]: User not logged in[39m
+
+2025-08-07 23:48:50.306 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [33m(VSCode) 2025-08-07 23:48:50 [WARN]: User not logged in[39m
+
+2025-08-07 23:55:16.666 [info] [192.168.190.11][c55e8d8a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-08-07 23:59:54.094 [info] [192.168.190.11][c55e8d8a][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-08-07 23:59:54.094 [info] [192.168.32.8][4a8ae61a][ManagementConnection] New connection established.
+2025-08-07 23:59:54.433 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] New connection established.
+2025-08-07 23:59:54.441 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> Launched Extension Host Process.
+2025-08-08 00:00:09.589 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:00:09 [INFO]: No proxy settings found[39m
+
+2025-08-08 00:00:10.575 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:00:10 [INFO]: Checking network connection...[39m
+
+2025-08-08 00:00:11.324 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:00:11 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz[39m
+
+2025-08-08 00:00:13.036 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:00:13 [INFO]: Creating manager directory: /tmp/6e890a62-41d3-4e70-9bee-d16107d52ec1/codeium/manager[39m
+
+2025-08-08 00:00:13.503 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:00:13 [INFO]: Using cached LS with valid crc32: /workspace/.vscode-remote/extensions/codeium.codeium-1.48.2-universal/dist/e03af6ebc40b844314d448f947c80b636d093049/language_server_linux_x64[39m
+
+2025-08-08 00:00:13.510 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:00:13 [INFO]: Language server started[39m
+
+2025-08-08 00:00:15.353 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:00:15 [INFO]: Found language server running on port 43749[39m
+
+2025-08-08 00:00:17.566 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:00:17 [INFO]: openAllTextDocuments took 656.0210790000019ms[39m
+
+2025-08-08 00:00:32.920 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:00:32 [WARN]: User not logged in[39m
+
+2025-08-08 00:00:34.020 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:00:34 [WARN]: User not logged in[39m
+
+2025-08-08 00:00:34.177 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:00:34 [WARN]: User not logged in[39m
+
+2025-08-08 00:00:34.253 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:00:34 [WARN]: User not logged in[39m
+
+2025-08-08 00:00:34.440 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:00:34 [WARN]: User not logged in[39m
+
+2025-08-08 00:00:35.219 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:00:35 [WARN]: User not logged in[39m
+
+2025-08-08 00:00:35.954 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:00:35 [WARN]: User not logged in[39m
+
+2025-08-08 00:00:36.098 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:00:36 [WARN]: User not logged in[39m
+
+2025-08-08 00:00:36.336 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:00:36 [WARN]: User not logged in[39m
+
+2025-08-08 00:00:36.415 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:00:36 [WARN]: User not logged in[39m
+
+2025-08-08 00:00:39.939 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:00:39 [WARN]: User not logged in[39m
+
+2025-08-08 00:04:54.194 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-08 00:04:54 [INFO]: Disposing language server process[39m
+
+2025-08-08 00:04:54.195 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-08 00:04:54 [INFO]: Deleting manager directory: /tmp/a92f8b0b-14ef-4301-891c-c4d6602f26f4/codeium/manager[39m
+
+2025-08-08 00:04:54.196 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-08 00:04:54 [INFO]: Successfully disposed language server[39m
+
+2025-08-08 00:04:54.231 [info] [192.168.190.11][c55e8d8a][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-08-08 00:04:54.537 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 00:04:54 [ERROR]: Failed to stop lsp[39m
+
+2025-08-08 00:04:54.543 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [32m(VSCode) 2025-08-08 00:04:54 [INFO]: Language server exited with code 0[39m
+
+2025-08-08 00:04:54.551 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 00:04:54 [ERROR]: Failed to stop exit[39m
+
+2025-08-08 00:04:54.551 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 00:04:54 [ERROR]: [unavailable] connect ECONNREFUSED 127.0.0.1:39135[39m
+
+2025-08-08 00:04:54.552 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> [31m(VSCode) 2025-08-08 00:04:54 [ERROR]: connect ECONNREFUSED 127.0.0.1:42653[39m
+
+2025-08-08 00:04:54.630 [info] [192.168.190.11][94934c72][ExtensionHostConnection] <523> Extension Host Process exited with code: 0, signal: null.
+2025-08-08 00:06:20.354 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] The client has reconnected.
+2025-08-08 00:07:06.133 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:07:06 [WARN]: User not logged in[39m
+
+2025-08-08 00:07:06.358 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:07:06 [WARN]: User not logged in[39m
+
+2025-08-08 00:07:06.759 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:07:06 [WARN]: User not logged in[39m
+
+2025-08-08 00:07:08.673 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:07:08 [WARN]: User not logged in[39m
+
+2025-08-08 00:07:08.688 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:07:08 [WARN]: User not logged in[39m
+
+2025-08-08 00:07:15.718 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:07:15 [WARN]: User not logged in[39m
+
+2025-08-08 00:07:24.656 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:07:24 [WARN]: User not logged in[39m
+
+2025-08-08 00:07:25.297 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:07:25 [WARN]: User not logged in[39m
+
+2025-08-08 00:07:29.396 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:07:29 [WARN]: User not logged in[39m
+
+2025-08-08 00:10:24.792 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:10:24 [WARN]: User not logged in[39m
+
+2025-08-08 00:10:47.249 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:10:47 [WARN]: User not logged in[39m
+
+2025-08-08 00:10:47.297 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:10:47 [WARN]: User not logged in[39m
+
+2025-08-08 00:10:47.856 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:10:47 [WARN]: User not logged in[39m
+
+2025-08-08 00:10:48.675 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:10:48 [WARN]: User not logged in[39m
+
+2025-08-08 00:10:49.613 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:10:49 [WARN]: User not logged in[39m
+
+2025-08-08 00:10:50.753 [info] [192.168.190.11][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:10:50 [WARN]: User not logged in[39m
+
+2025-08-08 00:11:49.935 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] The client has reconnected.
+2025-08-08 00:11:57.775 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:11:57 [WARN]: User not logged in[39m
+
+2025-08-08 00:17:16.917 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:17:16 [WARN]: User not logged in[39m
+
+2025-08-08 00:18:40.754 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:18:40 [WARN]: User not logged in[39m
+
+2025-08-08 00:18:40.815 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:18:40 [WARN]: User not logged in[39m
+
+2025-08-08 00:18:42.115 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:18:42 [WARN]: User not logged in[39m
+
+2025-08-08 00:18:42.575 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:18:42 [WARN]: User not logged in[39m
+
+2025-08-08 00:18:58.821 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:18:58 [WARN]: User not logged in[39m
+
+2025-08-08 00:18:59.857 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:18:59 [WARN]: User not logged in[39m
+
+2025-08-08 00:19:00.417 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:19:00 [WARN]: User not logged in[39m
+
+2025-08-08 00:19:00.972 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:19:00 [WARN]: User not logged in[39m
+
+2025-08-08 00:19:13.942 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:19:13 [WARN]: User not logged in[39m
+
+2025-08-08 00:19:14.110 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:19:14 [WARN]: User not logged in[39m
+
+2025-08-08 00:19:15.133 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:19:15 [WARN]: User not logged in[39m
+
+2025-08-08 00:19:15.320 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:19:15 [WARN]: User not logged in[39m
+
+2025-08-08 00:19:42.922 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:19:42 [WARN]: User not logged in[39m
+
+2025-08-08 00:19:43.474 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:19:43 [WARN]: User not logged in[39m
+
+2025-08-08 00:19:50.433 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:19:50 [WARN]: User not logged in[39m
+
+2025-08-08 00:19:51.294 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:19:51 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:01.231 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:01 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:01.634 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:01 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:01.955 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:01 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:02.761 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:02 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:03.486 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:03 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:03.713 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:03 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:04.094 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:04 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:04.356 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:04 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:04.359 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:04 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:04.574 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:04 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:07.398 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:07 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:09.291 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:09 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:09.460 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:09 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:13.003 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:13 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:42.206 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:42 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:42.757 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:42 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:43.394 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:43 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:43.553 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:43 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:43.696 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:43 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:43.855 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:43 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:44.093 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:44 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:44.191 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:44 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:44.352 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:44 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:44.733 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:44 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:57.457 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:57 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:57.955 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:57 [WARN]: User not logged in[39m
+
+2025-08-08 00:20:58.514 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:20:58 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:00.112 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:00 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:00.692 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:00 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:02.894 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:02 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:03.237 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:03 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:05.451 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:05 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:05.946 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:05 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:10.578 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:10 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:11.564 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:11 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:11.703 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:11 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:12.834 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:12 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:12.973 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:12 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:13.221 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:13 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:14.160 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:14 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:14.494 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:14 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:19.395 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:19 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:19.532 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:19 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:20.993 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:20 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:21.455 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:21 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:24.834 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:24 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:25.061 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:25 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:26.011 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:26 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:26.993 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:26 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:30.206 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:30 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:31.635 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:31 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:35.006 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:35 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:35.634 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:35 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:40.677 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:40 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:55.164 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:55 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:55.293 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:55 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:55.696 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:55 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:59.216 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:59 [WARN]: User not logged in[39m
+
+2025-08-08 00:21:59.962 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:21:59 [WARN]: User not logged in[39m
+
+2025-08-08 00:22:16.842 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:22:16 [WARN]: User not logged in[39m
+
+2025-08-08 00:22:19.133 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:22:19 [WARN]: User not logged in[39m
+
+2025-08-08 00:22:20.035 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:22:20 [WARN]: User not logged in[39m
+
+2025-08-08 00:22:20.503 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:22:20 [WARN]: User not logged in[39m
+
+2025-08-08 00:22:21.561 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:22:21 [WARN]: User not logged in[39m
+
+2025-08-08 00:22:23.079 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:22:23 [WARN]: User not logged in[39m
+
+2025-08-08 00:22:34.425 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:22:34 [WARN]: User not logged in[39m
+
+2025-08-08 00:22:34.529 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:22:34 [WARN]: User not logged in[39m
+
+2025-08-08 00:22:34.533 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:22:34 [WARN]: User not logged in[39m
+
+2025-08-08 00:22:34.535 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:22:34 [WARN]: User not logged in[39m
+
+2025-08-08 00:22:34.537 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:22:34 [WARN]: User not logged in[39m
+
+2025-08-08 00:22:34.539 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:22:34 [WARN]: User not logged in[39m
+
+2025-08-08 00:22:34.595 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:22:34 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:16.364 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:16 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:16.763 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:16 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:17.223 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:17 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:17.865 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:17 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:18.664 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:18 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:18.681 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:18 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:18.921 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:18 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:19.721 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:19 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:19.864 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:19 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:20.521 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:20 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:36.700 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:36 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:36.822 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:36 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:37.065 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:37 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:42.204 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:42 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:42.206 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:42 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:42.216 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:42 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:43.880 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:43 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:44.283 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:44 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:44.556 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:44 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:44.661 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:44 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:45.010 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:45 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:48.741 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:48 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:48.979 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:48 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:49.087 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:49 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:49.642 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:49 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:50.046 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:50 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:51.081 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:51 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:51.400 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:51 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:51.625 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:51 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:52.205 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:52 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:56.847 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:56 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:59.566 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:59 [WARN]: User not logged in[39m
+
+2025-08-08 00:23:59.737 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:23:59 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:00.201 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:00 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:01.163 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:01 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:01.249 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:01 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:01.460 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:01 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:02.025 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:02 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:02.582 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:02 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:05.010 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:05 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:06.773 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:06 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:21.805 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:21 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:22.290 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:22 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:22.527 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:22 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:23.144 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:23 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:27.385 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:27 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:27.462 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:27 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:55.249 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:55 [WARN]: User not logged in[39m
+
+2025-08-08 00:24:57.461 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:24:57 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:01.653 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:01 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:02.260 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:02 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:02.668 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:02 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:02.681 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:02 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:03.411 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:03 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:04.204 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:04 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:04.681 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:04 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:06.370 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:06 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:08.179 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:08 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:09.177 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:09 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:10.043 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:10 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:10.667 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:10 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:11.224 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:11 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:11.882 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:11 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:49.724 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:49 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:50.029 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:50 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:50.582 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:50 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:51.003 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:51 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:51.402 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:51 [WARN]: User not logged in[39m
+
+2025-08-08 00:27:51.703 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:27:51 [WARN]: User not logged in[39m
+
+2025-08-08 00:29:41.245 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:29:41 [WARN]: User not logged in[39m
+
+2025-08-08 00:29:41.465 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:29:41 [WARN]: User not logged in[39m
+
+2025-08-08 00:29:41.879 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:29:41 [WARN]: User not logged in[39m
+
+2025-08-08 00:29:42.285 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:29:42 [WARN]: User not logged in[39m
+
+2025-08-08 00:29:42.430 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:29:42 [WARN]: User not logged in[39m
+
+2025-08-08 00:29:42.501 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:29:42 [WARN]: User not logged in[39m
+
+2025-08-08 00:29:42.588 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:29:42 [WARN]: User not logged in[39m
+
+2025-08-08 00:29:42.752 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:29:42 [WARN]: User not logged in[39m
+
+2025-08-08 00:29:43.082 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:29:43 [WARN]: User not logged in[39m
+
+2025-08-08 00:31:02.366 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:31:02 [WARN]: User not logged in[39m
+
+2025-08-08 00:31:12.762 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:31:12 [WARN]: User not logged in[39m
+
+2025-08-08 00:31:27.322 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:31:27 [WARN]: User not logged in[39m
+
+2025-08-08 00:31:29.542 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:31:29 [WARN]: User not logged in[39m
+
+2025-08-08 00:31:43.491 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:31:43 [WARN]: User not logged in[39m
+
+2025-08-08 00:31:45.782 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:31:45 [WARN]: User not logged in[39m
+
+2025-08-08 00:31:59.883 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:31:59 [WARN]: User not logged in[39m
+
+2025-08-08 00:32:00.202 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:32:00 [WARN]: User not logged in[39m
+
+2025-08-08 00:32:01.780 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:32:01 [WARN]: User not logged in[39m
+
+2025-08-08 00:32:03.961 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:32:03 [WARN]: User not logged in[39m
+
+2025-08-08 00:32:04.424 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:32:04 [WARN]: User not logged in[39m
+
+2025-08-08 00:32:08.580 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:32:08 [WARN]: User not logged in[39m
+
+2025-08-08 00:32:10.266 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:32:10 [WARN]: User not logged in[39m
+
+2025-08-08 00:32:10.824 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:32:10 [WARN]: User not logged in[39m
+
+2025-08-08 00:32:12.684 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:32:12 [WARN]: User not logged in[39m
+
+2025-08-08 00:32:15.220 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:32:15 [WARN]: User not logged in[39m
+
+2025-08-08 00:35:09.329 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:35:09 [WARN]: User not logged in[39m
+
+2025-08-08 00:35:14.837 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:35:14 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:15.141 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:15 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:15.701 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:15 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:16.341 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:16 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:17.080 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:17 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:17.303 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:17 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:17.961 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:17 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:19.331 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:19 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:19.541 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:19 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:19.936 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:19 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:24.364 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:24 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:25.221 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:25 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:25.298 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:25 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:26.443 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:26 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:26.502 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:26 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:26.901 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:26 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:27.461 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:27 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:30.922 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:30 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:41.335 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:41 [WARN]: User not logged in[39m
+
+2025-08-08 00:38:43.707 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [33m(VSCode) 2025-08-08 00:38:43 [WARN]: User not logged in[39m
+
+2025-08-08 00:39:49.967 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:39:49 [INFO]: Successfully logged in[39m
+
+2025-08-08 00:39:50.425 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:39:50 [INFO]: Successfully logged in[39m
+
+2025-08-08 00:39:50.427 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:39:50 [INFO]: Successfully logged in[39m
+
+2025-08-08 00:39:50.429 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:39:50 [INFO]: Successfully logged in[39m
+
+2025-08-08 00:42:34.497 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:42:34 [INFO]: Completion request succeeded (1433.15ms)[39m
+
+2025-08-08 00:42:34.499 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:42:34 [INFO]: Generated 6 completions[39m
+
+2025-08-08 00:42:34.511 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:42:34 [INFO]: provideInlineCompletionItems request succeeded (1448.88ms)[39m
+
+2025-08-08 00:42:37.991 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:42:37 [INFO]: Completion request succeeded (553.19ms)[39m
+
+2025-08-08 00:42:37.991 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:42:37 [INFO]: No completions were generated[39m
+
+2025-08-08 00:42:37.991 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:42:37 [INFO]: provideInlineCompletionItems request succeeded (555.18ms)[39m
+
+2025-08-08 00:43:24.824 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:43:24 [INFO]: Completion request was cancelled by token (53.78ms)[39m
+
+2025-08-08 00:43:25.186 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:43:25 [INFO]: Completion request succeeded (357.44ms)[39m
+
+2025-08-08 00:43:25.187 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:43:25 [INFO]: No completions were generated[39m
+
+2025-08-08 00:43:25.187 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:43:25 [INFO]: provideInlineCompletionItems request succeeded (360.26ms)[39m
+
+2025-08-08 00:43:25.764 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:43:25 [INFO]: Completion request succeeded (355.19ms)[39m
+
+2025-08-08 00:43:25.765 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:43:25 [INFO]: No completions were generated[39m
+
+2025-08-08 00:43:25.766 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:43:25 [INFO]: provideInlineCompletionItems request succeeded (357.93ms)[39m
+
+2025-08-08 00:43:31.042 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:43:31 [INFO]: Completion request succeeded (431.59ms)[39m
+
+2025-08-08 00:43:31.042 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:43:31 [INFO]: No completions were generated[39m
+
+2025-08-08 00:43:31.042 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:43:31 [INFO]: provideInlineCompletionItems request succeeded (434.09ms)[39m
+
+2025-08-08 00:44:13.543 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:13 [INFO]: Completion request was cancelled by token (162.6ms)[39m
+
+2025-08-08 00:44:13.594 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:13 [INFO]: Completion request was cancelled by token (7.04ms)[39m
+
+2025-08-08 00:44:15.252 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:15 [INFO]: Completion request was cancelled by token (4.14ms)[39m
+
+2025-08-08 00:44:15.386 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:15 [INFO]: Completion request was cancelled by token (4.77ms)[39m
+
+2025-08-08 00:44:15.462 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:15 [INFO]: Completion request was cancelled by token (73.67ms)[39m
+
+2025-08-08 00:44:15.567 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:15 [INFO]: Completion request was cancelled by token (1.75ms)[39m
+
+2025-08-08 00:44:15.875 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:15 [INFO]: Completion request was cancelled by token (1.66ms)[39m
+
+2025-08-08 00:44:15.884 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:15 [INFO]: Completion request was cancelled by token (2.84ms)[39m
+
+2025-08-08 00:44:16.106 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:16 [INFO]: Completion request was cancelled by token (4.49ms)[39m
+
+2025-08-08 00:44:16.363 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:16 [INFO]: Completion request was cancelled by token (1.46ms)[39m
+
+2025-08-08 00:44:16.504 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:16 [INFO]: Completion request was cancelled by token (139.24ms)[39m
+
+2025-08-08 00:44:17.307 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:17 [INFO]: Completion request was cancelled by token (141.15ms)[39m
+
+2025-08-08 00:44:17.384 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:17 [INFO]: Completion request was cancelled by token (74.51ms)[39m
+
+2025-08-08 00:44:17.462 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:17 [INFO]: Completion request was cancelled by token (60.62ms)[39m
+
+2025-08-08 00:44:17.541 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:17 [INFO]: Completion request was cancelled by token (76.87ms)[39m
+
+2025-08-08 00:44:18.262 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:18 [INFO]: Completion request was cancelled by token (51.18ms)[39m
+
+2025-08-08 00:44:18.424 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:18 [INFO]: Completion request was cancelled by token (80.83ms)[39m
+
+2025-08-08 00:44:18.585 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:18 [INFO]: Completion request was cancelled by token (51.02ms)[39m
+
+2025-08-08 00:44:19.142 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:19 [INFO]: Completion request was cancelled by token (133.65ms)[39m
+
+2025-08-08 00:44:19.946 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:19 [INFO]: Completion request was cancelled by token (59.25ms)[39m
+
+2025-08-08 00:44:20.043 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:20 [INFO]: Completion request was cancelled by token (93.41ms)[39m
+
+2025-08-08 00:44:20.351 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:20 [INFO]: Completion request was cancelled by token (141.12ms)[39m
+
+2025-08-08 00:44:20.742 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:20 [INFO]: Completion request was cancelled by token (78.71ms)[39m
+
+2025-08-08 00:44:20.849 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:20 [INFO]: Completion request was cancelled by token (23.95ms)[39m
+
+2025-08-08 00:44:21.644 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:21 [INFO]: Completion request was cancelled by token (2.64ms)[39m
+
+2025-08-08 00:44:21.702 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:21 [INFO]: Completion request was cancelled by token (56.14ms)[39m
+
+2025-08-08 00:44:22.422 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:22 [INFO]: Completion request was cancelled by token (125.21ms)[39m
+
+2025-08-08 00:44:22.501 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:22 [INFO]: Completion request was cancelled by token (76.64ms)[39m
+
+2025-08-08 00:44:23.623 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:23 [INFO]: Completion request was cancelled by token (43.36ms)[39m
+
+2025-08-08 00:44:23.947 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:23 [INFO]: Completion request was cancelled by token (1.74ms)[39m
+
+2025-08-08 00:44:24.182 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:24 [INFO]: Completion request was cancelled by token (213.84ms)[39m
+
+2025-08-08 00:44:24.842 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:24 [INFO]: Completion request was cancelled by token (19.13ms)[39m
+
+2025-08-08 00:44:25.948 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:25 [INFO]: Completion request was cancelled by token (1104.11ms)[39m
+
+2025-08-08 00:44:26.292 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:26 [INFO]: Completion request was cancelled by token (324.41ms)[39m
+
+2025-08-08 00:44:26.857 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:26 [INFO]: Completion request was cancelled by token (300.09ms)[39m
+
+2025-08-08 00:44:27.276 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:27 [INFO]: Completion request succeeded (416.1ms)[39m
+
+2025-08-08 00:44:27.277 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:27 [INFO]: No completions were generated[39m
+
+2025-08-08 00:44:27.277 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:27 [INFO]: provideInlineCompletionItems request succeeded (417.87ms)[39m
+
+2025-08-08 00:44:27.865 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:27 [INFO]: Completion request succeeded (556.39ms)[39m
+
+2025-08-08 00:44:27.866 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:27 [INFO]: No completions were generated[39m
+
+2025-08-08 00:44:27.866 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:44:27 [INFO]: provideInlineCompletionItems request succeeded (558.6ms)[39m
+
+2025-08-08 00:45:34.962 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:34 [INFO]: Completion request succeeded (356.01ms)[39m
+
+2025-08-08 00:45:34.963 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:34 [INFO]: No completions were generated[39m
+
+2025-08-08 00:45:34.963 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:34 [INFO]: provideInlineCompletionItems request succeeded (358.81ms)[39m
+
+2025-08-08 00:45:35.486 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:35 [INFO]: Completion request succeeded (424.97ms)[39m
+
+2025-08-08 00:45:35.487 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:35 [INFO]: Generated 3 completions[39m
+
+2025-08-08 00:45:35.488 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:35 [INFO]: provideInlineCompletionItems request succeeded (428.4ms)[39m
+
+2025-08-08 00:45:36.529 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:36 [INFO]: Completion request succeeded (5.43ms)[39m
+
+2025-08-08 00:45:36.529 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:36 [INFO]: Generated 2 completions[39m
+
+2025-08-08 00:45:36.529 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:36 [INFO]: provideInlineCompletionItems request succeeded (7.45ms)[39m
+
+2025-08-08 00:45:37.256 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:37 [INFO]: Completion request succeeded (34.91ms)[39m
+
+2025-08-08 00:45:37.257 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:37 [INFO]: Generated 2 completions[39m
+
+2025-08-08 00:45:37.257 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:37 [INFO]: provideInlineCompletionItems request succeeded (36.7ms)[39m
+
+2025-08-08 00:45:37.472 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:37 [INFO]: Completion request succeeded (7.84ms)[39m
+
+2025-08-08 00:45:37.472 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:37 [INFO]: Generated 2 completions[39m
+
+2025-08-08 00:45:37.473 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:37 [INFO]: provideInlineCompletionItems request succeeded (10.39ms)[39m
+
+2025-08-08 00:45:41.452 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:41 [INFO]: Completion request succeeded (448.24ms)[39m
+
+2025-08-08 00:45:41.452 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:41 [INFO]: Generated 2 completions[39m
+
+2025-08-08 00:45:41.453 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:41 [INFO]: provideInlineCompletionItems request succeeded (450.3ms)[39m
+
+2025-08-08 00:45:42.920 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:42 [INFO]: Completion request succeeded (398.83ms)[39m
+
+2025-08-08 00:45:42.921 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:42 [INFO]: Generated 2 completions[39m
+
+2025-08-08 00:45:42.921 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:42 [INFO]: provideInlineCompletionItems request succeeded (401.2ms)[39m
+
+2025-08-08 00:45:43.315 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:43 [INFO]: Completion request succeeded (7ms)[39m
+
+2025-08-08 00:45:43.316 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:43 [INFO]: Generated 2 completions[39m
+
+2025-08-08 00:45:43.316 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:43 [INFO]: provideInlineCompletionItems request succeeded (9.2ms)[39m
+
+2025-08-08 00:45:43.626 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:43 [INFO]: Completion request succeeded (3.92ms)[39m
+
+2025-08-08 00:45:43.626 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:43 [INFO]: Generated 2 completions[39m
+
+2025-08-08 00:45:43.626 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:43 [INFO]: provideInlineCompletionItems request succeeded (5.56ms)[39m
+
+2025-08-08 00:45:47.863 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:47 [INFO]: Completion request was cancelled by token (138.18ms)[39m
+
+2025-08-08 00:45:48.514 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:48 [INFO]: Completion request succeeded (647.9ms)[39m
+
+2025-08-08 00:45:48.514 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:48 [INFO]: No completions were generated[39m
+
+2025-08-08 00:45:48.514 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:45:48 [INFO]: provideInlineCompletionItems request succeeded (649.7ms)[39m
+
+2025-08-08 00:46:29.018 [info] [192.168.32.8][2ea1acd2][ManagementConnection] New connection established.
+2025-08-08 00:46:29.301 [info] [192.168.32.8][4a8ae61a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-08-08 00:46:29.461 [info] [192.168.32.8][4a8ae61a][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-08-08 00:46:29.462 [info] [192.168.190.11][4d653930][ExtensionHostConnection] New connection established.
+2025-08-08 00:46:29.468 [info] [192.168.190.11][4d653930][ExtensionHostConnection] <5037> Launched Extension Host Process.
+2025-08-08 00:46:39.104 [info] [192.168.190.11][4d653930][ExtensionHostConnection] <5037> [32m(VSCode) 2025-08-08 00:46:39 [INFO]: No proxy settings found[39m
+
+2025-08-08 00:46:40.716 [info] [192.168.190.11][4d653930][ExtensionHostConnection] <5037> [32m(VSCode) 2025-08-08 00:46:40 [INFO]: Checking network connection...[39m
+
+2025-08-08 00:46:41.430 [info] [192.168.190.11][4d653930][ExtensionHostConnection] <5037> [32m(VSCode) 2025-08-08 00:46:41 [INFO]: No Network Issue connecting to https://server.codeium.com/healthz[39m
+
+2025-08-08 00:46:42.567 [info] [192.168.190.11][4d653930][ExtensionHostConnection] <5037> [32m(VSCode) 2025-08-08 00:46:42 [INFO]: Creating manager directory: /tmp/7d9ea752-4875-40f9-981f-a64e77379dea/codeium/manager[39m
+
+2025-08-08 00:46:42.985 [info] [192.168.190.11][4d653930][ExtensionHostConnection] <5037> [32m(VSCode) 2025-08-08 00:46:42 [INFO]: Using cached LS with valid crc32: /workspace/.vscode-remote/extensions/codeium.codeium-1.48.2-universal/dist/e03af6ebc40b844314d448f947c80b636d093049/language_server_linux_x64[39m
+
+2025-08-08 00:46:42.994 [info] [192.168.190.11][4d653930][ExtensionHostConnection] <5037> [32m(VSCode) 2025-08-08 00:46:42 [INFO]: Language server started[39m
+
+2025-08-08 00:46:44.803 [info] [192.168.190.11][4d653930][ExtensionHostConnection] <5037> [32m(VSCode) 2025-08-08 00:46:44 [INFO]: Found language server running on port 37555[39m
+
+2025-08-08 00:47:18.021 [info] [192.168.32.8][2ea1acd2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-08-08 00:51:29.131 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:51:29 [INFO]: Disposing language server process[39m
+
+2025-08-08 00:51:29.132 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:51:29 [INFO]: Deleting manager directory: /tmp/6e890a62-41d3-4e70-9bee-d16107d52ec1/codeium/manager[39m
+
+2025-08-08 00:51:29.133 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:51:29 [INFO]: Successfully disposed language server[39m
+
+2025-08-08 00:51:29.384 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [31m(VSCode) 2025-08-08 00:51:29 [ERROR]: Failed to stop lsp[39m
+
+2025-08-08 00:51:29.389 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [32m(VSCode) 2025-08-08 00:51:29 [INFO]: Language server exited with code 0[39m
+
+2025-08-08 00:51:29.393 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [31m(VSCode) 2025-08-08 00:51:29 [ERROR]: Failed to stop exit[39m
+
+2025-08-08 00:51:29.394 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> [31m(VSCode) 2025-08-08 00:51:29 [ERROR]: connect ECONNREFUSED 127.0.0.1:36641[39m
+
+2025-08-08 00:51:29.488 [info] [192.168.32.8][e88d84b9][ExtensionHostConnection] <1820> Extension Host Process exited with code: 0, signal: null.
+2025-08-08 00:51:29.507 [info] [192.168.32.8][4a8ae61a][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.

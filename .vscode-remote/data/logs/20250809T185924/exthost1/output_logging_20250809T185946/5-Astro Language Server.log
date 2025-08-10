@@ -1,0 +1,22 @@
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x15969a0, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:477 +0x1c6
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x15966e0, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:761 +0x564
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x1596160, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:761 +0x564
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x15111e0, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:761 +0x564
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x1510c60, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:371 +0xca
+github.com/withastro/compiler/internal/printer.PrintToTSX({0x1517600, 0xd45}, 0x1510c60, {0x0, 0x0}, {{0x3c6b4, 0x6}, {0x176bef0, 0x4c}, {0x176bef0, ...}, ...}, ...)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:35 +0x12
+main.main.ConvertToTSX.func3({{}, 0x7ff8000100000086, 0x17ba410}, {0x1434280, 0x2, 0x2})
+	./astro-wasm.go:285 +0xf
+syscall/js.handleEvent()
+	syscall/js/func.go:100 +0x23
+exit code: 2
+There was an error transforming /workspace/Website-starter/src/components/sections/landing/HeroSection.astro to TSX. An empty file will be returned instead. Please create an issue: https://github.com/withastro/language-tools/issues
+Error: TypeError: Cannot read properties of undefined (reading 'map').

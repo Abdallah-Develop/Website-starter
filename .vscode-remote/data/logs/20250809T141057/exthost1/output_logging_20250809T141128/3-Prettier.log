@@ -1,0 +1,114 @@
+["INFO" - 2:11:34 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 2:11:34 PM] Extension Version: 11.0.0.
+["INFO" - 2:11:35 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:14:05 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:14:07 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:17:02 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:17:16 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:17:22 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:17:24 PM] Formatting file:///workspace/Website-starter/src/assets/styles/global.css
+["INFO" - 2:17:24 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:17:24 PM] PrettierInstance:
+{
+  "modulePath": "/workspace/Website-starter/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.6.2"
+}
+["INFO" - 2:17:24 PM] Using ignore file (if present) at /workspace/Website-starter/.prettierignore
+["INFO" - 2:17:24 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "css"
+}
+["INFO" - 2:17:24 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:17:24 PM] Prettier Options:
+{
+  "filepath": "/workspace/Website-starter/src/assets/styles/global.css",
+  "parser": "css",
+  "plugins": [
+    "/workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js",
+    "/workspace/Website-starter/node_modules/prettier-plugin-tailwindcss/dist/index.mjs"
+  ],
+  "semi": false,
+  "trailingComma": "es5",
+  "singleQuote": false,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "htmlWhitespaceSensitivity": "ignore",
+  "endOfLine": "lf",
+  "embeddedLanguageFormatting": "auto"
+}
+["INFO" - 2:17:24 PM] Formatting completed in 86ms.
+["INFO" - 2:17:37 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:17:39 PM] Formatting file:///workspace/Website-starter/src/assets/styles/global.css
+["INFO" - 2:17:39 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:17:39 PM] PrettierInstance:
+{
+  "modulePath": "/workspace/Website-starter/node_modules/prettier/index.cjs",
+  "messageResolvers": {},
+  "version": "3.6.2"
+}
+["INFO" - 2:17:39 PM] Using ignore file (if present) at /workspace/Website-starter/.prettierignore
+["INFO" - 2:17:39 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "css"
+}
+["INFO" - 2:17:39 PM] Detected local configuration (i.e. .prettierrc or .editorconfig), VS Code configuration will not be used
+["INFO" - 2:17:39 PM] Prettier Options:
+{
+  "filepath": "/workspace/Website-starter/src/assets/styles/global.css",
+  "parser": "css",
+  "plugins": [
+    "/workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js",
+    "/workspace/Website-starter/node_modules/prettier-plugin-tailwindcss/dist/index.mjs"
+  ],
+  "semi": false,
+  "trailingComma": "es5",
+  "singleQuote": false,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "htmlWhitespaceSensitivity": "ignore",
+  "endOfLine": "lf",
+  "embeddedLanguageFormatting": "auto"
+}
+["INFO" - 2:17:39 PM] Formatting completed in 32ms.
+["INFO" - 2:18:57 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:19:03 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:19:09 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:19:12 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:19:26 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:19:28 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:22:18 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:22:30 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:22:30 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:22:58 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:26:19 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:27:15 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:30:03 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:31:20 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:31:20 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:31:22 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:31:29 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:33:11 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:33:46 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:34:46 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:34:47 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:34:53 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:35:04 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:35:20 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:35:42 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:35:43 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:35:54 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:36:03 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:37:15 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:37:40 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:38:50 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:39:22 PM] Using config file at /workspace/Website-starter/.prettierrc
+["INFO" - 2:40:48 PM] Using config file at /workspace/Website-starter/.prettierrc

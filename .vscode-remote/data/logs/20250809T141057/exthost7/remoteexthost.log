@@ -1,0 +1,88 @@
+2025-08-09 15:29:52.955 [info] Extension host with pid 6809 started
+2025-08-09 15:29:52.955 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': Lock acquired.
+2025-08-09 15:29:55.467 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onWebviewPanel:simpleBrowser.view'
+2025-08-09 15:29:55.468 [info] ExtensionService#_doActivateExtension astro-build.astro-vscode, startup: false, activationEvent: 'onLanguage:astro'
+2025-08-09 15:29:55.468 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-09 15:29:56.470 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-09 15:29:56.470 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: true, activationEvent: '*'
+2025-08-09 15:29:56.586 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-08-09 15:29:56.877 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-09 15:29:56.877 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-09 15:29:57.198 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:29:57.370 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:29:57.533 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:29:58.202 [info] Eager extensions activated
+2025-08-09 15:29:58.202 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 15:29:58.203 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 15:29:58.203 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 15:29:58.203 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 15:29:58.203 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 15:29:58.203 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2025-08-09 15:29:58.204 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 15:30:01.290 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2025-08-09 15:30:01.465 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 15:30:03.961 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 15:30:03.962 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 15:30:05.831 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 15:30:07.760 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 15:30:08.018 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 15:30:08.030 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 15:30:08.446 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 15:30:08.446 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 15:30:08.446 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 15:30:09.030 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-08-09 15:30:09.868 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-08-09 15:30:12.679 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-08-09 15:30:24.095 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:30:46.327 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:30:51.383 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:31:05.591 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:31:13.332 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:31:31.425 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:31:59.936 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:32:18.357 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:32:43.260 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:33:14.189 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:33:14.533 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:33:26.827 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:34:49.380 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:34:56.262 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:35:01.311 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:35:33.810 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:35:40.349 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:35:52.417 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:36:05.020 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:36:10.074 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:36:14.929 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:36:15.131 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:36:54.080 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:37:18.286 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:39:15.315 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:39:16.572 [warning] [Decorations] CAPPING events from decorations provider vscode.git 265
+2025-08-09 15:47:40.086 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-08-09 15:47:40.088 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/1cafd87f/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-08-09 15:47:40.116 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 15:47:40.116 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at el (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:7:1556)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138942
+	at Array.forEach (<anonymous>)
+	at cS.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:138848)
+	at KG.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:12333)
+	at Y8.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:119:1082)
+	at us (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:10566)
+	at cE.runner (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:356:7378)
+	at cE.onInterval (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:28:78950)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7) 
+2025-08-09 15:47:40.175 [info] Extension host with pid 6809 exiting with code 0

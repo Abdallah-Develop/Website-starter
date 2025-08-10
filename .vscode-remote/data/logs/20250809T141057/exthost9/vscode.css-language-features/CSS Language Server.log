@@ -1,0 +1,15 @@
+2025-08-09 16:11:24.361 [error] Request textDocument/documentColor failed.
+Error: Starting server failed
+	at P.$start (/ide/extensions/css-language-features/client/dist/node/cssClientMain.js:1:109184)
+	at async P.sendRequest (/ide/extensions/css-language-features/client/dist/node/cssClientMain.js:1:92723)
+	at async lb.provideColors (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:140:168728)
+2025-08-09 16:11:24.361 [error] Request textDocument/codeAction failed.
+Error: Starting server failed
+	at P.$start (/ide/extensions/css-language-features/client/dist/node/cssClientMain.js:1:109184)
+	at async P.sendRequest (/ide/extensions/css-language-features/client/dist/node/cssClientMain.js:1:92723)
+	at async Gm.provideCodeActions (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:140:147591)
+2025-08-09 16:11:24.361 [error] Request textDocument/codeAction failed.
+Error: Starting server failed
+	at P.$start (/ide/extensions/css-language-features/client/dist/node/cssClientMain.js:1:109184)
+	at async P.sendRequest (/ide/extensions/css-language-features/client/dist/node/cssClientMain.js:1:92723)
+	at async Gm.provideCodeActions (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:140:147591)

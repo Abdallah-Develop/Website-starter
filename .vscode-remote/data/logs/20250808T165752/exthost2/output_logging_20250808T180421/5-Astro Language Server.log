@@ -1,0 +1,201 @@
+panic: html: bad parser state: originalIM was set twice
+
+goroutine 6 [running]:
+github.com/withastro/compiler/internal.(*parser).setOriginalIM(...)
+	github.com/withastro/compiler/internal/parser.go:544
+github.com/withastro/compiler/internal.inBodyIM(0x1456900)
+	github.com/withastro/compiler/internal/parser.go:1105 +0x3f8
+github.com/withastro/compiler/internal.(*parser).parseCurrentToken(0x1456900)
+	github.com/withastro/compiler/internal/parser.go:2981 +0x12
+github.com/withastro/compiler/internal.(*parser).parse(0x1456900)
+	github.com/withastro/compiler/internal/parser.go:3008 +0x3
+github.com/withastro/compiler/internal.ParseWithOptions({0x7bac8, 0x1434160}, {0x1413e68, 0x2, 0x2})
+	github.com/withastro/compiler/internal/parser.go:3072 +0x13
+main.main.ConvertToTSX.func3({{}, 0x7ff800010000007a, 0x1667480}, {0x1434140, 0x2, 0x2})
+	./astro-wasm.go:278 +0xa
+syscall/js.handleEvent()
+	syscall/js/func.go:100 +0x23
+exit code: 2
+There was an error transforming /workspace/Website-starter/src/components/GradientCircle.astro to TSX. An empty file will be returned instead. Please create an issue: https://github.com/withastro/language-tools/issues
+Error: TypeError: Cannot read properties of undefined (reading 'map').
+panic: html: bad parser state: originalIM was set twice
+
+goroutine 6 [running]:
+github.com/withastro/compiler/internal.(*parser).setOriginalIM(...)
+	github.com/withastro/compiler/internal/parser.go:544
+github.com/withastro/compiler/internal.inBodyIM(0x1456480)
+	github.com/withastro/compiler/internal/parser.go:1105 +0x3f8
+github.com/withastro/compiler/internal.(*parser).parseCurrentToken(0x1456480)
+	github.com/withastro/compiler/internal/parser.go:2981 +0x12
+github.com/withastro/compiler/internal.(*parser).parse(0x1456480)
+	github.com/withastro/compiler/internal/parser.go:3008 +0x3
+github.com/withastro/compiler/internal.ParseWithOptions({0x7bac8, 0x14340e0}, {0x1444e68, 0x2, 0x2})
+	github.com/withastro/compiler/internal/parser.go:3072 +0x13
+main.main.Parse.func2({{}, 0x7ff800010000000d, 0x140c1a8}, {0x14340c0, 0x2, 0x2})
+	./astro-wasm.go:254 +0xb
+syscall/js.handleEvent()
+	syscall/js/func.go:100 +0x23
+exit code: 2
+There was an error parsing /workspace/Website-starter/src/components/GradientCircle.astro's AST. An empty AST will be returned instead to avoid breaking the server. Please create an issue: https://github.com/withastro/language-tools/issues
+Error: TypeError: Cannot read properties of undefined (reading 'ast').
+[volar-service-typescript] The language client lacks support for the command/edit properties in the resolve code action. Therefore, the code action resolve is pre-calculated.
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x1604000, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:477 +0x1c6
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x15ef4a0, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:371 +0xca
+github.com/withastro/compiler/internal/printer.PrintToTSX({0x15f4ea0, 0x18c}, 0x15ef4a0, {0x0, 0x0}, {{0x3c6b4, 0x6}, {0x1589540, 0x3e}, {0x1589540, ...}, ...}, ...)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:35 +0x12
+main.main.ConvertToTSX.func3({{}, 0x7ff8000100000080, 0x140cc68}, {0x14347e0, 0x2, 0x2})
+	./astro-wasm.go:285 +0xf
+syscall/js.handleEvent()
+	syscall/js/func.go:100 +0x23
+exit code: 2
+There was an error transforming /workspace/Website-starter/src/components/GradientCircle.astro to TSX. An empty file will be returned instead. Please create an issue: https://github.com/withastro/language-tools/issues
+Error: TypeError: Cannot read properties of undefined (reading 'map').
+SyntaxError: Unexpected token, expected "}" (2:17)
+  1 |
+> 2 |       background: repeating-linear-gradient(
+    |                 ^
+  3 |           to right,
+  4 |               transparent,
+  5 |                   transparent 6px,
+    at pa (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:14:16245)
+    at ua (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:14:16680)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:15:2919)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:817:37)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-tailwindcss/dist/index.mjs:1329:27573)
+    at async parse5 (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16731:11)
+    at async textToDoc (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16842:19)
+    at async wrapParserTryCatch (file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:667:16)
+    at async file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:573:23
+    at async printEmbeddedLanguages (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16782:20) {
+  loc: { start: { line: 2, column: 17 } },
+  cause: SyntaxError: Unexpected token, expected "}" (2:16)
+      at r (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:3:12378)
+      at ke.raise (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:19581)
+      at ke.unexpected (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:19940)
+      at ke.expect (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:24102)
+      at ke.jsxParseExpressionContainer (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:2860)
+      at ke.jsxParseElementAt (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:4427)
+      at ke.jsxParseElement (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:5081)
+      at ke.parseExprAtom (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:5203)
+      at ke.parseExprSubscripts (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:112680)
+      at ke.parseUpdate (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:112313) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'UnexpectedToken',
+    loc: B { line: 2, column: 16, index: 20 },
+    pos: 20,
+    syntaxPlugin: undefined
+  },
+  codeFrame: '  1 |\n' +
+    '> 2 |       background: repeating-linear-gradient(\n' +
+    '    |                 ^\n' +
+    '  3 |           to right,\n' +
+    '  4 |               transparent,\n' +
+    '  5 |                   transparent 6px,'
+}
+SyntaxError: Unexpected token, expected "}" (2:17)
+  1 |
+> 2 |       background: repeating-linear-gradient(
+    |                 ^
+  3 |           to right,
+  4 |               transparent,
+  5 |                   transparent 6px,
+    at pa (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:14:16245)
+    at ua (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:14:16680)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:15:2919)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:817:37)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-tailwindcss/dist/index.mjs:1329:27573)
+    at async parse5 (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16731:11)
+    at async textToDoc (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16842:19)
+    at async wrapParserTryCatch (file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:667:16)
+    at async file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:573:23
+    at async printEmbeddedLanguages (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16782:20) {
+  loc: { start: { line: 2, column: 17 } },
+  cause: SyntaxError: Unexpected token, expected "}" (2:16)
+      at r (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:3:12378)
+      at ke.raise (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:19581)
+      at ke.unexpected (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:19940)
+      at ke.expect (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:24102)
+      at ke.jsxParseExpressionContainer (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:2860)
+      at ke.jsxParseElementAt (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:4427)
+      at ke.jsxParseElement (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:5081)
+      at ke.parseExprAtom (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:5203)
+      at ke.parseExprSubscripts (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:112680)
+      at ke.parseUpdate (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:112313) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'UnexpectedToken',
+    loc: B { line: 2, column: 16, index: 20 },
+    pos: 20,
+    syntaxPlugin: undefined
+  },
+  codeFrame: '  1 |\n' +
+    '> 2 |       background: repeating-linear-gradient(\n' +
+    '    |                 ^\n' +
+    '  3 |           to right,\n' +
+    '  4 |               transparent,\n' +
+    '  5 |                   transparent 6px,'
+}
+SyntaxError: Unexpected token, expected "}" (2:17)
+  1 |
+> 2 |       background: repeating-linear-gradient(
+    |                 ^
+  3 |           to right,
+  4 |               transparent,
+  5 |                   transparent 6px,
+    at pa (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:14:16245)
+    at ua (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:14:16680)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:15:2919)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:817:37)
+    at Object.parse (file:///workspace/Website-starter/node_modules/prettier-plugin-tailwindcss/dist/index.mjs:1329:27573)
+    at async parse5 (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16731:11)
+    at async textToDoc (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16842:19)
+    at async wrapParserTryCatch (file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:667:16)
+    at async file:///workspace/Website-starter/node_modules/prettier-plugin-astro/dist/index.js:573:23
+    at async printEmbeddedLanguages (file:///workspace/Website-starter/node_modules/prettier/index.mjs:16782:20) {
+  loc: { start: { line: 2, column: 17 } },
+  cause: SyntaxError: Unexpected token, expected "}" (2:16)
+      at r (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:3:12378)
+      at ke.raise (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:19581)
+      at ke.unexpected (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:19940)
+      at ke.expect (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:24102)
+      at ke.jsxParseExpressionContainer (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:2860)
+      at ke.jsxParseElementAt (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:4427)
+      at ke.jsxParseElement (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:5081)
+      at ke.parseExprAtom (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:5:5203)
+      at ke.parseExprSubscripts (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:112680)
+      at ke.parseUpdate (file:///workspace/Website-starter/node_modules/prettier/plugins/babel.mjs:7:112313) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'UnexpectedToken',
+    loc: B { line: 2, column: 16, index: 20 },
+    pos: 20,
+    syntaxPlugin: undefined
+  },
+  codeFrame: '  1 |\n' +
+    '> 2 |       background: repeating-linear-gradient(\n' +
+    '    |                 ^\n' +
+    '  3 |           to right,\n' +
+    '  4 |               transparent,\n' +
+    '  5 |                   transparent 6px,'
+}
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 6 [running]:
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x1512f20, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:477 +0x1c6
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x1512c60, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:761 +0x564
+github.com/withastro/compiler/internal/printer.renderTsx(0x1413838, 0x1512840, 0x1413ab0)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:371 +0xca
+github.com/withastro/compiler/internal/printer.PrintToTSX({0x150f200, 0x168}, 0x1512840, {0x0, 0x0}, {{0x3c6b4, 0x6}, {0x1c14e80, 0x3e}, {0x1c14e80, ...}, ...}, ...)
+	github.com/withastro/compiler/internal/printer/print-to-tsx.go:35 +0x12
+main.main.ConvertToTSX.func3({{}, 0x7ff80001000000c1, 0x140c450}, {0x1434520, 0x2, 0x2})
+	./astro-wasm.go:285 +0xf
+syscall/js.handleEvent()
+	syscall/js/func.go:100 +0x23
+exit code: 2
+There was an error transforming /workspace/Website-starter/src/components/GradientCircle.astro to TSX. An empty file will be returned instead. Please create an issue: https://github.com/withastro/language-tools/issues
+Error: TypeError: Cannot read properties of undefined (reading 'map').

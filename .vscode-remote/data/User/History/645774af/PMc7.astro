@@ -1,0 +1,25 @@
+---
+import Lines from "@components/Lines.astro"
+// Props with defaults
+---
+
+<div class="h-full0 0w-full pointer-events-none absolute h-[200%] w-2/3">
+  <div
+    class="hero-background z-33p absolute top-160 -left-16 h-full w-full rounded-full rounded-l-none blur-3xl"
+  >
+  </div>
+  <Lines class="top-12 -left-20"
+  LinesColor="red"
+   style={{mask: 'radial-gradient(circle at 40% 470px, black 50%, transparent 70%)'}} />
+</div>
+
+<style>
+  .hero-background {
+    background: radial-gradient(
+      circle at bottom left,
+      #059669 25%,
+      #10b981 50%,
+      #00ffaa 100%
+    );
+  }
+</style>
